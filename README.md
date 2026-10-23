@@ -6,7 +6,7 @@
 [![Downloads](https://img.shields.io/github/downloads/fillinthe/gburn/total?color=1a73e8)](https://github.com/fillinthe/gburn/releases)
 [![Web app](https://img.shields.io/badge/try%20it-gburn.app-f39c12)](https://gburn.app/app/)
 
-[**Download**](https://github.com/fillinthe/gburn/releases/latest) · [Use it online](https://gburn.app/app/) · [Website](https://gburn.app) · [Support](https://gworkshop.app/support/) · [Donate](https://gburn.app/donate/)
+[**Download**](https://github.com/fillinthe/gburn/releases/latest) · [Use it online](https://gburn.app/app/) · [Website](https://gburn.app) · [Docs](https://gburn.app/docs/) · [Support](https://gworkshop.app/support/) · [Donate](https://gburn.app/donate/)
 
 ![GBurn](docs/screenshot.png)
 
@@ -26,11 +26,11 @@ Get the file for your computer from the [latest release](../../releases/latest).
 
 | Your computer | File |
 |---|---|
-| macOS (Apple silicon and Intel) | `GBurn-0.1.0-macOS.dmg` |
-| Windows 10 / 11 (64-bit) | `GBurn-0.1.0-Windows-x64.zip` |
-| Linux x86_64 | `GBurn-0.1.0-Linux-x86_64.tar.gz` |
-| Linux ARM64 (Raspberry Pi 4/5, ARM laptops) | `GBurn-0.1.0-Linux-aarch64.tar.gz` |
-| GBurn Link for Mac (see below) | `GBurn-Link-0.1.0-macOS.zip` |
+| macOS (Apple silicon and Intel) | `GBurn-0.2.0-macOS.dmg` |
+| Windows 10 / 11 (64-bit) | `GBurn-0.2.0-Windows-x64.zip` |
+| Linux x86_64 | `GBurn-0.2.0-Linux-x86_64.tar.gz` |
+| Linux ARM64 (Raspberry Pi 4/5, ARM laptops) | `GBurn-0.2.0-Linux-aarch64.tar.gz` |
+| GBurn Link for Mac (see below) | `GBurn-Link-0.2.0-macOS.zip` |
 
 `SHA256SUMS.txt` in the release lists a checksum for every file: `shasum -a 256 -c SHA256SUMS.txt`.
 
@@ -48,7 +48,7 @@ Click **Frame** first: the head traces the job's outline with the beam off (or a
 
 ### GBurn Link
 
-A browser can't reach a Ruida laser on your network. GBurn Link is a small helper you run on the computer next to the laser; the online version at gburn.app talks to it. The Windows and Linux downloads include it (`gburn-link`); Mac users download `GBurn-Link-0.1.0-macOS.zip`. The desktop app doesn't need it.
+A browser can't reach a Ruida laser on your network. GBurn Link is a small helper you run on the computer next to the laser; the online version at gburn.app talks to it. The Windows and Linux downloads include it (`gburn-link`); Mac users download `GBurn-Link-0.2.0-macOS.zip`. The desktop app doesn't need it.
 
 ### Fibre galvo lasers (EZCAD2)
 
