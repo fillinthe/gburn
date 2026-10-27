@@ -26,17 +26,17 @@ Get the file for your computer from the [latest release](../../releases/latest).
 
 | Your computer | File |
 |---|---|
-| macOS (Apple silicon and Intel) | `GBurn-0.2.0-macOS.dmg` |
-| Windows 10 / 11 (64-bit) | `GBurn-0.2.0-Windows-x64.zip` |
-| Linux x86_64 | `GBurn-0.2.0-Linux-x86_64.tar.gz` |
-| Linux ARM64 (Raspberry Pi 4/5, ARM laptops) | `GBurn-0.2.0-Linux-aarch64.tar.gz` |
-| GBurn Link for Mac (see below) | `GBurn-Link-0.2.0-macOS.zip` |
+| macOS (Apple silicon and Intel) | `GBurn-0.3.0-macOS.dmg` |
+| Windows 10 / 11 (64-bit) | `GBurn-0.3.0-Windows-x64.zip` |
+| Linux x86_64 | `GBurn-0.3.0-Linux-x86_64.tar.gz` |
+| Linux ARM64 (Raspberry Pi 4/5, ARM laptops) | `GBurn-0.3.0-Linux-aarch64.tar.gz` |
+| GBurn Link for Mac (see below) | `GBurn-Link-0.3.0-macOS.zip` |
 
 `SHA256SUMS.txt` in the release lists a checksum for every file: `shasum -a 256 -c SHA256SUMS.txt`.
 
 ### First start
 
-- **macOS:** open the .dmg, drag GBurn to Applications. The app is not notarized by Apple yet, so the first time right-click it and choose **Open**.
+- **macOS:** open the .dmg, drag GBurn to Applications. It is signed and notarized by Apple, so it opens like any other app.
 - **Windows:** unzip, run `gburn.exe`. It is not code-signed yet, so SmartScreen may say "unknown publisher": **More info → Run anyway**.
 - **Linux:** `tar xzf` the file, then run `./gburn` (or `./install.sh` to add it to your applications menu).
 
@@ -48,7 +48,7 @@ Click **Frame** first: the head traces the job's outline with the beam off (or a
 
 ### GBurn Link
 
-A browser can't reach a Ruida laser on your network. GBurn Link is a small helper you run on the computer next to the laser; the online version at gburn.app talks to it. The Windows and Linux downloads include it (`gburn-link`); Mac users download `GBurn-Link-0.2.0-macOS.zip`. The desktop app doesn't need it.
+A browser can't reach a Ruida laser on your network. GBurn Link is a small helper you run on the computer next to the laser; the online version at gburn.app talks to it. The Windows and Linux downloads include it (`gburn-link`); Mac users download `GBurn-Link-0.3.0-macOS.zip`. The desktop app doesn't need it.
 
 ### Fibre galvo lasers (EZCAD2)
 
