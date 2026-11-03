@@ -1,6 +1,6 @@
 # GBurn
 
-**Free laser design and control for Mac, Windows and Linux.** Draw or import a design, set cut and engrave settings per layer, preview the job, then frame and burn on your laser: GRBL, Marlin and other G-code diode lasers, Ruida CO2 lasers, K40 lasers and EZCAD2 fibre galvo lasers.
+**Free laser design and control for Mac, Windows and Linux.** Draw or import a design, set cut and engrave settings per layer, preview the job, then frame and burn on your laser: GRBL, Marlin and other G-code diode lasers, Ruida CO2 lasers, K40 lasers, the xTool S1, and EZCAD2 fibre and UV galvo lasers.
 
 [![Latest release](https://img.shields.io/github/v/release/fillinthe/gburn?label=download&color=1a73e8)](https://github.com/fillinthe/gburn/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/fillinthe/gburn/total?color=1a73e8)](https://github.com/fillinthe/gburn/releases)
@@ -17,7 +17,7 @@
 - **Layers:** line, fill, fill + line, offset fill and image modes, with speed, power, passes, interval, angle, kerf, tabs, perforation, lead-ins, overscan, ramps and sub-layers. Material library and material, focus and interval tests.
 - **Pictures:** dithering (Floyd–Steinberg, Jarvis, Stucki, Atkinson, halftone, newsprint, 3D slices and more), brightness / contrast / gamma, trace to vectors (outline or centerline), depth maps from STL / 3MF.
 - **Preview:** the whole job in time order with a speed control, travel moves, time per layer, and how it will look on wood, acrylic, slate, leather or metal.
-- **Lasers:** GRBL over USB or the network (also Smoothieware, Marlin, RepRapFirmware, Snapmaker and fan-pin lasers), Ruida over the network or USB, K40s with the stock M2 / M3 Nano board over USB, EZCAD2 (BJJCZ LMC) fibre galvos over USB with lens correction. Jog, frame, start, pause and stop; rotary; print and cut; camera overlay; variable text and serial numbers.
+- **Lasers:** GRBL over USB or the network (also Smoothieware, Marlin, RepRapFirmware, Snapmaker, fan-pin lasers and the xTool S1 over USB), Ruida over the network or USB, K40s with the stock M2 / M3 Nano board over USB, EZCAD2 (BJJCZ LMC) fibre and UV galvos over USB with lens correction. Jog, frame, start, pause and stop; rotary; print and cut; camera overlay; variable text and serial numbers.
 - **Files:** opens SVG, DXF, PDF, AI, EPS, HPGL, LightBurn projects (.lbrn2 / .lbrn) and pictures; exports G-code, Ruida .rd, K40 .egv, SVG, DXF, PDF and LightBurn projects. Saves `.gburn`.
 
 ## Download
@@ -26,11 +26,11 @@ Get the file for your computer from the [latest release](../../releases/latest).
 
 | Your computer | File |
 |---|---|
-| macOS (Apple silicon and Intel) | `GBurn-0.4.0-macOS.dmg` |
-| Windows 10 / 11 (64-bit) | `GBurn-0.4.0-Windows-x64.zip` |
-| Linux x86_64 | `GBurn-0.4.0-Linux-x86_64.tar.gz` |
-| Linux ARM64 (Raspberry Pi 4/5, ARM laptops) | `GBurn-0.4.0-Linux-aarch64.tar.gz` |
-| GBurn Link for Mac (see below) | `GBurn-Link-0.4.0-macOS.zip` |
+| macOS (Apple silicon and Intel) | `GBurn-0.4.1-macOS.dmg` |
+| Windows 10 / 11 (64-bit) | `GBurn-0.4.1-Windows-x64.zip` |
+| Linux x86_64 | `GBurn-0.4.1-Linux-x86_64.tar.gz` |
+| Linux ARM64 (Raspberry Pi 4/5, ARM laptops) | `GBurn-0.4.1-Linux-aarch64.tar.gz` |
+| GBurn Link for Mac (see below) | `GBurn-Link-0.4.1-macOS.zip` |
 
 `SHA256SUMS.txt` in the release lists a checksum for every file: `shasum -a 256 -c SHA256SUMS.txt`.
 
@@ -48,7 +48,7 @@ Click **Frame** first: the head traces the job's outline with the beam off (or a
 
 ### GBurn Link
 
-A browser can't reach a Ruida laser on your network. GBurn Link is a small helper you run on the computer next to the laser; the online version at gburn.app talks to it. The Windows and Linux downloads include it (`gburn-link`); Mac users download `GBurn-Link-0.4.0-macOS.zip`. The desktop app doesn't need it.
+A browser can't reach a Ruida laser on your network. GBurn Link is a small helper you run on the computer next to the laser; the online version at gburn.app talks to it. The Windows and Linux downloads include it (`gburn-link`); Mac users download `GBurn-Link-0.4.1-macOS.zip`. The desktop app doesn't need it.
 
 ### Fibre galvo lasers (EZCAD2)
 
