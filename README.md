@@ -76,6 +76,6 @@ The galvo uses the computer's USB directly. On Windows it needs the WinUSB drive
 
 ## Licence
 
-GBurn is free to use. The program and its files are © Fill in the Blank, all rights reserved; see [LICENSE.md](LICENSE.md), the [Terms](https://gworkshop.app/terms/) and [Privacy](https://gworkshop.app/privacy/) pages. This repository holds the downloads and release notes only; it is not the source code.
+GBurn is free to use. The program and its files are © Fill in the Blank, all rights reserved; see [LICENSE](LICENSE), the [Terms](https://gworkshop.app/terms/) and [Privacy](https://gworkshop.app/privacy/) pages. This repository holds the downloads and release notes only; it is not the source code.
 
 LightBurn is a trademark of LightBurn Software, LLC. GBurn is not affiliated with or endorsed by LightBurn Software.
