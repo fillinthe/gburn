@@ -1,0 +1,27 @@
+# GBurn: gburn-core = document, planner and machine encoders (no UI, no I/O, compiles to wasm); gburn-app = egui front
+# end for desktop and the web (same pattern as ../gcarve/rust and ../gsketch/rust).
+[workspace]
+resolver = "2"
+members = ["gburn-core", "gburn-app", "gburn-link"]
+
+[workspace.package]
+edition = "2021"
+version = "0.4.10"
+license = "LicenseRef-Proprietary"
+rust-version = "1.89"
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+
+[profile.release-web]
+inherits = "release"
+opt-level = "z"
+lto = true
+codegen-units = 1
+
+[profile.dist]
+inherits = "release"
+lto = true
+codegen-units = 1
+strip = true

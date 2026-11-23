@@ -1,0 +1,3010 @@
+[
+ {
+  "brand": "Thunder Laser",
+  "model": "Nova 24",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 40,
+  "bed": [
+   600,
+   400
+  ],
+  "home": "",
+  "connect": "usb+network",
+  "lens_mm": 0,
+  "notes": "40 W glass std, 60 W opt. Ruida controller (Thunder ships the Ruida RDC644XG manual); Ethernet setup in Thunder's Nova guide",
+  "url": "https://eu.thunderlaser.com/nova/"
+ },
+ {
+  "brand": "Thunder Laser",
+  "model": "Nova 35",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 80,
+  "bed": [
+   900,
+   600
+  ],
+  "home": "",
+  "connect": "usb+network",
+  "lens_mm": 0,
+  "notes": "80 W glass std, 100/130 W opt. Ruida controller (Thunder ships the Ruida RDC644XG manual); Ethernet setup in Thunder's Nova guide",
+  "url": "https://eu.thunderlaser.com/nova/"
+ },
+ {
+  "brand": "Thunder Laser",
+  "model": "Nova 51",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 100,
+  "bed": [
+   1300,
+   900
+  ],
+  "home": "",
+  "connect": "usb+network",
+  "lens_mm": 0,
+  "notes": "100 W glass std, 130 W opt. Ruida controller (Thunder ships the Ruida RDC644XG manual); Ethernet setup in Thunder's Nova guide",
+  "url": "https://eu.thunderlaser.com/nova/"
+ },
+ {
+  "brand": "Thunder Laser",
+  "model": "Nova 63",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 100,
+  "bed": [
+   1600,
+   1000
+  ],
+  "home": "rear-left",
+  "connect": "usb+network",
+  "lens_mm": 0,
+  "notes": "100 W glass std, 130 W opt. Rear-left home confirmed on the owner's Nova 63 (panel). Ruida controller (Thunder ships the Ruida RDC644XG manual); Ethernet setup in Thunder's Nova guide",
+  "url": "https://eu.thunderlaser.com/nova-63-laser-cutter/"
+ },
+ {
+  "brand": "Thunder Laser",
+  "model": "Nova Plus 24",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 60,
+  "bed": [
+   600,
+   400
+  ],
+  "home": "",
+  "connect": "usb+network",
+  "lens_mm": 0,
+  "notes": "60 W RF metal tube. Controller assumed same Ruida family as Nova (not named on spec page)",
+  "url": "https://eu.thunderlaser.com/nova-plus/"
+ },
+ {
+  "brand": "Thunder Laser",
+  "model": "Nova Plus 35",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 60,
+  "bed": [
+   900,
+   600
+  ],
+  "home": "",
+  "connect": "usb+network",
+  "lens_mm": 0,
+  "notes": "RF; US: 60/80 W, EU: 50-120 W options. Controller assumed Ruida (not named on spec page)",
+  "url": "https://eu.thunderlaser.com/nova-plus/"
+ },
+ {
+  "brand": "Thunder Laser",
+  "model": "Nova Plus 51",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 60,
+  "bed": [
+   1300,
+   900
+  ],
+  "home": "",
+  "connect": "usb+network",
+  "lens_mm": 0,
+  "notes": "RF 60-120 W options (100/120 W water cooled). Controller assumed Ruida (not named on spec page)",
+  "url": "https://eu.thunderlaser.com/nova-plus/"
+ },
+ {
+  "brand": "Thunder Laser",
+  "model": "Nova Plus 63",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 80,
+  "bed": [
+   1600,
+   1000
+  ],
+  "home": "",
+  "connect": "usb+network",
+  "lens_mm": 0,
+  "notes": "RF 80 W std; 50-120 W options. Controller assumed Ruida (not named on spec page)",
+  "url": "https://eu.thunderlaser.com/nova-plus/"
+ },
+ {
+  "brand": "Thunder Laser",
+  "model": "Bolt",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 30,
+  "bed": [
+   508,
+   305
+  ],
+  "home": "",
+  "connect": "usb+network",
+  "lens_mm": 0,
+  "notes": "30 W SPT RF std; 60 W SPT / 30 W Coherent opt. Connections: Ethernet, USB, USB disk. Controller not named (Ruida-type, unverified)",
+  "url": "https://eu.thunderlaser.com/bolt/"
+ },
+ {
+  "brand": "Thunder Laser",
+  "model": "Bolt Plus 24",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 60,
+  "bed": [
+   610,
+   407
+  ],
+  "home": "",
+  "connect": "usb+network",
+  "lens_mm": 0,
+  "notes": "60 W SPT RF std; 30 W opt. Controller not named (Ruida-type, unverified)",
+  "url": "https://eu.thunderlaser.com/bolt/"
+ },
+ {
+  "brand": "Thunder Laser",
+  "model": "Bolt Pro 22",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 30,
+  "bed": [
+   559,
+   381
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 0,
+  "notes": "30 W Coherent RF (\"40 W output\"). 22 x 15 in. Controller not named (Ruida-type, unverified)",
+  "url": "https://shop.thunderlaserusa.com/products/bolt-pro-22"
+ },
+ {
+  "brand": "Thunder Laser",
+  "model": "Bolt Pro 32",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 55,
+  "bed": [
+   813,
+   508
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 0,
+  "notes": "55 W Coherent RF. 32 x 20 in. Controller not named (Ruida-type, unverified)",
+  "url": "https://shop.thunderlaserusa.com/products/bolt-pro-32"
+ },
+ {
+  "brand": "Thunder Laser",
+  "model": "Bolt Pro 36",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 80,
+  "bed": [
+   915,
+   610
+  ],
+  "home": "",
+  "connect": "usb+network",
+  "lens_mm": 0,
+  "notes": "80 W SPT RF std; 30/55/60 W opt. Controller not named (Ruida-type, unverified)",
+  "url": "https://eu.thunderlaser.com/bolt/"
+ },
+ {
+  "brand": "Thunder Laser",
+  "model": "Odin 32",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 55,
+  "bed": [
+   813,
+   508
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 0,
+  "notes": "55 W RF; 32 x 20 in. Discontinued? (Thunder PDF only). Controller not named (unverified)",
+  "url": "https://www.thunderlaserusa.com/wp-content/uploads/2023/12/Technical-Specs-Odin32-1.pdf"
+ },
+ {
+  "brand": "Thunder Laser",
+  "model": "Titan 27",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 50,
+  "bed": [
+   700,
+   500
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 0,
+  "notes": "50 W RF. 27.56 x 19.69 in. Software LaserMaker / RDWorks / LightBurn (RDWorks implies Ruida; not named)",
+  "url": "https://shop.thunderlaserusa.com/products/titan-27"
+ },
+ {
+  "brand": "Thunder Laser",
+  "model": "Titan 35",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 60,
+  "bed": [
+   900,
+   600
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 0,
+  "notes": "60/80 W RF. 35.43 x 23.62 in. RDWorks listed (Ruida implied)",
+  "url": "https://shop.thunderlaserusa.com/products/titan-35"
+ },
+ {
+  "brand": "Thunder Laser",
+  "model": "Titan 51",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 100,
+  "bed": [
+   1300,
+   900
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 0,
+  "notes": "80/100/120 W RF. 51.18 x 35.43 in. RDWorks listed (Ruida implied)",
+  "url": "https://shop.thunderlaserusa.com/products/titan-51"
+ },
+ {
+  "brand": "Thunder Laser",
+  "model": "Aurora 8 (fiber)",
+  "kind": "galvo",
+  "source": "fiber",
+  "watts": 50,
+  "bed": [
+   150,
+   150
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 150,
+  "notes": "Raycus 50 W std, 20 W opt. LightBurn & EZCad2. Opt. F160 (110) / F290 (200) lenses. US site lists Aurora 8 at 110 x 110",
+  "url": "https://eu.thunderlaser.com/aurora/"
+ },
+ {
+  "brand": "Thunder Laser",
+  "model": "Aurora 8 MOPA",
+  "kind": "galvo",
+  "source": "mopa",
+  "watts": 100,
+  "bed": [
+   110,
+   110
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 110,
+  "notes": "JPT MOPA 60/100 W (EU also 20 W); 2-500 ns. Opt. F210 / F290 lenses. EZCad2 per EU page",
+  "url": "https://shop.thunderlaserusa.com/products/aurora-8-mopa"
+ },
+ {
+  "brand": "Thunder Laser",
+  "model": "Aurora 8 UV",
+  "kind": "galvo",
+  "source": "uv",
+  "watts": 5,
+  "bed": [
+   110,
+   110
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 110,
+  "notes": "JPT 5 W UV. EZCad2 per EU page",
+  "url": "https://shop.thunderlaserusa.com/products/aurora-8-uv"
+ },
+ {
+  "brand": "Thunder Laser",
+  "model": "Aurora Lite",
+  "kind": "galvo",
+  "source": "fiber",
+  "watts": 50,
+  "bed": [
+   150,
+   150
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 150,
+  "notes": "Hans 50 W fiber. EU FAQ: std F210 = 145 x 145; opt. F160 (110) / F290 (200). No camera/autofocus",
+  "url": "https://shop.thunderlaserusa.com/products/aurora-lite"
+ },
+ {
+  "brand": "Thunder Laser",
+  "model": "CO2 Galvo 60W",
+  "kind": "galvo",
+  "source": "co2",
+  "watts": 60,
+  "bed": [
+   300,
+   300
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 300,
+  "notes": "60 W SPT RF, open frame. LightBurn included, EZCAD2 supported. Rotary port built in",
+  "url": "https://shop.thunderlaserusa.com/products/thunder-co2-galvo-60w"
+ },
+ {
+  "brand": "Aeon Laser",
+  "model": "MIRA 5S",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 45,
+  "bed": [
+   500,
+   300
+  ],
+  "home": "",
+  "connect": "wifi+usb",
+  "lens_mm": 0,
+  "notes": "45 W glass or 30 W RF. Redline series. Ruida; USB / Ethernet / Wi-Fi. Maker lists 'bed size' 19-3/4 x 11-3/4 in",
+  "url": "https://aeonlaser.us/products/mira-s-redline-series-co2-desktop-laser-cutting-machine"
+ },
+ {
+  "brand": "Aeon Laser",
+  "model": "MIRA 7S",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 60,
+  "bed": [
+   700,
+   500
+  ],
+  "home": "",
+  "connect": "wifi+usb",
+  "lens_mm": 0,
+  "notes": "60 W glass or RF. Ruida; USB / Ethernet / Wi-Fi. 'Bed size' 27-1/2 x 19-11/16 in",
+  "url": "https://aeonlaser.us/products/mira-pro-7s-redline-series-co2-laser-cutter-engraving-machine"
+ },
+ {
+  "brand": "Aeon Laser",
+  "model": "MIRA 9S",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 100,
+  "bed": [
+   900,
+   600
+  ],
+  "home": "",
+  "connect": "wifi+usb",
+  "lens_mm": 0,
+  "notes": "100 W glass. Ruida; USB / Ethernet / Wi-Fi. 'Bed size' 35-1/2 x 23-5/8 in",
+  "url": "https://aeonlaser.us/products/mira-pro-9s-redline-series-co2-laser-cutter-engraving-machine"
+ },
+ {
+  "brand": "Aeon Laser",
+  "model": "NOVA 14S",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 130,
+  "bed": [
+   1400,
+   900
+  ],
+  "home": "",
+  "connect": "wifi+usb",
+  "lens_mm": 0,
+  "notes": "130 W glass or RF. Ruida; USB / Ethernet / Wi-Fi. 'Bed size' 55-1/8 x 35-7/16 in",
+  "url": "https://aeonlaser.us/products/nova-14s-redline-series-professional-co2-laser-cutter-engraving-machine"
+ },
+ {
+  "brand": "Aeon Laser",
+  "model": "NOVA 16S",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 150,
+  "bed": [
+   1600,
+   1000
+  ],
+  "home": "",
+  "connect": "wifi+usb",
+  "lens_mm": 0,
+  "notes": "150 W glass or RF. Ruida; USB / Ethernet / Wi-Fi. 'Bed size' 63 x 39-3/8 in",
+  "url": "https://aeonlaser.us/products/nova-16s-redline-series-professional-co2-laser-cutter-engraving-machine"
+ },
+ {
+  "brand": "Aeon Laser",
+  "model": "Super NOVA 14S",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 130,
+  "bed": [
+   1400,
+   900
+  ],
+  "home": "",
+  "connect": "wifi+usb",
+  "lens_mm": 0,
+  "notes": "Dual tube: 130 W glass + 60 W RF. Servo. Ruida; USB / Ethernet / Wi-Fi",
+  "url": "https://aeonlaser.us/products/nova14-super-redline-series-professional-co2-laser-cutter-engraving-machine"
+ },
+ {
+  "brand": "Aeon Laser",
+  "model": "Super NOVA 16S",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 150,
+  "bed": [
+   1600,
+   1000
+  ],
+  "home": "",
+  "connect": "wifi+usb",
+  "lens_mm": 0,
+  "notes": "Multi-source: 150/260 W glass + 60 W RF, or RF + MOPA fiber variants. Ruida; USB / Ethernet / Wi-Fi",
+  "url": "https://aeonlaser.us/products/nova16-super"
+ },
+ {
+  "brand": "Aeon Laser",
+  "model": "MIRA 6X",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 40,
+  "bed": [
+   600,
+   300
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 0,
+  "notes": "40 W RF. Software EZmaker / RDWorks (LightBurn opt.); controller not named, RDWorks implies Ruida",
+  "url": "https://aeonlaser.us/products/mira-6x"
+ },
+ {
+  "brand": "Aeon Laser",
+  "model": "MIRA 9X",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 75,
+  "bed": [
+   900,
+   450
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 0,
+  "notes": "75 W RF; variant with +50 W fiber. RDWorks implies Ruida (not named)",
+  "url": "https://aeonlaser.us/products/mira-9x-laser-cutter-engraver"
+ },
+ {
+  "brand": "Aeon Laser",
+  "model": "MIRA X",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 100,
+  "bed": [
+   1000,
+   600
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 0,
+  "notes": "100/150 W RF; variants with +50 W fiber. RDWorks implies Ruida (not named)",
+  "url": "https://aeonlaser.us/products/mira-x-rf-100w-150w-laser-cutter-engraver"
+ },
+ {
+  "brand": "Boss Laser",
+  "model": "EVO Desktop",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 60,
+  "bed": [
+   610,
+   305
+  ],
+  "home": "",
+  "connect": "usb+network",
+  "lens_mm": 0,
+  "notes": "60 W glass. 24 x 12 in. RD Works software (Ruida implied); WiFi, USB, Ethernet",
+  "url": "https://shop.bosslaser.com/products/evo-desktop-co2-laser-cutter-and-engraver"
+ },
+ {
+  "brand": "Boss Laser",
+  "model": "LS-1420",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 50,
+  "bed": [
+   502,
+   349
+  ],
+  "home": "",
+  "connect": "wifi+usb",
+  "lens_mm": 0,
+  "notes": "50 W glass std, 70 W opt. Spec sheet: 19.75 x 13.75 in (or 15.75 x 13.75). RD Works (Ruida implied)",
+  "url": "https://shop.bosslaser.com/products/ls-1420-co2-laser-cutter-and-engraver"
+ },
+ {
+  "brand": "Boss Laser",
+  "model": "LS-1630",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 70,
+  "bed": [
+   750,
+   400
+  ],
+  "home": "",
+  "connect": "usb",
+  "lens_mm": 0,
+  "notes": "70 W std (store also 80 W), 105 W opt. 400 x 750 mm. RD Works (Ruida implied); USB, Wi-Fi option",
+  "url": "https://shop.bosslaser.com/products/ls-1630-co2-laser-cutter-and-engraver"
+ },
+ {
+  "brand": "Boss Laser",
+  "model": "LS-2440",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 105,
+  "bed": [
+   1010,
+   600
+  ],
+  "home": "",
+  "connect": "usb+network",
+  "lens_mm": 0,
+  "notes": "80/105/155 W. 39.75 x 23.6 in. RD Works (Ruida implied); USB, Ethernet, WiFi opt.",
+  "url": "https://shop.bosslaser.com/products/ls-2440-co2-laser-cutter-and-engraver"
+ },
+ {
+  "brand": "Boss Laser",
+  "model": "LS-3655",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 105,
+  "bed": [
+   1400,
+   900
+  ],
+  "home": "",
+  "connect": "usb+network",
+  "lens_mm": 0,
+  "notes": "80/105/155 W. RD Works (Ruida implied); USB, Ethernet, WiFi opt.",
+  "url": "https://shop.bosslaser.com/products/ls-3655-co2-laser-cutter-and-engraver"
+ },
+ {
+  "brand": "Boss Laser",
+  "model": "HP-2440",
+  "kind": "other",
+  "source": "co2",
+  "watts": 155,
+  "bed": [
+   980,
+   540
+  ],
+  "home": "",
+  "connect": "usb+network",
+  "lens_mm": 0,
+  "notes": "155 W hybrid (thin metal). Laser Cad software: controller not Ruida/unnamed. Cutting area 21.2 x 38.5 in",
+  "url": "https://shop.bosslaser.com/products/hp-2440-co2-laser-cutter-and-engraver"
+ },
+ {
+  "brand": "Boss Laser",
+  "model": "HP-3655",
+  "kind": "other",
+  "source": "co2",
+  "watts": 155,
+  "bed": [
+   1380,
+   850
+  ],
+  "home": "",
+  "connect": "usb+network",
+  "lens_mm": 0,
+  "notes": "155 W hybrid. Laser Cad software, controller unnamed. 850 x 1380 mm",
+  "url": "https://shop.bosslaser.com/products/hp-3655-co2-laser-cutter-and-engraver"
+ },
+ {
+  "brand": "Boss Laser",
+  "model": "HP-5598",
+  "kind": "other",
+  "source": "co2",
+  "watts": 155,
+  "bed": [
+   2502,
+   1300
+  ],
+  "home": "",
+  "connect": "wifi+usb",
+  "lens_mm": 0,
+  "notes": "155 W or 250 W Iradion. Laser Cad software, controller unnamed. 51.18 x 98.5 in",
+  "url": "https://shop.bosslaser.com/products/hp-5598-co2-laser-cutter-and-engraver"
+ },
+ {
+  "brand": "Boss Laser",
+  "model": "FM-D Desktop",
+  "kind": "galvo",
+  "source": "fiber",
+  "watts": 30,
+  "bed": [
+   110,
+   110
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 110,
+  "notes": "30 W fiber. EZCad included (version not stated; LightBurn Pro upgrade). Opt. 290 mm lens = 200 x 200",
+  "url": "https://shop.bosslaser.com/products/fm-d-desktop-fiber-laser-marking-machine"
+ },
+ {
+  "brand": "Boss Laser",
+  "model": "FM-Station",
+  "kind": "galvo",
+  "source": "fiber",
+  "watts": 30,
+  "bed": [
+   110,
+   110
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 110,
+  "notes": "30/50/100 W fiber. EZCad (version not stated). Opt. 290 / 420 mm lenses",
+  "url": "https://shop.bosslaser.com/products/fm-station-fiber-laser-marking-machine"
+ },
+ {
+  "brand": "OMTech",
+  "model": "K40+ 45W",
+  "kind": "grbl",
+  "source": "co2",
+  "watts": 45,
+  "bed": [
+   300,
+   200
+  ],
+  "home": "",
+  "connect": "usb",
+  "lens_mm": 0,
+  "notes": "K40-style; ships with LaserGRBL (GRBL board)",
+  "url": "https://omtechlaser.com/products/40w-co2-laser-engraver-cutter-usb-032b-us"
+ },
+ {
+  "brand": "OMTech",
+  "model": "Polar Lite 55W",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 55,
+  "bed": [
+   500,
+   300
+  ],
+  "home": "",
+  "connect": "usb+network",
+  "lens_mm": 0,
+  "notes": "RDWorks-compatible controller (Ruida protocol), model not stated; also WiFi",
+  "url": "https://omtechlaser.com/products/omtech-polar-lite-55w-desktop-co2-laser-engraver-and-cutter"
+ },
+ {
+  "brand": "OMTech",
+  "model": "Maker MF1624-60",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 60,
+  "bed": [
+   600,
+   400
+  ],
+  "home": "",
+  "connect": "usb+network",
+  "lens_mm": 0,
+  "notes": "Ruida panel",
+  "url": "https://omtechlaser.com/products/60w-co2-laser-engraver-with-16-x-24-working-area"
+ },
+ {
+  "brand": "OMTech",
+  "model": "Maker AF2028-60",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 60,
+  "bed": [
+   700,
+   500
+  ],
+  "home": "",
+  "connect": "usb+network",
+  "lens_mm": 0,
+  "notes": "KT332 panel (Ruida-compatible, RDWorks); autofocus",
+  "url": "https://omtechlaser.com/products/af2028-60-60w-co2-laser-engraver-cutting-machine-with-20-x-28-working-area"
+ },
+ {
+  "brand": "OMTech",
+  "model": "Maker AF2028-80 (90W)",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 90,
+  "bed": [
+   700,
+   500
+  ],
+  "home": "",
+  "connect": "usb+network",
+  "lens_mm": 0,
+  "notes": "Ruida panel; autofocus; MF2028-80 = same without autofocus",
+  "url": "https://omtechlaser.com/products/90w-co2-laser-engraver-cutting-machine-with-20-x-28-working-area-with-autofocus"
+ },
+ {
+  "brand": "OMTech",
+  "model": "Maker MF2028-100",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 100,
+  "bed": [
+   700,
+   500
+  ],
+  "home": "",
+  "connect": "usb+network",
+  "lens_mm": 0,
+  "notes": "Ruida controller",
+  "url": "https://omtechlaser.com/products/100w-co2-laser-engraver-cutter-with-20-x-28-working-area"
+ },
+ {
+  "brand": "OMTech",
+  "model": "Maker AF4063-150",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 150,
+  "bed": [
+   1600,
+   1000
+  ],
+  "home": "",
+  "connect": "usb+network",
+  "lens_mm": 0,
+  "notes": "RDWorks-compatible controller (Ruida protocol), model not stated; autofocus",
+  "url": "https://omtechlaser.com/products/150w-co2-laser-engraver-cutter-usb-gb16-us"
+ },
+ {
+  "brand": "OMTech",
+  "model": "Pronto 35",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 100,
+  "bed": [
+   700,
+   500
+  ],
+  "home": "",
+  "connect": "usb+network",
+  "lens_mm": 0,
+  "notes": "RDWorks-compatible controller (Ruida protocol), model not stated; 60/90/100W; also WiFi",
+  "url": "https://omtechlaser.com/products/omtech-pronto-35-100w-co2-laser-cutter-and-engraver-with-autofocus"
+ },
+ {
+  "brand": "OMTech",
+  "model": "Pronto 40 90W",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 90,
+  "bed": [
+   900,
+   600
+  ],
+  "home": "",
+  "connect": "usb+network",
+  "lens_mm": 0,
+  "notes": "RDWorks-compatible controller (Ruida protocol), model not stated",
+  "url": "https://omtechlaser.com/products/pronto-40-90w-co2-laser-engraver-and-cutter"
+ },
+ {
+  "brand": "OMTech",
+  "model": "Pronto 45 100W",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 100,
+  "bed": [
+   1000,
+   600
+  ],
+  "home": "",
+  "connect": "usb+network",
+  "lens_mm": 0,
+  "notes": "RDWorks-compatible controller (Ruida protocol), model not stated",
+  "url": "https://omtechlaser.com/products/pronto-45-100w-co2-laser-engraver-and-cutter-upgraded-version"
+ },
+ {
+  "brand": "OMTech",
+  "model": "Pronto 60 130W",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 130,
+  "bed": [
+   1300,
+   900
+  ],
+  "home": "",
+  "connect": "usb+network",
+  "lens_mm": 0,
+  "notes": "RDWorks-compatible controller (Ruida protocol), model not stated",
+  "url": "https://omtechlaser.com/products/pronto-60-130w-co2-laser-engraver-and-cutter-upgraded-version"
+ },
+ {
+  "brand": "OMTech",
+  "model": "Pronto 75 150W",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 150,
+  "bed": [
+   1600,
+   1000
+  ],
+  "home": "",
+  "connect": "usb+network",
+  "lens_mm": 0,
+  "notes": "RDWorks-compatible controller (Ruida protocol), model not stated",
+  "url": "https://omtechlaser.com/products/pronto-75-150w-co2-laser-engraver-and-cutter-upgraded-version"
+ },
+ {
+  "brand": "OMTech",
+  "model": "Pro Quantum 60W RF",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 60,
+  "bed": [
+   1000,
+   600
+  ],
+  "home": "",
+  "connect": "usb+network",
+  "lens_mm": 0,
+  "notes": "RDWorks-compatible controller (Ruida protocol), model not stated; RF tube (60/80W); also WiFi",
+  "url": "https://omtechlaser.com/products/omtech-pro-quantum-60w-rf-co2-laser-engraver-and-cutter"
+ },
+ {
+  "brand": "OMTech",
+  "model": "Pro FLUX 100W Flying Galvo",
+  "kind": "other",
+  "source": "co2",
+  "watts": 100,
+  "bed": [
+   1000,
+   600
+  ],
+  "home": "",
+  "connect": "usb+network",
+  "lens_mm": 0,
+  "notes": "CO2 flying galvo; PowerCut software; controller not stated",
+  "url": "https://omtechlaser.com/products/omtech-pro-flux-100w-flying-galvo-co2-laser-engraver-cutter"
+ },
+ {
+  "brand": "OMTech",
+  "model": "Galvo 30W Split Fiber",
+  "kind": "galvo",
+  "source": "fiber",
+  "watts": 30,
+  "bed": [
+   175,
+   175
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 175,
+  "notes": "EzCad2; Raycus source",
+  "url": "https://omtechlaser.com/products/30w-fiber-laser-engraver-cutter-usb-30w2-us"
+ },
+ {
+  "brand": "OMTech",
+  "model": "Galvo 50W Split Fiber",
+  "kind": "galvo",
+  "source": "fiber",
+  "watts": 50,
+  "bed": [
+   200,
+   200
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 200,
+  "notes": "EzCad2",
+  "url": "https://omtechlaser.com/products/50w-fmm-5rw2-us"
+ },
+ {
+  "brand": "OMTech",
+  "model": "Galvo Autofocus Fiber (20/30/50W)",
+  "kind": "galvo",
+  "source": "fiber",
+  "watts": 30,
+  "bed": [
+   150,
+   150
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 150,
+  "notes": "EzCad2; 20W has 110 mm field; 210 mm focal",
+  "url": "https://omtechlaser.com/products/omtech-galvo-20w-30w-50w-autofocus-fiber-laser-marking-machine"
+ },
+ {
+  "brand": "OMTech",
+  "model": "MOPA Autofocus Fiber (20/30/60W)",
+  "kind": "galvo",
+  "source": "mopa",
+  "watts": 60,
+  "bed": [
+   150,
+   150
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 150,
+  "notes": "EzCad2; 210 mm focal",
+  "url": "https://omtechlaser.com/products/omtech-mopa-20w-30w-60w-autofocus-fiber-laser-marking-machine"
+ },
+ {
+  "brand": "OMTech",
+  "model": "MOPA Split MP6969 (20-100W)",
+  "kind": "galvo",
+  "source": "mopa",
+  "watts": 60,
+  "bed": [
+   175,
+   175
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 175,
+  "notes": "EzCad2; JPT; 80/100W also ship a 110 mm lens",
+  "url": "https://omtechlaser.com/products/mp6969-60-60w-mopa-fiber-laser-marking-engraving-machine-with-6-9-x-6-9-working-area"
+ },
+ {
+  "brand": "OMTech",
+  "model": "Galvo 20W Compact Integrated Fiber",
+  "kind": "galvo",
+  "source": "fiber",
+  "watts": 20,
+  "bed": [
+   110,
+   110
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 110,
+  "notes": "Bundled EZCad (version not stated); LightBurn EZCAD2 board per forum reports, not the maker: GBurn finds it by its USB id 9588:9899 (not found = another board).",
+  "url": "https://omtechlaser.com/products/20w-integrated-fiber-laser-marker-engraving-machine-with-4-3x-4-3-working-area-for-metal"
+ },
+ {
+  "brand": "OMTech",
+  "model": "Galvo 50W Compact Integrated Fiber",
+  "kind": "galvo",
+  "source": "fiber",
+  "watts": 50,
+  "bed": [
+   150,
+   150
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 150,
+  "notes": "Bundled EZCad (version not stated); LightBurn EZCAD2 board per forum reports, not the maker: GBurn finds it by its USB id 9588:9899 (not found = another board).",
+  "url": "https://omtechlaser.com/products/galvo-fiber-50-50w-integrated-fiber-laser-marker-engraving-machine-with-5-9x5-9-working-area-for-metal"
+ },
+ {
+  "brand": "OMTech",
+  "model": "MOPA Compact Integrated (20/30/60W)",
+  "kind": "galvo",
+  "source": "mopa",
+  "watts": 60,
+  "bed": [
+   150,
+   150
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 150,
+  "notes": "LightBurn; controller not stated; JPT EZCAD2 board per forum reports, not the maker: GBurn finds it by its USB id 9588:9899 (not found = another board).",
+  "url": "https://omtechlaser.com/products/mopa-60-60w-integrated-mopa-fiber-laser-marker-engraving-machine-for-metal"
+ },
+ {
+  "brand": "Monport",
+  "model": "40W Pro LightBurn-Supported",
+  "kind": "grbl",
+  "source": "co2",
+  "watts": 40,
+  "bed": [
+   300,
+   200
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 0,
+  "notes": "K40-style; GRBL board",
+  "url": "https://monportlaser.com/products/monport-40w-lightburn-laser-engraver"
+ },
+ {
+  "brand": "Monport",
+  "model": "Reno45",
+  "kind": "grbl",
+  "source": "co2",
+  "watts": 45,
+  "bed": [
+   400,
+   300
+  ],
+  "home": "",
+  "connect": "wifi+usb",
+  "lens_mm": 0,
+  "notes": "LightBurn / LaserGRBL",
+  "url": "https://monportlaser.com/products/monport-reno-45w-desktop-co2-laser-engraver-cutter-16-x-12-with-brand-new-semi-autofocus"
+ },
+ {
+  "brand": "Monport",
+  "model": "Reno65",
+  "kind": "grbl",
+  "source": "co2",
+  "watts": 65,
+  "bed": [
+   600,
+   400
+  ],
+  "home": "",
+  "connect": "usb",
+  "lens_mm": 0,
+  "notes": "LightBurn / LaserGRBL",
+  "url": "https://monportlaser.com/products/reno65"
+ },
+ {
+  "brand": "Monport",
+  "model": "MEGAS 70W",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 70,
+  "bed": [
+   700,
+   350
+  ],
+  "home": "",
+  "connect": "usb",
+  "lens_mm": 0,
+  "notes": "M-Design Hub / LightBurn; controller not stated Customised Ruida firmware per one forum report (unverified); its Wi-Fi, autofocus and camera aren't supported.",
+  "url": "https://monportlaser.com/products/monport-70w-megas-desktop-co2-laser-engraver-cutter"
+ },
+ {
+  "brand": "Monport",
+  "model": "Effi7S 90W",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 90,
+  "bed": [
+   700,
+   500
+  ],
+  "home": "",
+  "connect": "usb+network",
+  "lens_mm": 0,
+  "notes": "RDWorks-compatible controller (Ruida protocol), model not stated; autofocus",
+  "url": "https://monportlaser.com/products/monport-90w-co2-laser-engraver-cutter-28-x-20-with-autofocus"
+ },
+ {
+  "brand": "Monport",
+  "model": "Effi9S 90W",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 90,
+  "bed": [
+   914,
+   610
+  ],
+  "home": "",
+  "connect": "usb+network",
+  "lens_mm": 0,
+  "notes": "RDWorks-compatible controller (Ruida protocol), model not stated; autofocus",
+  "url": "https://monportlaser.com/products/monport-effi9s-upgraded-90w-co2-laser-engraver-cutter-with-autofocus-and-built-in-water-chiller"
+ },
+ {
+  "brand": "Monport",
+  "model": "Effi10S 100W",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 100,
+  "bed": [
+   1016,
+   610
+  ],
+  "home": "",
+  "connect": "usb+network",
+  "lens_mm": 0,
+  "notes": "RDWorks-compatible controller (Ruida protocol), model not stated; autofocus",
+  "url": "https://monportlaser.com/products/monport-effi10s-upgraded-100w-co2-laser-engraver-cutter-with-autofocus-and-built-in-water-chiller"
+ },
+ {
+  "brand": "Monport",
+  "model": "Effi13S 130W",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 130,
+  "bed": [
+   1295,
+   889
+  ],
+  "home": "",
+  "connect": "usb+network",
+  "lens_mm": 0,
+  "notes": "RDWorks-compatible controller (Ruida protocol), model not stated; autofocus",
+  "url": "https://monportlaser.com/products/monport-effi13s-upgraded-130w-co2-laser-engraver-cutter-with-autofocus-and-built-in-water-chiller"
+ },
+ {
+  "brand": "Monport",
+  "model": "Effi16S 150W",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 150,
+  "bed": [
+   1600,
+   1016
+  ],
+  "home": "",
+  "connect": "usb+network",
+  "lens_mm": 0,
+  "notes": "RDWorks-compatible controller (Ruida protocol), model not stated; autofocus",
+  "url": "https://monportlaser.com/products/monport-effi16s-upgraded-150w-co2-laser-engraver-cutter-with-autofocus-and-built-in-water-chiller"
+ },
+ {
+  "brand": "Monport",
+  "model": "GT30 Split Fiber",
+  "kind": "galvo",
+  "source": "fiber",
+  "watts": 30,
+  "bed": [
+   150,
+   150
+  ],
+  "home": "",
+  "connect": "usb",
+  "lens_mm": 150,
+  "notes": "BSL board (BslAppSimple) + LightBurn; M68 lens EZCAD2 board per forum reports, not the maker: GBurn finds it by its USB id 9588:9899 (not found = another board).",
+  "url": "https://monportlaser.com/products/gt-30w-autofocus-fiber-laser-engraver"
+ },
+ {
+  "brand": "Monport",
+  "model": "GT50 Split Fiber",
+  "kind": "galvo",
+  "source": "fiber",
+  "watts": 50,
+  "bed": [
+   200,
+   200
+  ],
+  "home": "",
+  "connect": "usb",
+  "lens_mm": 200,
+  "notes": "BSL board (BslAppSimple) + LightBurn; 50/60W EZCAD2 board per forum reports, not the maker: GBurn finds it by its USB id 9588:9899 (not found = another board).",
+  "url": "https://monportlaser.com/products/gt-50w-autofocus-fiber-laser-engraver"
+ },
+ {
+  "brand": "Monport",
+  "model": "GT MOPA Split (60/100/200W)",
+  "kind": "galvo",
+  "source": "mopa",
+  "watts": 100,
+  "bed": [
+   175,
+   175
+  ],
+  "home": "",
+  "connect": "usb",
+  "lens_mm": 175,
+  "notes": "BSL board (BslAppSimple) + LightBurn EZCAD2 board per forum reports, not the maker: GBurn finds it by its USB id 9588:9899 (not found = another board).",
+  "url": "https://monportlaser.com/products/gt-100w-mopa-laser-machine-color-marking-deep-engraving"
+ },
+ {
+  "brand": "Monport",
+  "model": "GPro Vision Split MOPA",
+  "kind": "other",
+  "source": "mopa",
+  "watts": 100,
+  "bed": [
+   175,
+   175
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 175,
+  "notes": "BslAppSimple + LightBurn; 60/100/200W MOPA; 50W fiber version 200 mm",
+  "url": "https://monportlaser.com/products/monport-gpro-vision-split-mopa-fiber-with-color-marking-auto-focus"
+ },
+ {
+  "brand": "Monport",
+  "model": "GM Pro Integrated Fiber (30/50W)",
+  "kind": "galvo",
+  "source": "fiber",
+  "watts": 50,
+  "bed": [
+   150,
+   150
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 150,
+  "notes": "BslAppSimple + LightBurn; MAX source EZCAD2 board per forum reports, not the maker: GBurn finds it by its USB id 9588:9899 (not found = another board).",
+  "url": "https://monportlaser.com/products/gm50-pro-fiber-laser-machine-with-autofocus"
+ },
+ {
+  "brand": "Monport",
+  "model": "GM Pro Integrated MOPA (30/60W)",
+  "kind": "galvo",
+  "source": "mopa",
+  "watts": 60,
+  "bed": [
+   175,
+   175
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 175,
+  "notes": "BslAppSimple + LightBurn; JPT EZCAD2 board per forum reports, not the maker: GBurn finds it by its USB id 9588:9899 (not found = another board).",
+  "url": "https://monportlaser.com/products/gm60-pro-mopa-fiber-laser-machine-with-autofocus"
+ },
+ {
+  "brand": "Monport",
+  "model": "UV Galvo 6W/10W",
+  "kind": "galvo",
+  "source": "uv",
+  "watts": 10,
+  "bed": [
+   150,
+   150
+  ],
+  "home": "",
+  "connect": "usb",
+  "lens_mm": 150,
+  "notes": "BslAppSimple; 110 / 220 mm lenses sold EZCAD2 board per forum reports (not the maker): GBurn finds it by its USB id 9588:9899. UV source: set Frequency on the layer (30–50 kHz is usual); tick Machine Settings › Invert power if low values mark harder.",
+  "url": "https://monportlaser.com/products/10w-uv-laser-engraver-precision-marking-machine"
+ },
+ {
+  "brand": "Cloudray",
+  "model": "EC-30 Neo CO2 Galvo",
+  "kind": "galvo",
+  "source": "co2",
+  "watts": 30,
+  "bed": [
+   210,
+   210
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 210,
+  "notes": "CO2 galvo, up to 38W; LightBurn; controller not stated EZCAD2 board per forum reports, not the maker: GBurn finds it by its USB id 9588:9899 (not found = another board).",
+  "url": "https://www.cloudraylaser.com/products/cloudray-ec-30-litemarker-pro-30w-co2-laser-marking-engraver-with-8-3x-8-3-scan-area"
+ },
+ {
+  "brand": "Cloudray",
+  "model": "EC-60 Neo CO2 Galvo",
+  "kind": "galvo",
+  "source": "co2",
+  "watts": 60,
+  "bed": [
+   300,
+   300
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 300,
+  "notes": "CO2 galvo, split; LightBurn; controller not stated EZCAD2 board per forum reports, not the maker: GBurn finds it by its USB id 9588:9899 (not found = another board).",
+  "url": "https://www.cloudraylaser.com/products/cloudray-ec-30-litemarker-pro-30w-co2-laser-marking-engraver-with-8-3x-8-3-scan-area"
+ },
+ {
+  "brand": "Cloudray",
+  "model": "MP Neo 60W MOPA",
+  "kind": "galvo",
+  "source": "mopa",
+  "watts": 60,
+  "bed": [
+   200,
+   200
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 200,
+  "notes": "LightBurn; controller not stated; MP-100 variant EZCAD2 board per forum reports, not the maker: GBurn finds it by its USB id 9588:9899 (not found = another board).",
+  "url": "https://www.cloudraylaser.com/products/cloudray-litemarker-mp-series-neo-60w-fiber-laser-engraver"
+ },
+ {
+  "brand": "Cloudray",
+  "model": "GM Neo MOPA (100/200W)",
+  "kind": "galvo",
+  "source": "mopa",
+  "watts": 100,
+  "bed": [
+   200,
+   200
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 200,
+  "notes": "EzCad2 + LightBurn; JPT M7",
+  "url": "https://www.cloudraylaser.com/products/cloudray-litemarker-gm-series-neo-100w-autofocus-mopa-fiber-laser-engraver-with-built-in-camera"
+ },
+ {
+  "brand": "Cloudray",
+  "model": "GM-2.5D-100 MOPA",
+  "kind": "other",
+  "source": "mopa",
+  "watts": 100,
+  "bed": [
+   110,
+   110
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 110,
+  "notes": "EZCAD3 (2.5D) + LightBurn",
+  "url": "https://www.cloudraylaser.com/products/cloudray-gm-p-100-100w-mopa-2-5d-fiber-laser-marking-engraver-with-4-3-x-4-3-scan-area"
+ },
+ {
+  "brand": "Cloudray",
+  "model": "UV-10 10W UV",
+  "kind": "galvo",
+  "source": "uv",
+  "watts": 10,
+  "bed": [
+   200,
+   200
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 200,
+  "notes": "EZCAD2 + LightBurn; 110 mm lens option",
+  "url": "https://www.cloudraylaser.com/products/cloudray-uv-10-10w-water-cooled-uv-laser-engraver"
+ },
+ {
+  "brand": "Cloudray",
+  "model": "TR Series UV (5/10/15W)",
+  "kind": "galvo",
+  "source": "uv",
+  "watts": 5,
+  "bed": [
+   200,
+   200
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 200,
+  "notes": "LightBurn; controller not stated; 3D inner lens 50x50x100 EZCAD2 board per forum reports (not the maker): GBurn finds it by its USB id 9588:9899. UV source: set Frequency on the layer (30–50 kHz is usual); tick Machine Settings › Invert power if low values mark harder.",
+  "url": "https://www.cloudraylaser.com/products/cloudray-uv-p-pro-series-5-in-1-5w-10w-15w-uv-laser-water-cooled-autofocus-3d-2-5d-inner-surface-engraver-compatible-with-lightburn"
+ },
+ {
+  "brand": "Gweike",
+  "model": "Cloud Pro II",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 55,
+  "bed": [
+   510,
+   300
+  ],
+  "home": "",
+  "connect": "usb",
+  "lens_mm": 0,
+  "notes": "50 or 55 W glass tube; rotary. Maker doesn't name the controller; LightBurn users report Ruida 644XG (profile 'Ruida 644xg', homes rear-right).",
+  "url": "https://www.gweikecloud.com/products/gweike-cloud-pro-ii-co2-series"
+ },
+ {
+  "brand": "Gweike",
+  "model": "Cloud RF",
+  "kind": "ruida",
+  "source": "co2",
+  "watts": 38,
+  "bed": [
+   510,
+   290
+  ],
+  "home": "",
+  "connect": "usb",
+  "lens_mm": 0,
+  "notes": "38 W RF metal tube; Wi-Fi, USB, Ethernet; LightBurn compatible, controller not stated. LightBurn's guide sets it up as a Ruida 644xG over USB (its Ethernet carries only camera pictures).",
+  "url": "https://www.gweikecloud.com/products/gweike-cloud-rf-metal-tube"
+ },
+ {
+  "brand": "Gweike",
+  "model": "G2 / G2 Pro / G2 Max",
+  "kind": "galvo",
+  "source": "fiber",
+  "watts": 30,
+  "bed": [
+   150,
+   150
+  ],
+  "home": "",
+  "connect": "usb",
+  "lens_mm": 150,
+  "notes": "Portable fiber galvo 20/30/50 W; 110 mm (manual lift) or 150 mm field; USB + Bluetooth app; LightBurn compatible, controller not stated. EZCAD2 board per forum reports, not the maker: GBurn finds it by its USB id 9588:9899 (not found = another board).",
+  "url": "https://www.gweikecloud.com/products/g2-pro-series"
+ },
+ {
+  "brand": "Gweike",
+  "model": "G6",
+  "kind": "galvo",
+  "source": "fiber",
+  "watts": 50,
+  "bed": [
+   175,
+   175
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 175,
+  "notes": "EZCAD2 control, Raycus Q-switched 30/50/70/100 W; fields 110-300 mm offered (175 mm listed in shop); LightBurn compatible.",
+  "url": "https://www.gweikecloud.com/products/g6-g6-mopa-split-series"
+ },
+ {
+  "brand": "Gweike",
+  "model": "G6 MOPA",
+  "kind": "galvo",
+  "source": "mopa",
+  "watts": 60,
+  "bed": [
+   175,
+   175
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 175,
+  "notes": "EZCAD2 control, MOPA 30/60/100 W; fields 110-300 mm offered (175 mm listed in shop).",
+  "url": "https://www.gweikecloud.com/products/g6-g6-mopa-split-series"
+ },
+ {
+  "brand": "Gweike",
+  "model": "G7 UV",
+  "kind": "galvo",
+  "source": "uv",
+  "watts": 5,
+  "bed": [
+   110,
+   110
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 110,
+  "notes": "355 nm JPT source 3/5/10/15 W, EZCAD2; shop variants 110 mm field (110-200 mm listed).",
+  "url": "https://www.gweikecloud.com/products/g7-uv-all-purpose-laser2"
+ },
+ {
+  "brand": "Gweike",
+  "model": "G3",
+  "kind": "other",
+  "source": "fiber",
+  "watts": 50,
+  "bed": [
+   170,
+   170
+  ],
+  "home": "",
+  "connect": "wifi+usb",
+  "lens_mm": 170,
+  "notes": "Fiber galvo + 450 nm diode dual laser: 20/30/50 W fiber + 20 W diode, or Pro/Ultra 30/60 W MOPA + 40 W diode; 170x1000 with conveyor; GLASER app or LightBurn, controller not stated.",
+  "url": "https://www.gweikecloud.com/products/g3"
+ },
+ {
+  "brand": "Full Spectrum Laser",
+  "model": "Muse Core",
+  "kind": "other",
+  "source": "co2",
+  "watts": 40,
+  "bed": [
+   508,
+   305
+  ],
+  "home": "",
+  "connect": "network",
+  "lens_mm": 0,
+  "notes": "40 W, 45 W upgrade; own RetinaEngrave v3 (browser, on the machine); Ethernet or 802.11n Wi-Fi.",
+  "url": "https://fslaser.com/musecore/"
+ },
+ {
+  "brand": "Full Spectrum Laser",
+  "model": "Muse 3D Autofocus",
+  "kind": "other",
+  "source": "co2",
+  "watts": 40,
+  "bed": [
+   508,
+   305
+  ],
+  "home": "",
+  "connect": "network",
+  "lens_mm": 0,
+  "notes": "Muse with RealSense 3D camera + motorized autofocus; 45 W upgrade; RetinaEngrave only. Muse 2D (camera bundle) has the same bed.",
+  "url": "https://fslaser.com/products/muse3d"
+ },
+ {
+  "brand": "Full Spectrum Laser",
+  "model": "Muse Titan v3",
+  "kind": "other",
+  "source": "co2",
+  "watts": 75,
+  "bed": [
+   1219,
+   610
+  ],
+  "home": "",
+  "connect": "network",
+  "lens_mm": 0,
+  "notes": "75 W, 90/100 W upgrades; 48x24 in; RetinaEngrave only; 802.11n.",
+  "url": "https://fslaser.com/products/musetitan"
+ },
+ {
+  "brand": "Full Spectrum Laser",
+  "model": "Muse MOPA Pro",
+  "kind": "other",
+  "source": "mopa",
+  "watts": 100,
+  "bed": [
+   100,
+   100
+  ],
+  "home": "",
+  "connect": "network",
+  "lens_mm": 100,
+  "notes": "MOPA galvo 100-200 W; F160 100 mm field included, F210/F254 150 mm options, up to 12x12 in; RetinaEngrave v5 only.",
+  "url": "https://fslaser.com/products/muse-mopa-pro-1064nm-fiber-galvo-laser-ai-3d-engrave-100w-200w"
+ },
+ {
+  "brand": "Glowforge",
+  "model": "Aura",
+  "kind": "other",
+  "source": "diode",
+  "watts": 6,
+  "bed": [
+   305,
+   305
+  ],
+  "home": "",
+  "connect": "network",
+  "lens_mm": 0,
+  "notes": "450 nm diode; Wi-Fi only, cloud-only, no third-party control.",
+  "url": "https://glowforge.com/b/tech-specs/craft"
+ },
+ {
+  "brand": "Glowforge",
+  "model": "Spark",
+  "kind": "other",
+  "source": "diode",
+  "watts": 6,
+  "bed": [
+   216,
+   279
+  ],
+  "home": "",
+  "connect": "network",
+  "lens_mm": 0,
+  "notes": "Cutting area 8.5x11 in (material 12x12); Wi-Fi only, cloud-only, no third-party control.",
+  "url": "https://shop.glowforge.com/products/glowforge-spark"
+ },
+ {
+  "brand": "Glowforge",
+  "model": "Plus",
+  "kind": "other",
+  "source": "co2",
+  "watts": 40,
+  "bed": [
+   495,
+   279
+  ],
+  "home": "",
+  "connect": "network",
+  "lens_mm": 0,
+  "notes": "Wi-Fi only, cloud-only, no third-party control.",
+  "url": "https://shop.glowforge.com/products/glowforge-plus"
+ },
+ {
+  "brand": "Glowforge",
+  "model": "Pro",
+  "kind": "other",
+  "source": "co2",
+  "watts": 45,
+  "bed": [
+   495,
+   279
+  ],
+  "home": "",
+  "connect": "network",
+  "lens_mm": 0,
+  "notes": "Passthrough; Wi-Fi only, cloud-only, no third-party control.",
+  "url": "https://shop.glowforge.com/products/glowforge-pro"
+ },
+ {
+  "brand": "Glowforge",
+  "model": "Pro HD",
+  "kind": "other",
+  "source": "co2",
+  "watts": 45,
+  "bed": [
+   0,
+   0
+  ],
+  "home": "",
+  "connect": "network",
+  "lens_mm": 0,
+  "notes": "Cutting area not stated on its page (max material width 20 in; Pro is 495x279); Wi-Fi only, cloud-only.",
+  "url": "https://shop.glowforge.com/products/glowforge-pro-hd"
+ },
+ {
+  "brand": "Epilog",
+  "model": "Fusion Pro 24",
+  "kind": "other",
+  "source": "co2",
+  "watts": 100,
+  "bed": [
+   610,
+   610
+  ],
+  "home": "",
+  "connect": "usb+network",
+  "lens_mm": 0,
+  "notes": "CO2 60/80/100 W; dual-source CO2 + 30/60 W fiber options; Ethernet/USB/Wi-Fi; Epilog driver only.",
+  "url": "https://www.epiloglaser.com/laser-machines/fusion-pro-laser-series/"
+ },
+ {
+  "brand": "Epilog",
+  "model": "Fusion Pro 36",
+  "kind": "other",
+  "source": "co2",
+  "watts": 120,
+  "bed": [
+   914,
+   610
+  ],
+  "home": "",
+  "connect": "usb+network",
+  "lens_mm": 0,
+  "notes": "CO2 60-200 W; dual-source fiber options; Epilog driver only.",
+  "url": "https://www.epiloglaser.com/laser-machines/fusion-pro-laser-series/"
+ },
+ {
+  "brand": "Epilog",
+  "model": "Fusion Pro 48",
+  "kind": "other",
+  "source": "co2",
+  "watts": 120,
+  "bed": [
+   1219,
+   914
+  ],
+  "home": "",
+  "connect": "usb+network",
+  "lens_mm": 0,
+  "notes": "CO2 80-200 W; dual-source 60 W fiber options; Epilog driver only.",
+  "url": "https://www.epiloglaser.com/laser-machines/fusion-pro-laser-series/"
+ },
+ {
+  "brand": "Epilog",
+  "model": "Fusion Edge 12",
+  "kind": "other",
+  "source": "co2",
+  "watts": 60,
+  "bed": [
+   610,
+   305
+  ],
+  "home": "",
+  "connect": "usb+network",
+  "lens_mm": 0,
+  "notes": "CO2 50/60 W or 30 W fiber; limited availability; Epilog driver only.",
+  "url": "https://www.epiloglaser.com/laser-machines/fusion-edge-laser-cutter-engraver/"
+ },
+ {
+  "brand": "Epilog",
+  "model": "Fusion Edge 24",
+  "kind": "other",
+  "source": "co2",
+  "watts": 60,
+  "bed": [
+   610,
+   610
+  ],
+  "home": "",
+  "connect": "usb+network",
+  "lens_mm": 0,
+  "notes": "CO2 50/60 W; limited availability; Epilog driver only.",
+  "url": "https://www.epiloglaser.com/laser-machines/fusion-edge-laser-cutter-engraver/"
+ },
+ {
+  "brand": "Epilog",
+  "model": "Fusion Edge 36",
+  "kind": "other",
+  "source": "co2",
+  "watts": 80,
+  "bed": [
+   914,
+   610
+  ],
+  "home": "",
+  "connect": "usb+network",
+  "lens_mm": 0,
+  "notes": "CO2 60/80/100 W; limited availability; Epilog driver only.",
+  "url": "https://www.epiloglaser.com/laser-machines/fusion-edge-laser-cutter-engraver/"
+ },
+ {
+  "brand": "Epilog",
+  "model": "Fusion Ascent 12",
+  "kind": "other",
+  "source": "co2",
+  "watts": 60,
+  "bed": [
+   610,
+   305
+  ],
+  "home": "",
+  "connect": "usb+network",
+  "lens_mm": 0,
+  "notes": "CO2 30/40/60 W, 30 W MOPA option; Epilog driver only.",
+  "url": "https://www.epiloglaser.com/laser-machines/epilog-fusion-ascent-business-laser-engravers-and-cutters/"
+ },
+ {
+  "brand": "Epilog",
+  "model": "Fusion Ascent 24",
+  "kind": "other",
+  "source": "co2",
+  "watts": 60,
+  "bed": [
+   610,
+   610
+  ],
+  "home": "",
+  "connect": "usb+network",
+  "lens_mm": 0,
+  "notes": "CO2 40/60/80 W, 60 W MOPA option; Epilog driver only.",
+  "url": "https://www.epiloglaser.com/laser-machines/epilog-fusion-ascent-business-laser-engravers-and-cutters/"
+ },
+ {
+  "brand": "Epilog",
+  "model": "Fusion Ascent 36",
+  "kind": "other",
+  "source": "co2",
+  "watts": 60,
+  "bed": [
+   914,
+   610
+  ],
+  "home": "",
+  "connect": "usb+network",
+  "lens_mm": 0,
+  "notes": "CO2 40/60/80 W; Epilog driver only.",
+  "url": "https://www.epiloglaser.com/laser-machines/epilog-fusion-ascent-business-laser-engravers-and-cutters/"
+ },
+ {
+  "brand": "Epilog",
+  "model": "Fusion Galvo G100",
+  "kind": "other",
+  "source": "mopa",
+  "watts": 60,
+  "bed": [
+   152,
+   152
+  ],
+  "home": "",
+  "connect": "usb+network",
+  "lens_mm": 152,
+  "notes": "MOPA galvo 30/60/100 W; F254 152 mm field and F163 101 mm field lenses included; Epilog software only.",
+  "url": "https://www.epiloglaser.com/laser-machines/fusion-galvo-metal-marking-machine/"
+ },
+ {
+  "brand": "Trotec",
+  "model": "Speedy 100",
+  "kind": "other",
+  "source": "co2",
+  "watts": 60,
+  "bed": [
+   610,
+   305
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 0,
+  "notes": "CO2 30-80 W; Ruby / JobControl only.",
+  "url": "https://www.troteclaser.com/en/laser-machines/laser-engraver/speedy-100"
+ },
+ {
+  "brand": "Trotec",
+  "model": "Speedy 300",
+  "kind": "other",
+  "source": "co2",
+  "watts": 80,
+  "bed": [
+   726,
+   432
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 0,
+  "notes": "CO2 50-120 W; flexx adds 30 W fiber; Ruby / JobControl only.",
+  "url": "https://www.troteclaser.com/en/laser-machines/laser-engraver/speedy-300"
+ },
+ {
+  "brand": "Trotec",
+  "model": "Speedy 360 Black Line",
+  "kind": "other",
+  "source": "co2",
+  "watts": 100,
+  "bed": [
+   936,
+   624
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 0,
+  "notes": "CO2 80-120 W, 50 W fiber option; older Speedy 360 was 813x508; Ruby only.",
+  "url": "https://www.troteclaser.com/en-us/laser-machines/laser-engravers-speedy-series"
+ },
+ {
+  "brand": "Trotec",
+  "model": "Speedy 480 Black Line",
+  "kind": "other",
+  "source": "co2",
+  "watts": 100,
+  "bed": [
+   1248,
+   624
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 0,
+  "notes": "CO2 80-120 W, 50 W fiber option; Ruby only.",
+  "url": "https://www.troteclaser.com/en-us/laser-machines/laser-engravers-speedy-series"
+ },
+ {
+  "brand": "Trotec",
+  "model": "Speedy 400",
+  "kind": "other",
+  "source": "co2",
+  "watts": 100,
+  "bed": [
+   1000,
+   610
+  ],
+  "home": "",
+  "connect": "network",
+  "lens_mm": 0,
+  "notes": "CO2 up to 120 W (datasheet: 60-120 W, Ethernet + optional Wi-Fi, 1016x610 max); JobControl only.",
+  "url": "https://www.troteclaser.com/fileadmin/content/images/News/EN_GB/UK_Laser_Brochure-Rev2.pdf"
+ },
+ {
+  "brand": "Trotec",
+  "model": "Rayjet",
+  "kind": "other",
+  "source": "co2",
+  "watts": 30,
+  "bed": [
+   457,
+   305
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 0,
+  "notes": "30 or 50 W CO2 (Rayjet 50 = 50 W); Rayjet Commander only.",
+  "url": "https://www.troteclaser.com/fileadmin/content/images/News/EN_GB/UK_Laser_Brochure-Rev2.pdf"
+ },
+ {
+  "brand": "OMTech",
+  "model": "K40+ (generic K40 40 W class)",
+  "kind": "k40",
+  "source": "co2",
+  "watts": 45,
+  "bed": [
+   300,
+   200
+  ],
+  "home": "rear-left",
+  "connect": "usb",
+  "lens_mm": 0,
+  "notes": "Sold as K40 40-45 W; stock M2 Nano board (LaserDRW / CorelLaser); GRBL after a board swap.",
+  "url": "https://omtech.com/products/40w-co2-laser-engraver-cutter-usb-032b-us"
+ },
+ {
+  "brand": "xTool",
+  "model": "D1",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 10,
+  "bed": [
+   432,
+   406
+  ],
+  "home": "",
+  "connect": "wifi+usb",
+  "lens_mm": 0,
+  "notes": "5W or 10W (5W = 5.5W actual output); GRBL-compatible, LightBurn as GRBL; offline mode",
+  "url": "https://support.xtool.com/article/428"
+ },
+ {
+  "brand": "xTool",
+  "model": "D1 Pro 5W",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 5,
+  "bed": [
+   430,
+   400
+  ],
+  "home": "",
+  "connect": "wifi+usb",
+  "lens_mm": 0,
+  "notes": "area per xTool UK listing for the 5W set-up; modules 5/10/20/40W and 2W IR swap; 10W/20W area not published separately",
+  "url": "https://uk.xtool.com/collections/machine/products/d1-pro-5w-laser-machine-40w-laser-module"
+ },
+ {
+  "brand": "xTool",
+  "model": "D1 Pro 40W",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 40,
+  "bed": [
+   430,
+   390
+  ],
+  "home": "",
+  "connect": "wifi+usb",
+  "lens_mm": 0,
+  "notes": "40W octa-diode module (8 x 5.5W), own mainboard; 909x430 with extension kit",
+  "url": "https://uk.xtool.com/collections/machine/products/d1-pro-5w-laser-machine-40w-laser-module"
+ },
+ {
+  "brand": "xTool",
+  "model": "S1 20W",
+  "kind": "xtool",
+  "source": "diode",
+  "watts": 20,
+  "bed": [
+   498,
+   330
+  ],
+  "home": "rear-left",
+  "connect": "wifi+usb",
+  "lens_mm": 0,
+  "notes": "xTool protocol; LightBurn supported via xTool device profile over USB (basic features); IR module option GBurn: Controller › xTool S1 over USB (LightBurn's xTool commands; not yet tried on a machine). Close xTool Studio first: it holds the port.",
+  "url": "https://support.xtool.com/article/1164"
+ },
+ {
+  "brand": "xTool",
+  "model": "S1 40W",
+  "kind": "xtool",
+  "source": "diode",
+  "watts": 40,
+  "bed": [
+   498,
+   319
+  ],
+  "home": "rear-left",
+  "connect": "wifi+usb",
+  "lens_mm": 0,
+  "notes": "xTool protocol; LightBurn supported via device profile over USB (basic features) GBurn: Controller › xTool S1 over USB (LightBurn's xTool commands; not yet tried on a machine). Close xTool Studio first: it holds the port.",
+  "url": "https://support.xtool.com/article/1164"
+ },
+ {
+  "brand": "xTool",
+  "model": "F1",
+  "kind": "xtool_f1",
+  "source": "diode",
+  "watts": 10,
+  "bed": [
+   115,
+   115
+  ],
+  "home": "rear-left",
+  "connect": "wifi+usb",
+  "lens_mm": 0,
+  "notes": "galvo, not EZCAD; 10W diode + 2W 1064nm IR (one at a time); LightBurn supported. GBurn drives it over USB network (TCP 8780) only on firmware before 40.51.020.04; newer firmware closed that port. Untested",
+  "url": "https://support.xtool.com/article/12"
+ },
+ {
+  "brand": "xTool",
+  "model": "F1 Ultra",
+  "kind": "other",
+  "source": "fiber",
+  "watts": 20,
+  "bed": [
+   220,
+   220
+  ],
+  "home": "",
+  "connect": "wifi+usb",
+  "lens_mm": 0,
+  "notes": "galvo, not EZCAD; 20W fiber + 20W diode; also IP connection; 220x500 with conveyor; LightBurn guide exists",
+  "url": "https://support.xtool.com/article/3036"
+ },
+ {
+  "brand": "xTool",
+  "model": "F2",
+  "kind": "other",
+  "source": "diode",
+  "watts": 15,
+  "bed": [
+   115,
+   115
+  ],
+  "home": "",
+  "connect": "wifi+usb",
+  "lens_mm": 0,
+  "notes": "portable galvo; 15W diode + 5W 1064nm IR; 115x400 with slide extension",
+  "url": "https://support.xtool.com/article/2818"
+ },
+ {
+  "brand": "xTool",
+  "model": "F2 Ultra (dual)",
+  "kind": "other",
+  "source": "mopa",
+  "watts": 60,
+  "bed": [
+   220,
+   220
+  ],
+  "home": "",
+  "connect": "wifi+usb",
+  "lens_mm": 0,
+  "notes": "galvo, not EZCAD; 60W MOPA (2-500 ns, 30-4000 kHz) + 40W diode; single-laser model = MOPA only; also IP; LightBurn not confirmed",
+  "url": "https://support.xtool.com/article/1961"
+ },
+ {
+  "brand": "xTool",
+  "model": "F2 Ultra UV",
+  "kind": "other",
+  "source": "uv",
+  "watts": 5,
+  "bed": [
+   200,
+   200
+  ],
+  "home": "",
+  "connect": "wifi+usb",
+  "lens_mm": 0,
+  "notes": "galvo, 355nm, 5W; inner engraving 70x70; LightBurn 2.2.0+ supported",
+  "url": "https://support.xtool.com/article/2359"
+ },
+ {
+  "brand": "xTool",
+  "model": "P2 / P2S",
+  "kind": "other",
+  "source": "co2",
+  "watts": 55,
+  "bed": [
+   600,
+   305
+  ],
+  "home": "",
+  "connect": "wifi+usb",
+  "lens_mm": 0,
+  "notes": "55W CO2 glass tube; also Ethernet; LightBurn supported (xTool guides for P2/P2S); 556x280 with honeycomb",
+  "url": "https://support.xtool.com/article/86"
+ },
+ {
+  "brand": "xTool",
+  "model": "P3",
+  "kind": "other",
+  "source": "co2",
+  "watts": 80,
+  "bed": [
+   915,
+   458
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 0,
+  "notes": "80W CO2; 1200 mm/s; 5W IR module option (650x426); connection not stated on source page",
+  "url": "https://support.xtool.com/article/2004"
+ },
+ {
+  "brand": "xTool",
+  "model": "M1",
+  "kind": "xtool_m1",
+  "source": "diode",
+  "watts": 10,
+  "bed": [
+   385,
+   300
+  ],
+  "home": "rear-left",
+  "connect": "wifi+usb",
+  "lens_mm": 0,
+  "notes": "5W or 10W; laser + blade cutter; LightBurn not mentioned by xTool. GBurn sends laser jobs over its USB network on firmware before 40.18 (start with the M1's button); no blade. Untested",
+  "url": "https://support.xtool.com/article/1912"
+ },
+ {
+  "brand": "xTool",
+  "model": "M1 Ultra",
+  "kind": "other",
+  "source": "diode",
+  "watts": 20,
+  "bed": [
+   300,
+   300
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 0,
+  "notes": "10W or 20W 455nm; laser/blade/inkjet; LightBurn not mentioned",
+  "url": "https://support.xtool.com/article/1396"
+ },
+ {
+  "brand": "xTool",
+  "model": "M2 10W/20W",
+  "kind": "other",
+  "source": "diode",
+  "watts": 20,
+  "bed": [
+   426,
+   320
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 0,
+  "notes": "10W or 20W module; 3W IR module option; LightBurn not mentioned",
+  "url": "https://support.xtool.com/article/3324"
+ },
+ {
+  "brand": "xTool",
+  "model": "M2 40W",
+  "kind": "other",
+  "source": "diode",
+  "watts": 40,
+  "bed": [
+   426,
+   312
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 0,
+  "notes": "40W module",
+  "url": "https://support.xtool.com/article/3324"
+ },
+ {
+  "brand": "Atomstack",
+  "model": "A10 Pro V2",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 10,
+  "bed": [
+   410,
+   380
+  ],
+  "home": "",
+  "connect": "wifi+usb",
+  "lens_mm": 0,
+  "notes": "optical output 10W (50W input); LightBurn, LaserGRBL",
+  "url": "https://atomstack.com/products/atomstack-a10-pro-v2-laser-engraver"
+ },
+ {
+  "brand": "Atomstack",
+  "model": "A24 Pro",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 24,
+  "bed": [
+   365,
+   305
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 0,
+  "notes": "module output 20-24W; maker pages also show 360x280 (conflict); 800x365 with R5 conveyor",
+  "url": "https://atomstack.com/products/atomstack-a24-pro"
+ },
+ {
+  "brand": "Atomstack",
+  "model": "A40 Pro V2",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 48,
+  "bed": [
+   385,
+   400
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 0,
+  "notes": "switchable 48W/24W; extension to 385x850",
+  "url": "https://atomstack.com/products/atomstack-a40-pro-v2-laser-engraver-with-f60-air-assist-kit"
+ },
+ {
+  "brand": "Atomstack",
+  "model": "A70 Max",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 70,
+  "bed": [
+   850,
+   800
+  ],
+  "home": "",
+  "connect": "wifi+usb",
+  "lens_mm": 0,
+  "notes": "switchable 70W/35W; touch screen; Type-C + mobile WiFi",
+  "url": "https://atomstack.com/products/atomstack-a70-max"
+ },
+ {
+  "brand": "Atomstack",
+  "model": "X70 Max",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 70,
+  "bed": [
+   850,
+   800
+  ],
+  "home": "",
+  "connect": "wifi+usb",
+  "lens_mm": 0,
+  "notes": "output 70-77W / 35-39W optical; LaserGRBL, LightBurn",
+  "url": "https://atomstack.com/products/atomstack-x70-max-360w-laser-engraver"
+ },
+ {
+  "brand": "Atomstack",
+  "model": "X40 Max",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 48,
+  "bed": [
+   800,
+   400
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 0,
+  "notes": "switchable 24W/48W optical (8 x 6W); EU only; LightBurn M7 air",
+  "url": "https://atomstack.com/products/atomstack-x40-max-210w-professional-grade-laser-engraving-and-cutting-machine"
+ },
+ {
+  "brand": "Atomstack",
+  "model": "X12 Pro",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 12,
+  "bed": [
+   365,
+   305
+  ],
+  "home": "",
+  "connect": "usb",
+  "lens_mm": 0,
+  "notes": "optical 10-12W; USB + app; LaserGRBL, LightBurn",
+  "url": "https://atomstack.com/products/atomstack-x12-pro"
+ },
+ {
+  "brand": "Atomstack",
+  "model": "Swift",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 12,
+  "bed": [
+   300,
+   300
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 0,
+  "notes": "switchable 7W/12W; entry level",
+  "url": "https://atomstack.com/products/atomstack-swift-laser-engraver"
+ },
+ {
+  "brand": "Ortur",
+  "model": "Laser Master 2 Pro S2",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 10,
+  "bed": [
+   400,
+   400
+  ],
+  "home": "",
+  "connect": "usb",
+  "lens_mm": 0,
+  "notes": "Ortur firmware, GRBL-based; 1.3W IR variant; LightBurn, LaserGRBL",
+  "url": "https://ortur.net/products/ortur-laser-master-2-pro-s2"
+ },
+ {
+  "brand": "Ortur",
+  "model": "Laser Master 3 10W",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 10,
+  "bed": [
+   400,
+   400
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 0,
+  "notes": "Ortur firmware, GRBL-based; 400x850 extension",
+  "url": "https://ortur.net/products/ortur-laser-master-3-engraver-cutter-machine"
+ },
+ {
+  "brand": "Ortur",
+  "model": "Laser Master 3 20W/40W",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 20,
+  "bed": [
+   400,
+   380
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 0,
+  "notes": "Ortur firmware, GRBL-based; 20W or 40W module",
+  "url": "https://ortur.net/products/ortur-laser-master-3-engraver-cutter-machine"
+ },
+ {
+  "brand": "Ortur",
+  "model": "Laser Master 3 LE",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 5,
+  "bed": [
+   400,
+   400
+  ],
+  "home": "",
+  "connect": "wifi+usb",
+  "lens_mm": 0,
+  "notes": "Ortur firmware, GRBL-based; output 5.0-6.5W",
+  "url": "https://ortur.net/products/ortur-laser-master-3-lite"
+ },
+ {
+  "brand": "Ortur",
+  "model": "Laser Master H10",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 20,
+  "bed": [
+   400,
+   400
+  ],
+  "home": "",
+  "connect": "usb",
+  "lens_mm": 0,
+  "notes": "Ortur firmware, GRBL-based; optical 20-24W; 400x850 extension",
+  "url": "https://ortur.net/products/ortur-h10-engraver-cutter-machine"
+ },
+ {
+  "brand": "Ortur",
+  "model": "H20 10W/20W",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 20,
+  "bed": [
+   420,
+   300
+  ],
+  "home": "",
+  "connect": "wifi+usb",
+  "lens_mm": 0,
+  "notes": "Ortur firmware, GRBL-based; enclosed; 2W IR = 420x275; LightBurn, LaserGRBL",
+  "url": "https://ortur.net/products/ortur-h20-laser-engraver-cutter-machine"
+ },
+ {
+  "brand": "Ortur",
+  "model": "H20 40W",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 40,
+  "bed": [
+   410,
+   275
+  ],
+  "home": "",
+  "connect": "wifi+usb",
+  "lens_mm": 0,
+  "notes": "Ortur firmware, GRBL-based; enclosed",
+  "url": "https://ortur.net/products/ortur-h20-laser-engraver-cutter-machine"
+ },
+ {
+  "brand": "Ortur",
+  "model": "F10 Conveyor",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 20,
+  "bed": [
+   400,
+   3000
+  ],
+  "home": "",
+  "connect": "wifi+usb",
+  "lens_mm": 0,
+  "notes": "Ortur firmware, GRBL-based; 10/20/40W; conveyor bed",
+  "url": "https://ortur.net/products/ortur-f10-conveyor-laser-engraver-cutter"
+ },
+ {
+  "brand": "Ortur",
+  "model": "Aufero Laser 1 (AL1)",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 1.6,
+  "bed": [
+   180,
+   180
+  ],
+  "home": "",
+  "connect": "usb",
+  "lens_mm": 0,
+  "notes": "Aufero firmware, GRBL-based; LU2-2 luminous 1-1.6W (7W electrical); 5W variant sold",
+  "url": "https://ortur.net/products/aufero-laser1-best-portable-laser-engraver"
+ },
+ {
+  "brand": "Sculpfun",
+  "model": "S9 Pro",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 10,
+  "bed": [
+   400,
+   410
+  ],
+  "home": "",
+  "connect": "usb",
+  "lens_mm": 0,
+  "notes": "Maker page says up to 10W (S10 page calls S9 half of S10's 10W). LightBurn / LaserGRBL (GRBL).",
+  "url": "https://sculpfun.com/products/sculpfun-s9-pro-10w-laser-engraving-machine"
+ },
+ {
+  "brand": "Sculpfun",
+  "model": "S10",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 10,
+  "bed": [
+   400,
+   390
+  ],
+  "home": "",
+  "connect": "usb",
+  "lens_mm": 0,
+  "notes": "10W optical. Y axis expandable. LightBurn / LaserGRBL (GRBL).",
+  "url": "https://sculpfun.com/products/sculpfun-s10-10w-laser-engraver-machine-lightburn-core-license-key"
+ },
+ {
+  "brand": "Sculpfun",
+  "model": "S30",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 5,
+  "bed": [
+   380,
+   385
+  ],
+  "home": "",
+  "connect": "usb",
+  "lens_mm": 0,
+  "notes": "5W optical; USB or Bluetooth. Air assist via M8. LightBurn / LaserGRBL (GRBL).",
+  "url": "https://sculpfun.com/products/sculpfun-s30-5w-laser-engraving-machine-with-automatic-air-assist-lightburn-core-license-key"
+ },
+ {
+  "brand": "Sculpfun",
+  "model": "S30 Pro",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 10,
+  "bed": [
+   380,
+   385
+  ],
+  "home": "",
+  "connect": "usb",
+  "lens_mm": 0,
+  "notes": "10W optical; USB or Bluetooth. Air assist via M8. LightBurn / LaserGRBL (GRBL).",
+  "url": "https://sculpfun.com/products/sculpfun-s30-pro-10w-laser-engraving-machine-with-automatic-air-assist-lightburn-core-license-key"
+ },
+ {
+  "brand": "Sculpfun",
+  "model": "S30 Pro Max",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 20,
+  "bed": [
+   370,
+   360
+  ],
+  "home": "",
+  "connect": "usb",
+  "lens_mm": 0,
+  "notes": "20W optical; USB or Bluetooth. Air assist via M8. LightBurn / LaserGRBL (GRBL).",
+  "url": "https://sculpfun.com/products/sculpfun-s30-pro-max-20w-laser-engraving-and-cutting-machine-lightburn-core-license-key"
+ },
+ {
+  "brand": "Sculpfun",
+  "model": "S30 Ultra",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 33,
+  "bed": [
+   590,
+   595
+  ],
+  "home": "",
+  "connect": "usb",
+  "lens_mm": 0,
+  "notes": "11W / 22W / 33W optical variants; USB or Bluetooth. LightBurn / LaserGRBL (GRBL).",
+  "url": "https://sculpfun.com/products/sculpfun-s30-ultra-33w-laser-engraving-and-cutting-machine-lightburn-core-license-key"
+ },
+ {
+  "brand": "Sculpfun",
+  "model": "SF-A9",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 40,
+  "bed": [
+   400,
+   400
+  ],
+  "home": "",
+  "connect": "wifi+usb",
+  "lens_mm": 0,
+  "notes": "20W / 40W variants; Wi-Fi, USB, Bluetooth. LightBurn / LaserGRBL (GRBL).",
+  "url": "https://sculpfun.com/products/sculpfun-sf-a9-40w-laser-engraver-and-cutting-machine-lightburn-core-license-key"
+ },
+ {
+  "brand": "Sculpfun",
+  "model": "S40 Max",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 48,
+  "bed": [
+   830,
+   800
+  ],
+  "home": "",
+  "connect": "wifi+usb",
+  "lens_mm": 0,
+  "notes": "48W diode, light output about 44-48W. Wi-Fi via TS1 screen. LightBurn / LaserGRBL (GRBL), Z offset.",
+  "url": "https://sculpfun.com/products/sculpfun-s40-max-48w-laser-engraver-cutting-machine-830-800mm-engraving-area-one-click-auto-focus"
+ },
+ {
+  "brand": "Sculpfun",
+  "model": "S70 Max",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 70,
+  "bed": [
+   830,
+   800
+  ],
+  "home": "",
+  "connect": "wifi+usb",
+  "lens_mm": 0,
+  "notes": "Up to 70W. Wi-Fi via TS1 screen. LightBurn / LaserGRBL (GRBL), Z offset.",
+  "url": "https://sculpfun.com/products/sculpfun-s70-max-70w-laser-engraver-and-cutting-machine"
+ },
+ {
+  "brand": "Sculpfun",
+  "model": "iCube Pro Max",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 10,
+  "bed": [
+   120,
+   120
+  ],
+  "home": "",
+  "connect": "usb",
+  "lens_mm": 0,
+  "notes": "3W / 5W / 10W variants (iCube, iCube Pro, Pro Max). Phone app or computer. LightBurn (GRBL).",
+  "url": "https://sculpfun.com/products/sculpfun-icube-pro-max-10w-portable-laser-engraving-machine-lightburn-core-license-key"
+ },
+ {
+  "brand": "Sculpfun",
+  "model": "iCube Ultra",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 12,
+  "bed": [
+   150,
+   150
+  ],
+  "home": "",
+  "connect": "usb",
+  "lens_mm": 0,
+  "notes": "12W diode; dual version adds 1.2W IR at 150x135mm. USB / Bluetooth. LightBurn / LaserGRBL (GRBL).",
+  "url": "https://sculpfun.com/products/icube-ultra-portable-laser-engraving-machine"
+ },
+ {
+  "brand": "Creality",
+  "model": "Falcon CR-Laser 5W",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 5,
+  "bed": [
+   400,
+   415
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 0,
+  "notes": "5W optical. LightBurn / LaserGRBL (GRBL).",
+  "url": "https://www.crealityfalcon.com/products/low-wattage-laser-engraver-cutter-cr-falcon-5w"
+ },
+ {
+  "brand": "Creality",
+  "model": "Falcon CR-Laser 10W",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 10,
+  "bed": [
+   400,
+   415
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 0,
+  "notes": "10W optical. LightBurn / LaserGRBL (GRBL).",
+  "url": "https://www.crealityfalcon.com/products/low-wattage-laser-engraver-cutter-cr-falcon-10w-machine"
+ },
+ {
+  "brand": "Creality",
+  "model": "Falcon2 40W",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 40,
+  "bed": [
+   400,
+   415
+  ],
+  "home": "",
+  "connect": "usb",
+  "lens_mm": 0,
+  "notes": "40W optical (22W version on the same frame). Type-C + TF card. LightBurn / LaserGRBL (GRBL).",
+  "url": "https://www.crealityfalcon.com/products/laser-engraver-cutter-falcon2-40w-engraving-machine"
+ },
+ {
+  "brand": "Creality",
+  "model": "Falcon2 Pro 22W/40W",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 40,
+  "bed": [
+   400,
+   415
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 0,
+  "notes": "Enclosed; 22W or 40W (+1.6W IR on 40W). LightBurn / LaserGRBL (GRBL).",
+  "url": "https://www.crealityfalcon.com/products/falcon-2-pro-40w-enclosed-laser-engraver-and-cutter"
+ },
+ {
+  "brand": "Creality",
+  "model": "Falcon2 Pro 60W",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 60,
+  "bed": [
+   400,
+   400
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 0,
+  "notes": "Enclosed; 60W + 1.6W IR. LightBurn / LaserGRBL (GRBL).",
+  "url": "https://www.crealityfalcon.com/products/falcon-2-pro-40w-enclosed-laser-engraver-and-cutter"
+ },
+ {
+  "brand": "Creality",
+  "model": "Falcon A1",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 10,
+  "bed": [
+   305,
+   381
+  ],
+  "home": "",
+  "connect": "usb",
+  "lens_mm": 0,
+  "notes": "Enclosed, camera; 10W optical, 120W electrical. LightBurn device file / LaserGRBL (GRBL).",
+  "url": "https://www.crealityfalcon.com/products/falcon-a1-10w-enclosed-laser-engraver-and-cutter"
+ },
+ {
+  "brand": "Creality",
+  "model": "Falcon A1 Pro",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 20,
+  "bed": [
+   268,
+   358
+  ],
+  "home": "",
+  "connect": "usb",
+  "lens_mm": 0,
+  "notes": "Enclosed; 20W diode + optional 2W IR (1064nm). LightBurn / LaserGRBL (GRBL).",
+  "url": "https://www.crealityfalcon.com/products/falcon-a1-pro-20w-dual-laser-engraver"
+ },
+ {
+  "brand": "Creality",
+  "model": "Falcon A1C",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 10,
+  "bed": [
+   150,
+   150
+  ],
+  "home": "",
+  "connect": "wifi+usb",
+  "lens_mm": 0,
+  "notes": "Interchangeable 5W / 10W diode and 1.2W IR modules; Wi-Fi, Bluetooth, USB. 148mm height.",
+  "url": "https://www.crealityfalcon.com/products/creality-falcon-a1c-laser-engraver"
+ },
+ {
+  "brand": "Two Trees",
+  "model": "TTS-55 Pro",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 5.5,
+  "bed": [
+   300,
+   300
+  ],
+  "home": "",
+  "connect": "wifi+usb",
+  "lens_mm": 0,
+  "notes": "5.5W; ESP32 Wi-Fi, TF card, app. LightBurn / LaserGRBL (GRBL).",
+  "url": "https://twotrees3d.com/products/tts-55-pro-tts-10-pro-diode-laser-engraver-twotrees"
+ },
+ {
+  "brand": "Two Trees",
+  "model": "TTS-10 Pro",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 10,
+  "bed": [
+   300,
+   300
+  ],
+  "home": "",
+  "connect": "wifi+usb",
+  "lens_mm": 0,
+  "notes": "10W; ESP32 Wi-Fi, TF card, app. LightBurn / LaserGRBL (GRBL).",
+  "url": "https://twotrees3d.com/products/tts-55-pro-tts-10-pro-diode-laser-engraver-twotrees"
+ },
+ {
+  "brand": "Two Trees",
+  "model": "TTS-20 Pro",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 20,
+  "bed": [
+   418,
+   418
+  ],
+  "home": "",
+  "connect": "wifi+usb",
+  "lens_mm": 0,
+  "notes": "20W (20000mW). LightBurn / LaserGRBL (GRBL).",
+  "url": "https://twotrees3d.com/products/tts-20-20w-laser-engraver-machine"
+ },
+ {
+  "brand": "Two Trees",
+  "model": "TS2 20W",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 20,
+  "bed": [
+   450,
+   410
+  ],
+  "home": "",
+  "connect": "wifi+usb",
+  "lens_mm": 0,
+  "notes": "20W; ESP32 Wi-Fi, TF card, app. LightBurn / LaserGRBL (GRBL).",
+  "url": "https://twotrees3d.com/products/twotrees-ts2-20w-max-laser-engraver"
+ },
+ {
+  "brand": "Two Trees",
+  "model": "TS2 20W Max",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 20,
+  "bed": [
+   450,
+   900
+  ],
+  "home": "",
+  "connect": "wifi+usb",
+  "lens_mm": 0,
+  "notes": "Long Y version of TS2 20W. LightBurn / LaserGRBL (GRBL).",
+  "url": "https://twotrees3d.com/products/twotrees-ts2-20w-max-laser-engraver"
+ },
+ {
+  "brand": "Two Trees",
+  "model": "TS2 40W",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 40,
+  "bed": [
+   450,
+   410
+  ],
+  "home": "",
+  "connect": "wifi+usb",
+  "lens_mm": 0,
+  "notes": "20W/40W power switch; 450x900 on the Max version. LightBurn / LaserGRBL (GRBL).",
+  "url": "https://twotrees3d.com/products/twotrees-ts2-40w-laser-engraver"
+ },
+ {
+  "brand": "Two Trees",
+  "model": "TS5",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 7,
+  "bed": [
+   249,
+   123
+  ],
+  "home": "",
+  "connect": "wifi+usb",
+  "lens_mm": 0,
+  "notes": "Enclosed 7W; Wi-Fi, USB, TF card; 123mm height. LightBurn / LaserGRBL (GRBL).",
+  "url": "https://twotrees3d.com/products/twotrees-ts5-7w-laser-engraver"
+ },
+ {
+  "brand": "Longer",
+  "model": "Ray5 5W/10W",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 10,
+  "bed": [
+   400,
+   400
+  ],
+  "home": "",
+  "connect": "wifi+usb",
+  "lens_mm": 0,
+  "notes": "5W / 10W modules; no limit switches as sold. LightBurn / LaserGRBL / LaserBurn (GRBL, CH340).",
+  "url": "https://www.longer3d.com/products/longer-ray5-laser-engraver-5w-10w-20w"
+ },
+ {
+  "brand": "Longer",
+  "model": "Ray5 20W",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 20,
+  "bed": [
+   400,
+   365
+  ],
+  "home": "",
+  "connect": "wifi+usb",
+  "lens_mm": 0,
+  "notes": "20W module. LightBurn / LaserGRBL / LaserBurn (GRBL, CH340).",
+  "url": "https://www.longer3d.com/products/longer-ray5-laser-engraver-5w-10w-20w"
+ },
+ {
+  "brand": "Longer",
+  "model": "Ray5 40W",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 44,
+  "bed": [
+   385,
+   385
+  ],
+  "home": "",
+  "connect": "wifi+usb",
+  "lens_mm": 0,
+  "notes": "Optical output 44-48W; USB, SD card, Wi-Fi; limit switches + homing. LightBurn / LaserGRBL (GRBL).",
+  "url": "https://www.longer3d.com/products/longer-ray5-40w-laser-engraver"
+ },
+ {
+  "brand": "Longer",
+  "model": "Ray5 mini",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 5.5,
+  "bed": [
+   130,
+   140
+  ],
+  "home": "",
+  "connect": "wifi+usb",
+  "lens_mm": 0,
+  "notes": "2.5W / 3.5W / 5.5W variants; X/Y limit switches. LightBurn / LaserGRBL (GRBL).",
+  "url": "https://www.longer3d.com/products/longer-ray5-mini-laser-engraver"
+ },
+ {
+  "brand": "Longer",
+  "model": "B1",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 40,
+  "bed": [
+   450,
+   440
+  ],
+  "home": "",
+  "connect": "usb",
+  "lens_mm": 0,
+  "notes": "20W / 30W / 40W variants (40W listed as 44-48W output). LightBurn / LaserGRBL (GRBL, CH340).",
+  "url": "https://www.longer3d.com/products/longer-laser-b1-40w-44-48w-output-power"
+ },
+ {
+  "brand": "Longer",
+  "model": "Nano / Nano Pro",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 12,
+  "bed": [
+   100,
+   100
+  ],
+  "home": "",
+  "connect": "wifi+usb",
+  "lens_mm": 0,
+  "notes": "Nano 6W / Nano Pro 12W; 100x300 with slide extension. Wi-Fi AP / STA. LightBurn / LaserGRBL (GRBL).",
+  "url": "https://www.longer3d.com/products/longer-nano-6w-12w-laser-engraving-machine"
+ },
+ {
+  "brand": "NEJE",
+  "model": "Max 4 V2 (E80)",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 24,
+  "bed": [
+   720,
+   450
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 0,
+  "notes": "E80 24W optical (4-FAC). LightBurn GCode licence sold for it (GRBL). Also 24W+4W IR hybrid; 50W E160 version.",
+  "url": "https://neje.shop/products/neje-max-4-e80-laser-engraver-performance-monster-designed-for-fast-cutting-and-engraving-for-large-projects"
+ },
+ {
+  "brand": "NEJE",
+  "model": "NEJE 5 Plus",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 12,
+  "bed": [
+   260,
+   400
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 0,
+  "notes": "A40640 12W module. LightBurn (GRBL) per reviews on page. (Old Master 2S Plus URL now shows this model.)",
+  "url": "https://neje.shop/products/neje-master-2s-plus-with-a40640-dual-laser-beams-laser-engraver-cutter-255-x-420-mm"
+ },
+ {
+  "brand": "NEJE",
+  "model": "NEJE 5",
+  "kind": "grbl",
+  "source": "diode",
+  "watts": 5.5,
+  "bed": [
+   170,
+   170
+  ],
+  "home": "",
+  "connect": "",
+  "lens_mm": 0,
+  "notes": "5.5W portable; Wi-Fi with LightBurn / LaserGRBL or NEJE app. (Old Master 2 Plus URL now shows this model.)",
+  "url": "https://neje.shop/products/neje-master-2-plus-255-x-440-mm-professional-laser-engraving-machine-laser-cutter-lightburn-bluetooth-app-control"
+ }
+]

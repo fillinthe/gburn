@@ -1,0 +1,1176 @@
+# GBurn interface: English	translation
+Before you start	Zanim zaczniesz
+Cancel	Anuluj
+Start	Start
+A job is running: closing stops the laser.	Trwa zadanie: zamknięcie zatrzyma laser.
+Don't save	Nie zapisuj
+Save	Zapisz
+Stop and close	Zatrzymaj i zamknij
+Designs in your account	Projekty na Twoim koncie
+Delete	Usuń
+Open	Otwórz
+Back to the start	Wróć na początek
+Speed	Prędkość
+Lines (by layer colour)	Linie (kolorem warstwy)
+Start here	Start stąd
+Save as a picture…	Zapisz jako obraz…
+Corner radius	Promień narożnika
+File	Plik
+Open Recent	Otwórz ostatnie
+Export	Eksport
+Edit	Edycja
+Select…	Zaznacz…
+Arrange	Rozmieść
+Align	Wyrównaj
+Move to the Bed's…	Przesuń na stole…
+Shapes	Kształty
+Simplify (fewer points)	Uprość (mniej punktów)
+Draw a Shape	Rysuj kształt
+Laser	Laser
+View	Widok
+Help	Pomoc
+GBurn	GBurn
+Save the job as G-code (File › Export has .rd, LightBurn, SVG, DXF)	Zapisz zadanie jako G-code (Plik › Eksport ma .rd, LightBurn, SVG, DXF)
+How Do I…?	Jak to zrobić…?
+Support GBurn: donate (opens gburn.app)	Wesprzyj GBurn: darowizna (otwiera gburn.app)
+Show the side panel	Pokaż panel boczny
+Properties	Właściwości
+Cuts	Cięcia
+Cuts / Layers	Cięcia / Warstwy
+Add a layer	Dodaj warstwę
+Text	Tekst
+Height	Wysokość
+Bold	Pogrubienie
+Offset	Przesunięcie
+Bed	Stół
+Machine Settings: speeds, the controller, the rotary…	Ustawienia maszyny: prędkości, kontroler, obrotnica…
+Machine	Maszyna
+Size	Rozmiar
+Design	Projekt
+Part of the design is off the bed	Część projektu wychodzi poza stół
+Centre the design	Wyśrodkuj projekt
+Fit the view	Dopasuj widok
+0,0 is the bed's front-left corner. With Start from › Bed the design burns where it sits here; the grid follows the zoom.	0,0 to lewy przedni róg stołu. Przy Start od › Stół projekt wypala się tam, gdzie tu leży; siatka podąża za powiększeniem.
++ Sub-layer	+ Podwarstwa
+Remove	Usuń
+Duplicate	Duplikuj
+Copy settings	Kopiuj ustawienia
+Paste	Wklej
+Make default	Ustaw domyślne
+Reset	Resetuj
+Mode	Tryb
+Power	Moc
+Passes	Przejścia
+Frequency	Częstotliwość
+kHz (galvo)	kHz (galwo)
+Pulse width	Szerokość impulsu
+ns (MOPA)	ns (MOPA)
+Own timings	Własne czasy
+Pause	Pauza
+ms	ms
+Repeat all	Powtórz całość
+× with sub-layers	× z podwarstwami
+Z offset	Przesunięcie Z
+mm Z, − down	mm Z, − w dół
+Constant power	Stała moc
+M3 (GRBL)	M3 (GRBL)
+Z per pass	Z na przejście
+mm each pass	mm na przejście
+Kerf offset	Korekta szczeliny
+mm (+ out, − in)	mm (+ na zewn., − do wewn.)
+Tabs	Mostki
+mm	mm
+Tabs on holes	Mostki na otworach
+Inner first	Najpierw wewnętrzne
+Lead-in	Wejście
+arc	łuk
+Lead angle	Kąt wejścia
+° off square	° od prostopadłej
+Overcut	Nadcięcie
+Lead-out	Wyjście
+Cut through	Przebicie
+% while paused	% w czasie pauzy
+Direction	Kierunek
+Wobble	Wobble
+mm Ø, step	mm Ø, krok
+Dot mode	Tryb punktów
+ms, mm	ms, mm
+Perforation	Perforacja
+mm on, off	mm wł., wył.
+Min power	Moc min.
+% in corners	% w narożnikach
+Image mode	Tryb obrazu
+Negative	Negatyw
+Overscan	Overscan
+Auto	Auto
+mm each end	mm na każdym końcu
+Dot width	Szer. punktu
+mm correction	mm korekty
+One way	Jednokierunkowo
+one direction	jeden kierunek
+Pass-through	Bez zmian
+as is	jak jest
+Clean up	Doczyszczanie
+passes at	przejść przy
+Line interval	Odstęp linii
+Turn per pass	Obrót na przejście
+° each pass	° na przejście
+each job	na zadanie
+Fill shapes	Wypełnij kształty
+part by part	kształt po kształcie
+Flood fill	Wypełnienie obszarami
+area by area	obszar po obszarze
+Even lines	Równe linie
+spread to fit	rozłóż równo
+Edge loops	Pętle krawędzi
+gap	odstęp
+Fill inset	Odsunięcie wypełn.
+mm inside	mm do środka
+Cross-hatch	Kratka
+Ramp	Rampa
+mm fade-in	mm narastania
+Scan angle	Kąt skanowania
+Air assist	Nadmuch
+Output	Wyjście
+Show	Pokaż
+Material	Materiał
+Presets…	Ustawienia…
+None saved yet	Nic jeszcze nie zapisano
+Save…	Zapisz…
+Unlink	Odłącz
+Scale	Skala
+% (Enter: about the anchor)	% (Enter: wokół kotwicy)
+Rotate	Obróć
+° (Enter: about the anchor)	° (Enter: wokół kotwicy)
+Skew	Pochyl
+° across	° w poziomie
+° up (Enter)	° w pionie (Enter)
+% of the layer's power	% mocy warstwy
+Cut priority	Priorytet cięcia
+lower burns first	niższy pali się pierwszy
+Sides	Boki
+Star	Gwiazda
+Second star	Druga gwiazda
+Resample to the scan DPI	Przelicz do DPI skanu
+Brightness	Jasność
+Contrast	Kontrast
+Gamma	Gamma
+Sharpen	Wyostrz
+Denoise	Odszumianie
+Halftone	Raster
+mm cell	mm komórka
+As it will burn	Tak, jak się wypali
+Name	Nazwa
+optional	opcjonalnie
+Edit text…	Edytuj tekst…
+Reverse	Odwróć
+Click a point of the selected shape to edit it	Kliknij punkt zaznaczonego kształtu, by go edytować
+Same X	Ten sam X
+Same Y	Ten sam Y
+Delete points	Usuń punkty
+Delete point	Usuń punkt
+Break here	Przerwij tutaj
+Straight	Prosty
+Curve	Krzywa
+Round corner	Zaokrąglij róg
+Sharp corner	Ostry róg
+Next ▸	Dalej ▸
+machine	maszyna
+Find	Znajdź
+Unlock	Odblokuj
+Use it	Użyj
+Door open: the laser won't run until it is closed	Drzwi otwarte: laser nie ruszy, dopóki nie zostaną zamknięte
+Go to…	Idź do…
+Set origin	Ustaw początek
+To origin	Do początku
+Clear origin	Wyczyść początek
+To selection	Do zaznaczenia
+Fire	Strzał
+Spots	Miejsca
++ Save here	+ Zapisz tutaj
+Clear	Wyczyść
+Go to X	Idź do X
+Y	Y
+Go	Idź
+Burn only the selected shapes	Wypal tylko zaznaczone kształty
+Step	Krok
+Hold to move	Przytrzymaj, by jechać
+Arrow keys	Klawisze strzałek
+Console	Konsola
+Start from	Start od
+of the selection	zaznaczenia
+Stop	Stop
+Frame	Obrys
+No laser connected:	Brak podłączonego lasera:
+Connect	Połącz
+Laser tab	Karta Laser
+Welcome to GBurn	Witaj w GBurn
+Design on the left, cut settings on the right, and the laser at the bottom of the panel.	Projekt po lewej, ustawienia cięcia po prawej, a laser na dole panelu.
+Nothing fires until you press Start. Frame traces the outline with the beam off.	Nic nie strzela, dopóki nie naciśniesz Start. Obrys objeżdża kontur z wyłączoną wiązką.
+Got it	Rozumiem
+Restore unsaved work?	Przywrócić niezapisaną pracę?
+Discard	Odrzuć
+Restore	Przywróć
+Words	Słowa
+Font	Czcionka
+Liberation Sans (built in)	Liberation Sans (wbudowana)
+Looking for this computer's fonts…	Szukam czcionek tego komputera…
+Search fonts	Szukaj czcionek
+Font file…	Plik czcionki…
+Spacing	Odstęp
+%  Line gap ×	%  Interlinia ×
+When the words change, keep the	Gdy słowa się zmienią, zachowaj
+Width	Szerokość
+%  Slant	%  Pochylenie
+Fit to	Dopasuj do
+width	szerokość
+whole	całość
+Along the selected shape	Wzdłuż zaznaczonego kształtu
+moved	przesunięty
+inside	wewnątrz
+bend letters	wyginaj litery
+UPPER CASE	WIELKIE LITERY
+Right to left	Od prawej do lewej
+Weld the letters (one outline: script fonts, no double burns where letters overlap)	Zespól litery (jeden kontur: czcionki pisane, bez podwójnego palenia, gdzie litery się nakładają)
+Variable text: {n} = serial, {n:4} padded, {date}, {date:%d/%m/%Y}, {time}. Next number	Tekst zmienny: {n} = numer, {n:4} z zerami, {date}, {date:%d/%m/%Y}, {time}. Następny numer
+step	krok
+After	Po
+start again from	zacznij znów od
+Data file (CSV)…	Plik danych (CSV)…
+Controller Settings	Ustawienia kontrolera
+The Ruida's own settings. Save a backup before changing anything: a wrong value can stop the machine moving properly. Each write is read back.	Własne ustawienia Ruidy. Zapisz kopię przed zmianą czegokolwiek: zła wartość może zakłócić ruch maszyny. Każdy zapis jest odczytywany z powrotem.
+Sure?	Na pewno?
+Write	Zapisz
+Read again	Odczytaj ponownie
+Save a backup	Zapisz kopię
+Controller Files	Pliki kontrolera
+Jobs kept on the Ruida, to run from its panel or from here.	Zadania zapisane w Ruidzie, do uruchomienia z jej panelu lub stąd.
+Reading…	Odczyt…
+No files on the controller	Brak plików w kontrolerze
+Send this design	Wyślij ten projekt
+Refresh	Odśwież
+Controller Info	Info o kontrolerze
+GRBL Settings	Ustawienia GRBL
+Waiting for the controller's $$…	Czekam na $$ kontrolera…
+Written straight to the controller. Note the old value first.	Zapisywane wprost do kontrolera. Najpierw zanotuj starą wartość.
+QR Code / Barcode	Kod QR / kreskowy
+text under	tekst pod
+Narrowest bar	Najwęższa kreska
+Add	Dodaj
+Undo History	Historia cofania
+Click a step to go back to just before it; undone steps (dim) come back the same way.	Kliknij krok, by wrócić tuż przed niego; cofnięte kroki (przygaszone) wracają tak samo.
+● now	● teraz
+Shapes Library	Biblioteka kształtów
+My art	Moje grafiki
+name	nazwa
+Save the selection	Zapisz zaznaczenie
+Add files…	Dodaj pliki…
+Nothing saved yet: select shapes, name them, Save the selection.	Nic jeszcze nie zapisano: zaznacz kształty, nazwij je, Zapisz zaznaczenie.
+Notes	Notatki
+Saved with the design: the material, settings that worked, anything.	Zapisane z projektem: materiał, ustawienia, które zadziałały, cokolwiek.
+Templates	Szablony
+Start a new design from one: its layers, settings and shapes.	Zacznij nowy projekt od szablonu: jego warstw, ustawień i kształtów.
+The coaster (sample)	Podkładka (przykład)
+Save this design	Zapisz ten projekt
+Run a G-code File	Uruchom plik G-code
+Sent as it is: GBurn's start position and Start / End G-code don't apply.	Wysyłany bez zmian: pozycja startowa GBurn i G-code startu / końca nie mają zastosowania.
+Connect a GRBL laser (Laser tab)	Podłącz laser GRBL (karta Laser)
+Camera Overlay	Nakładka z kamery
+Show the overlay	Pokaż nakładkę
+Take a photo	Zrób zdjęcie
+Load a photo…	Wczytaj zdjęcie…
+Click the four points below on the photo, in order (a fifth click starts again). Corners of the bed, or four marks you burnt.	Kliknij na zdjęciu cztery punkty poniżej, po kolei (piąte kliknięcie zaczyna od nowa). Rogi stołu albo cztery wypalone znaczniki.
+No photo yet.	Brak zdjęcia.
+Lens bend	Zniekształcenie obiektywu
+Place on the bed	Umieść na stole
+Forget the marks	Zapomnij znaczniki
+The marks are kept: with the camera in the same place, a new photo goes straight onto the bed.	Znaczniki zostają: przy kamerze w tym samym miejscu nowe zdjęcie trafia prosto na stół.
+Virtual Array	Tablica wirtualna
+Grid	Siatka
+Circle	Okrąg
+Copies	Kopie
+Round X, Y	Wokół X, Y
+centre	środek
+of it	z tego
+Live copies: change or move the original and they follow. They burn as real shapes.	Żywe kopie: zmień lub przesuń oryginał, a one podążą. Wypalają się jak prawdziwe kształty.
+Make the copies real	Zamień kopie na prawdziwe
+Bend / Taper	Wygięcie / Zwężenie
+Bend	Wygięcie
+° of arc, − sags	° łuku, − w dół
+Top width	Szerokość góry
+% of the bottom	% dołu
+Apply to the selection	Zastosuj do zaznaczenia
+Text in an arc, labels for tapered cups. Curves become fine lines.	Tekst na łuku, etykiety na zwężane kubki. Krzywe stają się drobnymi liniami.
+Centre Finder	Wyszukiwanie środka
+Jog the head (red dot) to three points on the edge of a round part, pressing Here at each.	Przesuń głowicę (czerwona kropka) do trzech punktów na krawędzi okrągłego elementu, w każdym naciskając Tutaj.
+Here	Tutaj
+Move the head there	Przesuń tam głowicę
+Set the user origin there	Ustaw tam początek użytkownika
+The three points are in a line: pick points further apart round the edge	Trzy punkty leżą na jednej linii: wybierz punkty dalej od siebie na krawędzi
+Print & Cut	Druk i cięcie
+Two marks printed with the design, near opposite corners, line the cut up with the sheet.	Dwa znaczniki wydrukowane z projektem, przy przeciwnych rogach, dopasowują cięcie do arkusza.
+Use the selection	Użyj zaznaczenia
+Laser is on it	Laser jest na nim
+Scale to the marks (printers stretch a little)	Skaluj do znaczników (drukarki trochę rozciągają)
+Align the design	Wyrównaj projekt
+Polygon / Star	Wielokąt / Gwiazda
+Radius	Promień
+Inner radius %	Promień wewn. %
+Second star %	Druga gwiazda %
+0 = none	0 = brak
+Both ways (out and in)	W obie strony (na zewn. i do wewn.)
+Round corners	Zaokrąglone rogi
+sharp	ostre
+bevel (cut across)	ścięte
+All together (overlaps join up)	Wszystko razem (nakładające się łączą)
+Delete the originals	Usuń oryginały
+Apply	Zastosuj
+Grid Array	Tablica siatki
+Every other row	Co drugi wiersz
+Every other column	Co druga kolumna
+Each copy	Każda kopia
+Variable text counts up	Tekst zmienny liczy w górę
+Make copies	Utwórz kopie
+Resize Slots	Zmień wpusty
+Slots and tabs sized for one material thickness, made right for another (straight, square corners)	Wpusty i czopy zrobione pod jedną grubość materiału, poprawione pod inną (proste, kwadratowe rogi)
+Resize	Zmień rozmiar
+Boolean Assistant	Asystent logiczny
+Each result for the selection (the first picked is “the first”). Click one to keep it.	Każdy wynik dla zaznaczenia („pierwszy” to pierwszy wybrany). Kliknij jeden, by go zachować.
+Nothing: select closed shapes that overlap	Nic: zaznacz zamknięte kształty, które się nakładają
+Speed and power come from the current layer	Prędkość i moc pochodzą z bieżącej warstwy
+Make the test	Utwórz test
+Close and Optimize	Zamknij i optymalizuj
+Close open paths whose ends are within	Zamknij otwarte ścieżki, których końce są w zasięgu
+Close	Zamknij
+Optimize: fewer points, within	Optymalizuj: mniej punktów, w zasięgu
+Optimize	Optymalizuj
+Smooth wavy or jagged outlines (traced pictures) by	Wygładź faliste lub poszarpane kontury (z obrysu obrazu) o
+Smooth	Wygładź
+Bridges	Mostki
+Gaps across the selected shapes, so stencil islands stay attached	Przerwy w zaznaczonych kształtach, by wyspy szablonu zostały przyczepione
+Add bridges	Dodaj mostki
+Circular Array	Tablica kołowa
+Copies go round a point that far below the selection's centre, each turned to face it.	Kopie krążą wokół punktu tak daleko pod środkiem zaznaczenia, każda zwrócona do niego.
+Copy Along Path	Kopiuj wzdłuż ścieżki
+Turn each copy with the path	Obracaj każdą kopię ze ścieżką
+Select the object and the path: the shape with the longest outline is the path. Copies are spread end to end (evenly round a closed path).	Zaznacz obiekt i ścieżkę: kształt z najdłuższym konturem jest ścieżką. Kopie rozkładają się od końca do końca (równo na zamkniętej ścieżce).
+Material Test	Test materiału
+to	do
+Rows	Wiersze
+Columns	Kolumny
+Cell size	Rozmiar komórki
+Make the grid	Utwórz siatkę
+Material Library	Biblioteka materiałów
+Empty. Set a layer up, then Material › Save… in its settings, or import a LightBurn .clb.	Pusto. Ustaw warstwę, potem Materiał › Zapisz… w jej ustawieniach, albo zaimportuj .clb z LightBurn.
+Find a material, thickness or setting…	Znajdź materiał, grubość lub ustawienie…
+Use	Użyj
+Save the current layer…	Zapisz bieżącą warstwę…
+Import .clb…	Importuj .clb…
+Export .clb…	Eksportuj .clb…
+Save to the Material Library	Zapisz w bibliotece materiałów
+Birch plywood	Sklejka brzozowa
+Thickness	Grubość
+mm (empty = any)	mm (puste = dowolna)
+Description	Opis
+through cut	cięcie na wylot
+Trace Picture	Obrysuj obraz
+Outlines of the dark parts of the selected picture, as shapes on a new Line layer.	Kontury ciemnych części zaznaczonego obrazu, jako kształty na nowej warstwie Linia.
+Threshold	Próg
+Automatic	Automatyczny
+Trace the light parts	Obrysuj jasne części
+Centerline	Linia środkowa
+single lines down the strokes	pojedyncze linie wzdłuż pociągnięć
+px (0.5 tight, 2 smooth)	px (0.5 ciasno, 2 gładko)
+Ignore specks under	Pomiń plamki poniżej
+px²	px²
+Trace	Obrysuj
+Machine Settings	Ustawienia maszyny
+Nova 63, Aurora 8…	Nova 63, Aurora 8…
+Save as a new machine	Zapisz jako nową maszynę
+Bed width	Szerokość stołu
+Bed height	Wysokość stołu
+Travel speed	Prędkość przejazdu
+mm/s (beam off)	mm/s (wiązka wył.)
+Acceleration	Przyspieszenie
+mm/s² cut / engrave (time estimate)	mm/s² cięcie / grawer (szacowanie czasu)
+Top speed X / Y	Maks. prędkość X / Y
+mm/s each axis, 0 = no limit (time estimate)	mm/s na oś, 0 = bez limitu (szacowanie czasu)
+Corner slow-down	Zwolnienie w rogach
+mm, GRBL $11, 0 = off (time estimate)	mm, GRBL $11, 0 = wył. (szacowanie czasu)
+Full power S	Pełna moc S
+GRBL network address	Adres sieciowy GRBL
+e.g. 192.168.1.50 or fluidnc.local:23	np. 192.168.1.50 lub fluidnc.local:23
+Ruida address	Adres Ruidy
+Ruida home corner	Róg bazowy Ruidy
+Galvo lens field	Pole soczewki galwo
+Fibre	Światłowód
+CO2	CO2
+Galvo correction	Korekcja galwo
+Pick .cor file…	Wybierz plik .cor…
+Flip X	Odbij X
+Flip Y	Odbij Y
+X per Y	X na Y
+Cylinder	Cylinder
+mirror mm	lustro mm
+curves across X	krzywizna wzdłuż X
+inside (concave)	wewnątrz (wklęsły)
+Galvo speed	Prędkość galwo
+mm/s jumps	mm/s skoki
+Galvo delays	Opóźnienia galwo
+µs	µs
+Baud rate	Szybkość transmisji
+Absolute coordinates	Współrzędne bezwzględne
+Current position	Bieżąca pozycja
+User origin	Początek użytkownika
+Job origin	Początek zadania
+Fire button	Przycisk strzału
+% for ≈ 0.4 s	% przez ≈ 0.4 s
+Rotary on Y	Obrotnica na Y
+A axis	Oś A
+mm/turn, object Ø	mm/obrót, Ø obiektu
+Test	Test
+Taper warp	Korekta zwężenia
+mm Ø left / right: a tapered tumbler	mm Ø lewa / prawa: zwężany kubek
+Scanning offset	Przesunięcie skanu
+e.g. 100:0.05, 300:0.12	np. 100:0.05, 300:0.12
+speed (mm/s) : mm the return lines land off, for GRBL fills and pictures. Engrave a few lines at each speed, measure the step, type it here.	prędkość (mm/s) : o ile mm przesuwają się linie powrotne, dla wypełnień i obrazów GRBL. Wygraweruj kilka linii przy każdej prędkości, zmierz przesunięcie, wpisz tutaj.
+Time estimate ×	Szacowany czas ×
+1.2 = jobs take 20 % longer than estimated	1.2 = zadania trwają o 20 % dłużej niż szacowano
+Cut order	Kolejność cięcia
+shortest travel (holes first)	najkrótszy przejazd (najpierw otwory)
+as drawn	jak narysowano
+finish each group (part) before the next	kończ każdą grupę (część) przed następną
+start shapes at a corner (hides the start mark)	zaczynaj kształty w rogu (ukrywa ślad startu)
+fewer direction changes	mniej zmian kierunku
+hide backlash (every loop the same way round)	ukryj luz (każda pętla w tę samą stronę)
+Shared edges	Wspólne krawędzie
+cut once (remove overlapping lines)	tnij raz (usuń nakładające się linie)
+the box	prostokąt
+the outline (hull)	kontur (otoczka)
+keep framing until Stop	obrysowuj do naciśnięcia Stop
+Job checklist	Lista kontrolna
+one item a line, ticked before every Start (e.g. Air on, Lid closed)	jedna pozycja w linii, odhaczana przed każdym Startem (np. Nadmuch wł., Pokrywa zamknięta)
+% beam while framing (GRBL diodes without a pointer; 0 = off)	% wiązki przy obrysie (diody GRBL bez wskaźnika; 0 = wył.)
+Red-dot pointer	Wskaźnik czerwonej kropki
+X	X
+mm from the beam	mm od wiązki
+Connecting	Łączenie
+home the machine	bazuj maszynę
+After the job	Po zadaniu
+go to X	idź do X
+mm (GRBL)	mm (GRBL)
+Speed unit	Jednostka prędkości
+mm/s	mm/s
+mm/min	mm/min
+Power mode	Tryb mocy
+M4 dynamic	M4 dynamiczny
+M3 constant	M3 stały
+S on every move	S przy każdym ruchu
+Machine 0,0	0,0 maszyny
+Swap X / Y	Zamień X / Y
+Blank moves as G0	Puste ruchy jako G0
+Progress (M73)	Postęp (M73)
+M8	M8
+M7	M7
+Controller	Kontroler
+Transfer	Transmisja
+one line at a time (synchronous)	jedna linia naraz (synchronicznie)
+Start G-code	G-code startu
+before every job, e.g. M7	przed każdym zadaniem, np. M7
+End G-code	G-code końca
+after every job	po każdym zadaniu
+Macros	Makra
+G-code	G-code
++ Macro	+ Makro
+M4 scales power with speed through corners (GRBL laser mode, $32=1). Pick M3 only if your controller has no laser mode.	M4 skaluje moc z prędkością na zakrętach (tryb lasera GRBL, $32=1). Wybierz M3 tylko, gdy kontroler nie ma trybu lasera.
+Current position: jog the head to where the design's job origin should be, then Start. The job's G-code sets that point with G92 and clears it at the end.	Bieżąca pozycja: przesuń głowicę tam, gdzie ma być początek zadania projektu, potem Start. G-code zadania ustawia ten punkt przez G92 i kasuje go na końcu.
+Settings	Ustawienia
+Mouse and trackpad	Mysz i gładzik
+Units	Jednostki
+Guides: drag out of a ruler; drag one back onto the ruler to remove it. They snap.	Prowadnice: przeciągnij z linijki; przeciągnij z powrotem na linijkę, by usunąć. Przyciągają.
+Pick within	Wybór w zasięgu
+px, snap within	px, przyciąganie w zasięgu
+px	px
+Save it…	Zapisz…
+Arrow keys move	Strzałki przesuwają o
+mm (⇧ × 10)	mm (⇧ × 10)
+Machine Settings…	Ustawienia maszyny…
+Keyboard Shortcuts…	Skróty klawiszowe…
+Export / Import…	Eksport / Import…
+Keyboard Shortcuts	Skróty klawiszowe
+Your shortcuts	Twoje skróty
+Find a command…	Znajdź polecenie…
+Type to find a command, then Set and press its key.	Wpisz, by znaleźć polecenie, potem Ustaw i naciśnij klawisz.
+About GBurn	O GBurn
+A sister app of GCarve (gcarve.app) and GSketch (gsketch.app).	Siostrzana aplikacja GCarve (gcarve.app) i GSketch (gsketch.app).
+New	Nowy
+Import (SVG, DXF, PDF, LightBurn, picture)…	Importuj (SVG, DXF, PDF, LightBurn, obraz)…
+Save As…	Zapisz jako…
+Notes…	Notatki…
+Print	Drukuj
+Print in Black	Drukuj na czarno
+Export Settings…	Eksportuj ustawienia…
+Import Settings…	Importuj ustawienia…
+Templates…	Szablony…
+Save to Account	Zapisz na koncie
+Open from Account…	Otwórz z konta…
+G-code (GRBL lasers)	G-code (lasery GRBL)
+Ruida file (.rd, USB stick)	Plik Ruida (.rd, pendrive)
+K40 file (.egv)	Plik K40 (.egv)
+LightBurn project (.lbrn2)	Projekt LightBurn (.lbrn2)
+SVG (curves kept)	SVG (z krzywymi)
+DXF (for CAD)	DXF (do CAD)
+PDF (print at 100 %)	PDF (drukuj w 100 %)
+Processed picture (PNG)	Przetworzony obraz (PNG)
+Undo History…	Historia cofania…
+Settings…	Ustawienia…
+Cut	Wytnij
+Copy	Kopiuj
+Paste in Place	Wklej w miejscu
+Select All	Zaznacz wszystko
+Select All on This Layer	Zaznacz wszystko na tej warstwie
+Select None	Odznacz wszystko
+Invert the Selection	Odwróć zaznaczenie
+Inside the Selection	Wewnątrz zaznaczenia
+Open Paths	Otwarte ścieżki
+Open Paths on Fill Layers	Otwarte ścieżki na warstwach wypełnienia
+Smaller Than the Selection	Mniejsze niż zaznaczenie
+Circles (or the selected one's size)	Okręgi (lub w rozmiarze zaznaczonego)
+Pictures	Obrazy
+Texts	Teksty
+Group	Grupuj
+Ungroup	Rozgrupuj
+Auto-Group	Grupuj automatycznie
+Lock	Zablokuj
+Unlock All	Odblokuj wszystko
+Move to the Current Layer	Przenieś na bieżącą warstwę
+Mirror Left–Right	Odbij lewo–prawo
+Mirror Up–Down	Odbij góra–dół
+Mirror Across a Line	Odbij względem linii
+Rotate 90° Left	Obróć o 90° w lewo
+Two-Point Rotate / Scale	Obrót / skala dwoma punktami
+Rotate 90° Right	Obróć o 90° w prawo
+Distribute Across	Rozłóż w poziomie
+Distribute Centres Across	Rozłóż środki w poziomie
+Distribute Centres Up	Rozłóż środki w pionie
+Distribute Down	Rozłóż w pionie
+Dock Together Across	Dosuń do siebie w poziomie
+Dock Together Down	Dosuń do siebie w pionie
+Same Width	Ta sama szerokość
+Same Size	Ten sam rozmiar
+Same Height	Ta sama wysokość
+Centre on the Bed	Wyśrodkuj na stole
+Fit to the Bed (scale)	Dopasuj do stołu (skaluj)
+Move to the Laser's Position	Przenieś na pozycję lasera
+Nest on the Bed	Rozmieść na stole
+Nest by Shape	Rozmieść wg kształtu
+Nest by Shape over Pages	Rozmieść wg kształtu na stronach
+Edit Cut Order (click shapes in turn)	Edytuj kolejność cięcia (klikaj kształty po kolei)
+Cut First (in its layer)	Tnij pierwszy (w swojej warstwie)
+Cut Last (in its layer)	Tnij ostatni (w swojej warstwie)
+One Place Earlier	O jedno miejsce wcześniej
+One Place Later	O jedno miejsce później
+Grid Array…	Tablica siatki…
+Virtual Array…	Tablica wirtualna…
+Circular Array…	Tablica kołowa…
+Copy Along Path…	Kopiuj wzdłuż ścieżki…
+Union	Suma
+Subtract (first minus the rest)	Odejmij (pierwszy minus reszta)
+Intersect	Część wspólna
+Exclude (all but the overlap)	Wyklucz (wszystko poza częścią wspólną)
+Boolean Assistant…	Asystent logiczny…
+Split with the First	Podziel pierwszym
+Offset Shapes…	Odsuń kształty…
+Round Corners…	Zaokrąglij rogi…
+Trace Picture…	Obrysuj obraz…
+Trace Several Picture Files…	Obrysuj kilka plików obrazów…
+Cut the Picture to the Shape	Przytnij obraz do kształtu
+Turn Shapes into a Picture	Zamień kształty na obraz
+Background Photo (not burnt)…	Zdjęcie w tle (nie wypalane)…
+Replace the Picture…	Zastąp obraz…
+Replace the Picture to Fit…	Zastąp obraz z dopasowaniem…
+Weld (keep holes)	Zespól (zachowaj otwory)
+Join Open Paths	Połącz otwarte ścieżki
+Close Paths	Zamknij ścieżki
+Close / Optimize Within…	Zamknij / optymalizuj w zasięgu…
+Extend Lines to the Next Shape	Przedłuż linie do następnego kształtu
+Bridges…	Mostki…
+Break Apart	Rozbij
+Resize Slots…	Zmień wpusty…
+Tangent Circle (to 3 circles)	Okrąg styczny (do 3 okręgów)
+Path from the Cut	Ścieżka z cięcia
+Bend / Taper…	Wygięcie / Zwężenie…
+Warp (4 corners)	Zniekształć (4 rogi)
+Deform (16 handles)	Deformuj (16 uchwytów)
+Smooth into Curves	Wygładź w krzywe
+Outline Around (hull)	Obrys wokół (otoczka)
+Outline Around (box)	Obrys wokół (prostokąt)
+Fine: within 0.02 mm	Dokładnie: do 0.02 mm
+Medium: within 0.1 mm	Średnio: do 0.1 mm
+Coarse: within 0.5 mm	Zgrubnie: do 0.5 mm
+Delete Duplicates and Specks	Usuń duplikaty i plamki
+Polygon / Star…	Wielokąt / Gwiazda…
+Shapes Library…	Biblioteka kształtów…
+Text…	Tekst…
+Edit Text…	Edytuj tekst…
+Convert Text to Shapes	Zamień tekst na kształty
+Bake the Variable Text	Utrwal tekst zmienny
+QR Code / Barcode…	Kod QR / kreskowy…
+Picture…	Obraz…
+Home	Bazowanie
+Pause / Resume	Pauza / Wznów
+Print & Cut…	Druk i cięcie…
+Centre Finder…	Wyszukiwanie środka…
+Camera Overlay…	Nakładka z kamery…
+Save the Camera Capture…	Zapisz obraz z kamery…
+Galvo Lens Test Pattern	Wzór testowy soczewki galwo
+Run a G-code File…	Uruchom plik G-code…
+Cut Settings Editor…	Edytor ustawień cięcia…
+Material Test…	Test materiału…
+Scanning Offset Test	Test przesunięcia skanu
+Focus Test…	Test ostrości…
+Interval Test…	Test odstępu linii…
+Material Library…	Biblioteka materiałów…
+Import Material Library (.clb)…	Importuj bibliotekę materiałów (.clb)…
+GRBL Settings ($$)…	Ustawienia GRBL ($$)…
+Get Controller Info…	Pobierz info o kontrolerze…
+Controller Files…	Pliki kontrolera…
+Controller Settings…	Ustawienia kontrolera…
+Play / Pause the Simulation	Odtwórz / wstrzymaj symulację
+Fit the Design	Dopasuj projekt
+Fit the Bed	Dopasuj stół
+Clear the Guides	Usuń prowadnice
+Flash the Layer's Shapes	Mignij kształtami warstwy
+Zoom to Selection	Powiększ do zaznaczenia
+Zoom In	Powiększ
+Zoom Out	Pomniejsz
+Find a Command…	Znajdź polecenie…
+Report a Bug…	Zgłoś błąd…
+Request a Change…	Zaproponuj zmianę…
+Documentation	Dokumentacja
+GBurn Website	Strona GBurn
+♥ Donate to GBurn…	♥ Wesprzyj GBurn…
+text	tekst
+import	import
+extents	zakres
+mtest	test
+Text (T)	Tekst (T)
+Import	Import
+Import SVG, DXF, LightBurn files or pictures (⌘I)	Importuj pliki SVG, DXF, LightBurn lub obrazy (⌘I)
+Fit	Dopasuj
+Fit the design in the view (F)	Dopasuj projekt do widoku (F)
+Test grid	Siatka testowa
+Material test: a grid of speeds and powers	Test materiału: siatka prędkości i mocy
+Disconnect	Rozłącz
+Start · rotary	Start · obrotnica
+Resume	Wznów
+Open from Computer…	Otwórz z komputera…
+Open…	Otwórz…
+Download (.gburn)	Pobierz (.gburn)
+Account…	Konto…
+Sign In…	Zaloguj się…
+Back to Design	Wróć do projektu
+Preview the Job	Podgląd zadania
+Mouse Wheel Zooms	Kółko myszy powiększa
+Mouse Wheel Pans (trackpad)	Kółko myszy przesuwa (gładzik)
+Hide the Grid	Ukryj siatkę
+Show the Grid	Pokaż siatkę
+Hide the Fills	Ukryj wypełnienia
+Show the Fills	Pokaż wypełnienia
+Shaded Fills	Wypełnienia cieniowane
+Solid Fills	Wypełnienia pełne
+Show Millimetres	Pokaż milimetry
+Show Inches	Pokaż cale
+Show the Side Panel	Pokaż panel boczny
+Hide the Side Panel	Ukryj panel boczny
+Select	Zaznacz
+Click a shape; drag to move it; drag a corner to resize, the round dot to turn (⇧ 15° steps); drag on empty space to box-select	Kliknij kształt; przeciągnij, by przesunąć; przeciągnij róg, by zmienić rozmiar, okrągłą kropkę, by obrócić (⇧ co 15°); przeciągnij po pustym, by zaznaczyć ramką
+Nodes	Węzły
+Click a shape, drag its points; double-click a segment to add a point; ⌫ removes the picked point	Kliknij kształt, przeciągaj jego punkty; dwuklik na odcinku dodaje punkt; ⌫ usuwa wybrany punkt
+Rectangle	Prostokąt
+Drag a rectangle (⇧ square, ⌥ from the centre)	Przeciągnij prostokąt (⇧ kwadrat, ⌥ od środka)
+Ellipse	Elipsa
+Drag an ellipse (⇧ circle, ⌥ from the centre)	Przeciągnij elipsę (⇧ okrąg, ⌥ od środka)
+Polygon	Wielokąt
+Drag from the centre out to a corner (⇧ 15° turns); sides and star in the Polygon box	Przeciągnij od środka do rogu (⇧ obrót co 15°); boki i gwiazda w oknie Wielokąt
+Line	Linia
+Click points (⇧ 15° steps); click the first point or press Enter to finish, Esc to drop it	Klikaj punkty (⇧ co 15°); kliknij pierwszy punkt lub naciśnij Enter, by zakończyć, Esc, by porzucić
+Measure	Miarka
+Drag between two points for the distance; point at a shape for its size, outline and area	Przeciągnij między dwoma punktami, by zmierzyć odległość; wskaż kształt, by zobaczyć rozmiar, obwód i pole
+Trim	Przytnij
+Click a line between two crossings: that stretch is cut away (nothing crosses = the shape goes)	Kliknij linię między dwoma przecięciami: ten odcinek zostanie wycięty (brak przecięć = kształt znika)
+Pan	Przesuń
+Drag to move the view; the wheel zooms	Przeciągnij, by przesunąć widok; kółko powiększa
+Scale X / Y	Skala X / Y
+Bulge X / Y	Wybrzuszenie X / Y
+Trapezoid X / Y	Trapez X / Y
+× size	× rozmiar
++ sides bow out	+ boki wygięte na zewn.
++ wider top / taller right	+ szersza góra / wyższa prawa
+Shade by power	Cieniuj mocą
+Legend	Legenda
+Keep ratio	Zachowaj proporcje
+shift ½	przesuń o ½
+flip	odbij
+turned at random (¼ turns)	obrócone losowo (o ¼ obrotu)
+Slot width (the sides move apart)	Szerokość wpustu (boki się rozsuwają)
+Slot depth (the bottom moves)	Głębokość wpustu (dno się przesuwa)
+Tab height (the top moves)	Wysokość czopa (góra się przesuwa)
+move the ends together	zsuń końce do siebie
+straight lines only	tylko proste linie
+Language	Język
+Reverse the wheel's zoom	Odwróć powiększanie kółkiem
+inches	cale
+Shade the fills in the design	Cieniuj wypełnienia w projekcie
+Snap to points, middles and centres	Przyciągaj do punktów, środków odcinków i środków
+follows the zoom	podąża za powiększeniem
+Join loose ends on import (within 0.05 mm)	Łącz luźne końce przy imporcie (do 0.05 mm)
+Beginner mode (only the basic cut settings)	Tryb początkującego (tylko podstawowe ustawienia cięcia)
+Automation: other programs may open files here (UDP 19840, this computer only)	Automatyzacja: inne programy mogą tu otwierać pliki (UDP 19840, tylko ten komputer)
+Back to Select after drawing a shape	Wróć do Zaznacz po narysowaniu kształtu
+Crosshair across the canvas at the pointer	Celownik na całym płótnie przy wskaźniku
+Cross at the bed's centre	Krzyż w środku stołu
+Show where the head last was after disconnecting	Pokaż ostatnią pozycję głowicy po rozłączeniu
+Group what's imported	Grupuj importowane
+Put imports in the middle of the bed	Umieszczaj importy na środku stołu
+Keep a job log	Prowadź dziennik zadań
+Trackpad	Gładzik
+two fingers pan, pinch or ⌘ + scroll zooms, middle drag pans	dwa palce przesuwają, szczypanie lub ⌘ + przewijanie powiększa, środkowe przeciąganie przesuwa
+Mouse	Mysz
+the wheel zooms, ⇧ + wheel pans across, middle drag pans	kółko powiększa, ⇧ + kółko przesuwa w poziomie, środkowe przeciąganie przesuwa
+CAD	CAD
+the wheel zooms, right or middle drag pans in every tool	kółko powiększa, prawe lub środkowe przeciąganie przesuwa w każdym narzędziu
+Export G-code	Eksportuj G-code
+Sign in	Zaloguj się
+Draw and set up the cuts	Rysuj i ustaw cięcia
+Preview	Podgląd
+See the job and simulate it (P)	Zobacz zadanie i zasymuluj je (P)
+Job	Zadanie
+cut	cięcie
+travel	przejazd
+Where the job starts	Gdzie zaczyna się zadanie
+Move the head	Przesuń głowicę
+Jog the head to where this point of the design should be, then Frame and Start.	Przesuń głowicę tam, gdzie ma być ten punkt projektu, potem Obrys i Start.
+This point of the design goes to the saved user origin.	Ten punkt projektu trafia do zapisanego początku użytkownika.
+bottom-left	lewy dół
+bottom-centre	środek dołu
+bottom-right	prawy dół
+left	lewo
+right	prawo
+top-left	lewa góra
+top-centre	środek góry
+top-right	prawa góra
+No travel	Bez przejazdów
+Recent travel	Ostatnie przejazdy
+All travel	Wszystkie przejazdy
+Head	Głowica
+Maple	Klon
+Cherry	Wiśnia
+Walnut	Orzech
+Bamboo	Bambus
+MDF	MDF
+Cork	Korek
+Cardboard	Karton
+Leather	Skóra
+Slate	Łupek
+Black anodised aluminium	Czarne anodowane aluminium
+Black acrylic	Czarna pleksi
+Clear acrylic	Przezroczysta pleksi
+Stainless steel (fibre)	Stal nierdzewna (światłowód)
+Brass (fibre)	Mosiądz (światłowód)
+Black-painted metal (fibre)	Metal malowany na czarno (światłowód)
+Layer	Warstwa
+sub	pod
+Waiting…	Czekam…
+Snap	Przyciąganie
+Snap off	Bez przyciągania
+Page	Strona
+Line (follow the outline)	Linia (wzdłuż konturu)
+Fill (scan the inside)	Wypełnienie (skan wnętrza)
+Image (picture)	Obraz (zdjęcie)
+Fill + Line (scan, then outline)	Wypełn. + Linia (skan, potem kontur)
+Offset fill (concentric insets)	Wypełnienie offsetowe (koncentryczne)
+Dither (Floyd–Steinberg)	Dithering (Floyd–Steinberg)
+Dither (Jarvis)	Dithering (Jarvis)
+Dither (Stucki)	Dithering (Stucki)
+Dither (Atkinson)	Dithering (Atkinson)
+Sketch (edges)	Szkic (krawędzie)
+3D slices (a level per pass)	Warstwy 3D (poziom na przejście)
+Ordered	Uporządkowany
+Newsprint	Gazetowy
+Grayscale (power)	Skala szarości (moc)
+Laser head	Głowica lasera
+Ruida heads	Głowice Ruidy
+Two laser heads	Dwie głowice lasera
+Both	Obie
+…and may start a job (START)	…i może uruchomić zadanie (START)
+Skip the tour	Pomiń przewodnik
+Back	Wstecz
+Show me around	Oprowadź mnie
+Take the Tour	Przewodnik
+Done	Gotowe
+Next	Dalej
+Tools	Narzędzia
+Draw rectangles, ellipses, polygons, lines and text here. Select moves and sizes shapes; Nodes edits their points.	Tu rysujesz prostokąty, elipsy, wielokąty, linie i tekst. Zaznacz przesuwa i skaluje kształty; Węzły edytują ich punkty.
+The bed	Stół
+Your design sits on the laser's bed. Drag a shape to move it, a corner to resize it; pinch or scroll to zoom. Files and pictures can be dropped here.	Projekt leży na stole lasera. Przeciągnij kształt, by go przesunąć, róg, by zmienić rozmiar; szczypnij lub przewiń, by powiększyć. Pliki i obrazy można tu upuszczać.
+Layers	Warstwy
+Each colour is a layer with its own settings: Line cuts or scores the outline, Fill engraves the inside, Image burns pictures. Set the speed and power here.	Każdy kolor to warstwa z własnymi ustawieniami: Linia tnie lub nacina kontur, Wypełnienie graweruje wnętrze, Obraz wypala zdjęcia. Tu ustawiasz prędkość i moc.
+See the whole job in the order it runs, with the travel and the time. Press ▶ to play it.	Zobacz całe zadanie w kolejności wykonania, z przejazdami i czasem. Naciśnij ▶, by je odtworzyć.
+Your laser	Twój laser
+Connect your laser here, or the simulated one to try things out. Move the head and choose where the job starts.	Podłącz tu swój laser albo symulowany, by coś wypróbować. Przesuwaj głowicę i wybierz, gdzie zaczyna się zadanie.
+Frame, Start, Stop	Obrys, Start, Stop
+Frame traces the job's edges with the beam off, so you can check where it lands. Start burns; nothing fires before it. Stop is always here.	Obrys objeżdża krawędzie zadania z wyłączoną wiązką, by sprawdzić, gdzie wypadnie. Start wypala; nic nie strzela wcześniej. Stop jest tu zawsze.
+Save As	Zapisz jako
+File name	Nazwa pliku
+Download	Pobierz
+Save (download .gburn)	Zapisz (pobierz .gburn)
+Draw	Rysuj
+Quit GBurn	Zakończ GBurn
+Exit	Wyjdź
+other	inne
+panel	panel
+Simulate	Symuluj
+kHz	kHz
+ns	ns
+Pause before	Pauza przed
+Pause after	Pauza po
+mm / pass	mm / przejście
+per shape	na kształt
+Tab length	Długość mostka
+Wobble size	Rozmiar wobble
+mm Ø	mm Ø
+Wobble step	Krok wobble
+Dot time	Czas punktu
+Dot spacing	Odstęp punktów
+Perforate: cut	Perforacja: tnij
+Perforate: skip	Perforacja: pomiń
+Clean up every	Doczyść co
+passes	przejść
+Clean-up power	Moc doczyszcz.
+° / pass	° / przejście
+Open path	Otwarta ścieżka
+Close path	Zamknięta ścieżka
+Make corner	Zrób róg
+Make smooth	Wygładź
+Click it…	Kliknij…
+On the camera	Na kamerze
+Bed (absolute)	Stół (bezwzględnie)
+the bed	stół
+the head	głowica
+the user origin	początek użytkownika
+from	od
+No laser connected	Brak podłączonego lasera
+Skew across	Pochyl poziomo
+Skew up	Pochyl pionowo
+Line gap	Interlinia
+× height	× wysokości
+Anchor	Kotwica
+Slant	Pochylenie
+{n} = serial, {n:4} padded, {date}, {date:%d/%m/%Y}, {time}, {column} from a data file	{n} = numer, {n:4} z zerami, {date}, {date:%d/%m/%Y}, {time}, {column} z pliku danych
+Next number	Następny numer
+Variable text	Tekst zmienny
+Report…	Zgłoś…
+Report a Problem…	Zgłoś problem…
+Save the Laser Log…	Zapisz dziennik lasera…
+Red pointer pin	Pin czerwonego wskaźnika
+Find…	Znajdź…
+Find the Red Pointer Pin	Znajdź pin czerwonego wskaźnika
+Rotary	Obrotnica
+These settings (not saved as a machine)	Te ustawienia (niezapisane jako maszyna)
+Your own step: the Laser tab	Własny krok: karta Laser
+Jogging	Przesuwanie
+The jog pad is in the laser panel at the bottom, on every tab.	Panel sterowania ruchem jest w panelu lasera na dole, na każdej karcie.
+Connect your laser here, or the simulated one to try things out. The Laser tab has the device, Go to, spots and the console.	Podłącz tu swój laser albo symulowany, by coś wypróbować. Karta Laser ma urządzenie, Idź do, miejsca i konsolę.
+The laser panel	Panel lasera
+On every tab: the laser and where its head is, the jog pad, Frame (traces the job with the beam off), Start (nothing fires before it), Stop (always here) and where the job starts. The arrow folds it smaller.	Na każdej karcie: laser i pozycja głowicy, panel ruchu, Obrys (objeżdża zadanie z wyłączoną wiązką), Start (nic nie strzela wcześniej), Stop (zawsze tu) i miejsce startu zadania. Strzałka go zwija.
+Position	Pozycja
+Speed and power now	Prędkość i moc teraz
+Ruida (USB) or GRBL over USB: Connect, then pick the laser's port in the browser's list (Chrome, Edge, Brave). Ruida over the network needs GBurn Link on this computer (gburn.app/download/). The simulated laser runs any job here.	Ruida (USB) lub GRBL przez USB: Połącz, potem wybierz port lasera z listy przeglądarki (Chrome, Edge, Brave). Ruida przez sieć wymaga GBurn Link na tym komputerze (gburn.app/download/). Symulowany laser wykona tu każde zadanie.
+Ruida CO2 lasers (Thunder Nova, most CO2 cabinets): Ruida (USB) or Ruida (network). GRBL diode lasers: their serial port. Fibre galvos (EZCAD2): Galvo (EZCAD2 USB). Find looks for you. The simulated laser runs any job without a machine.	Lasery CO2 z Ruidą (Thunder Nova, większość szaf CO2): Ruida (USB) lub Ruida (sieć). Lasery diodowe GRBL: ich port szeregowy. Galwo światłowodowe (EZCAD2): Galwo (EZCAD2 USB). Znajdź szuka za Ciebie. Symulowany laser wykona każde zadanie bez maszyny.
+Export .rd	Eksportuj .rd
+Choose your machine…	Wybierz swoją maszynę…
+Choose your machine	Wybierz swoją maszynę
+Search: brand, model, 60w, fiber…	Szukaj: marka, model, 60w, fiber…
+machines	maszyn
+not supported yet	jeszcze nieobsługiwane
+Choose Your Machine…	Wybierz swoją maszynę…
+From the makers' published specs: check the work area against your machine. Not listed? Set it up by hand below and Save as a new machine.	Z danych opublikowanych przez producentów: sprawdź pole robocze ze swoją maszyną. Brak na liście? Ustaw ją ręcznie poniżej i Zapisz jako nową maszynę.
+Custom size	Własny rozmiar
+Matches	Pasuje
+Tests	Testy
+Camera and alignment	Kamera i wyrównanie
+Nest	Rozmieść
+mm/s² cut / engrave	mm/s² cięcie / grawer
+mm/s each axis	mm/s na oś
+% beam while framing	% wiązki przy obrysie
+Every layer that has shapes has Output off: nothing will burn	Każda warstwa z kształtami ma wyłączone Wyjście: nic się nie wypali
+power is 0, the laser won't mark	moc wynosi 0, laser nie zaznaczy
+speed is 0	prędkość wynosi 0
+The job reaches	Zadanie sięga
+past the bed	poza stół
+copy	kopia
+Layer duplicated	Warstwa zduplikowana
+layer	warstwa
+Review the job	Przejrzyj zadanie
+Starts from	Start od
+Time	Czas
+Start burning	Zacznij palić
+Drop a file here	Upuść tu plik
+or draw a shape, press T for text, or open File › Templates…	albo narysuj kształt, naciśnij T dla tekstu lub otwórz Plik › Szablony…
+not connected	niepołączony
+mirror in	lustro w
+in/turn, object Ø	in/obrót, Ø obiektu
+in Ø left / right: a tapered tumbler	in Ø lewa / prawa: zwężany kubek
+Interface size	Rozmiar interfejsu
+Review the job before it starts	Przejrzyj zadanie przed startem
+in (⇧ × 10)	in (⇧ × 10)
+Layers and settings	Warstwy i ustawienia
+Picture fade	Wyblaknięcie obrazu
+Trace over it by hand	Odrysuj ręcznie
+Check the size	Sprawdź rozmiar
+drawn, came out	narysowane, wyszło
+Correct	Popraw
+The controller's acceleration (cut / engrave) is	Przyspieszenie kontrolera (cięcie / grawer) wynosi
+top speed	maks. prędkość
+UV	UV
+Invert power	Odwróć moc
+UV laser: its light is invisible. Wear glasses rated for 355 nm (fibre or green glasses don't protect) and keep the lid shut	Laser UV: jego światło jest niewidoczne. Noś okulary na 355 nm (okulary do światłowodu lub zielone nie chronią) i trzymaj pokrywę zamkniętą
+Stock thickness	Grubość materiału
+The xTool M1 burns where the design sits on the bed (Start from: Bed)	xTool M1 wypala tam, gdzie projekt leży na stole (Start od: Stół)
+No machine chosen	Nie wybrano maszyny
+Preview: play the job or drag the time; P goes back to Design	Podgląd: odtwórz zadanie lub przeciągnij czas; P wraca do projektu
+Draw on the canvas; the button at the top right opens the layers, cut settings and the laser.	Rysuj na płótnie; przycisk w prawym górnym rogu otwiera warstwy, ustawienia cięcia i laser.
+Show all	Pokaż wszystko
+0 = read $30 from the laser	0 = odczytaj $30 z lasera
+none	brak
+loaded	wczytany
+starts at the head	zaczyna się przy głowicy
+goes to the user origin	idzie do początku użytkownika
+Fill	Wypełnienie
+Image	Obraz
+Fill+Line	Wypełn.+Linia
+Simulated laser	Laser symulowany
+Ruida over USB (Thunder, most CO2)	Ruida przez USB (Thunder, większość CO2)
+Ruida over the network	Ruida przez sieć
+Fibre galvo over USB (EZCAD2: Thunder Aurora…)	Galwo światłowodowe przez USB (EZCAD2: Thunder Aurora…)
+Simulated fibre galvo	Symulowane galwo światłowodowe
+K40 over USB (M2 / M3 Nano board)	K40 przez USB (płyta M2 / M3 Nano)
+Simulated K40	Symulowany K40
+xTool M1 over USB network (older firmware)	xTool M1 przez sieć USB (starszy firmware)
+GRBL over USB (diode lasers)	GRBL przez USB (lasery diodowe)
+GRBL over the network (FluidNC, grblHAL)	GRBL przez sieć (FluidNC, grblHAL)
+rear left (Thunder, most CO2)	tył lewo (Thunder, większość CO2)
+rear right	tył prawo
+front left	przód lewo
+front right	przód prawo
+rear left	tył lewo
+draw rectangles, ellipses and lines on the current layer	rysuj prostokąty, elipsy i linie na bieżącej warstwie
+add text	dodaj tekst
+preview the job: the order, the travel and the time	podgląd zadania: kolejność, przejazdy i czas
+the simulated laser runs any job; your own laser runs the real thing	laser symulowany wykona każde zadanie; Twój laser zrobi to naprawdę
+More settings	Więcej ustawień
+lens	soczewka
+General	Ogólne
+Hide the donate button	Ukryj przycisk darowizny
+Show the donate button (♥) in the top bar	Pokaż przycisk darowizny (♥) na górnym pasku
+Support GBurn: donate (opens gburn.app). Right-click to hide	Wesprzyj GBurn: darowizna (otwiera gburn.app). Prawy klik, by ukryć
+Try it without a laser	Wypróbuj bez lasera
+Laser › Connect with “Simulated laser” picked: jog, frame and run the job against a built-in GRBL controller.	Laser › Połącz z wybranym „Laser symulowany”: przesuwaj, rób obrys i uruchamiaj zadanie na wbudowanym kontrolerze GRBL.
+Connect a laser	Podłącz laser
+Pick the USB port in the Laser panel and Connect (GRBL lasers: most diode lasers, 115200 baud). In the browser pick “GRBL over USB (this browser)”: Chrome and Edge show the port list (Safari can't). Alarm after power-up: Home, or Unlock.	Wybierz port USB w panelu lasera i kliknij Połącz (lasery GRBL: większość laserów diodowych, 115200 bodów). W przeglądarce wybierz „GRBL przez USB (ta przeglądarka)”: Chrome i Edge pokazują listę portów (Safari nie). Alarm po włączeniu: Bazowanie albo Odblokuj.
+Keep designs in my account	Przechowuj projekty na koncie
+Sign in (the GCarve account works here): File › Save to Account keeps the design; Open from Account lists them. Saves again by itself 3 s after a change.	Zaloguj się (konto GCarve działa tutaj): Plik › Zapisz na koncie zachowuje projekt; Otwórz z konta pokazuje listę. Po każdej zmianie zapisuje się sam po 3 s.
+Get the design back after a crash	Odzyskaj projekt po awarii
+A recovery copy is written 3 s after every change and offered back at the next start.	Kopia zapasowa zapisuje się 3 s po każdej zmianie i jest proponowana przy następnym uruchomieniu.
+Go back several steps	Cofnij się o kilka kroków
+Edit › Undo History: every change by name (Move, Resize, Change layer…, the command's name). Click a step to go back to just before it; click a dim (undone) one to bring the steps back.	Edycja › Historia cofania: każda zmiana z nazwą (Przesuń, Zmień rozmiar, Zmień warstwę…, nazwa polecenia). Kliknij krok, by wrócić tuż przed niego; kliknij wyszarzony (cofnięty), by przywrócić kroki.
+Work in inches	Pracuj w calach
+The mm / in switch in the status bar, or View › Show Inches. Sizes are kept in mm underneath.	Przełącznik mm / in na pasku stanu albo Widok › Pokaż cale. Wymiary i tak są przechowywane w mm.
+Keep notes with a design	Dodaj notatki do projektu
+File › Notes: saved inside the .gburn file.	Plik › Notatki: zapisywane w pliku .gburn.
+Move my settings to another computer	Przenieś ustawienia na inny komputer
+File › Export Settings… saves your machines, materials, templates, lens file, snap and units to one file. On the other computer (or in the browser): File › Import Settings….	Plik › Eksportuj ustawienia… zapisuje maszyny, materiały, szablony, plik soczewki, przyciąganie i jednostki do jednego pliku. Na drugim komputerze (lub w przeglądarce): Plik › Importuj ustawienia….
+Open a .plt (HPGL) file	Otwórz plik .plt (HPGL)
+File › Import takes .plt / .hpgl plot files from CorelDRAW, sign software and cutters: each pen becomes a layer.	Plik › Import przyjmuje pliki plotera .plt / .hpgl z CorelDRAW, programów do szyldów i ploterów tnących: każde pióro staje się warstwą.
+Draw a rectangle, circle or line	Narysuj prostokąt, okrąg lub linię
+R, E and L pick the tools (or the tool bar); drag on the canvas. Hold ⇧ for a square, a circle, or 5 mm snapping. Enter finishes a line; clicking its first point closes it.	R, E i L wybierają narzędzia (albo pasek narzędzi); przeciągnij po płótnie. Przytrzymaj ⇧, by uzyskać kwadrat, okrąg lub przyciąganie co 5 mm. Enter kończy linię; kliknięcie pierwszego punktu ją zamyka.
+Draw curves	Rysuj krzywe
+Line tool (L): click = a corner, click and drag = a smooth point (the drag pulls out its curve). Click the first point to close; Enter or double-click ends an open line.	Narzędzie Linia (L): kliknięcie = narożnik, kliknięcie i przeciągnięcie = gładki punkt (przeciąganie wyciąga krzywą). Kliknij pierwszy punkt, by zamknąć; Enter lub dwuklik kończy otwartą linię.
+Set the exact size or position	Ustaw dokładny rozmiar lub pozycję
+Select the shapes: the X / Y / W / H boxes in the panel take typed sizes (12, 1/2in, 30mm). Enter applies.	Zaznacz kształty: pola X / Y / W / H w panelu przyjmują wpisane wymiary (12, 1/2in, 30mm). Enter zatwierdza.
+See a shape's properties	Zobacz właściwości kształtu
+Select one shape: the panel shows its kind, point count, length and area, a name, Close / Open path and Reverse (the cut direction), besides X / Y / W / H and Rotate.	Zaznacz jeden kształt: panel pokazuje jego rodzaj, liczbę punktów, długość i pole, nazwę, Zamknięta / Otwarta ścieżka i Odwróć (kierunek cięcia), obok X / Y / W / H i Obróć.
+Measure a distance	Zmierz odległość
+M (Measure): drag between two points; the distance, Δx, Δy and angle show in the status bar.	M (Miarka): przeciągnij między dwoma punktami; odległość, Δx, Δy i kąt pojawią się na pasku stanu.
+Snap to a grid	Przyciągaj do siatki
+The Snap menu in the status bar: off, 0.5 / 1 / 5 / 10 mm or 1/16 / 1/8 / 1/4 in. ⇧ while drawing always snaps to 5 mm.	Menu Przyciąganie na pasku stanu: wył., 0.5 / 1 / 5 / 10 mm lub 1/16 / 1/8 / 1/4 in. ⇧ podczas rysowania zawsze przyciąga co 5 mm.
+Edit the points of a shape	Edytuj punkty kształtu
+N (Nodes): click a shape, drag its points; double-click a segment to add a point; ⌫ removes the picked one. The picked point's X / Y are in the panel: type exact values and press Enter. Make corner / Make smooth, Next ▸ steps along the path.	N (Węzły): kliknij kształt, przeciągaj jego punkty; dwuklik na odcinku dodaje punkt; ⌫ usuwa wybrany. X / Y wybranego punktu są w panelu: wpisz dokładne wartości i naciśnij Enter. Zrób róg / Wygładź, Dalej ▸ przechodzi wzdłuż ścieżki.
+Node keys	Klawisze węzłów
+In the Nodes tool, point at a point or a segment and press: D delete, I insert a point, M a point at the middle, C corner, S smooth (a segment: curve), L straight, B break, T trim, E extend an open end, A turn the shape so the segment is level / upright / 45°. ⇧-click or a box picks several points; the arrow keys move them; drop an open end on another to join.	W narzędziu Węzły wskaż punkt lub odcinek i naciśnij: D usuń, I wstaw punkt, M punkt w środku, C narożnik, S gładki (odcinek: krzywa), L prosty, B przerwij, T przytnij, E przedłuż otwarty koniec, A obróć kształt tak, by odcinek był poziomy / pionowy / pod 45°. ⇧-klik lub ramka wybiera kilka punktów; strzałki je przesuwają; upuść otwarty koniec na inny, by je połączyć.
+Join or cut shapes together	Łącz lub przycinaj kształty
+Select two or more closed shapes: Shapes › Union, Subtract (the first minus the rest) or Intersect. Offset Shapes makes a parallel copy; Round Corners rounds a closed shape.	Zaznacz dwa lub więcej zamkniętych kształtów: Kształty › Suma, Odejmij (pierwszy minus reszta) lub Część wspólna. Odsuń kształty tworzy równoległą kopię; Zaokrąglij rogi zaokrągla zamknięty kształt.
+Group shapes	Grupuj kształty
+Select them and press ⌘G: they select and move as one from then on; ⇧⌘G ungroups. Imported files and traced pictures come in grouped.	Zaznacz je i naciśnij ⌘G: od tej chwili zaznaczają się i przesuwają razem; ⇧⌘G rozgrupowuje. Importowane pliki i obrysowane obrazy trafiają zgrupowane.
+Copy, paste, lock	Kopiuj, wklej, zablokuj
+⌘C / ⌘X / ⌘V (⇧⌘V pastes at the right-click spot), ⌘L locks the selection so it can't be picked or moved (⇧⌘L unlocks everything). The right-click menu on the canvas has them all.	⌘C / ⌘X / ⌘V (⇧⌘V wkleja w miejscu prawego kliknięcia), ⌘L blokuje zaznaczenie, więc nie da się go wybrać ani przesunąć (⇧⌘L odblokowuje wszystko). Menu prawego przycisku na płótnie ma je wszystkie.
+Add a ready-made shape	Dodaj gotowy kształt
+Draw › Shapes Library: hearts, stars, arrows, plaques, keyhole hangers, joints and more. Type the width, click a tile: it lands in the middle of the view on the current layer, grouped.	Rysuj › Biblioteka kształtów: serca, gwiazdy, strzałki, tabliczki, zawieszki z dziurką, połączenia i więcej. Wpisz szerokość, kliknij kafelek: trafi na środek widoku na bieżącej warstwie, zgrupowany.
+Keep my own art to reuse	Zachowaj własne grafiki do ponownego użycia
+Select the shapes, Draw › Shapes Library… › My art, type a name, Save the selection. Click its tile in any design to add it at the typed width; right-click a tile to remove it. Export Settings carries it to another computer.	Zaznacz kształty, Rysuj › Biblioteka kształtów… › Moje grafiki, wpisz nazwę, Zapisz zaznaczenie. Kliknij jej kafelek w dowolnym projekcie, by dodać ją w wpisanej szerokości; prawy klik na kafelku ją usuwa. Eksportuj ustawienia przenosi je na inny komputer.
+Repeat a shape along a line	Powtórz kształt wzdłuż linii
+Select the shape and a line or curve, Arrange › Copy Along Path: how many copies, turned with the path or not. The longest selected outline is the path.	Zaznacz kształt oraz linię lub krzywą, Rozmieść › Kopiuj wzdłuż ścieżki: ile kopii, obracane razem ze ścieżką lub nie. Najdłuższy zaznaczony kontur jest ścieżką.
+Line up or repeat shapes	Wyrównaj lub powiel kształty
+Arrange › Align (left, centre, right, top, middle, bottom) and Distribute lines the selection up; Grid Array repeats it in columns and rows with a gap.	Rozmieść › Wyrównaj (lewo, środek, prawo, góra, środek, dół) i Rozłóż ustawiają zaznaczenie w linii; Tablica siatki powtarza je w kolumnach i wierszach z odstępem.
+Make live copies (virtual array)	Twórz żywe kopie (tablica wirtualna)
+Select the shapes, Arrange › Virtual Array…: columns, rows and gaps. The copies follow the original as you change or move it and burn as real shapes. Open it again with a copy selected to Update, Make the copies real or Remove.	Zaznacz kształty, Rozmieść › Tablica wirtualna…: kolumny, wiersze i odstępy. Kopie podążają za oryginałem, gdy go zmieniasz lub przesuwasz, i wypalają się jak prawdziwe kształty. Otwórz ją ponownie z zaznaczoną kopią, by Aktualizować, Zamienić kopie na prawdziwe lub Usunąć.
+Clean up an imported drawing	Uporządkuj zaimportowany rysunek
+Shapes › Delete Duplicates and Specks (stacked copies would cut twice), Join Open Paths (ends within 0.05 mm), Close Paths, Simplify (fewer points, smoother motion), Weld.	Kształty › Usuń duplikaty i plamki (nałożone kopie cięłyby się dwa razy), Połącz otwarte ścieżki (końce w odległości do 0.05 mm), Zamknij ścieżki, Uprość (mniej punktów, płynniejszy ruch), Zespól.
+Pack parts onto the material	Rozmieść części na materiale
+Arrange › Nest on the Bed packs the selection (or everything) by its boxes, groups kept together, turned 90° when it fits better.	Rozmieść › Rozmieść na stole układa zaznaczenie (lub wszystko) według ich prostokątów, grupy razem, obrócone o 90°, gdy lepiej pasują.
+Add text	Dodaj tekst
+T opens the Text box: words (several lines), height, font (any font on this computer, or Font file…), letter spacing, line gap, alignment. The letters land on the current layer, centred on the view, grouped; select them and Edit text… to change the words later.	T otwiera okno Tekst: słowa (kilka linii), wysokość, czcionka (dowolna z tego komputera lub Plik czcionki…), odstęp liter, interlinia, wyrównanie. Litery trafiają na bieżącą warstwę, wyśrodkowane w widoku, zgrupowane; zaznacz je i wybierz Edytuj tekst…, by później zmienić słowa.
+Merge names from a spreadsheet (CSV)	Scal nazwiska z arkusza (CSV)
+Text box › Data file (CSV)… (or drop a .csv on the canvas): the first row names the columns. Type {name} (any column) in a text; ◀ ▶ pick the row; every Start burns the current row and moves to the next.	Okno Tekst › Plik danych (CSV)… (lub upuść plik .csv na płótno): pierwszy wiersz nazywa kolumny. Wpisz {name} (dowolna kolumna) w tekście; ◀ ▶ wybierają wiersz; każdy Start wypala bieżący wiersz i przechodzi do następnego.
+Text on a path, serial numbers, dates	Tekst na ścieżce, numery seryjne, daty
+Select a line or closed shape, open the Text box (T) and tick “Along the selected shape”. Type {n} for a serial number ({n:4} zero-padded), {date} or {time}: every Start stamps the current number and counts up (the next number is in the Text box).	Zaznacz linię lub zamknięty kształt, otwórz okno Tekst (T) i zaznacz „Wzdłuż zaznaczonego kształtu”. Wpisz {n} dla numeru seryjnego ({n:4} z zerami z przodu), {date} lub {time}: każdy Start wstawia bieżący numer i liczy dalej (następny numer jest w oknie Tekst).
+Put text round a circle	Umieść tekst wokół okręgu
+Select the circle (or any shape), open Text, tick Along the selected shape: the text centres on the top, outside. Tick inside for text along the bottom inside the circle; moved % slides it round.	Zaznacz okrąg (lub dowolny kształt), otwórz Tekst, zaznacz Wzdłuż zaznaczonego kształtu: tekst wyśrodkuje się na górze, na zewnątrz. Zaznacz wewnątrz, by tekst szedł dołem wewnątrz okręgu; przesunięty % obraca go wokół.
+Bend text into an arc	Wygnij tekst w łuk
+Select the text or shapes, Shapes › Bend / Taper…: Bend is the arc in degrees (180 = a half circle, − bends the other way), Top width narrows or widens the top for a tapered cup. Number boxes take sums too: 100/3, 2in + 5mm.	Zaznacz tekst lub kształty, Kształty › Wygięcie / Zwężenie…: Wygięcie to łuk w stopniach (180 = półokrąg, − wygina w drugą stronę), Szerokość góry zwęża lub poszerza górę dla stożkowego kubka. Pola liczbowe przyjmują też działania: 100/3, 2in + 5mm.
+Make a QR code or barcode	Zrób kod QR lub kreskowy
+Draw › QR Code / Barcode: QR, Data Matrix, Code 128, Code 39, Code 93, EAN-13, EAN-8, UPC-A, Codabar or Interleaved 2 of 5; the text and a size. It lands on the current layer as squares or bars (engrave with Fill). Test-scan a burnt one.	Rysuj › Kod QR / kreskowy: QR, Data Matrix, Code 128, Code 39, Code 93, EAN-13, EAN-8, UPC-A, Codabar lub Interleaved 2 of 5; tekst i rozmiar. Trafia na bieżącą warstwę jako kwadraty lub paski (graweruj trybem Wypełnienie). Zeskanuj wypalony na próbę.
+Engrave a picture	Graweruj obraz
+Draw › Picture (or drop a PNG / JPEG on the canvas): it lands on an Image layer. Set its size in the panel; on the layer pick the image mode (dither, ordered, greyscale), the line interval (DPI), negative and overscan.	Rysuj › Obraz (lub upuść PNG / JPEG na płótno): trafia na warstwę Obraz. Ustaw rozmiar w panelu; na warstwie wybierz tryb obrazu (dithering, uporządkowany, skala szarości), odstęp linii (DPI), negatyw i overscan.
+Adjust a picture	Dostosuj obraz
+Select the picture: Brightness, Contrast and Gamma sliders apply before the dither; Negative is on the layer.	Zaznacz obraz: suwaki Jasność, Kontrast i Gamma działają przed ditheringiem; Negatyw jest na warstwie.
+Turn a picture into vectors	Zamień obraz na wektory
+Select a picture and use Draw › Trace Picture: the dark parts (or the light ones) become outlines on a Trace layer, ready to cut or fill.	Zaznacz obraz i użyj Rysuj › Obrysuj obraz: ciemne części (lub jasne) stają się konturami na warstwie Trace, gotowymi do cięcia lub wypełnienia.
+Trace line art as single lines	Obrysuj rysunek liniowy pojedynczymi liniami
+Select the picture, Draw › Trace Picture…, switch on Centerline: one line along each stroke instead of its outline (signatures, handwriting, line drawings for one pass or a pen).	Zaznacz obraz, Rysuj › Obrysuj obraz…, włącz Linia środkowa: jedna linia wzdłuż każdego pociągnięcia zamiast jego konturu (podpisy, pismo odręczne, rysunki na jedno przejście lub pisak).
+Cut a photo to a shape	Przytnij zdjęcie do kształtu
+Select the picture and a closed shape over it (a circle, a heart), Draw › Cut the Picture to the Shape: outside the shape goes white (not burnt).	Zaznacz obraz i zamknięty kształt na nim (okrąg, serce), Rysuj › Przytnij obraz do kształtu: to, co poza kształtem, robi się białe (nie wypala się).
+Engrave shapes as a picture	Graweruj kształty jako obraz
+Select closed shapes, Draw › Turn Shapes into a Picture: they become a picture on the Image layer at its line interval, so its dither applies.	Zaznacz zamknięte kształty, Rysuj › Zamień kształty na obraz: stają się obrazem na warstwie Obraz w jej odstępie linii, więc działa jej dithering.
+Engrave a relief (3D) on a fibre laser	Graweruj relief (3D) laserem światłowodowym
+Put a greyscale picture on an Image layer, Image mode › 3D slices, and Passes = the number of depth levels (10–30). Each pass burns everything darker than its level, so the darkest parts get every pass and go deepest.	Umieść obraz w skali szarości na warstwie Obraz, Tryb obrazu › Warstwy 3D, a Przejścia = liczba poziomów głębokości (10–30). Każde przejście wypala wszystko ciemniejsze niż jego poziom, więc najciemniejsze miejsca dostają każde przejście i są najgłębsze.
+Cut, score or engrave	Tnij, nacinaj lub graweruj
+Each layer has a mode: Line follows the outline (cut or score), Fill scans the inside (engrave). Click a layer to draw on it, or to move the selected shapes onto it.	Każda warstwa ma tryb: Linia idzie po konturze (cięcie lub nacinanie), Wypełnienie skanuje wnętrze (grawer). Kliknij warstwę, by na niej rysować lub przenieść na nią zaznaczone kształty.
+Set speed and power	Ustaw prędkość i moc
+The Layer settings in the panel: speed in mm/s, power in % of the machine's maximum, passes, and for Fill the line interval (DPI) and scan angle. Changes apply at once; ⌘Z undoes them.	Ustawienia warstwy w panelu: prędkość w mm/s, moc w % maksimum maszyny, przejścia, a dla Wypełnienia odstęp linii (DPI) i kąt skanowania. Zmiany działają od razu; ⌘Z je cofa.
+Show, hide or skip a layer	Pokaż, ukryj lub pomiń warstwę
+On the layer's row: the eye shows or hides it in the design (hidden shapes can't be picked); the switch is Output: on = sent to the laser, off = designed only. Both are in the layer settings too.	W wierszu warstwy: oko pokazuje lub ukrywa ją w projekcie (ukrytych kształtów nie da się wybrać); przełącznik to Wyjście: wł. = wysyłana do lasera, wył. = tylko projekt. Oba są też w ustawieniach warstwy.
+Edit every layer setting in one window	Edytuj wszystkie ustawienia warstw w jednym oknie
+Double-click a layer, or Laser › Cut Settings Editor.	Dwuklik na warstwie albo Laser › Edytor ustawień cięcia.
+See the kerf	Zobacz szczelinę cięcia
+A Line layer with a kerf shows the offset outline dashed on the canvas: what the beam's centre will follow.	Warstwa Linia z korektą szczeliny pokazuje na płótnie przerywany kontur przesunięcia: tor, którym pójdzie środek wiązki.
+Kerf, tabs and cut order	Szczelina, mostki i kolejność cięcia
+On a Line layer: Kerf offset grows (+) or shrinks (−) the cut by half the beam; Tabs leaves bridges so parts stay put; Inner first cuts holes before outlines.	Na warstwie Linia: Korekta szczeliny powiększa (+) lub zmniejsza (−) cięcie o pół wiązki; Mostki zostawiają łączniki, by części nie wypadały; Najpierw wewnętrzne wycina otwory przed konturami.
+Change the cut order	Zmień kolejność cięcia
+Layers cut in the order of the list, top first. The ▲ ▼ beside the layer name move it; × removes an empty layer. Inside a layer, Inner first cuts holes before outlines.	Warstwy tną się w kolejności listy, od góry. ▲ ▼ obok nazwy warstwy ją przesuwają; × usuwa pustą warstwę. Wewnątrz warstwy Najpierw wewnętrzne wycina otwory przed konturami.
+Lead-ins, overcut, cut direction	Wejścia, nadcięcie, kierunek cięcia
+Line layer › Lead-in: closed shapes start this far off the line, in the waste (outside a part, inside a hole), so the pierce mark isn't on the piece. Overcut runs on past the start. Direction: clockwise or anticlockwise.	Warstwa Linia › Wejście: zamknięte kształty zaczynają się tak daleko od linii, w odpadzie (poza częścią, wewnątrz otworu), więc ślad przebicia nie trafia na element. Nadcięcie jedzie dalej za punkt startu. Kierunek: zgodnie lub przeciwnie do ruchu wskazówek zegara.
+Choose where a cut starts	Wybierz, gdzie zaczyna się cięcie
+Select a closed shape, right-click its outline › Start the Cut Here (or Nodes tool › pick a point › Start here). A green dot marks it; the planner keeps it. Right-click › Clear the Start Point undoes it.	Zaznacz zamknięty kształt, prawy klik na konturze › Zacznij cięcie tutaj (lub narzędzie Węzły › wybierz punkt › Start stąd). Zielona kropka go oznacza; planer go zachowuje. Prawy klik › Usuń punkt startu cofa to.
+Perforate (dashed cut)	Perforuj (cięcie przerywane)
+On a Line layer: Perforation cut / skip lengths, e.g. 3 mm cut, 1 mm skip, for fold lines or tear-offs.	Na warstwie Linia: długości cięcia / przerwy perforacji, np. 3 mm cięcia, 1 mm przerwy, do linii zgięcia lub odrywania.
+Wobble and hatch families	Wobble i rodziny kreskowania
+Line layer › Wobble: diameter and spacing of small circles along the line (wider, smoother lines; deep galvo marking). Fill layer › Turn per pass: with Passes 2+ each pass hatches at a new angle.	Warstwa Linia › Wobble: średnica i odstęp małych kółek wzdłuż linii (szersze, gładsze linie; głębokie znakowanie galwo). Warstwa Wypełnienie › Obrót na przejście: przy 2+ Przejściach każde przejście kreskuje pod nowym kątem.
+Dot mode and offset fill	Tryb punktów i wypełnienie offsetowe
+Line layer › Dot mode fires N ms every D mm along the outline (acrylic dotting, perforating boards). Mode › Offset fill engraves in concentric insets, less travel on round shapes. Fill shapes one by one keeps each shape's lines together.	Warstwa Linia › Tryb punktów strzela N ms co D mm wzdłuż konturu (punktowanie akrylu, perforowanie tektury). Tryb › Wypełnienie offsetowe graweruje koncentrycznymi konturami, mniej przejazdów na okrągłych kształtach. Wypełnij kształty po kolei trzyma linie każdego kształtu razem.
+Engrave and cut the same shapes	Graweruj i tnij te same kształty
+Select the layer, press + Sub-layer: a second set of settings (mode, speed, power…) runs on the same shapes right after the first. Main / Sub 1 / Sub 2 pick which one the panel edits.	Zaznacz warstwę, naciśnij + Podwarstwa: drugi zestaw ustawień (tryb, prędkość, moc…) działa na tych samych kształtach zaraz po pierwszym. Główna / Pod 1 / Pod 2 wybierają, który edytuje panel.
+Use my LightBurn material library	Użyj mojej biblioteki materiałów z LightBurn
+Laser › Import Material Library (.clb) (or drop the file on the canvas): every cut setting becomes a Material preset.	Laser › Importuj bibliotekę materiałów (.clb) (lub upuść plik na płótno): każde ustawienie cięcia staje się presetem materiału.
+Find the right speed and power	Znajdź właściwą prędkość i moc
+Laser › Material Test makes a grid: pick what changes down the side and across (speed, power, interval, passes, frequency or Z offset), a layer per cell with the current layer's other settings. Burn it and read the best cell's settings off its layer. Save settings you like as a material (the layer's Material › Save…).	Laser › Test materiału tworzy siatkę: wybierz, co zmienia się w pionie i w poziomie (prędkość, moc, odstęp, przejścia, częstotliwość lub przesunięcie Z), warstwa na komórkę z pozostałymi ustawieniami bieżącej warstwy. Wypal ją i odczytaj ustawienia najlepszej komórki z jej warstwy. Zapisz udane ustawienia jako materiał (Materiał warstwy › Zapisz…).
+Put a tab exactly where I want it	Postaw mostek dokładnie tam, gdzie chcę
+Select the shape, right-click its outline › Add a Tab Here (the layer's tab length, Line layers). Right-click › Clear the Tabs removes them. With no hand-placed tabs, the layer's Tabs count spaces them evenly.	Zaznacz kształt, prawy klik na konturze › Dodaj mostek tutaj (długość mostka z warstwy, warstwy Linia). Prawy klik › Usuń mostki je usuwa. Bez ręcznie postawionych mostków liczba Mostki warstwy rozkłada je równo.
+Cut shared edges once	Tnij wspólne krawędzie raz
+Machine Settings › Shared edges: cut once. Where two shapes on a Line layer share an edge (puzzles, grids, box joints), the second pass over it is left out: less charring, less time.	Ustawienia maszyny › Wspólne krawędzie: tnij raz. Gdy dwa kształty na warstwie Linia mają wspólną krawędź (puzzle, kratki, połączenia skrzynek), drugie przejście po niej jest pomijane: mniej przypaleń, mniej czasu.
+Switch between my lasers	Przełączaj między moimi laserami
+Laser › Machine Settings: set one machine up, type its name and press Save as a new machine; set up the next one the same way. Pick a machine at the top of Machine Settings or in the Laser tab (disconnected). The machine in use keeps every change.	Laser › Ustawienia maszyny: skonfiguruj jedną maszynę, wpisz jej nazwę i naciśnij Zapisz jako nową maszynę; następną skonfiguruj tak samo. Wybierz maszynę na górze Ustawień maszyny lub w karcie Laser (po rozłączeniu). Używana maszyna zachowuje każdą zmianę.
+Change the bed (work area)	Zmień stół (obszar roboczy)
+Click empty canvas (nothing selected): the Bed card in the panel has the machine (Thunder Nova 63, galvo lenses…) or any size, where the design sits on it, Centre the design.	Kliknij puste płótno (nic nie zaznaczone): karta Stół w panelu ma maszynę (Thunder Nova 63, soczewki galwo…) lub dowolny rozmiar, miejsce projektu na stole, Wyśrodkuj projekt.
+Set the bed size and travel speed	Ustaw rozmiar stołu i prędkość przejazdu
+Laser › Machine Settings: bed, travel speed and acceleration (the time estimate), full-power S ($30), baud rate, M4 / M3.	Laser › Ustawienia maszyny: stół, prędkość przejazdu i przyspieszenie (szacowanie czasu), S pełnej mocy ($30), prędkość transmisji, M4 / M3.
+Run a fibre / galvo marker (EZCAD2)	Obsługa znakowarki światłowodowej / galwo (EZCAD2)
+Laser › Machine Settings: the lens field size and the EZCAD .cor correction file for your lens (ask the maker; it sets the field too), fibre or CO2 source. Pick “Galvo (EZCAD2 USB)” and Connect (Windows needs the WinUSB driver). Layers get a frequency (kHz) and MOPA pulse width. The design is centred on the field. Frame runs the red pointer; Start marks.	Laser › Ustawienia maszyny: rozmiar pola soczewki i plik korekcji EZCAD .cor dla Twojej soczewki (zapytaj producenta; ustawia też pole), źródło światłowodowe lub CO2. Wybierz „Galwo (EZCAD2 USB)” i Połącz (Windows potrzebuje sterownika WinUSB). Warstwy dostają częstotliwość (kHz) i szerokość impulsu MOPA. Projekt jest wyśrodkowany na polu. Obrys uruchamia czerwony wskaźnik; Start znakuje.
+Run a Ruida / Thunder CO2 laser	Obsługa lasera CO2 Ruida / Thunder
+Laser › Machine Settings: the controller's network address and its home corner (Thunder: rear left), then pick “Ruida (network)” and Connect. Home, jog, Frame (beam off), Start, Pause, Stop work like GRBL. In the browser, start GBurn Link on this computer first (gburn.app/download/). No network? File › Export Ruida (.rd) and run the file from a USB stick.	Laser › Ustawienia maszyny: adres sieciowy kontrolera i jego narożnik bazowy (Thunder: tył po lewej), potem wybierz „Ruida (sieć)” i Połącz. Bazowanie, przesuwanie, Obrys (wiązka wył.), Start, Pauza, Stop działają jak w GRBL. W przeglądarce najpierw uruchom GBurn Link na tym komputerze (gburn.app/download/). Brak sieci? Plik › Eksportuj Ruida (.rd) i uruchom plik z pendrive'a.
+Use the galvo on Windows	Używaj galwo w Windows
+EZCAD2's driver and GBurn's can't both own the board. Close EZCAD2, run Zadig (zadig.akeo.ie), Options › List All Devices, pick USBLMCV2 (9588 9899), WinUSB, Replace Driver. Then Galvo (EZCAD2 USB) › Connect. To go back, uninstall the device with its driver in Device Manager and reinstall EZCAD2's. Linux: a udev rule for 9588:9899 (docs/galvo-usb-drivers.md).	Sterownik EZCAD2 i sterownik GBurn nie mogą jednocześnie obsługiwać płyty. Zamknij EZCAD2, uruchom Zadig (zadig.akeo.ie), Options › List All Devices, wybierz USBLMCV2 (9588 9899), WinUSB, Replace Driver. Potem Galwo (EZCAD2 USB) › Połącz. Aby wrócić, odinstaluj urządzenie wraz ze sterownikiem w Menedżerze urządzeń i zainstaluj ponownie sterownik EZCAD2. Linux: reguła udev dla 9588:9899 (docs/galvo-usb-drivers.md).
+Correct a galvo lens without a .cor file	Skoryguj soczewkę galwo bez pliku .cor
+Laser › Galvo Lens Test Pattern adds a square at 80 % of the field; mark it at low power and measure it. Too small: raise Scale. Sides bowed in: raise Bulge; out: lower it. Top wider than the bottom: lower Trapezoid X. Leaning: Skew. Machine Settings › Galvo; mark again until it measures right.	Laser › Wzór testowy soczewki galwo dodaje kwadrat na 80 % pola; oznakuj go na niskiej mocy i zmierz. Za mały: zwiększ Skala. Boki wygięte do środka: zwiększ Wybrzuszenie; na zewnątrz: zmniejsz. Góra szersza niż dół: zmniejsz Trapez X. Przechylony: Pochyl. Ustawienia maszyny › Galwo; znakuj ponownie, aż wymiary się zgodzą.
+Connect a GRBL laser over Wi-Fi or Ethernet	Podłącz laser GRBL przez Wi-Fi lub Ethernet
+FluidNC and grblHAL boards speak Telnet (port 23): Machine Settings › GRBL network address, then pick “GRBL (network…)” and Connect. In the browser, run GBurn Link on this computer first.	Płyty FluidNC i grblHAL mówią przez Telnet (port 23): Ustawienia maszyny › Adres sieciowy GRBL, potem wybierz „GRBL (sieć…)” i Połącz. W przeglądarce najpierw uruchom GBurn Link na tym komputerze.
+Use a rotary	Używaj obrotnicy
+Machine Settings › Rotary on Y: the Y travel per full turn (jog to check) and the object's diameter. Y is scaled so the design wraps the object; X stays as drawn.	Ustawienia maszyny › Obrotnica na Y: przesuw Y na pełny obrót (sprawdź przesuwając) i średnica przedmiotu. Y jest skalowane, by projekt owinął przedmiot; X zostaje jak narysowano.
+Find the focus (Z axis lasers)	Znajdź ognisko (lasery z osią Z)
+Material Test with Z offset down the side (for example −2 to 2 mm, 9 rows) and one power: the sharpest row's Z is the focus. Then set the layer's Z offset, or move the bed.	Test materiału z przesunięciem Z w pionie (na przykład −2 do 2 mm, 9 wierszy) i jedną mocą: Z najostrzejszego wiersza to ognisko. Potem ustaw Przesunięcie Z warstwy albo przesuń stół.
+Frame with a red-dot pointer that sits beside the beam	Obrys ze wskaźnikiem czerwonej kropki obok wiązki
+Laser › Machine Settings › Red-dot pointer: how far the dot is from the beam, X and Y in mm (measure it: fire a dot, move the head until the pointer is on it, read the move). Frame then runs the dot round the design.	Laser › Ustawienia maszyny › Wskaźnik czerwonej kropki: jak daleko kropka jest od wiązki, X i Y w mm (zmierz: wystrzel punkt, przesuń głowicę, aż wskaźnik będzie na nim, odczytaj przesunięcie). Obrys prowadzi wtedy kropkę wokół projektu.
+Make the time estimate match my machine	Dopasuj szacowany czas do mojej maszyny
+Laser › Machine Settings › Time estimate ×: if jobs take 20 % longer than the estimate, type 1.2.	Laser › Ustawienia maszyny › Szacowany czas ×: jeśli zadania trwają o 20 % dłużej niż szacunek, wpisz 1.2.
+Add my own G-code buttons	Dodaj własne przyciski G-code
+Laser › Machine Settings › Macros: + Macro, a name and the lines to send. The buttons appear under the Console in the Laser tab (GRBL, not mid-job). Start / End G-code there go round every job.	Laser › Ustawienia maszyny › Makra: + Makro, nazwa i linie do wysłania. Przyciski pojawiają się pod Konsolą w karcie Laser (GRBL, nie w trakcie zadania). G-code startu / G-code końca tam otaczają każde zadanie.
+Find the spot (Fire)	Znajdź punkt wiązki (Strzał)
+Machine Settings › Fire button, then Fire in the Laser panel: a short low-power pulse (GRBL). Eye protection on. Ruida: the Pulse key on the machine.	Ustawienia maszyny › Przycisk strzału, potem Strzał w panelu lasera: krótki impuls o niskiej mocy (GRBL). Załóż okulary ochronne. Ruida: klawisz Pulse na maszynie.
+Choose where the laser starts	Wybierz, skąd startuje laser
+Laser panel › Start from: Bed (absolute) = the design burns where it sits on the bed; Current position = it starts where the head is now (LightBurn's Current Position) (pick the job origin on the 3 × 3 grid: which corner, edge or the centre); User origin = a saved spot (Set origin). An orange cross shows the job origin on the canvas.	Panel lasera › Start od: Stół (bezwzględnie) = projekt wypala się tam, gdzie leży na stole; Bieżąca pozycja = startuje tam, gdzie jest teraz głowica (Current Position w LightBurn) (wybierz początek zadania na siatce 3 × 3: który róg, krawędź lub środek); Początek użytkownika = zapisane miejsce (Ustaw początek). Pomarańczowy krzyżyk pokazuje początek zadania na płótnie.
+Set a user origin	Ustaw początek użytkownika
+Jog the head to the spot and press Set origin (Laser panel), or right-click the canvas › Set the user origin here. Machine Settings › Start from › User origin puts the job's origin point there.	Przesuń głowicę w to miejsce i naciśnij Ustaw początek (panel lasera) albo prawy klik na płótnie › Ustaw tu początek użytkownika. Ustawienia maszyny › Start od › Początek użytkownika umieszcza tam punkt początkowy zadania.
+Start the job where the head is	Zacznij zadanie tam, gdzie jest głowica
+Laser › Machine Settings › Start from: Current position, with a job origin (bottom-left, centre…). Jog the head to that spot on the material and Start; the G-code sets it with G92.	Laser › Ustawienia maszyny › Start od: Bieżąca pozycja, z początkiem zadania (lewy dolny, środek…). Przesuń głowicę w to miejsce na materiale i Start; G-code ustawia je przez G92.
+Frame the job	Obrys zadania
+Frame traces the outline of the design (or the selection) with the beam off, so you can place the material.	Obrys objeżdża kontur projektu (lub zaznaczenia) z wyłączoną wiązką, by można było ułożyć materiał.
+Burn the design	Wypal projekt
+Start sends the job. Pause / Resume (Space) and Stop are always in the panel; Stop resets the controller.	Start wysyła zadanie. Pauza / Wznów (Spacja) i Stop są zawsze w panelu; Stop resetuje kontroler.
+See the order and the time	Zobacz kolejność i czas
+P previews the job: strokes in their layer colours, travel dashed, a time estimate from your machine settings.	P pokazuje podgląd zadania: ścieżki w kolorach warstw, przejazdy przerywane, szacowany czas z ustawień maszyny.
+Simulate the job	Symuluj zadanie
+In Preview, ▶ plays the job at 1×, 4× or 16× real time: the head moves along the strokes, travel dashed, the clock and the stroke count above. Drag the slider to any moment.	W Podglądzie ▶ odtwarza zadanie w czasie rzeczywistym 1×, 4× lub 16×: głowica jedzie po ścieżkach, przejazdy przerywane, zegar i licznik ścieżek nad nimi. Przeciągnij suwak do dowolnej chwili.
+Watch the job (simulation)	Oglądaj zadanie (symulacja)
+Preview (P, or the switch at the top) shows the job; the bar under the canvas plays it. Speed − / + steps from ¼× to 256× real time (the slider goes in between); drag the long slider to any moment.	Podgląd (P lub przełącznik na górze) pokazuje zadanie; pasek pod płótnem je odtwarza. Prędkość − / + zmienia się od ¼× do 256× czasu rzeczywistego (suwak daje wartości pośrednie); przeciągnij długi suwak do dowolnej chwili.
+See how it might look on wood	Zobacz, jak to może wyglądać na drewnie
+Preview › the bar's last list: Birch plywood, Maple, Cherry, Walnut, Bamboo, MDF, Cork, Cardboard, Leather, Slate, anodised aluminium, acrylic. Fills show as solid areas, darker where the power is high for the speed. A rough guide: run a Material Test on the real thing.	Podgląd › ostatnia lista na pasku: Sklejka brzozowa, Klon, Wiśnia, Orzech, Bambus, MDF, Korek, Karton, Skóra, Łupek, anodowane aluminium, akryl. Wypełnienia pokazują się jako pełne obszary, ciemniejsze tam, gdzie moc jest wysoka względem prędkości. Orientacyjnie: zrób Test materiału na prawdziwym materiale.
+Burn only part of the design	Wypal tylko część projektu
+Select the shapes and tick “Burn only the selected shapes” in the Laser panel; Frame follows the selection too. Machine Settings › Frame: the box or the outline (hull).	Zaznacz kształty i zaznacz „Wypal tylko zaznaczone kształty” w panelu lasera; Obrys też idzie za zaznaczeniem. Ustawienia maszyny › Obrys: prostokąt lub kontur (otoczka).
+Burn one part where the head is	Wypal jedną część tam, gdzie jest głowica
+Select the part, tick “Burn only the selected shapes”, Laser tab › Start from: Current position, and tick “of the selection” by the job origin: the job origin comes from that part's box.	Zaznacz część, zaznacz „Wypal tylko zaznaczone kształty”, Karta Laser › Start od: Bieżąca pozycja, i zaznacz „zaznaczenia” przy początku zadania: początek zadania bierze się z prostokąta tej części.
+Move the head to an exact spot	Przesuń głowicę w dokładne miejsce
+Laser tab › Go to X / Y: type X and Y, Go (beam off). Right-click › Move the laser here does the same for a spot on the canvas.	Karta Laser › Idź do X / Y: wpisz X i Y, Idź (wiązka wył.). Prawy klik › Przesuń tu laser robi to samo dla miejsca na płótnie.
+Save head positions I go back to	Zapisz pozycje głowicy, do których wracam
+Laser tab › Spots › + Save here remembers where the head is; the numbered buttons go back there (beam off).	Karta Laser › Miejsca › + Zapisz tutaj zapamiętuje, gdzie jest głowica; numerowane przyciski tam wracają (wiązka wył.).
+Change speed or power mid-job	Zmień prędkość lub moc w trakcie zadania
+GRBL lasers: the Speed and Power − / + under Start change the running job by 10 % at once (100 puts it back). Laser › GRBL Settings ($$) reads and writes the controller's settings.	Lasery GRBL: Prędkość i Moc − / + pod Start zmieniają trwające zadanie od razu o 10 % (100 przywraca). Laser › Ustawienia GRBL ($$) czyta i zapisuje ustawienia kontrolera.
+Run a G-code file from another program	Uruchom plik G-code z innego programu
+Connect a GRBL laser, then Laser › Run a G-code File…, pick the file and press Start in its box. It goes as it is.	Podłącz laser GRBL, potem Laser › Uruchom plik G-code…, wybierz plik i naciśnij Start w jego oknie. Idzie bez zmian.
+Export for another program	Eksportuj do innego programu
+File › Export G-code (GRBL, mm, M4) or Export SVG. LightBurn, SVG and DXF files import.	Plik › Eksportuj G-code (GRBL, mm, M4) lub Eksportuj SVG. Pliki LightBurn, SVG i DXF można importować.
+See the material on the bed (camera)	Zobacz materiał na stole (kamera)
+Laser › Camera Overlay…: Take a photo (browser camera above the bed) or Load a photo (a phone shot from above). Click the bed corners, or four marks you burnt, in order and type where they are; Place on the bed. The photo lies under the design, never burnt; the marks are kept, so the next photo goes straight on.	Laser › Nakładka z kamery…: Zrób zdjęcie (kamera przeglądarki nad stołem) lub Wczytaj zdjęcie (zrobione telefonem z góry). Kliknij narożniki stołu lub cztery wypalone znaczniki, po kolei, i wpisz, gdzie są; Umieść na stole. Zdjęcie leży pod projektem, nigdy nie jest wypalane; znaczniki są zapamiętane, więc następne zdjęcie trafia od razu na miejsce.
+Line up on a photo of the bed	Dopasuj do zdjęcia stołu
+Draw › Background Photo: a picture on a layer that never burns. Size and place it to match the bed or the object, lock it (⌘L), design on top.	Rysuj › Zdjęcie w tle: obraz na warstwie, która nigdy się nie wypala. Ustaw rozmiar i położenie zgodnie ze stołem lub przedmiotem, zablokuj (⌘L), projektuj na wierzchu.
+Cut round a printed sheet (Print & Cut)	Wytnij wokół wydruku (Druk i cięcie)
+Laser › Print & Cut: put two marks in the design (small crosses or circles near opposite corners), print it, lay the sheet on the bed. Select mark 1, Use the selection; same for mark 2. Jog the laser onto the real mark 1, press Laser is on it; same for mark 2. Align turns and moves the whole design onto the sheet. Frame to check, then Start.	Laser › Druk i cięcie: umieść w projekcie dwa znaczniki (małe krzyżyki lub kółka przy przeciwległych rogach), wydrukuj, połóż arkusz na stole. Zaznacz znacznik 1, Użyj zaznaczenia; tak samo znacznik 2. Przesuń laser na prawdziwy znacznik 1, naciśnij Laser jest na nim; tak samo znacznik 2. Wyrównaj obraca i przesuwa cały projekt na arkusz. Obrys dla sprawdzenia, potem Start.
+Find the centre of a round part	Znajdź środek okrągłej części
+Laser › Centre Finder…: jog the head to three points on the part's edge, pressing Here at each; it shows the centre and diameter. Move the head there, or set the user origin there and Start from the user origin.	Laser › Wyszukiwanie środka…: przesuń głowicę do trzech punktów na krawędzi części, naciskając przy każdym Tutaj; pokaże środek i średnicę. Przesuń tam głowicę albo ustaw tam początek użytkownika i Start od początku użytkownika.
+User Manual	Instrukcja obsługi
+Search: power, text, connect, frame…	Szukaj: moc, tekst, połącz, obrys…
+Work area	Obszar roboczy
+Motion	Ruch
+Framing and safety	Obrys i bezpieczeństwo
+Galvo	Galwo
+Path	Ścieżka
+Lead-ins	Wejścia
+Effects	Efekty
+Timing and Z	Czasy i Z
+Lines	Linie
+Privacy policy	Polityka prywatności
+Usage and problem reports	Użycie i zgłoszenia problemów
+To make {app} better, it sends which features get used and a short report when something goes wrong: the error message, the app's version and your platform, and your account if you're signed in.	Aby ulepszać {app}, aplikacja wysyła, których funkcji używasz, oraz krótkie zgłoszenie, gdy coś pójdzie nie tak: komunikat błędu, wersję aplikacji i Twoją platformę oraz Twoje konto, jeśli jesteś zalogowany.
+Never your designs, file names or paths. Problem reports are kept for 30 days.	Nigdy Twoje projekty, nazwy plików ani ścieżki. Zgłoszenia problemów są przechowywane 30 dni.
+Help improve {app}: send usage and problem reports	Pomóż ulepszyć {app}: wysyłaj dane o użyciu i zgłoszenia problemów
+Delete my data	Usuń moje dane

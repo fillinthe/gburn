@@ -1,0 +1,1176 @@
+# GBurn interface: English	translation
+Before you start	開始前の確認
+Cancel	キャンセル
+Start	スタート
+A job is running: closing stops the laser.	ジョブ実行中です。閉じるとレーザーが停止します。
+Don't save	保存しない
+Save	保存
+Stop and close	停止して閉じる
+Designs in your account	アカウント内のデザイン
+Delete	削除
+Open	開く
+Back to the start	最初に戻る
+Speed	速度
+Lines (by layer colour)	ライン(レイヤー色)
+Start here	ここからスタート
+Save as a picture…	画像として保存…
+Corner radius	角の半径
+File	ファイル
+Open Recent	最近使ったファイル
+Export	エクスポート
+Edit	編集
+Select…	選択…
+Arrange	配置
+Align	整列
+Move to the Bed's…	ベッドの位置へ移動…
+Shapes	図形
+Simplify (fewer points)	単純化(点を減らす)
+Draw a Shape	図形を描く
+Laser	レーザー
+View	表示
+Help	ヘルプ
+GBurn	GBurn
+Save the job as G-code (File › Export has .rd, LightBurn, SVG, DXF)	ジョブを G-code で保存(ファイル › エクスポートに .rd、LightBurn、SVG、DXF があります)
+How Do I…?	使い方
+Support GBurn: donate (opens gburn.app)	GBurn を応援:寄付(gburn.app を開きます)
+Show the side panel	サイドパネルを表示
+Properties	プロパティ
+Cuts	カット
+Cuts / Layers	カット / レイヤー
+Add a layer	レイヤーを追加
+Text	テキスト
+Height	高さ
+Bold	太字
+Offset	オフセット
+Bed	ベッド
+Machine Settings: speeds, the controller, the rotary…	マシン設定:速度、コントローラー、ロータリー…
+Machine	マシン
+Size	サイズ
+Design	デザイン
+Part of the design is off the bed	デザインの一部がベッドからはみ出しています
+Centre the design	デザインを中央へ
+Fit the view	表示に合わせる
+0,0 is the bed's front-left corner. With Start from › Bed the design burns where it sits here; the grid follows the zoom.	0,0 はベッドの左手前の角です。開始位置 › ベッドの場合、デザインはここに置いた位置で加工されます。グリッドはズームに合わせて変わります。
++ Sub-layer	+ サブレイヤー
+Remove	削除
+Duplicate	複製
+Copy settings	設定をコピー
+Paste	貼り付け
+Make default	既定にする
+Reset	リセット
+Mode	モード
+Power	出力
+Passes	パス数
+Frequency	周波数
+kHz (galvo)	kHz(ガルバノ)
+Pulse width	パルス幅
+ns (MOPA)	ns(MOPA)
+Own timings	個別タイミング
+Pause	一時停止
+ms	ms
+Repeat all	全体を繰り返し
+× with sub-layers	× サブレイヤー込み
+Z offset	Z オフセット
+mm Z, − down	mm Z、− で下
+Constant power	一定出力
+M3 (GRBL)	M3(GRBL)
+Z per pass	パスごとの Z
+mm each pass	mm / パス
+Kerf offset	カーフ補正
+mm (+ out, − in)	mm(+ 外、− 内)
+Tabs	タブ
+mm	mm
+Tabs on holes	穴にもタブ
+Inner first	内側から先に
+Lead-in	リードイン
+arc	円弧
+Lead angle	リード角度
+° off square	° 直角から
+Overcut	オーバーカット
+Lead-out	リードアウト
+Cut through	貫通
+% while paused	% 停止中
+Direction	方向
+Wobble	ウォブル
+mm Ø, step	mm Ø、ステップ
+Dot mode	ドットモード
+ms, mm	ms、mm
+Perforation	ミシン目
+mm on, off	mm オン、オフ
+Min power	最小出力
+% in corners	% 角で
+Image mode	画像モード
+Negative	反転
+Overscan	オーバースキャン
+Auto	自動
+mm each end	mm 両端
+Dot width	ドット幅
+mm correction	mm 補正
+One way	一方向
+one direction	片方向のみ
+Pass-through	パススルー
+as is	そのまま
+Clean up	クリーンアップ
+passes at	パスごと、出力
+Line interval	ライン間隔
+Turn per pass	パスごとの回転
+° each pass	° / パス
+each job	ジョブごと
+Fill shapes	塗りつぶし図形
+part by part	パーツごと
+Flood fill	フラッド塗りつぶし
+area by area	領域ごと
+Even lines	均等ライン
+spread to fit	幅に合わせる
+Edge loops	縁ループ
+gap	間隔
+Fill inset	塗りの内側余白
+mm inside	mm 内側
+Cross-hatch	クロスハッチ
+Ramp	ランプ
+mm fade-in	mm フェードイン
+Scan angle	スキャン角度
+Air assist	エアアシスト
+Output	出力する
+Show	表示
+Material	材料
+Presets…	プリセット…
+None saved yet	まだ保存されていません
+Save…	保存…
+Unlink	リンク解除
+Scale	拡大縮小
+% (Enter: about the anchor)	%(Enter:アンカー基準)
+Rotate	回転
+° (Enter: about the anchor)	°(Enter:アンカー基準)
+Skew	傾斜
+° across	° 横
+° up (Enter)	° 縦(Enter)
+% of the layer's power	% レイヤー出力に対して
+Cut priority	カット優先度
+lower burns first	小さいほど先に加工
+Sides	辺の数
+Star	星形
+Second star	二重星
+Resample to the scan DPI	スキャン DPI に再サンプル
+Brightness	明るさ
+Contrast	コントラスト
+Gamma	ガンマ
+Sharpen	シャープ
+Denoise	ノイズ除去
+Halftone	ハーフトーン
+mm cell	mm セル
+As it will burn	加工イメージ
+Name	名前
+optional	任意
+Edit text…	テキストを編集…
+Reverse	反転
+Click a point of the selected shape to edit it	選択した図形の点をクリックして編集します
+Same X	X を揃える
+Same Y	Y を揃える
+Delete points	点を削除
+Delete point	点を削除
+Break here	ここで分割
+Straight	直線
+Curve	曲線
+Round corner	角を丸める
+Sharp corner	角を尖らせる
+Next ▸	次へ ▸
+machine	マシン
+Find	検索
+Unlock	ロック解除
+Use it	使用する
+Door open: the laser won't run until it is closed	扉が開いています:閉じるまでレーザーは動きません
+Go to…	移動…
+Set origin	原点を設定
+To origin	原点へ
+Clear origin	原点をクリア
+To selection	選択範囲へ
+Fire	発射
+Spots	位置メモ
++ Save here	+ ここを保存
+Clear	クリア
+Go to X	X へ移動
+Y	Y
+Go	移動
+Burn only the selected shapes	選択した図形のみ加工
+Step	ステップ
+Hold to move	押している間移動
+Arrow keys	矢印キー
+Console	コンソール
+Start from	開始位置
+of the selection	選択範囲の
+Stop	停止
+Frame	フレーム
+No laser connected:	レーザー未接続:
+Connect	接続
+Laser tab	レーザータブ
+Welcome to GBurn	GBurn へようこそ
+Design on the left, cut settings on the right, and the laser at the bottom of the panel.	左にデザイン、右にカット設定、パネル下部にレーザーがあります。
+Nothing fires until you press Start. Frame traces the outline with the beam off.	スタートを押すまでレーザーは発射しません。フレームはビームを切ったまま外形をなぞります。
+Got it	了解
+Restore unsaved work?	保存していない作業を復元しますか?
+Discard	破棄
+Restore	復元
+Words	文字
+Font	フォント
+Liberation Sans (built in)	Liberation Sans(内蔵)
+Looking for this computer's fonts…	このコンピューターのフォントを検索中…
+Search fonts	フォントを検索
+Font file…	フォントファイル…
+Spacing	字間
+%  Line gap ×	%  行間 ×
+When the words change, keep the	文字が変わったとき、固定する位置
+Width	幅
+%  Slant	%  斜体
+Fit to	合わせる幅
+width	幅のみ
+whole	全体
+Along the selected shape	選択した図形に沿う
+moved	移動
+inside	内側
+bend letters	文字を曲げる
+UPPER CASE	大文字
+Right to left	右から左
+Weld the letters (one outline: script fonts, no double burns where letters overlap)	文字を溶接(1 つの輪郭:筆記体フォントで文字が重なっても二重に焼けません)
+Variable text: {n} = serial, {n:4} padded, {date}, {date:%d/%m/%Y}, {time}. Next number	可変テキスト:{n} = 連番、{n:4} ゼロ埋め、{date}、{date:%d/%m/%Y}、{time}。次の番号
+step	増分
+After	上限
+start again from	超えたら戻る値
+Data file (CSV)…	データファイル(CSV)…
+Controller Settings	コントローラー設定
+The Ruida's own settings. Save a backup before changing anything: a wrong value can stop the machine moving properly. Each write is read back.	Ruida 本体の設定です。変更前にバックアップを保存してください。誤った値で正しく動かなくなることがあります。書き込みごとに読み返します。
+Sure?	よろしいですか?
+Write	書き込み
+Read again	再読み込み
+Save a backup	バックアップを保存
+Controller Files	コントローラーのファイル
+Jobs kept on the Ruida, to run from its panel or from here.	Ruida に保存されたジョブ。本体パネルまたはここから実行できます。
+Reading…	読み込み中…
+No files on the controller	コントローラーにファイルがありません
+Send this design	このデザインを送信
+Refresh	更新
+Controller Info	コントローラー情報
+GRBL Settings	GRBL 設定
+Waiting for the controller's $$…	コントローラーの $$ を待っています…
+Written straight to the controller. Note the old value first.	コントローラーに直接書き込みます。先に元の値をメモしてください。
+QR Code / Barcode	QR コード / バーコード
+text under	下に文字
+Narrowest bar	最小バー幅
+Add	追加
+Undo History	元に戻す履歴
+Click a step to go back to just before it; undone steps (dim) come back the same way.	ステップをクリックするとその直前に戻ります。取り消したステップ(薄色)も同じ方法で戻せます。
+● now	● 現在
+Shapes Library	図形ライブラリ
+My art	マイアート
+name	名前
+Save the selection	選択範囲を保存
+Add files…	ファイルを追加…
+Nothing saved yet: select shapes, name them, Save the selection.	まだ何も保存されていません:図形を選択して名前を付け、選択範囲を保存してください。
+Notes	メモ
+Saved with the design: the material, settings that worked, anything.	デザインと一緒に保存:材料、うまくいった設定など何でも。
+Templates	テンプレート
+Start a new design from one: its layers, settings and shapes.	テンプレートから新規デザインを作成:レイヤー、設定、図形を含みます。
+The coaster (sample)	コースター(サンプル)
+Save this design	このデザインを保存
+Run a G-code File	G-code ファイルを実行
+Sent as it is: GBurn's start position and Start / End G-code don't apply.	そのまま送信します:GBurn の開始位置と開始 / 終了 G-code は適用されません。
+Connect a GRBL laser (Laser tab)	GRBL レーザーを接続(レーザータブ)
+Camera Overlay	カメラオーバーレイ
+Show the overlay	オーバーレイを表示
+Take a photo	写真を撮る
+Load a photo…	写真を読み込む…
+Click the four points below on the photo, in order (a fifth click starts again). Corners of the bed, or four marks you burnt.	写真上で下の 4 点を順にクリックします(5 回目でやり直し)。ベッドの角、または焼いた 4 つの印。
+No photo yet.	写真はまだありません。
+Lens bend	レンズ歪み
+Place on the bed	ベッドに配置
+Forget the marks	印を破棄
+The marks are kept: with the camera in the same place, a new photo goes straight onto the bed.	印は保持されます:カメラが同じ位置なら、新しい写真はそのままベッドに配置されます。
+Virtual Array	仮想配列
+Grid	グリッド
+Circle	円形
+Copies	コピー数
+Round X, Y	中心 X、Y
+centre	中心
+of it	から
+Live copies: change or move the original and they follow. They burn as real shapes.	ライブコピー:元を変更・移動すると追従します。実際の図形として加工されます。
+Make the copies real	コピーを実体化
+Bend / Taper	曲げ / テーパー
+Bend	曲げ
+° of arc, − sags	° の円弧、− で下に凹む
+Top width	上の幅
+% of the bottom	% 下に対して
+Apply to the selection	選択範囲に適用
+Text in an arc, labels for tapered cups. Curves become fine lines.	円弧状の文字、テーパーカップのラベルに。曲線は細かい線になります。
+Centre Finder	中心検出
+Jog the head (red dot) to three points on the edge of a round part, pressing Here at each.	ヘッド(赤い点)を円形部品の縁の 3 点へ動かし、それぞれで「ここ」を押します。
+Here	ここ
+Move the head there	ヘッドをそこへ移動
+Set the user origin there	そこをユーザー原点に設定
+The three points are in a line: pick points further apart round the edge	3 点が一直線上にあります:縁に沿ってもっと離れた点を選んでください
+Print & Cut	印刷してカット
+Two marks printed with the design, near opposite corners, line the cut up with the sheet.	デザインと一緒に対角近くへ 2 つの印を印刷し、カットを用紙に合わせます。
+Use the selection	選択範囲を使用
+Laser is on it	レーザーが合っている
+Scale to the marks (printers stretch a little)	印に合わせて拡大縮小(プリンターは少し伸びます)
+Align the design	デザインを合わせる
+Polygon / Star	多角形 / 星形
+Radius	半径
+Inner radius %	内径 %
+Second star %	二重星 %
+0 = none	0 = なし
+Both ways (out and in)	両方向(外と内)
+Round corners	角を丸める
+sharp	鋭角
+bevel (cut across)	面取り(斜めにカット)
+All together (overlaps join up)	まとめて(重なりは結合)
+Delete the originals	元を削除
+Apply	適用
+Grid Array	グリッド配列
+Every other row	1 行おき
+Every other column	1 列おき
+Each copy	各コピー
+Variable text counts up	可変テキストを連番に
+Make copies	コピーを作成
+Resize Slots	スロットのサイズ変更
+Slots and tabs sized for one material thickness, made right for another (straight, square corners)	ある板厚用のスロットとタブを別の板厚に合わせます(直線、直角の角)
+Resize	サイズ変更
+Boolean Assistant	ブーリアンアシスタント
+Each result for the selection (the first picked is “the first”). Click one to keep it.	選択範囲の各結果(最初に選んだものが「最初」)。残すものをクリックします。
+Nothing: select closed shapes that overlap	なし:重なる閉じた図形を選択してください
+Speed and power come from the current layer	速度と出力は現在のレイヤーから取ります
+Make the test	テストを作成
+Close and Optimize	閉じる・最適化
+Close open paths whose ends are within	端点がこの距離内の開いたパスを閉じる
+Close	閉じる
+Optimize: fewer points, within	最適化:点を減らす、許容値
+Optimize	最適化
+Smooth wavy or jagged outlines (traced pictures) by	波打つ・ギザギザの輪郭(トレース画像)を滑らかに:
+Smooth	スムーズ
+Bridges	ブリッジ
+Gaps across the selected shapes, so stencil islands stay attached	選択図形を横切る隙間。ステンシルの島が離れません
+Add bridges	ブリッジを追加
+Circular Array	円形配列
+Copies go round a point that far below the selection's centre, each turned to face it.	選択範囲の中心からその距離だけ下の点を中心にコピーを並べ、それぞれ中心を向けます。
+Copy Along Path	パスに沿ってコピー
+Turn each copy with the path	各コピーをパスに合わせて回転
+Select the object and the path: the shape with the longest outline is the path. Copies are spread end to end (evenly round a closed path).	オブジェクトとパスを選択します:輪郭が最も長い図形がパスです。コピーは端から端まで配置されます(閉じたパスでは均等に一周)。
+Material Test	材料テスト
+to	〜
+Rows	行
+Columns	列
+Cell size	セルサイズ
+Make the grid	グリッドを作成
+Material Library	材料ライブラリ
+Empty. Set a layer up, then Material › Save… in its settings, or import a LightBurn .clb.	空です。レイヤーを設定し、その設定の 材料 › 保存… を使うか、LightBurn の .clb を読み込んでください。
+Find a material, thickness or setting…	材料、厚さ、設定を検索…
+Use	使用
+Save the current layer…	現在のレイヤーを保存…
+Import .clb…	.clb を読み込み…
+Export .clb…	.clb を書き出し…
+Save to the Material Library	材料ライブラリに保存
+Birch plywood	シナ合板
+Thickness	厚さ
+mm (empty = any)	mm(空欄 = 任意)
+Description	説明
+through cut	切り抜き
+Trace Picture	画像をトレース
+Outlines of the dark parts of the selected picture, as shapes on a new Line layer.	選択した画像の暗い部分の輪郭を、新しいラインレイヤーの図形にします。
+Threshold	しきい値
+Automatic	自動
+Trace the light parts	明るい部分をトレース
+Centerline	中心線
+single lines down the strokes	線の中央に 1 本線
+px (0.5 tight, 2 smooth)	px(0.5 精密、2 滑らか)
+Ignore specks under	無視する小さな点:未満
+px²	px²
+Trace	トレース
+Machine Settings	マシン設定
+Nova 63, Aurora 8…	Nova 63、Aurora 8…
+Save as a new machine	新しいマシンとして保存
+Bed width	ベッド幅
+Bed height	ベッド奥行
+Travel speed	移動速度
+mm/s (beam off)	mm/s(ビームオフ)
+Acceleration	加速度
+mm/s² cut / engrave (time estimate)	mm/s² カット / 彫刻(時間見積もり)
+Top speed X / Y	最高速度 X / Y
+mm/s each axis, 0 = no limit (time estimate)	mm/s 各軸、0 = 制限なし(時間見積もり)
+Corner slow-down	コーナー減速
+mm, GRBL $11, 0 = off (time estimate)	mm、GRBL $11、0 = オフ(時間見積もり)
+Full power S	最大出力 S
+GRBL network address	GRBL ネットワークアドレス
+e.g. 192.168.1.50 or fluidnc.local:23	例:192.168.1.50 または fluidnc.local:23
+Ruida address	Ruida アドレス
+Ruida home corner	Ruida 原点の角
+Galvo lens field	ガルバノレンズ範囲
+Fibre	ファイバー
+CO2	CO2
+Galvo correction	ガルバノ補正
+Pick .cor file…	.cor ファイルを選択…
+Flip X	X 反転
+Flip Y	Y 反転
+X per Y	Y あたりの X
+Cylinder	円筒
+mirror mm	ミラー mm
+curves across X	X 方向に湾曲
+inside (concave)	内側(凹面)
+Galvo speed	ガルバノ速度
+mm/s jumps	mm/s ジャンプ
+Galvo delays	ガルバノ遅延
+µs	µs
+Baud rate	ボーレート
+Absolute coordinates	絶対座標
+Current position	現在位置
+User origin	ユーザー原点
+Job origin	ジョブ原点
+Fire button	発射ボタン
+% for ≈ 0.4 s	% で約 0.4 秒
+Rotary on Y	Y 軸ロータリー
+A axis	A 軸
+mm/turn, object Ø	mm/回転、対象 Ø
+Test	テスト
+Taper warp	テーパー補正
+mm Ø left / right: a tapered tumbler	mm Ø 左 / 右:テーパー型タンブラー
+Scanning offset	スキャンオフセット
+e.g. 100:0.05, 300:0.12	例:100:0.05, 300:0.12
+speed (mm/s) : mm the return lines land off, for GRBL fills and pictures. Engrave a few lines at each speed, measure the step, type it here.	速度 (mm/s) : 戻り線のずれ mm。GRBL の塗りつぶしと画像用です。各速度で数本の線を彫り、ずれを測ってここに入力します。
+Time estimate ×	時間見積もり ×
+1.2 = jobs take 20 % longer than estimated	1.2 = ジョブが見積もりより 20 % 長くかかる
+Cut order	カット順序
+shortest travel (holes first)	最短移動(穴を先に)
+as drawn	描いた順
+finish each group (part) before the next	グループ(パーツ)ごとに完了してから次へ
+start shapes at a corner (hides the start mark)	図形を角から開始(開始跡を隠す)
+fewer direction changes	方向転換を減らす
+hide backlash (every loop the same way round)	バックラッシュを隠す(ループを常に同じ向きに)
+Shared edges	共有エッジ
+cut once (remove overlapping lines)	1 回だけカット(重なる線を除去)
+the box	外接矩形
+the outline (hull)	外形(凸包)
+keep framing until Stop	停止までフレームを繰り返す
+Job checklist	ジョブチェックリスト
+one item a line, ticked before every Start (e.g. Air on, Lid closed)	1 行に 1 項目、スタートのたびにチェック(例:エアオン、蓋を閉じた)
+% beam while framing (GRBL diodes without a pointer; 0 = off)	% フレーム中のビーム(ポインターのない GRBL ダイオード用、0 = オフ)
+Red-dot pointer	赤色ポインター
+X	X
+mm from the beam	mm ビームから
+Connecting	接続時
+home the machine	マシンを原点復帰
+After the job	ジョブ終了後
+go to X	X へ移動
+mm (GRBL)	mm(GRBL)
+Speed unit	速度の単位
+mm/s	mm/s
+mm/min	mm/min
+Power mode	出力モード
+M4 dynamic	M4 ダイナミック
+M3 constant	M3 一定
+S on every move	毎回の移動に S
+Machine 0,0	マシンの 0,0
+Swap X / Y	X / Y 入れ替え
+Blank moves as G0	空送りを G0 に
+Progress (M73)	進捗(M73)
+M8	M8
+M7	M7
+Controller	コントローラー
+Transfer	転送
+one line at a time (synchronous)	1 行ずつ(同期)
+Start G-code	開始 G-code
+before every job, e.g. M7	毎ジョブの前、例:M7
+End G-code	終了 G-code
+after every job	毎ジョブの後
+Macros	マクロ
+G-code	G-code
++ Macro	+ マクロ
+M4 scales power with speed through corners (GRBL laser mode, $32=1). Pick M3 only if your controller has no laser mode.	M4 はコーナーで速度に合わせて出力を調整します(GRBL レーザーモード、$32=1)。コントローラーにレーザーモードがない場合のみ M3 を選んでください。
+Current position: jog the head to where the design's job origin should be, then Start. The job's G-code sets that point with G92 and clears it at the end.	現在位置:デザインのジョブ原点にしたい場所へヘッドを動かしてからスタートします。ジョブの G-code が G92 でその点を設定し、終了時に解除します。
+Settings	設定
+Mouse and trackpad	マウスとトラックパッド
+Units	単位
+Guides: drag out of a ruler; drag one back onto the ruler to remove it. They snap.	ガイド:ルーラーからドラッグして作成、ルーラーへ戻すと削除。スナップします。
+Pick within	選択範囲
+px, snap within	px、スナップ範囲
+px	px
+Save it…	保存…
+Arrow keys move	矢印キーの移動量
+mm (⇧ × 10)	mm(⇧ × 10)
+Machine Settings…	マシン設定…
+Keyboard Shortcuts…	キーボードショートカット…
+Export / Import…	エクスポート / インポート…
+Keyboard Shortcuts	キーボードショートカット
+Your shortcuts	自分のショートカット
+Find a command…	コマンドを検索…
+Type to find a command, then Set and press its key.	入力してコマンドを探し、設定を押してキーを押します。
+About GBurn	GBurn について
+A sister app of GCarve (gcarve.app) and GSketch (gsketch.app).	GCarve(gcarve.app)と GSketch(gsketch.app)の姉妹アプリです。
+New	新規
+Import (SVG, DXF, PDF, LightBurn, picture)…	インポート(SVG、DXF、PDF、LightBurn、画像)…
+Save As…	名前を付けて保存…
+Notes…	メモ…
+Print	印刷
+Print in Black	黒で印刷
+Export Settings…	設定をエクスポート…
+Import Settings…	設定をインポート…
+Templates…	テンプレート…
+Save to Account	アカウントに保存
+Open from Account…	アカウントから開く…
+G-code (GRBL lasers)	G-code(GRBL レーザー)
+Ruida file (.rd, USB stick)	Ruida ファイル(.rd、USB メモリ)
+K40 file (.egv)	K40 ファイル(.egv)
+LightBurn project (.lbrn2)	LightBurn プロジェクト(.lbrn2)
+SVG (curves kept)	SVG(曲線を保持)
+DXF (for CAD)	DXF(CAD 用)
+PDF (print at 100 %)	PDF(100 % で印刷)
+Processed picture (PNG)	処理済み画像(PNG)
+Undo History…	元に戻す履歴…
+Settings…	設定…
+Cut	切り取り
+Copy	コピー
+Paste in Place	同じ位置に貼り付け
+Select All	すべて選択
+Select All on This Layer	このレイヤーをすべて選択
+Select None	選択解除
+Invert the Selection	選択を反転
+Inside the Selection	選択範囲の内側
+Open Paths	開いたパス
+Open Paths on Fill Layers	塗りレイヤーの開いたパス
+Smaller Than the Selection	選択範囲より小さいもの
+Circles (or the selected one's size)	円(または選択した円と同じサイズ)
+Pictures	画像
+Texts	テキスト
+Group	グループ化
+Ungroup	グループ解除
+Auto-Group	自動グループ化
+Lock	ロック
+Unlock All	すべてロック解除
+Move to the Current Layer	現在のレイヤーへ移動
+Mirror Left–Right	左右反転
+Mirror Up–Down	上下反転
+Mirror Across a Line	線を軸に反転
+Rotate 90° Left	左に 90° 回転
+Two-Point Rotate / Scale	2 点で回転 / 拡大縮小
+Rotate 90° Right	右に 90° 回転
+Distribute Across	横に均等配置
+Distribute Centres Across	中心を横に均等配置
+Distribute Centres Up	中心を縦に均等配置
+Distribute Down	縦に均等配置
+Dock Together Across	横に隙間なく並べる
+Dock Together Down	縦に隙間なく並べる
+Same Width	幅を揃える
+Same Size	サイズを揃える
+Same Height	高さを揃える
+Centre on the Bed	ベッドの中央へ
+Fit to the Bed (scale)	ベッドに合わせる(拡大縮小)
+Move to the Laser's Position	レーザーの位置へ移動
+Nest on the Bed	ベッドにネスティング
+Nest by Shape	形状でネスティング
+Nest by Shape over Pages	ページをまたいで形状ネスティング
+Edit Cut Order (click shapes in turn)	カット順序を編集(図形を順にクリック)
+Cut First (in its layer)	最初にカット(レイヤー内)
+Cut Last (in its layer)	最後にカット(レイヤー内)
+One Place Earlier	1 つ前へ
+One Place Later	1 つ後へ
+Grid Array…	グリッド配列…
+Virtual Array…	仮想配列…
+Circular Array…	円形配列…
+Copy Along Path…	パスに沿ってコピー…
+Union	合体
+Subtract (first minus the rest)	型抜き(最初から残りを引く)
+Intersect	交差
+Exclude (all but the overlap)	除外(重なり以外)
+Boolean Assistant…	ブーリアンアシスタント…
+Split with the First	最初の図形で分割
+Offset Shapes…	図形をオフセット…
+Round Corners…	角を丸める…
+Trace Picture…	画像をトレース…
+Trace Several Picture Files…	複数の画像ファイルをトレース…
+Cut the Picture to the Shape	画像を図形で切り抜く
+Turn Shapes into a Picture	図形を画像に変換
+Background Photo (not burnt)…	背景写真(加工しない)…
+Replace the Picture…	画像を置き換え…
+Replace the Picture to Fit…	画像を置き換えて合わせる…
+Weld (keep holes)	溶接(穴を保持)
+Join Open Paths	開いたパスを結合
+Close Paths	パスを閉じる
+Close / Optimize Within…	範囲内で閉じる / 最適化…
+Extend Lines to the Next Shape	線を次の図形まで延長
+Bridges…	ブリッジ…
+Break Apart	分解
+Resize Slots…	スロットのサイズ変更…
+Tangent Circle (to 3 circles)	接円(3 つの円に)
+Path from the Cut	カットからパスを作成
+Bend / Taper…	曲げ / テーパー…
+Warp (4 corners)	ワープ(4 隅)
+Deform (16 handles)	変形(16 ハンドル)
+Smooth into Curves	滑らかな曲線にする
+Outline Around (hull)	外形線(凸包)
+Outline Around (box)	外形線(矩形)
+Fine: within 0.02 mm	細かい:0.02 mm 以内
+Medium: within 0.1 mm	中:0.1 mm 以内
+Coarse: within 0.5 mm	粗い:0.5 mm 以内
+Delete Duplicates and Specks	重複と小さな点を削除
+Polygon / Star…	多角形 / 星形…
+Shapes Library…	図形ライブラリ…
+Text…	テキスト…
+Edit Text…	テキストを編集…
+Convert Text to Shapes	テキストを図形に変換
+Bake the Variable Text	可変テキストを確定
+QR Code / Barcode…	QR コード / バーコード…
+Picture…	画像…
+Home	原点復帰
+Pause / Resume	一時停止 / 再開
+Print & Cut…	印刷してカット…
+Centre Finder…	中心検出…
+Camera Overlay…	カメラオーバーレイ…
+Save the Camera Capture…	カメラ画像を保存…
+Galvo Lens Test Pattern	ガルバノレンズテストパターン
+Run a G-code File…	G-code ファイルを実行…
+Cut Settings Editor…	カット設定エディター…
+Material Test…	材料テスト…
+Scanning Offset Test	スキャンオフセットテスト
+Focus Test…	焦点テスト…
+Interval Test…	間隔テスト…
+Material Library…	材料ライブラリ…
+Import Material Library (.clb)…	材料ライブラリを読み込み(.clb)…
+GRBL Settings ($$)…	GRBL 設定($$)…
+Get Controller Info…	コントローラー情報を取得…
+Controller Files…	コントローラーのファイル…
+Controller Settings…	コントローラー設定…
+Play / Pause the Simulation	シミュレーションの再生 / 一時停止
+Fit the Design	デザインに合わせる
+Fit the Bed	ベッドに合わせる
+Clear the Guides	ガイドを消去
+Flash the Layer's Shapes	レイヤーの図形を点滅
+Zoom to Selection	選択範囲にズーム
+Zoom In	ズームイン
+Zoom Out	ズームアウト
+Find a Command…	コマンドを検索…
+Report a Bug…	バグを報告…
+Request a Change…	変更を要望…
+Documentation	ドキュメント
+GBurn Website	GBurn ウェブサイト
+♥ Donate to GBurn…	♥ GBurn に寄付…
+text	テキスト
+import	インポート
+extents	範囲
+mtest	材料テスト
+Text (T)	テキスト (T)
+Import	インポート
+Import SVG, DXF, LightBurn files or pictures (⌘I)	SVG、DXF、LightBurn ファイル、画像をインポート(⌘I)
+Fit	全体
+Fit the design in the view (F)	デザインを表示に合わせる (F)
+Test grid	テスト格子
+Material test: a grid of speeds and powers	材料テスト:速度と出力のグリッド
+Disconnect	切断
+Start · rotary	スタート · ロータリー
+Resume	再開
+Open from Computer…	コンピューターから開く…
+Open…	開く…
+Download (.gburn)	ダウンロード(.gburn)
+Account…	アカウント…
+Sign In…	サインイン…
+Back to Design	デザインに戻る
+Preview the Job	ジョブをプレビュー
+Mouse Wheel Zooms	ホイールでズーム
+Mouse Wheel Pans (trackpad)	ホイールでパン(トラックパッド)
+Hide the Grid	グリッドを隠す
+Show the Grid	グリッドを表示
+Hide the Fills	塗りを隠す
+Show the Fills	塗りを表示
+Shaded Fills	塗りを網掛け
+Solid Fills	塗りをべた塗り
+Show Millimetres	ミリメートル表示
+Show Inches	インチ表示
+Show the Side Panel	サイドパネルを表示
+Hide the Side Panel	サイドパネルを隠す
+Select	選択
+Click a shape; drag to move it; drag a corner to resize, the round dot to turn (⇧ 15° steps); drag on empty space to box-select	図形をクリック、ドラッグで移動、角をドラッグでサイズ変更、丸い点で回転(⇧ 15° 刻み)、空白をドラッグで範囲選択
+Nodes	ノード
+Click a shape, drag its points; double-click a segment to add a point; ⌫ removes the picked point	図形をクリックして点をドラッグ、セグメントをダブルクリックで点を追加、⌫ で選択した点を削除
+Rectangle	長方形
+Drag a rectangle (⇧ square, ⌥ from the centre)	長方形をドラッグ(⇧ 正方形、⌥ 中心から)
+Ellipse	楕円
+Drag an ellipse (⇧ circle, ⌥ from the centre)	楕円をドラッグ(⇧ 円、⌥ 中心から)
+Polygon	多角形
+Drag from the centre out to a corner (⇧ 15° turns); sides and star in the Polygon box	中心から角へドラッグ(⇧ 15° 刻み)、辺の数と星形は多角形ボックスで
+Line	ライン
+Click points (⇧ 15° steps); click the first point or press Enter to finish, Esc to drop it	点をクリック(⇧ 15° 刻み)、最初の点をクリックか Enter で完了、Esc で破棄
+Measure	計測
+Drag between two points for the distance; point at a shape for its size, outline and area	2 点間をドラッグで距離、図形を指すとサイズ、外周、面積
+Trim	トリム
+Click a line between two crossings: that stretch is cut away (nothing crosses = the shape goes)	2 つの交点間の線をクリック:その区間を削除(交点なし = 図形ごと削除)
+Pan	パン
+Drag to move the view; the wheel zooms	ドラッグで表示を移動、ホイールでズーム
+Scale X / Y	拡大縮小 X / Y
+Bulge X / Y	膨らみ X / Y
+Trapezoid X / Y	台形 X / Y
+× size	× サイズ
++ sides bow out	+ で辺が外に膨らむ
++ wider top / taller right	+ で上が広く / 右が高く
+Shade by power	出力で濃淡
+Legend	凡例
+Keep ratio	比率を固定
+shift ½	½ ずらす
+flip	反転
+turned at random (¼ turns)	ランダムに回転(¼ 回転)
+Slot width (the sides move apart)	スロット幅(側面が離れる)
+Slot depth (the bottom moves)	スロット深さ(底が動く)
+Tab height (the top moves)	タブ高さ(上が動く)
+move the ends together	端点を寄せる
+straight lines only	直線のみ
+Language	言語
+Reverse the wheel's zoom	ホイールのズーム方向を反転
+inches	インチ
+Shade the fills in the design	デザイン上で塗りを網掛け
+Snap to points, middles and centres	点、中点、中心にスナップ
+follows the zoom	ズームに合わせる
+Join loose ends on import (within 0.05 mm)	インポート時に離れた端点を結合(0.05 mm 以内)
+Beginner mode (only the basic cut settings)	初心者モード(基本的なカット設定のみ)
+Automation: other programs may open files here (UDP 19840, this computer only)	自動化:他のプログラムがここでファイルを開ける(UDP 19840、このコンピューターのみ)
+Back to Select after drawing a shape	図形を描いたら選択ツールに戻る
+Crosshair across the canvas at the pointer	ポインター位置に十字線を表示
+Cross at the bed's centre	ベッド中央に十字
+Show where the head last was after disconnecting	切断後に最後のヘッド位置を表示
+Group what's imported	インポートしたものをグループ化
+Put imports in the middle of the bed	インポートをベッド中央に配置
+Keep a job log	ジョブログを記録
+Trackpad	トラックパッド
+two fingers pan, pinch or ⌘ + scroll zooms, middle drag pans	2 本指でパン、ピンチか ⌘ + スクロールでズーム、中ボタンドラッグでパン
+Mouse	マウス
+the wheel zooms, ⇧ + wheel pans across, middle drag pans	ホイールでズーム、⇧ + ホイールで横パン、中ボタンドラッグでパン
+CAD	CAD
+the wheel zooms, right or middle drag pans in every tool	ホイールでズーム、右か中ボタンドラッグで全ツールでパン
+Export G-code	G-code をエクスポート
+Sign in	サインイン
+Draw and set up the cuts	描画してカットを設定
+Preview	プレビュー
+See the job and simulate it (P)	ジョブを確認してシミュレーション (P)
+Job	ジョブ
+cut	カット
+travel	移動
+Where the job starts	ジョブの開始位置
+Move the head	ヘッドを移動
+Jog the head to where this point of the design should be, then Frame and Start.	デザインのこの点を置きたい場所へヘッドを動かし、フレームしてからスタートします。
+This point of the design goes to the saved user origin.	デザインのこの点が保存したユーザー原点に来ます。
+bottom-left	左下
+bottom-centre	中央下
+bottom-right	右下
+left	左
+right	右
+top-left	左上
+top-centre	中央上
+top-right	右上
+No travel	移動なし
+Recent travel	直近の移動
+All travel	すべての移動
+Head	ヘッド
+Maple	メープル
+Cherry	チェリー
+Walnut	ウォルナット
+Bamboo	竹
+MDF	MDF
+Cork	コルク
+Cardboard	段ボール
+Leather	革
+Slate	スレート
+Black anodised aluminium	黒アルマイトアルミ
+Black acrylic	黒アクリル
+Clear acrylic	透明アクリル
+Stainless steel (fibre)	ステンレス(ファイバー)
+Brass (fibre)	真鍮(ファイバー)
+Black-painted metal (fibre)	黒塗装金属(ファイバー)
+Layer	レイヤー
+sub	サブ
+Waiting…	待機中…
+Snap	スナップ
+Snap off	スナップオフ
+Page	ページ
+Line (follow the outline)	ライン(輪郭に沿う)
+Fill (scan the inside)	塗りつぶし(内側をスキャン)
+Image (picture)	画像
+Fill + Line (scan, then outline)	塗り + ライン(スキャン後に輪郭)
+Offset fill (concentric insets)	オフセット塗り(同心の内側線)
+Dither (Floyd–Steinberg)	ディザ(Floyd–Steinberg)
+Dither (Jarvis)	ディザ(Jarvis)
+Dither (Stucki)	ディザ(Stucki)
+Dither (Atkinson)	ディザ(Atkinson)
+Sketch (edges)	スケッチ(エッジ)
+3D slices (a level per pass)	3D スライス(パスごとに 1 段)
+Ordered	組織的ディザ
+Newsprint	新聞網点
+Grayscale (power)	グレースケール(出力)
+Laser head	レーザーヘッド
+Ruida heads	Ruida ヘッド
+Two laser heads	レーザーヘッド 2 基
+Both	両方
+…and may start a job (START)	…ジョブの開始も許可(START)
+Skip the tour	ツアーをスキップ
+Back	戻る
+Show me around	案内を見る
+Take the Tour	ツアーを見る
+Done	完了
+Next	次へ
+Tools	ツール
+Draw rectangles, ellipses, polygons, lines and text here. Select moves and sizes shapes; Nodes edits their points.	長方形、楕円、多角形、ライン、テキストをここで描きます。選択は図形の移動とサイズ変更、ノードは点を編集します。
+The bed	ベッド
+Your design sits on the laser's bed. Drag a shape to move it, a corner to resize it; pinch or scroll to zoom. Files and pictures can be dropped here.	デザインはレーザーのベッド上にあります。図形をドラッグで移動、角でサイズ変更、ピンチかスクロールでズーム。ファイルや画像をここにドロップできます。
+Layers	レイヤー
+Each colour is a layer with its own settings: Line cuts or scores the outline, Fill engraves the inside, Image burns pictures. Set the speed and power here.	色ごとに設定を持つレイヤーです。ラインは輪郭をカット・罫書き、塗りつぶしは内側を彫刻、画像は写真を焼きます。速度と出力はここで設定します。
+See the whole job in the order it runs, with the travel and the time. Press ▶ to play it.	ジョブ全体を実行順に、移動と時間と一緒に確認できます。▶ で再生します。
+Your laser	あなたのレーザー
+Connect your laser here, or the simulated one to try things out. Move the head and choose where the job starts.	ここでレーザーを接続するか、シミュレーターで試せます。ヘッドを動かし、ジョブの開始位置を選びます。
+Frame, Start, Stop	フレーム、スタート、停止
+Frame traces the job's edges with the beam off, so you can check where it lands. Start burns; nothing fires before it. Stop is always here.	フレームはビームを切ったままジョブの外周をなぞり、位置を確認できます。スタートで加工開始、それまで発射しません。停止は常にここにあります。
+Save As	名前を付けて保存
+File name	ファイル名
+Download	ダウンロード
+Save (download .gburn)	保存(.gburn をダウンロード)
+Draw	描画
+Quit GBurn	GBurn を終了
+Exit	終了
+other	その他
+panel	パネル
+Simulate	シミュレート
+kHz	kHz
+ns	ns
+Pause before	前に一時停止
+Pause after	後に一時停止
+mm / pass	mm / パス
+per shape	図形ごと
+Tab length	タブの長さ
+Wobble size	ウォブルの大きさ
+mm Ø	mm Ø
+Wobble step	ウォブルのステップ
+Dot time	ドット時間
+Dot spacing	ドット間隔
+Perforate: cut	ミシン目:カット
+Perforate: skip	ミシン目:スキップ
+Clean up every	クリーンアップ間隔
+passes	パス
+Clean-up power	クリーンアップ出力
+° / pass	° / パス
+Open path	開いたパス
+Close path	閉じたパス
+Make corner	角にする
+Make smooth	滑らかにする
+Click it…	クリック…
+On the camera	カメラ上で
+Bed (absolute)	ベッド(絶対)
+the bed	ベッド
+the head	ヘッド
+the user origin	ユーザー原点
+from	基準
+No laser connected	レーザー未接続
+Skew across	横に傾斜
+Skew up	縦に傾斜
+Line gap	行間
+× height	× 高さ
+Anchor	アンカー
+Slant	斜体
+{n} = serial, {n:4} padded, {date}, {date:%d/%m/%Y}, {time}, {column} from a data file	{n} = 連番、{n:4} ゼロ埋め、{date}、{date:%d/%m/%Y}、{time}、データファイルの {column}
+Next number	次の番号
+Variable text	可変テキスト
+Report…	報告…
+Report a Problem…	問題を報告…
+Save the Laser Log…	レーザーログを保存…
+Red pointer pin	赤色ポインターのピン
+Find…	検索…
+Find the Red Pointer Pin	赤色ポインターのピンを探す
+Rotary	ロータリー
+These settings (not saved as a machine)	この設定(マシンとして未保存)
+Your own step: the Laser tab	自分のステップ:レーザータブ
+Jogging	ジョグ
+The jog pad is in the laser panel at the bottom, on every tab.	ジョグパッドは下部のレーザーパネルにあり、どのタブでも使えます。
+Connect your laser here, or the simulated one to try things out. The Laser tab has the device, Go to, spots and the console.	ここでレーザーを接続するか、シミュレーターで試せます。レーザータブにはデバイス、移動、位置メモ、コンソールがあります。
+The laser panel	レーザーパネル
+On every tab: the laser and where its head is, the jog pad, Frame (traces the job with the beam off), Start (nothing fires before it), Stop (always here) and where the job starts. The arrow folds it smaller.	どのタブでも:レーザーとヘッドの位置、ジョグパッド、フレーム(ビームオフでジョブをなぞる)、スタート(それまで発射しません)、停止(常にここ)、ジョブの開始位置。矢印で小さく畳めます。
+Position	位置
+Speed and power now	現在の速度と出力
+Ruida (USB) or GRBL over USB: Connect, then pick the laser's port in the browser's list (Chrome, Edge, Brave). Ruida over the network needs GBurn Link on this computer (gburn.app/download/). The simulated laser runs any job here.	Ruida (USB) または GRBL over USB:接続を押し、ブラウザーの一覧からレーザーのポートを選びます(Chrome、Edge、Brave)。ネットワーク経由の Ruida にはこのコンピューターで GBurn Link が必要です(gburn.app/download/)。シミュレーターならどのジョブもここで実行できます。
+Ruida CO2 lasers (Thunder Nova, most CO2 cabinets): Ruida (USB) or Ruida (network). GRBL diode lasers: their serial port. Fibre galvos (EZCAD2): Galvo (EZCAD2 USB). Find looks for you. The simulated laser runs any job without a machine.	Ruida CO2 レーザー(Thunder Nova、多くの CO2 筐体機):Ruida (USB) または Ruida (network)。GRBL ダイオードレーザー:そのシリアルポート。ファイバーガルバノ(EZCAD2):Galvo (EZCAD2 USB)。検索で自動的に探します。シミュレーターならマシンなしでどのジョブも実行できます。
+Export .rd	.rd をエクスポート
+Choose your machine…	マシンを選択…
+Choose your machine	マシンを選択
+Search: brand, model, 60w, fiber…	検索:メーカー、機種、60w、fiber…
+machines	台
+not supported yet	未対応
+Choose Your Machine…	マシンを選択…
+From the makers' published specs: check the work area against your machine. Not listed? Set it up by hand below and Save as a new machine.	メーカー公表の仕様より:加工範囲を実機と照らし合わせてください。一覧にない場合は下で手動設定し、新しいマシンとして保存します。
+Custom size	カスタムサイズ
+Matches	一致
+Tests	テスト
+Camera and alignment	カメラと位置合わせ
+Nest	ネスティング
+mm/s² cut / engrave	mm/s² カット / 彫刻
+mm/s each axis	mm/s 各軸
+% beam while framing	% フレーム中のビーム
+Every layer that has shapes has Output off: nothing will burn	図形のあるすべてのレイヤーで出力がオフです:何も加工されません
+power is 0, the laser won't mark	出力が 0 です。レーザーは刻印しません
+speed is 0	速度が 0 です
+The job reaches	ジョブがはみ出しています:
+past the bed	ベッドの外へ
+copy	コピー
+Layer duplicated	レイヤーを複製しました
+layer	レイヤー
+Review the job	ジョブの確認
+Starts from	開始位置
+Time	時間
+Start burning	加工開始
+Drop a file here	ここにファイルをドロップ
+or draw a shape, press T for text, or open File › Templates…	または図形を描く、T でテキスト、ファイル › テンプレート… を開く
+not connected	未接続
+mirror in	ミラー in
+in/turn, object Ø	in/回転、対象 Ø
+in Ø left / right: a tapered tumbler	in Ø 左 / 右:テーパー型タンブラー
+Interface size	インターフェースのサイズ
+Review the job before it starts	開始前にジョブを確認
+in (⇧ × 10)	in(⇧ × 10)
+Layers and settings	レイヤーと設定
+Picture fade	画像の薄さ
+Trace over it by hand	手でなぞる
+Check the size	サイズを確認
+drawn, came out	描いた大きさ、仕上がり
+Correct	補正
+The controller's acceleration (cut / engrave) is	コントローラーの加速度 (切断 / 彫刻)
+top speed	最高速度
+UV	UV
+Invert power	出力を反転
+UV laser: its light is invisible. Wear glasses rated for 355 nm (fibre or green glasses don't protect) and keep the lid shut	UV レーザー: 光は見えません。355 nm 対応の保護メガネをかけ (ファイバー用や緑色レーザー用では保護できません)、ふたを閉めておいてください
+Stock thickness	材料の厚さ
+The xTool M1 burns where the design sits on the bed (Start from: Bed)	xTool M1 はベッド上のデザインの位置に加工します(開始位置:ベッド)
+No machine chosen	マシン未選択
+Preview: play the job or drag the time; P goes back to Design	プレビュー: ジョブを再生するか時間をドラッグ。P でデザインに戻る
+Draw on the canvas; the button at the top right opens the layers, cut settings and the laser.	キャンバスに描画します。右上のボタンでレイヤー、カット設定、レーザーを開きます。
+Show all	すべて表示
+0 = read $30 from the laser	0 = レーザーから $30 を読む
+none	なし
+loaded	読み込み済み
+starts at the head	ヘッドから開始
+goes to the user origin	ユーザー原点へ移動
+Fill	塗りつぶし
+Image	画像
+Fill+Line	塗り+ライン
+Simulated laser	シミュレーションレーザー
+Ruida over USB (Thunder, most CO2)	USB 接続の Ruida (Thunder、ほとんどの CO2)
+Ruida over the network	ネットワーク接続の Ruida
+Fibre galvo over USB (EZCAD2: Thunder Aurora…)	USB 接続のファイバーガルボ (EZCAD2: Thunder Aurora…)
+Simulated fibre galvo	シミュレーションのファイバーガルボ
+K40 over USB (M2 / M3 Nano board)	USB 接続の K40 (M2 / M3 Nano ボード)
+Simulated K40	シミュレーションの K40
+xTool M1 over USB network (older firmware)	USB ネットワーク接続の xTool M1 (旧ファームウェア)
+GRBL over USB (diode lasers)	USB 接続の GRBL (ダイオードレーザー)
+GRBL over the network (FluidNC, grblHAL)	ネットワーク接続の GRBL (FluidNC、grblHAL)
+rear left (Thunder, most CO2)	左奥 (Thunder、ほとんどの CO2)
+rear right	右奥
+front left	左手前
+front right	右手前
+rear left	左奥
+draw rectangles, ellipses and lines on the current layer	現在のレイヤーに長方形、楕円、線を描く
+add text	テキストを追加
+preview the job: the order, the travel and the time	ジョブをプレビュー: 順序、移動、時間
+the simulated laser runs any job; your own laser runs the real thing	シミュレーションレーザーはどのジョブも実行。実機は本番を実行
+More settings	その他の設定
+lens	レンズ
+General	基本
+Hide the donate button	寄付ボタンを隠す
+Show the donate button (♥) in the top bar	上部に寄付ボタン(♥)を表示
+Support GBurn: donate (opens gburn.app). Right-click to hide	GBurn を応援: 寄付する (gburn.app を開く)。右クリックで隠す
+Try it without a laser	レーザーなしで試す
+Laser › Connect with “Simulated laser” picked: jog, frame and run the job against a built-in GRBL controller.	レーザー › 「シミュレーションレーザー」を選んで接続:内蔵の GRBL コントローラーを相手にジョグ、フレーム、ジョブの実行ができます。
+Connect a laser	レーザーを接続する
+Pick the USB port in the Laser panel and Connect (GRBL lasers: most diode lasers, 115200 baud). In the browser pick “GRBL over USB (this browser)”: Chrome and Edge show the port list (Safari can't). Alarm after power-up: Home, or Unlock.	レーザーパネルで USB ポートを選んで接続します(GRBL レーザー:ほとんどのダイオードレーザー、115200 baud)。ブラウザでは「USB serial (this browser)」を選びます:Chrome と Edge はポート一覧を表示します(Safari は不可)。電源投入後にアラームが出たら:原点復帰、またはロック解除。
+Keep designs in my account	デザインをアカウントに保存する
+Sign in (the GCarve account works here): File › Save to Account keeps the design; Open from Account lists them. Saves again by itself 3 s after a change.	サインインします(GCarve のアカウントが使えます):ファイル › アカウントに保存 でデザインを保存し、アカウントから開く で一覧を表示します。変更から 3 秒後に自動で再保存します。
+Get the design back after a crash	クラッシュ後にデザインを取り戻す
+A recovery copy is written 3 s after every change and offered back at the next start.	変更のたびに 3 秒後に復元用コピーが書き込まれ、次の起動時に復元を提案します。
+Go back several steps	何手か前に戻る
+Edit › Undo History: every change by name (Move, Resize, Change layer…, the command's name). Click a step to go back to just before it; click a dim (undone) one to bring the steps back.	編集 › 元に戻す履歴:すべての変更が名前付きで並びます(移動、サイズ変更、レイヤー変更…、コマンド名)。ステップをクリックするとその直前に戻ります。薄い(取り消した)ステップをクリックすると元に戻せます。
+Work in inches	インチで作業する
+The mm / in switch in the status bar, or View › Show Inches. Sizes are kept in mm underneath.	ステータスバーの mm / in 切り替え、または 表示 › インチ表示。サイズは内部では mm で保持されます。
+Keep notes with a design	デザインにメモを残す
+File › Notes: saved inside the .gburn file.	ファイル › メモ:.gburn ファイル内に保存されます。
+Move my settings to another computer	設定を別のコンピューターに移す
+File › Export Settings… saves your machines, materials, templates, lens file, snap and units to one file. On the other computer (or in the browser): File › Import Settings….	ファイル › 設定をエクスポート… で、マシン、材料、テンプレート、レンズファイル、スナップ、単位を 1 つのファイルに保存します。別のコンピューター(またはブラウザ)で:ファイル › 設定をインポート…。
+Open a .plt (HPGL) file	.plt (HPGL) ファイルを開く
+File › Import takes .plt / .hpgl plot files from CorelDRAW, sign software and cutters: each pen becomes a layer.	ファイル › インポート は CorelDRAW、看板ソフト、カッティングプロッターの .plt / .hpgl ファイルを読み込みます:ペンごとに 1 つのレイヤーになります。
+Draw a rectangle, circle or line	長方形、円、線を描く
+R, E and L pick the tools (or the tool bar); drag on the canvas. Hold ⇧ for a square, a circle, or 5 mm snapping. Enter finishes a line; clicking its first point closes it.	R、E、L でツールを選び(またはツールバー)、キャンバス上でドラッグします。⇧ を押しながらで正方形、円、または 5 mm スナップ。Enter で線を終了し、最初の点をクリックすると閉じます。
+Draw curves	曲線を描く
+Line tool (L): click = a corner, click and drag = a smooth point (the drag pulls out its curve). Click the first point to close; Enter or double-click ends an open line.	ラインツール (L):クリック = 角、クリックしてドラッグ = 滑らかな点(ドラッグで曲線を引き出す)。最初の点をクリックで閉じ、Enter またはダブルクリックで開いた線を終了します。
+Set the exact size or position	正確なサイズや位置を設定する
+Select the shapes: the X / Y / W / H boxes in the panel take typed sizes (12, 1/2in, 30mm). Enter applies.	図形を選択:パネルの X / Y / W / H 欄に寸法を入力できます(12、1/2in、30mm)。Enter で適用。
+See a shape's properties	図形のプロパティを見る
+Select one shape: the panel shows its kind, point count, length and area, a name, Close / Open path and Reverse (the cut direction), besides X / Y / W / H and Rotate.	図形を 1 つ選択:パネルに種類、点の数、長さと面積、名前、閉じたパス / 開いたパス、反転(カット方向)が、X / Y / W / H と回転とともに表示されます。
+Measure a distance	距離を測る
+M (Measure): drag between two points; the distance, Δx, Δy and angle show in the status bar.	M(計測):2 点間をドラッグします。距離、Δx、Δy、角度がステータスバーに表示されます。
+Snap to a grid	グリッドにスナップする
+The Snap menu in the status bar: off, 0.5 / 1 / 5 / 10 mm or 1/16 / 1/8 / 1/4 in. ⇧ while drawing always snaps to 5 mm.	ステータスバーのスナップメニュー:オフ、0.5 / 1 / 5 / 10 mm、または 1/16 / 1/8 / 1/4 in。描画中の ⇧ は常に 5 mm にスナップします。
+Edit the points of a shape	図形の点を編集する
+N (Nodes): click a shape, drag its points; double-click a segment to add a point; ⌫ removes the picked one. The picked point's X / Y are in the panel: type exact values and press Enter. Make corner / Make smooth, Next ▸ steps along the path.	N(ノード):図形をクリックして点をドラッグ。セグメントをダブルクリックで点を追加、⌫ で選んだ点を削除。選んだ点の X / Y はパネルにあり、正確な値を入力して Enter。角にする / 滑らかにする、次へ ▸ でパスに沿って移動します。
+Node keys	ノードのキー
+In the Nodes tool, point at a point or a segment and press: D delete, I insert a point, M a point at the middle, C corner, S smooth (a segment: curve), L straight, B break, T trim, E extend an open end, A turn the shape so the segment is level / upright / 45°. ⇧-click or a box picks several points; the arrow keys move them; drop an open end on another to join.	ノードツールで点またはセグメントを指して押します:D 削除、I 点を挿入、M 中点に点、C 角、S 滑らか(セグメントなら曲線)、L 直線、B 分割、T トリム、E 開いた端を延長、A セグメントが水平 / 垂直 / 45° になるよう図形を回転。⇧-クリックや範囲選択で複数の点を選び、矢印キーで移動。開いた端を別の端に重ねると結合します。
+Join or cut shapes together	図形を結合・切り抜く
+Select two or more closed shapes: Shapes › Union, Subtract (the first minus the rest) or Intersect. Offset Shapes makes a parallel copy; Round Corners rounds a closed shape.	閉じた図形を 2 つ以上選択:図形 › 合体、型抜き(最初から残りを引く)、交差。図形をオフセット で平行なコピーを作り、角を丸める で閉じた図形の角を丸めます。
+Group shapes	図形をグループ化する
+Select them and press ⌘G: they select and move as one from then on; ⇧⌘G ungroups. Imported files and traced pictures come in grouped.	選択して ⌘G:以後は 1 つとして選択・移動されます。⇧⌘G でグループ解除。インポートしたファイルとトレースした画像はグループ化された状態で入ります。
+Copy, paste, lock	コピー、貼り付け、ロック
+⌘C / ⌘X / ⌘V (⇧⌘V pastes at the right-click spot), ⌘L locks the selection so it can't be picked or moved (⇧⌘L unlocks everything). The right-click menu on the canvas has them all.	⌘C / ⌘X / ⌘V(⇧⌘V は右クリックした位置に貼り付け)、⌘L で選択範囲をロックして選択・移動できなくします(⇧⌘L ですべてロック解除)。キャンバスの右クリックメニューにすべてあります。
+Add a ready-made shape	既製の図形を追加する
+Draw › Shapes Library: hearts, stars, arrows, plaques, keyhole hangers, joints and more. Type the width, click a tile: it lands in the middle of the view on the current layer, grouped.	描画 › 図形ライブラリ:ハート、星、矢印、プレート、鍵穴型の掛け穴、継ぎ手など。幅を入力してタイルをクリックすると、現在のレイヤーの表示中央にグループ化されて置かれます。
+Keep my own art to reuse	自分のアートを保存して再利用する
+Select the shapes, Draw › Shapes Library… › My art, type a name, Save the selection. Click its tile in any design to add it at the typed width; right-click a tile to remove it. Export Settings carries it to another computer.	図形を選択し、描画 › 図形ライブラリ… › マイアート で名前を入力して 選択範囲を保存。どのデザインでもタイルをクリックすると入力した幅で追加されます。タイルを右クリックで削除。設定をエクスポート で別のコンピューターに持ち出せます。
+Repeat a shape along a line	線に沿って図形を繰り返す
+Select the shape and a line or curve, Arrange › Copy Along Path: how many copies, turned with the path or not. The longest selected outline is the path.	図形と線または曲線を選択し、配置 › パスに沿ってコピー:コピーの数と、パスに合わせて回転するかどうか。選択中で最も長い輪郭がパスになります。
+Line up or repeat shapes	図形を揃える・繰り返す
+Arrange › Align (left, centre, right, top, middle, bottom) and Distribute lines the selection up; Grid Array repeats it in columns and rows with a gap.	配置 › 整列(左、中央、右、上、中段、下)と均等配置 で選択範囲を揃えます。グリッド配列 は間隔をあけて列と行に繰り返します。
+Make live copies (virtual array)	連動するコピーを作る(仮想配列)
+Select the shapes, Arrange › Virtual Array…: columns, rows and gaps. The copies follow the original as you change or move it and burn as real shapes. Open it again with a copy selected to Update, Make the copies real or Remove.	図形を選択し、配置 › 仮想配列…:列、行、間隔。コピーは元の図形の変更や移動に追従し、実際の図形として加工されます。コピーを選択して再度開くと、更新、コピーを実体化、削除 ができます。
+Clean up an imported drawing	インポートした図面を整える
+Shapes › Delete Duplicates and Specks (stacked copies would cut twice), Join Open Paths (ends within 0.05 mm), Close Paths, Simplify (fewer points, smoother motion), Weld.	図形 › 重複と小さな点を削除(重なったコピーは 2 回カットされる)、開いたパスを結合(0.05 mm 以内の端)、パスを閉じる、単純化(点を減らし動きを滑らかに)、溶接。
+Pack parts onto the material	部品を材料に詰める
+Arrange › Nest on the Bed packs the selection (or everything) by its boxes, groups kept together, turned 90° when it fits better.	配置 › ベッドにネスティング は選択範囲(またはすべて)を外枠で詰めます。グループはまとめたまま、収まりがよければ 90° 回転します。
+Add text	テキストを追加する
+T opens the Text box: words (several lines), height, font (any font on this computer, or Font file…), letter spacing, line gap, alignment. The letters land on the current layer, centred on the view, grouped; select them and Edit text… to change the words later.	T でテキストボックスを開きます:文字(複数行可)、高さ、フォント(このコンピューターの任意のフォント、またはフォントファイル…)、文字間隔、行間、揃え。文字は現在のレイヤーの表示中央にグループ化されて置かれます。後で文字を変えるには選択して テキストを編集…。
+Merge names from a spreadsheet (CSV)	表計算(CSV)から名前を差し込む
+Text box › Data file (CSV)… (or drop a .csv on the canvas): the first row names the columns. Type {name} (any column) in a text; ◀ ▶ pick the row; every Start burns the current row and moves to the next.	テキストボックス › データファイル(CSV)…(または .csv をキャンバスにドロップ):1 行目が列名です。テキストに {name}(任意の列)と入力し、◀ ▶ で行を選びます。スタートのたびに現在の行を加工して次の行へ進みます。
+Text on a path, serial numbers, dates	パス上のテキスト、連番、日付
+Select a line or closed shape, open the Text box (T) and tick “Along the selected shape”. Type {n} for a serial number ({n:4} zero-padded), {date} or {time}: every Start stamps the current number and counts up (the next number is in the Text box).	線または閉じた図形を選択し、テキストボックス (T) を開いて「選択した図形に沿う」にチェック。連番は {n}({n:4} でゼロ埋め)、または {date} や {time} と入力:スタートのたびに現在の番号を刻んで次へ進みます(次の番号はテキストボックスにあります)。
+Put text round a circle	円に沿ってテキストを配置する
+Select the circle (or any shape), open Text, tick Along the selected shape: the text centres on the top, outside. Tick inside for text along the bottom inside the circle; moved % slides it round.	円(または任意の図形)を選択し、テキストを開いて 選択した図形に沿う にチェック:テキストは上部の外側に中央揃えで並びます。内側 にチェックすると円の内側下部に沿います。移動 % で円周に沿ってずらします。
+Bend text into an arc	テキストを弧状に曲げる
+Select the text or shapes, Shapes › Bend / Taper…: Bend is the arc in degrees (180 = a half circle, − bends the other way), Top width narrows or widens the top for a tapered cup. Number boxes take sums too: 100/3, 2in + 5mm.	テキストまたは図形を選択し、図形 › 曲げ / テーパー…:曲げは弧の角度(180 = 半円、− で逆向き)、上の幅 はテーパー型カップ用に上部を狭めたり広げたりします。数値欄は計算式も使えます:100/3、2in + 5mm。
+Make a QR code or barcode	QR コードやバーコードを作る
+Draw › QR Code / Barcode: QR, Data Matrix, Code 128, Code 39, Code 93, EAN-13, EAN-8, UPC-A, Codabar or Interleaved 2 of 5; the text and a size. It lands on the current layer as squares or bars (engrave with Fill). Test-scan a burnt one.	描画 › QR コード / バーコード:QR、Data Matrix、Code 128、Code 39、Code 93、EAN-13、EAN-8、UPC-A、Codabar、Interleaved 2 of 5。テキストとサイズを指定します。現在のレイヤーに正方形やバーとして置かれます(塗りつぶしで彫刻)。加工したものは読み取りテストをしてください。
+Engrave a picture	画像を彫刻する
+Draw › Picture (or drop a PNG / JPEG on the canvas): it lands on an Image layer. Set its size in the panel; on the layer pick the image mode (dither, ordered, greyscale), the line interval (DPI), negative and overscan.	描画 › 画像(または PNG / JPEG をキャンバスにドロップ):画像レイヤーに置かれます。サイズはパネルで設定し、レイヤーで画像モード(ディザ、オーダード、グレースケール)、ライン間隔 (DPI)、反転、オーバースキャンを選びます。
+Adjust a picture	画像を調整する
+Select the picture: Brightness, Contrast and Gamma sliders apply before the dither; Negative is on the layer.	画像を選択:明るさ、コントラスト、ガンマのスライダーはディザの前に適用されます。反転 はレイヤーにあります。
+Turn a picture into vectors	画像をベクターに変換する
+Select a picture and use Draw › Trace Picture: the dark parts (or the light ones) become outlines on a Trace layer, ready to cut or fill.	画像を選択して 描画 › 画像をトレース:暗い部分(または明るい部分)がトレースレイヤーの輪郭になり、カットや塗りつぶしにそのまま使えます。
+Trace line art as single lines	線画を 1 本線でトレースする
+Select the picture, Draw › Trace Picture…, switch on Centerline: one line along each stroke instead of its outline (signatures, handwriting, line drawings for one pass or a pen).	画像を選択し、描画 › 画像をトレース… で 中心線 をオン:輪郭ではなく各線に沿った 1 本の線になります(署名、手書き、1 パスやペン用の線画)。
+Cut a photo to a shape	写真を図形で切り抜く
+Select the picture and a closed shape over it (a circle, a heart), Draw › Cut the Picture to the Shape: outside the shape goes white (not burnt).	画像とその上の閉じた図形(円、ハートなど)を選択し、描画 › 画像を図形で切り抜く:図形の外側は白(加工しない)になります。
+Engrave shapes as a picture	図形を画像として彫刻する
+Select closed shapes, Draw › Turn Shapes into a Picture: they become a picture on the Image layer at its line interval, so its dither applies.	閉じた図形を選択し、描画 › 図形を画像に変換:画像レイヤーのライン間隔で画像になり、そのディザが適用されます。
+Engrave a relief (3D) on a fibre laser	ファイバーレーザーでレリーフ(3D)を彫る
+Put a greyscale picture on an Image layer, Image mode › 3D slices, and Passes = the number of depth levels (10–30). Each pass burns everything darker than its level, so the darkest parts get every pass and go deepest.	グレースケール画像を画像レイヤーに置き、画像モード › 3D スライス、パス数 = 深さの段数(10–30)。各パスはその段より暗い部分をすべて加工するので、最も暗い部分はすべてのパスを受けて一番深くなります。
+Cut, score or engrave	カット、スコア、彫刻
+Each layer has a mode: Line follows the outline (cut or score), Fill scans the inside (engrave). Click a layer to draw on it, or to move the selected shapes onto it.	各レイヤーにはモードがあります:ライン は輪郭をなぞり(カットまたはスコア)、塗りつぶし は内側をスキャンします(彫刻)。レイヤーをクリックするとそこに描画するか、選択した図形をそのレイヤーへ移動します。
+Set speed and power	速度と出力を設定する
+The Layer settings in the panel: speed in mm/s, power in % of the machine's maximum, passes, and for Fill the line interval (DPI) and scan angle. Changes apply at once; ⌘Z undoes them.	パネルのレイヤー設定:速度は mm/s、出力はマシン最大値の %、パス数、塗りつぶしではライン間隔 (DPI) とスキャン角度。変更はすぐに反映され、⌘Z で元に戻せます。
+Show, hide or skip a layer	レイヤーを表示・非表示・スキップする
+On the layer's row: the eye shows or hides it in the design (hidden shapes can't be picked); the switch is Output: on = sent to the laser, off = designed only. Both are in the layer settings too.	レイヤーの行で:目のアイコンはデザイン上の表示 / 非表示(非表示の図形は選択できません)。スイッチは 出力する:オン = レーザーに送る、オフ = デザインのみ。どちらもレイヤー設定にもあります。
+Edit every layer setting in one window	すべてのレイヤー設定を 1 つのウィンドウで編集する
+Double-click a layer, or Laser › Cut Settings Editor.	レイヤーをダブルクリック、または レーザー › カット設定エディター。
+See the kerf	カーフを確認する
+A Line layer with a kerf shows the offset outline dashed on the canvas: what the beam's centre will follow.	カーフを設定したラインレイヤーは、ビームの中心が通るオフセット輪郭をキャンバス上に破線で表示します。
+Kerf, tabs and cut order	カーフ、タブ、カット順
+On a Line layer: Kerf offset grows (+) or shrinks (−) the cut by half the beam; Tabs leaves bridges so parts stay put; Inner first cuts holes before outlines.	ラインレイヤーで:カーフ補正 はビームの半分だけカットを広げ(+)または縮めます(−)。タブ は部品が動かないようブリッジを残し、内側から先に は輪郭より先に穴をカットします。
+Change the cut order	カット順を変える
+Layers cut in the order of the list, top first. The ▲ ▼ beside the layer name move it; × removes an empty layer. Inside a layer, Inner first cuts holes before outlines.	レイヤーは一覧の順に上からカットされます。レイヤー名の横の ▲ ▼ で移動、× で空のレイヤーを削除。レイヤー内では 内側から先に で輪郭より先に穴をカットします。
+Lead-ins, overcut, cut direction	リードイン、オーバーカット、カット方向
+Line layer › Lead-in: closed shapes start this far off the line, in the waste (outside a part, inside a hole), so the pierce mark isn't on the piece. Overcut runs on past the start. Direction: clockwise or anticlockwise.	ラインレイヤー › リードイン:閉じた図形は線からこの距離だけ離れた捨て側(部品の外側、穴の内側)から始まるので、貫通跡が製品に残りません。オーバーカット は開始点を越えて切り進みます。方向:時計回りまたは反時計回り。
+Choose where a cut starts	カットの開始位置を決める
+Select a closed shape, right-click its outline › Start the Cut Here (or Nodes tool › pick a point › Start here). A green dot marks it; the planner keeps it. Right-click › Clear the Start Point undoes it.	閉じた図形を選択し、輪郭を右クリック › ここからカットを開始(またはノードツール › 点を選ぶ › ここからスタート)。緑の点が目印になり、プランナーはそれを守ります。右クリック › 開始点をクリア で元に戻します。
+Perforate (dashed cut)	ミシン目(破線カット)
+On a Line layer: Perforation cut / skip lengths, e.g. 3 mm cut, 1 mm skip, for fold lines or tear-offs.	ラインレイヤーで:ミシン目 のカット / スキップ長、例えば 3 mm カット、1 mm スキップ。折り線や切り取り線に使います。
+Wobble and hatch families	ウォブルとハッチの向き
+Line layer › Wobble: diameter and spacing of small circles along the line (wider, smoother lines; deep galvo marking). Fill layer › Turn per pass: with Passes 2+ each pass hatches at a new angle.	ラインレイヤー › ウォブル:線に沿った小円の直径と間隔(太く滑らかな線、深いガルバノマーキング)。塗りつぶしレイヤー › パスごとの回転:パス数 2 以上で各パスが新しい角度でハッチします。
+Dot mode and offset fill	ドットモードとオフセット塗り
+Line layer › Dot mode fires N ms every D mm along the outline (acrylic dotting, perforating boards). Mode › Offset fill engraves in concentric insets, less travel on round shapes. Fill shapes one by one keeps each shape's lines together.	ラインレイヤー › ドットモード は輪郭に沿って D mm ごとに N ms 照射します(アクリルのドット加工、ボードの穴あけ)。モード › オフセット塗り は同心の内側線で彫刻し、丸い図形で移動が減ります。塗りつぶし図形を 1 つずつ にすると各図形の線がまとまります。
+Engrave and cut the same shapes	同じ図形を彫刻してカットする
+Select the layer, press + Sub-layer: a second set of settings (mode, speed, power…) runs on the same shapes right after the first. Main / Sub 1 / Sub 2 pick which one the panel edits.	レイヤーを選んで + サブレイヤー を押します:2 組目の設定(モード、速度、出力…)が同じ図形に対して 1 組目の直後に実行されます。メイン / サブ 1 / サブ 2 でパネルが編集する方を選びます。
+Use my LightBurn material library	LightBurn の材料ライブラリを使う
+Laser › Import Material Library (.clb) (or drop the file on the canvas): every cut setting becomes a Material preset.	レーザー › 材料ライブラリを読み込み(.clb)(またはファイルをキャンバスにドロップ):各カット設定が材料プリセットになります。
+Find the right speed and power	最適な速度と出力を見つける
+Laser › Material Test makes a grid: pick what changes down the side and across (speed, power, interval, passes, frequency or Z offset), a layer per cell with the current layer's other settings. Burn it and read the best cell's settings off its layer. Save settings you like as a material (the layer's Material › Save…).	レーザー › 材料テスト でグリッドを作ります:縦と横で変える項目(速度、出力、間隔、パス数、周波数、Z オフセット)を選ぶと、セルごとに現在のレイヤーのほかの設定を引き継いだレイヤーができます。加工して一番よいセルの設定をそのレイヤーから読み取ります。気に入った設定は材料として保存します(レイヤーの 材料 › 保存…)。
+Put a tab exactly where I want it	タブを好きな位置に置く
+Select the shape, right-click its outline › Add a Tab Here (the layer's tab length, Line layers). Right-click › Clear the Tabs removes them. With no hand-placed tabs, the layer's Tabs count spaces them evenly.	図形を選択し、輪郭を右クリック › ここにタブを追加(レイヤーのタブの長さ、ラインレイヤー)。右クリック › タブをクリア で削除します。手動のタブがなければ、レイヤーのタブ数で均等に配置されます。
+Cut shared edges once	共有エッジを 1 回だけカットする
+Machine Settings › Shared edges: cut once. Where two shapes on a Line layer share an edge (puzzles, grids, box joints), the second pass over it is left out: less charring, less time.	マシン設定 › 共有エッジ:1 回だけカット。ラインレイヤーで 2 つの図形が辺を共有する場合(パズル、格子、箱組み)、2 回目の通過を省きます:焦げも時間も減ります。
+Switch between my lasers	複数のレーザーを切り替える
+Laser › Machine Settings: set one machine up, type its name and press Save as a new machine; set up the next one the same way. Pick a machine at the top of Machine Settings or in the Laser tab (disconnected). The machine in use keeps every change.	レーザー › マシン設定:マシンを 1 台設定し、名前を入力して 新しいマシンとして保存 を押します。次の 1 台も同じように設定します。マシン設定の上部か、レーザータブ(未接続時)でマシンを選びます。使用中のマシンはすべての変更を保持します。
+Change the bed (work area)	ベッド(作業領域)を変更する
+Click empty canvas (nothing selected): the Bed card in the panel has the machine (Thunder Nova 63, galvo lenses…) or any size, where the design sits on it, Centre the design.	キャンバスの空いた所をクリック(何も選択しない):パネルのベッドカードで、マシン(Thunder Nova 63、ガルバノレンズ…)や任意のサイズ、ベッド上のデザインの位置、デザインを中央へ を設定できます。
+Set the bed size and travel speed	ベッドサイズと移動速度を設定する
+Laser › Machine Settings: bed, travel speed and acceleration (the time estimate), full-power S ($30), baud rate, M4 / M3.	レーザー › マシン設定:ベッド、移動速度と加速度(時間見積もり用)、最大出力の S ($30)、ボーレート、M4 / M3。
+Run a fibre / galvo marker (EZCAD2)	ファイバー / ガルバノマーカー(EZCAD2)を動かす
+Laser › Machine Settings: the lens field size and the EZCAD .cor correction file for your lens (ask the maker; it sets the field too), fibre or CO2 source. Pick “Galvo (EZCAD2 USB)” and Connect (Windows needs the WinUSB driver). Layers get a frequency (kHz) and MOPA pulse width. The design is centred on the field. Frame runs the red pointer; Start marks.	レーザー › マシン設定:レンズのフィールドサイズと、そのレンズ用の EZCAD .cor 補正ファイル(メーカーに確認。フィールドも設定されます)、ファイバーか CO2 のソース。「Galvo (EZCAD2 USB)」を選んで接続(Windows は WinUSB ドライバーが必要)。レイヤーに周波数 (kHz) と MOPA パルス幅が加わります。デザインはフィールドの中央に置かれます。フレーム は赤色ポインターで、スタート でマーキングします。
+Run a Ruida / Thunder CO2 laser	Ruida / Thunder CO2 レーザーを動かす
+Laser › Machine Settings: the controller's network address and its home corner (Thunder: rear left), then pick “Ruida (network)” and Connect. Home, jog, Frame (beam off), Start, Pause, Stop work like GRBL. In the browser, start GBurn Link on this computer first (gburn.app/download/). No network? File › Export Ruida (.rd) and run the file from a USB stick.	レーザー › マシン設定:コントローラーのネットワークアドレスと原点の角(Thunder:左奥)を設定し、「Ruida (network)」を選んで接続。原点復帰、ジョグ、フレーム(ビームオフ)、スタート、一時停止、停止 は GRBL と同じように動きます。ブラウザでは先にこのコンピューターで GBurn Link を起動します(gburn.app/download/)。ネットワークがない場合:ファイル › Ruida をエクスポート (.rd) して USB メモリからファイルを実行します。
+Use the galvo on Windows	Windows でガルバノを使う
+EZCAD2's driver and GBurn's can't both own the board. Close EZCAD2, run Zadig (zadig.akeo.ie), Options › List All Devices, pick USBLMCV2 (9588 9899), WinUSB, Replace Driver. Then Galvo (EZCAD2 USB) › Connect. To go back, uninstall the device with its driver in Device Manager and reinstall EZCAD2's. Linux: a udev rule for 9588:9899 (docs/galvo-usb-drivers.md).	EZCAD2 のドライバーと GBurn のドライバーは同時にボードを使えません。EZCAD2 を閉じ、Zadig (zadig.akeo.ie) を実行して Options › List All Devices、USBLMCV2 (9588 9899)、WinUSB を選んで Replace Driver。その後 Galvo (EZCAD2 USB) › 接続。元に戻すには、デバイスマネージャーでドライバーごとデバイスをアンインストールし、EZCAD2 のドライバーを入れ直します。Linux:9588:9899 用の udev ルール (docs/galvo-usb-drivers.md)。
+Correct a galvo lens without a .cor file	.cor ファイルなしでガルバノレンズを補正する
+Laser › Galvo Lens Test Pattern adds a square at 80 % of the field; mark it at low power and measure it. Too small: raise Scale. Sides bowed in: raise Bulge; out: lower it. Top wider than the bottom: lower Trapezoid X. Leaning: Skew. Machine Settings › Galvo; mark again until it measures right.	レーザー › ガルバノレンズテストパターン はフィールドの 80 % の正方形を追加します。低出力でマーキングして測ります。小さすぎる:拡大縮小 を上げる。辺が内側に反る:膨らみ を上げ、外側なら下げる。上辺が下辺より広い:台形 X を下げる。傾いている:傾斜。マシン設定 › ガルバノ。正しい寸法になるまでマーキングを繰り返します。
+Connect a GRBL laser over Wi-Fi or Ethernet	Wi-Fi または Ethernet で GRBL レーザーを接続する
+FluidNC and grblHAL boards speak Telnet (port 23): Machine Settings › GRBL network address, then pick “GRBL (network…)” and Connect. In the browser, run GBurn Link on this computer first.	FluidNC と grblHAL のボードは Telnet(ポート 23)で通信します:マシン設定 › GRBL ネットワークアドレス を設定し、「GRBL (network…)」を選んで接続。ブラウザでは先にこのコンピューターで GBurn Link を起動します。
+Use a rotary	ロータリーを使う
+Machine Settings › Rotary on Y: the Y travel per full turn (jog to check) and the object's diameter. Y is scaled so the design wraps the object; X stays as drawn.	マシン設定 › Y 軸ロータリー:1 回転あたりの Y 移動量(ジョグで確認)と対象物の直径。デザインが対象物に巻き付くよう Y が拡大縮小され、X は描いたままです。
+Find the focus (Z axis lasers)	焦点を見つける(Z 軸付きレーザー)
+Material Test with Z offset down the side (for example −2 to 2 mm, 9 rows) and one power: the sharpest row's Z is the focus. Then set the layer's Z offset, or move the bed.	縦に Z オフセット(例:−2 から 2 mm、9 行)、出力は 1 つにして材料テスト:最もシャープな行の Z が焦点です。その後レイヤーの Z オフセットを設定するか、ベッドを動かします。
+Frame with a red-dot pointer that sits beside the beam	ビームの横にある赤色ポインターでフレームする
+Laser › Machine Settings › Red-dot pointer: how far the dot is from the beam, X and Y in mm (measure it: fire a dot, move the head until the pointer is on it, read the move). Frame then runs the dot round the design.	レーザー › マシン設定 › 赤色ポインター:点がビームからどれだけ離れているか、X と Y を mm で(測り方:点を照射し、ポインターが重なるまでヘッドを動かして移動量を読む)。以後 フレーム はデザインの周りに点を走らせます。
+Make the time estimate match my machine	時間見積もりを実機に合わせる
+Laser › Machine Settings › Time estimate ×: if jobs take 20 % longer than the estimate, type 1.2.	レーザー › マシン設定 › 時間見積もり ×:ジョブが見積もりより 20 % 長くかかるなら 1.2 と入力します。
+Add my own G-code buttons	自分の G-code ボタンを追加する
+Laser › Machine Settings › Macros: + Macro, a name and the lines to send. The buttons appear under the Console in the Laser tab (GRBL, not mid-job). Start / End G-code there go round every job.	レーザー › マシン設定 › マクロ:+ マクロ で名前と送る行を入力します。ボタンはレーザータブのコンソールの下に表示されます(GRBL、ジョブ中は不可)。同じ所の 開始 / 終了 G-code はすべてのジョブの前後に付きます。
+Find the spot (Fire)	照射位置を確かめる(発射)
+Machine Settings › Fire button, then Fire in the Laser panel: a short low-power pulse (GRBL). Eye protection on. Ruida: the Pulse key on the machine.	マシン設定 › 発射ボタン を有効にし、レーザーパネルの 発射:短い低出力のパルス(GRBL)。保護メガネを着用してください。Ruida:マシンの Pulse キー。
+Choose where the laser starts	レーザーの開始位置を選ぶ
+Laser panel › Start from: Bed (absolute) = the design burns where it sits on the bed; Current position = it starts where the head is now (LightBurn's Current Position) (pick the job origin on the 3 × 3 grid: which corner, edge or the centre); User origin = a saved spot (Set origin). An orange cross shows the job origin on the canvas.	レーザーパネル › 開始位置:ベッド(絶対) = デザインはベッド上の位置どおりに加工。現在位置 = ヘッドの今の位置から開始(LightBurn の Current Position)(3 × 3 のグリッドでジョブ原点を選ぶ:どの角、辺、または中央か)。ユーザー原点 = 保存した位置(原点を設定)。キャンバス上のオレンジの十字がジョブ原点です。
+Set a user origin	ユーザー原点を設定する
+Jog the head to the spot and press Set origin (Laser panel), or right-click the canvas › Set the user origin here. Machine Settings › Start from › User origin puts the job's origin point there.	ヘッドをその位置へジョグして 原点を設定(レーザーパネル)を押すか、キャンバスを右クリック › ここをユーザー原点に設定。マシン設定 › 開始位置 › ユーザー原点 でジョブの原点がそこになります。
+Start the job where the head is	ヘッドの位置からジョブを始める
+Laser › Machine Settings › Start from: Current position, with a job origin (bottom-left, centre…). Jog the head to that spot on the material and Start; the G-code sets it with G92.	レーザー › マシン設定 › 開始位置:現在位置 と、ジョブ原点(左下、中央…)。ヘッドを材料上のその位置へジョグして スタート。G-code が G92 でその位置を設定します。
+Frame the job	ジョブをフレームする
+Frame traces the outline of the design (or the selection) with the beam off, so you can place the material.	フレーム はビームをオフにしてデザイン(または選択範囲)の輪郭をなぞるので、材料を置く位置を決められます。
+Burn the design	デザインを加工する
+Start sends the job. Pause / Resume (Space) and Stop are always in the panel; Stop resets the controller.	スタート でジョブを送ります。一時停止 / 再開(Space)と 停止 は常にパネルにあります。停止 はコントローラーをリセットします。
+See the order and the time	順序と時間を確認する
+P previews the job: strokes in their layer colours, travel dashed, a time estimate from your machine settings.	P でジョブをプレビュー:線はレイヤーの色で、移動は破線で表示され、マシン設定に基づく時間見積もりが出ます。
+Simulate the job	ジョブをシミュレートする
+In Preview, ▶ plays the job at 1×, 4× or 16× real time: the head moves along the strokes, travel dashed, the clock and the stroke count above. Drag the slider to any moment.	プレビューで ▶ を押すと実時間の 1×、4×、16× でジョブを再生します:ヘッドが線に沿って動き、移動は破線、上に時計と線の数。スライダーをドラッグして好きな時点へ移動できます。
+Watch the job (simulation)	ジョブを見る(シミュレーション)
+Preview (P, or the switch at the top) shows the job; the bar under the canvas plays it. Speed − / + steps from ¼× to 256× real time (the slider goes in between); drag the long slider to any moment.	プレビュー(P、または上部の切り替え)でジョブを表示し、キャンバス下のバーで再生します。速度 − / + は実時間の ¼× から 256× まで段階的に変わり(スライダーで中間も)、長いスライダーをドラッグすると好きな時点へ移動します。
+See how it might look on wood	木材での仕上がりを見る
+Preview › the bar's last list: Birch plywood, Maple, Cherry, Walnut, Bamboo, MDF, Cork, Cardboard, Leather, Slate, anodised aluminium, acrylic. Fills show as solid areas, darker where the power is high for the speed. A rough guide: run a Material Test on the real thing.	プレビュー › バーの最後の一覧:バーチ合板、メープル、チェリー、ウォルナット、竹、MDF、コルク、段ボール、革、スレート、アルマイト処理アルミ、アクリル。塗りつぶしは面として表示され、速度に対して出力が高いほど濃くなります。おおよその目安なので、実物で材料テストをしてください。
+Burn only part of the design	デザインの一部だけを加工する
+Select the shapes and tick “Burn only the selected shapes” in the Laser panel; Frame follows the selection too. Machine Settings › Frame: the box or the outline (hull).	図形を選択し、レーザーパネルで「選択した図形のみ加工」にチェック。フレームも選択範囲に従います。マシン設定 › フレーム:外枠か輪郭(凸包)。
+Burn one part where the head is	ヘッドの位置で 1 つの部品を加工する
+Select the part, tick “Burn only the selected shapes”, Laser tab › Start from: Current position, and tick “of the selection” by the job origin: the job origin comes from that part's box.	部品を選択し、「選択した図形のみ加工」にチェック、レーザータブ › 開始位置:現在位置、ジョブ原点の横の「選択範囲の」にチェック:ジョブ原点はその部品の外枠から決まります。
+Move the head to an exact spot	ヘッドを正確な位置へ動かす
+Laser tab › Go to X / Y: type X and Y, Go (beam off). Right-click › Move the laser here does the same for a spot on the canvas.	レーザータブ › 移動… X / Y:X と Y を入力して 移動(ビームオフ)。右クリック › レーザーをここへ移動 でキャンバス上の位置に同じことができます。
+Save head positions I go back to	よく戻るヘッド位置を保存する
+Laser tab › Spots › + Save here remembers where the head is; the numbered buttons go back there (beam off).	レーザータブ › 位置メモ › + ここを保存 でヘッドの位置を覚え、番号ボタンでそこへ戻ります(ビームオフ)。
+Change speed or power mid-job	ジョブ中に速度や出力を変える
+GRBL lasers: the Speed and Power − / + under Start change the running job by 10 % at once (100 puts it back). Laser › GRBL Settings ($$) reads and writes the controller's settings.	GRBL レーザー:スタート の下の 速度 と 出力 の − / + で実行中のジョブを即座に 10 % ずつ変えます(100 で元に戻る)。レーザー › GRBL 設定 ($$) でコントローラーの設定を読み書きします。
+Run a G-code file from another program	他のプログラムの G-code ファイルを実行する
+Connect a GRBL laser, then Laser › Run a G-code File…, pick the file and press Start in its box. It goes as it is.	GRBL レーザーを接続し、レーザー › G-code ファイルを実行… でファイルを選び、そのボックスの スタート を押します。ファイルはそのまま送られます。
+Export for another program	他のプログラム用にエクスポートする
+File › Export G-code (GRBL, mm, M4) or Export SVG. LightBurn, SVG and DXF files import.	ファイル › G-code をエクスポート(GRBL、mm、M4)または SVG をエクスポート。LightBurn、SVG、DXF ファイルはインポートできます。
+See the material on the bed (camera)	ベッド上の材料を見る(カメラ)
+Laser › Camera Overlay…: Take a photo (browser camera above the bed) or Load a photo (a phone shot from above). Click the bed corners, or four marks you burnt, in order and type where they are; Place on the bed. The photo lies under the design, never burnt; the marks are kept, so the next photo goes straight on.	レーザー › カメラオーバーレイ…:写真を撮る(ベッド上方のブラウザカメラ)か 写真を読み込む(真上から撮ったスマホ写真)。ベッドの角、または加工した 4 つの印を順にクリックし、それぞれの位置を入力して ベッドに配置。写真はデザインの下に置かれ、加工されません。印は保持されるので、次の写真はそのまま重なります。
+Line up on a photo of the bed	ベッドの写真に合わせる
+Draw › Background Photo: a picture on a layer that never burns. Size and place it to match the bed or the object, lock it (⌘L), design on top.	描画 › 背景写真:加工されないレイヤー上の画像。ベッドや対象物に合わせてサイズと位置を調整し、ロック(⌘L)して、その上でデザインします。
+Cut round a printed sheet (Print & Cut)	印刷したシートの周りをカットする(印刷してカット)
+Laser › Print & Cut: put two marks in the design (small crosses or circles near opposite corners), print it, lay the sheet on the bed. Select mark 1, Use the selection; same for mark 2. Jog the laser onto the real mark 1, press Laser is on it; same for mark 2. Align turns and moves the whole design onto the sheet. Frame to check, then Start.	レーザー › 印刷してカット:デザインに 2 つの印(対角近くの小さな十字や円)を入れて印刷し、シートをベッドに置きます。印 1 を選択して 選択範囲を使用、印 2 も同様。レーザーを実際の印 1 へジョグして レーザーが合っている を押し、印 2 も同様。整列 でデザイン全体を回転・移動してシートに合わせます。フレーム で確認してから スタート。
+Find the centre of a round part	丸い部品の中心を見つける
+Laser › Centre Finder…: jog the head to three points on the part's edge, pressing Here at each; it shows the centre and diameter. Move the head there, or set the user origin there and Start from the user origin.	レーザー › 中心検出…:ヘッドを部品の縁の 3 点へジョグし、それぞれで ここ を押すと中心と直径が表示されます。ヘッドをそこへ動かすか、そこをユーザー原点にして ユーザー原点 から開始します。
+User Manual	ユーザーマニュアル
+Search: power, text, connect, frame…	検索:出力、テキスト、接続、フレーム…
+Work area	作業エリア
+Motion	動作
+Framing and safety	フレームと安全
+Galvo	ガルバノ
+Path	パス
+Lead-ins	進入
+Effects	効果
+Timing and Z	タイミングとZ
+Lines	ライン
+Privacy policy	プライバシーポリシー
+Usage and problem reports	利用状況と問題レポート
+To make {app} better, it sends which features get used and a short report when something goes wrong: the error message, the app's version and your platform, and your account if you're signed in.	{app} の改善のため、使われた機能と、問題が起きたときの短いレポートを送ります:エラーメッセージ、アプリのバージョンと使用環境、サインイン中はアカウント。
+Never your designs, file names or paths. Problem reports are kept for 30 days.	デザイン、ファイル名、パスは送りません。問題レポートは30日間保存されます。
+Help improve {app}: send usage and problem reports	{app} の改善に協力:利用状況と問題レポートを送信
+Delete my data	自分のデータを削除

@@ -1,0 +1,47 @@
+[package]
+name = "gburn-app"
+description = "GBurn desktop + web app (egui/eframe, glow)"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[[bin]]
+name = "gburn"
+path = "src/main.rs"
+
+[features]
+# dev check: GBURN_SHOT=out.png (GBURN_SHOT_FRAME=n, default 6) saves a settled frame and exits
+screenshot = ["gcarve-ui/screenshot"]
+default = []
+
+[dependencies]
+gburn-core = { path = "../gburn-core" }
+# shared with GCarve and GSketch: theme, widgets, fonts, icons, store, recovery copy, accounts, palette, guide, updates, screenshot, downloads, text outlines
+gcarve-ui = { path = "../../../gcarve/rust/gcarve-ui", default-features = false }
+# GRBL protocol (status reports, streamer, the simulated controller) and the G-code reader
+gcarve-core = { path = "../../../gcarve/rust/gcarve-core" }
+# glow = OpenGL: old GPUs, old Windows, WebGL in the browser
+eframe = { version = "0.36", default-features = false, features = ["default_fonts", "glow", "accesskit", "wayland", "x11", "links"] } # links: without it ctx.open_url does nothing on the desktop
+rfd = "0.17"
+ttf-parser = { version = "0.25", default-features = false, features = ["std", "opentype-layout"] }   # the Face type for fonts.rs (same as gcarve-ui)
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+chrono = "0.4"   # {date} / {time} in variable text (wasm: the browser clock)
+png = "0.17"   # a picture for the script check (also runs in the web smoke)
+
+[target.'cfg(not(target_arch = "wasm32"))'.dependencies]
+serialport = { version = "4", default-features = false }   # GRBL over USB serial (MPL-2.0: linked, not copied)
+nusb = "0.2"   # EZCAD2 galvo boards over USB (pure Rust; WebUSB later)
+
+[target.'cfg(target_os = "macos")'.dependencies]
+objc2 = "0.5"   # Finder double-click: the app delegate's open-files method (MIT / Apache-2.0; the version winit uses)
+muda = { version = "0.17", default-features = false }   # the menus in the Mac menu bar (MIT / Apache-2.0)
+nokhwa = { version = "0.10", features = ["input-avfoundation"] }   # Camera Overlay › Take a photo on the Mac (Apache-2.0)
+
+[target.'cfg(target_arch = "wasm32")'.dependencies]
+wasm-bindgen-futures = "0.4"
+wasm-bindgen = "=0.2.129"
+web-sys = { version = "0.3", features = ["console", "Window", "Document", "HtmlCanvasElement", "Element", "Location", "WebSocket", "BinaryType", "MessageEvent", "Event", "Navigator", "MediaDevices", "MediaStream", "MediaStreamConstraints", "MediaStreamTrack", "HtmlVideoElement", "HtmlMediaElement", "CanvasRenderingContext2d", "ImageData"] }
+js-sys = "0.3"
+getrandom = { version = "0.3", features = ["wasm_js"] }

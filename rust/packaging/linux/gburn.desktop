@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=GBurn
+Comment=Laser design and control, LightBurn style
+Exec=gburn %f
+Icon=gburn
+Terminal=false
+Categories=Graphics;Engineering;
+MimeType=application/x-gburn;

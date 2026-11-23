@@ -1,0 +1,1176 @@
+# GBurn interface: English	translation
+Before you start	开始前
+Cancel	取消
+Start	开始
+A job is running: closing stops the laser.	正在加工：关闭将停止激光。
+Don't save	不保存
+Save	保存
+Stop and close	停止并关闭
+Designs in your account	账户中的设计
+Delete	删除
+Open	打开
+Back to the start	回到开头
+Speed	速度
+Lines (by layer colour)	线条（按图层颜色）
+Start here	从这里开始
+Save as a picture…	另存为图片…
+Corner radius	圆角半径
+File	文件
+Open Recent	最近打开
+Export	导出
+Edit	编辑
+Select…	选择…
+Arrange	排列
+Align	对齐
+Move to the Bed's…	移到工作台的…
+Shapes	形状
+Simplify (fewer points)	简化（减少节点）
+Draw a Shape	绘制形状
+Laser	激光
+View	视图
+Help	帮助
+GBurn	GBurn
+Save the job as G-code (File › Export has .rd, LightBurn, SVG, DXF)	将任务保存为 G-code（文件 › 导出 还有 .rd、LightBurn、SVG、DXF）
+How Do I…?	如何…？
+Support GBurn: donate (opens gburn.app)	支持 GBurn：捐赠（打开 gburn.app）
+Show the side panel	显示侧边栏
+Properties	属性
+Cuts	切割
+Cuts / Layers	切割 / 图层
+Add a layer	添加图层
+Text	文字
+Height	高度
+Bold	粗体
+Offset	偏移
+Bed	工作台
+Machine Settings: speeds, the controller, the rotary…	机器设置：速度、控制器、旋转轴…
+Machine	机器
+Size	尺寸
+Design	设计
+Part of the design is off the bed	部分设计超出了工作台
+Centre the design	设计居中
+Fit the view	适合视图
+0,0 is the bed's front-left corner. With Start from › Bed the design burns where it sits here; the grid follows the zoom.	0,0 是工作台的左前角。开始位置 › 工作台 时，设计就在这里所示的位置加工；网格随缩放变化。
++ Sub-layer	+ 子图层
+Remove	移除
+Duplicate	复制
+Copy settings	复制设置
+Paste	粘贴
+Make default	设为默认
+Reset	重置
+Mode	模式
+Power	功率
+Passes	遍数
+Frequency	频率
+kHz (galvo)	kHz（振镜）
+Pulse width	脉宽
+ns (MOPA)	ns（MOPA）
+Own timings	自定义时序
+Pause	暂停
+ms	ms
+Repeat all	全部重复
+× with sub-layers	× 含子图层
+Z offset	Z 偏移
+mm Z, − down	mm Z，− 向下
+Constant power	恒定功率
+M3 (GRBL)	M3（GRBL）
+Z per pass	每遍 Z
+mm each pass	mm 每遍
+Kerf offset	切缝补偿
+mm (+ out, − in)	mm（+ 向外，− 向内）
+Tabs	连接点
+mm	mm
+Tabs on holes	孔上留连接点
+Inner first	先切内部
+Lead-in	引入线
+arc	圆弧
+Lead angle	引线角度
+° off square	° 偏离垂直
+Overcut	过切
+Lead-out	引出线
+Cut through	穿透切割
+% while paused	% 暂停时
+Direction	方向
+Wobble	摆动
+mm Ø, step	mm Ø，步距
+Dot mode	打点模式
+ms, mm	ms，mm
+Perforation	穿孔
+mm on, off	mm 开，关
+Min power	最小功率
+% in corners	% 拐角处
+Image mode	图像模式
+Negative	反色
+Overscan	过扫描
+Auto	自动
+mm each end	mm 每端
+Dot width	点宽
+mm correction	mm 补偿
+One way	单向
+one direction	单一方向
+Pass-through	直通
+as is	原样
+Clean up	清理
+passes at	遍，功率
+Line interval	线间距
+Turn per pass	每遍旋转
+° each pass	° 每遍
+each job	每次任务
+Fill shapes	填充形状
+part by part	逐个零件
+Flood fill	泛洪填充
+area by area	逐个区域
+Even lines	均匀线条
+spread to fit	分布适配
+Edge loops	边缘环
+gap	间距
+Fill inset	填充内缩
+mm inside	mm 向内
+Cross-hatch	交叉填充
+Ramp	渐变
+mm fade-in	mm 渐入
+Scan angle	扫描角度
+Air assist	吹气
+Output	输出
+Show	显示
+Material	材料
+Presets…	预设…
+None saved yet	尚未保存
+Save…	保存…
+Unlink	取消关联
+Scale	缩放
+% (Enter: about the anchor)	%（回车：绕锚点）
+Rotate	旋转
+° (Enter: about the anchor)	°（回车：绕锚点）
+Skew	倾斜
+° across	° 横向
+° up (Enter)	° 纵向（回车）
+% of the layer's power	% 图层功率
+Cut priority	切割优先级
+lower burns first	数值小的先加工
+Sides	边数
+Star	星形
+Second star	第二个星形
+Resample to the scan DPI	重采样到扫描 DPI
+Brightness	亮度
+Contrast	对比度
+Gamma	伽马
+Sharpen	锐化
+Denoise	降噪
+Halftone	半色调
+mm cell	mm 网格
+As it will burn	加工效果
+Name	名称
+optional	可选
+Edit text…	编辑文字…
+Reverse	反向
+Click a point of the selected shape to edit it	点击所选形状的一个节点进行编辑
+Same X	相同 X
+Same Y	相同 Y
+Delete points	删除节点
+Delete point	删除节点
+Break here	在此断开
+Straight	直线
+Curve	曲线
+Round corner	圆角
+Sharp corner	尖角
+Next ▸	下一个 ▸
+machine	机器
+Find	查找
+Unlock	解锁
+Use it	使用
+Door open: the laser won't run until it is closed	门已打开：关闭之前激光不会运行
+Go to…	前往…
+Set origin	设置原点
+To origin	到原点
+Clear origin	清除原点
+To selection	到选区
+Fire	点射
+Spots	位置点
++ Save here	+ 保存此处
+Clear	清除
+Go to X	前往 X
+Y	Y
+Go	前往
+Burn only the selected shapes	只加工所选形状
+Step	步距
+Hold to move	按住移动
+Arrow keys	方向键
+Console	控制台
+Start from	开始位置
+of the selection	选区的
+Stop	停止
+Frame	走边框
+No laser connected:	未连接激光：
+Connect	连接
+Laser tab	激光标签页
+Welcome to GBurn	欢迎使用 GBurn
+Design on the left, cut settings on the right, and the laser at the bottom of the panel.	左边是设计，右边是切割设置，激光控制在面板底部。
+Nothing fires until you press Start. Frame traces the outline with the beam off.	按下开始之前不会出光。走边框时激光关闭，只描出轮廓。
+Got it	知道了
+Restore unsaved work?	恢复未保存的工作？
+Discard	丢弃
+Restore	恢复
+Words	文字内容
+Font	字体
+Liberation Sans (built in)	Liberation Sans（内置）
+Looking for this computer's fonts…	正在查找本机字体…
+Search fonts	搜索字体
+Font file…	字体文件…
+Spacing	字距
+%  Line gap ×	%  行距 ×
+When the words change, keep the	文字改变时，保持
+Width	宽度
+%  Slant	%  倾斜
+Fit to	适配到
+width	宽度
+whole	整体
+Along the selected shape	沿所选形状
+moved	移动
+inside	内侧
+bend letters	弯曲字母
+UPPER CASE	大写
+Right to left	从右到左
+Weld the letters (one outline: script fonts, no double burns where letters overlap)	焊接字母（合成一个轮廓：手写字体，字母重叠处不重复加工）
+Variable text: {n} = serial, {n:4} padded, {date}, {date:%d/%m/%Y}, {time}. Next number	可变文字：{n} = 序号，{n:4} 补零，{date}，{date:%d/%m/%Y}，{time}。下一个编号
+step	步长
+After	超过
+start again from	后从此重新开始
+Data file (CSV)…	数据文件（CSV）…
+Controller Settings	控制器设置
+The Ruida's own settings. Save a backup before changing anything: a wrong value can stop the machine moving properly. Each write is read back.	Ruida 自身的设置。修改前请先保存备份：错误的值可能导致机器无法正常移动。每次写入后都会回读。
+Sure?	确定？
+Write	写入
+Read again	重新读取
+Save a backup	保存备份
+Controller Files	控制器文件
+Jobs kept on the Ruida, to run from its panel or from here.	保存在 Ruida 上的任务，可从其面板或这里运行。
+Reading…	正在读取…
+No files on the controller	控制器上没有文件
+Send this design	发送此设计
+Refresh	刷新
+Controller Info	控制器信息
+GRBL Settings	GRBL 设置
+Waiting for the controller's $$…	正在等待控制器的 $$…
+Written straight to the controller. Note the old value first.	直接写入控制器。请先记下旧值。
+QR Code / Barcode	二维码 / 条形码
+text under	下方文字
+Narrowest bar	最窄条宽
+Add	添加
+Undo History	撤销历史
+Click a step to go back to just before it; undone steps (dim) come back the same way.	点击某一步回到它之前；已撤销的步骤（暗色）也可这样恢复。
+● now	● 当前
+Shapes Library	形状库
+My art	我的图案
+name	名称
+Save the selection	保存所选
+Add files…	添加文件…
+Nothing saved yet: select shapes, name them, Save the selection.	尚未保存：选择形状，命名，然后保存所选。
+Notes	备注
+Saved with the design: the material, settings that worked, anything.	随设计保存：材料、有效的设置等任何内容。
+Templates	模板
+Start a new design from one: its layers, settings and shapes.	从模板新建设计：包括其图层、设置和形状。
+The coaster (sample)	杯垫（示例）
+Save this design	保存此设计
+Run a G-code File	运行 G-code 文件
+Sent as it is: GBurn's start position and Start / End G-code don't apply.	按原样发送：不使用 GBurn 的开始位置和开始 / 结束 G-code。
+Connect a GRBL laser (Laser tab)	连接 GRBL 激光（激光标签页）
+Camera Overlay	摄像头叠加
+Show the overlay	显示叠加
+Take a photo	拍照
+Load a photo…	载入照片…
+Click the four points below on the photo, in order (a fifth click starts again). Corners of the bed, or four marks you burnt.	按顺序在照片上点击下方四个点（第五次点击重新开始）。可以是工作台的角，或你打出的四个标记。
+No photo yet.	还没有照片。
+Lens bend	镜头畸变
+Place on the bed	放到工作台上
+Forget the marks	忘记标记
+The marks are kept: with the camera in the same place, a new photo goes straight onto the bed.	标记已保留：摄像头位置不变时，新照片会直接放到工作台上。
+Virtual Array	虚拟阵列
+Grid	网格
+Circle	圆形
+Copies	份数
+Round X, Y	绕 X，Y
+centre	中心
+of it	的
+Live copies: change or move the original and they follow. They burn as real shapes.	实时副本：修改或移动原件，副本跟着变。加工时作为真实形状。
+Make the copies real	将副本转为实体
+Bend / Taper	弯曲 / 锥形
+Bend	弯曲
+° of arc, − sags	° 弧度，− 下垂
+Top width	顶部宽度
+% of the bottom	% 底部宽度
+Apply to the selection	应用到所选
+Text in an arc, labels for tapered cups. Curves become fine lines.	弧形文字、锥形杯标签。曲线会变成细线段。
+Centre Finder	圆心查找
+Jog the head (red dot) to three points on the edge of a round part, pressing Here at each.	将激光头（红点）移到圆形零件边缘的三个点，每到一点按“这里”。
+Here	这里
+Move the head there	将激光头移到那里
+Set the user origin there	在那里设置用户原点
+The three points are in a line: pick points further apart round the edge	三个点在一条直线上：请沿边缘选择相距更远的点
+Print & Cut	打印与切割
+Two marks printed with the design, near opposite corners, line the cut up with the sheet.	与设计一起打印的两个标记，位于相对的两角附近，使切割与纸张对齐。
+Use the selection	使用所选
+Laser is on it	激光已对准
+Scale to the marks (printers stretch a little)	按标记缩放（打印机会略有拉伸）
+Align the design	对齐设计
+Polygon / Star	多边形 / 星形
+Radius	半径
+Inner radius %	内半径 %
+Second star %	第二个星形 %
+0 = none	0 = 无
+Both ways (out and in)	双向（向外和向内）
+Round corners	圆角
+sharp	尖角
+bevel (cut across)	斜角（切平）
+All together (overlaps join up)	全部一起（重叠处合并）
+Delete the originals	删除原件
+Apply	应用
+Grid Array	网格阵列
+Every other row	每隔一行
+Every other column	每隔一列
+Each copy	每个副本
+Variable text counts up	可变文字递增
+Make copies	生成副本
+Resize Slots	调整插槽
+Slots and tabs sized for one material thickness, made right for another (straight, square corners)	按一种材料厚度设计的插槽和榫头，改为适合另一种厚度（直线，直角）
+Resize	调整
+Boolean Assistant	布尔助手
+Each result for the selection (the first picked is “the first”). Click one to keep it.	所选形状的每种结果（最先选中的为“第一个”）。点击一个保留。
+Nothing: select closed shapes that overlap	无结果：请选择相互重叠的封闭形状
+Speed and power come from the current layer	速度和功率来自当前图层
+Make the test	生成测试
+Close and Optimize	闭合与优化
+Close open paths whose ends are within	闭合两端距离在以下范围内的开放路径
+Close	闭合
+Optimize: fewer points, within	优化：减少节点，误差在
+Optimize	优化
+Smooth wavy or jagged outlines (traced pictures) by	平滑波浪或锯齿轮廓（描摹的图片），幅度
+Smooth	平滑
+Bridges	桥接
+Gaps across the selected shapes, so stencil islands stay attached	在所选形状上留出断口，使镂空岛保持相连
+Add bridges	添加桥接
+Circular Array	圆形阵列
+Copies go round a point that far below the selection's centre, each turned to face it.	副本围绕选区中心下方该距离处的一点排列，每个都朝向该点。
+Copy Along Path	沿路径复制
+Turn each copy with the path	副本随路径旋转
+Select the object and the path: the shape with the longest outline is the path. Copies are spread end to end (evenly round a closed path).	选择对象和路径：轮廓最长的形状作为路径。副本首尾均匀分布（封闭路径则均匀环绕）。
+Material Test	材料测试
+to	到
+Rows	行
+Columns	列
+Cell size	单元尺寸
+Make the grid	生成网格
+Material Library	材料库
+Empty. Set a layer up, then Material › Save… in its settings, or import a LightBurn .clb.	空。先设置一个图层，然后在其设置中 材料 › 保存…，或导入 LightBurn .clb。
+Find a material, thickness or setting…	查找材料、厚度或设置…
+Use	使用
+Save the current layer…	保存当前图层…
+Import .clb…	导入 .clb…
+Export .clb…	导出 .clb…
+Save to the Material Library	保存到材料库
+Birch plywood	桦木胶合板
+Thickness	厚度
+mm (empty = any)	mm（空 = 任意）
+Description	描述
+through cut	切透
+Trace Picture	描摹图片
+Outlines of the dark parts of the selected picture, as shapes on a new Line layer.	所选图片深色部分的轮廓，作为形状放到新的线条图层上。
+Threshold	阈值
+Automatic	自动
+Trace the light parts	描摹浅色部分
+Centerline	中心线
+single lines down the strokes	沿笔画的单线
+px (0.5 tight, 2 smooth)	px（0.5 紧贴，2 平滑）
+Ignore specks under	忽略小于以下的斑点
+px²	px²
+Trace	描摹
+Machine Settings	机器设置
+Nova 63, Aurora 8…	Nova 63、Aurora 8…
+Save as a new machine	另存为新机器
+Bed width	工作台宽度
+Bed height	工作台高度
+Travel speed	空移速度
+mm/s (beam off)	mm/s（激光关闭）
+Acceleration	加速度
+mm/s² cut / engrave (time estimate)	mm/s² 切割 / 雕刻（时间估算）
+Top speed X / Y	X / Y 最高速度
+mm/s each axis, 0 = no limit (time estimate)	mm/s 每轴，0 = 不限（时间估算）
+Corner slow-down	拐角减速
+mm, GRBL $11, 0 = off (time estimate)	mm，GRBL $11，0 = 关（时间估算）
+Full power S	满功率 S
+GRBL network address	GRBL 网络地址
+e.g. 192.168.1.50 or fluidnc.local:23	例如 192.168.1.50 或 fluidnc.local:23
+Ruida address	Ruida 地址
+Ruida home corner	Ruida 原点角
+Galvo lens field	振镜镜头范围
+Fibre	光纤
+CO2	CO2
+Galvo correction	振镜校正
+Pick .cor file…	选择 .cor 文件…
+Flip X	翻转 X
+Flip Y	翻转 Y
+X per Y	X 随 Y
+Cylinder	圆柱
+mirror mm	镜距 mm
+curves across X	沿 X 弯曲
+inside (concave)	内侧（凹面）
+Galvo speed	振镜速度
+mm/s jumps	mm/s 跳转
+Galvo delays	振镜延时
+µs	µs
+Baud rate	波特率
+Absolute coordinates	绝对坐标
+Current position	当前位置
+User origin	用户原点
+Job origin	任务原点
+Fire button	点射按钮
+% for ≈ 0.4 s	% 约 0.4 s
+Rotary on Y	旋转轴接 Y
+A axis	A 轴
+mm/turn, object Ø	mm/圈，物体 Ø
+Test	测试
+Taper warp	锥度变形
+mm Ø left / right: a tapered tumbler	mm Ø 左 / 右：锥形杯
+Scanning offset	扫描偏移
+e.g. 100:0.05, 300:0.12	例如 100:0.05, 300:0.12
+speed (mm/s) : mm the return lines land off, for GRBL fills and pictures. Engrave a few lines at each speed, measure the step, type it here.	速度（mm/s）：回程线偏移的 mm，用于 GRBL 填充和图片。在每个速度下雕刻几条线，量出错位，填在这里。
+Time estimate ×	时间估算 ×
+1.2 = jobs take 20 % longer than estimated	1.2 = 任务比估算多用 20 % 时间
+Cut order	切割顺序
+shortest travel (holes first)	最短空移（先切孔）
+as drawn	按绘制顺序
+finish each group (part) before the next	逐组（零件）完成后再做下一个
+start shapes at a corner (hides the start mark)	从拐角开始（隐藏起点痕迹）
+fewer direction changes	减少换向
+hide backlash (every loop the same way round)	消除反向间隙（每个环同一方向）
+Shared edges	共享边
+cut once (remove overlapping lines)	只切一次（去除重叠线）
+the box	外框
+the outline (hull)	轮廓（凸包）
+keep framing until Stop	持续走边框直到停止
+Job checklist	任务检查清单
+one item a line, ticked before every Start (e.g. Air on, Lid closed)	每行一项，每次开始前勾选（例如 已开吹气、已关盖）
+% beam while framing (GRBL diodes without a pointer; 0 = off)	% 走边框时的出光功率（无指示光的 GRBL 半导体激光；0 = 关）
+Red-dot pointer	红点指示器
+X	X
+mm from the beam	mm 距光束
+Connecting	连接时
+home the machine	机器回原点
+After the job	任务完成后
+go to X	前往 X
+mm (GRBL)	mm（GRBL）
+Speed unit	速度单位
+mm/s	mm/s
+mm/min	mm/min
+Power mode	功率模式
+M4 dynamic	M4 动态
+M3 constant	M3 恒定
+S on every move	每次移动都发 S
+Machine 0,0	机器 0,0
+Swap X / Y	交换 X / Y
+Blank moves as G0	空行程用 G0
+Progress (M73)	进度（M73）
+M8	M8
+M7	M7
+Controller	控制器
+Transfer	传输
+one line at a time (synchronous)	逐行发送（同步）
+Start G-code	开始 G-code
+before every job, e.g. M7	每次任务前，例如 M7
+End G-code	结束 G-code
+after every job	每次任务后
+Macros	宏
+G-code	G-code
++ Macro	+ 宏
+M4 scales power with speed through corners (GRBL laser mode, $32=1). Pick M3 only if your controller has no laser mode.	M4 在拐角处按速度调整功率（GRBL 激光模式，$32=1）。只有控制器没有激光模式时才选 M3。
+Current position: jog the head to where the design's job origin should be, then Start. The job's G-code sets that point with G92 and clears it at the end.	当前位置：将激光头移到设计任务原点应在的位置，然后开始。任务的 G-code 用 G92 设定该点，结束时清除。
+Settings	设置
+Mouse and trackpad	鼠标和触控板
+Units	单位
+Guides: drag out of a ruler; drag one back onto the ruler to remove it. They snap.	参考线：从标尺拖出；拖回标尺即可删除。会自动吸附。
+Pick within	拾取范围
+px, snap within	px，吸附范围
+px	px
+Save it…	保存…
+Arrow keys move	方向键移动
+mm (⇧ × 10)	mm（⇧ × 10）
+Machine Settings…	机器设置…
+Keyboard Shortcuts…	键盘快捷键…
+Export / Import…	导出 / 导入…
+Keyboard Shortcuts	键盘快捷键
+Your shortcuts	你的快捷键
+Find a command…	查找命令…
+Type to find a command, then Set and press its key.	输入以查找命令，然后点设置并按下按键。
+About GBurn	关于 GBurn
+A sister app of GCarve (gcarve.app) and GSketch (gsketch.app).	GCarve（gcarve.app）和 GSketch（gsketch.app）的姊妹应用。
+New	新建
+Import (SVG, DXF, PDF, LightBurn, picture)…	导入（SVG、DXF、PDF、LightBurn、图片）…
+Save As…	另存为…
+Notes…	备注…
+Print	打印
+Print in Black	黑白打印
+Export Settings…	导出设置…
+Import Settings…	导入设置…
+Templates…	模板…
+Save to Account	保存到账户
+Open from Account…	从账户打开…
+G-code (GRBL lasers)	G-code（GRBL 激光）
+Ruida file (.rd, USB stick)	Ruida 文件（.rd，U 盘）
+K40 file (.egv)	K40 文件（.egv）
+LightBurn project (.lbrn2)	LightBurn 项目（.lbrn2）
+SVG (curves kept)	SVG（保留曲线）
+DXF (for CAD)	DXF（用于 CAD）
+PDF (print at 100 %)	PDF（按 100 % 打印）
+Processed picture (PNG)	处理后的图片（PNG）
+Undo History…	撤销历史…
+Settings…	设置…
+Cut	剪切
+Copy	复制
+Paste in Place	原位粘贴
+Select All	全选
+Select All on This Layer	全选本图层
+Select None	取消选择
+Invert the Selection	反选
+Inside the Selection	选区内部
+Open Paths	开放路径
+Open Paths on Fill Layers	填充图层上的开放路径
+Smaller Than the Selection	比所选小的
+Circles (or the selected one's size)	圆（或与所选同尺寸）
+Pictures	图片
+Texts	文字
+Group	编组
+Ungroup	取消编组
+Auto-Group	自动编组
+Lock	锁定
+Unlock All	全部解锁
+Move to the Current Layer	移到当前图层
+Mirror Left–Right	左右镜像
+Mirror Up–Down	上下镜像
+Mirror Across a Line	沿直线镜像
+Rotate 90° Left	向左旋转 90°
+Two-Point Rotate / Scale	两点旋转 / 缩放
+Rotate 90° Right	向右旋转 90°
+Distribute Across	水平分布
+Distribute Centres Across	水平分布中心
+Distribute Centres Up	垂直分布中心
+Distribute Down	垂直分布
+Dock Together Across	水平紧靠
+Dock Together Down	垂直紧靠
+Same Width	相同宽度
+Same Size	相同尺寸
+Same Height	相同高度
+Centre on the Bed	在工作台居中
+Fit to the Bed (scale)	适合工作台（缩放）
+Move to the Laser's Position	移到激光位置
+Nest on the Bed	在工作台上排版
+Nest by Shape	按形状排版
+Nest by Shape over Pages	按形状跨页排版
+Edit Cut Order (click shapes in turn)	编辑切割顺序（依次点击形状）
+Cut First (in its layer)	最先切割（在其图层内）
+Cut Last (in its layer)	最后切割（在其图层内）
+One Place Earlier	提前一位
+One Place Later	推后一位
+Grid Array…	网格阵列…
+Virtual Array…	虚拟阵列…
+Circular Array…	圆形阵列…
+Copy Along Path…	沿路径复制…
+Union	合并
+Subtract (first minus the rest)	相减（第一个减去其余）
+Intersect	相交
+Exclude (all but the overlap)	排除（去掉重叠部分）
+Boolean Assistant…	布尔助手…
+Split with the First	用第一个分割
+Offset Shapes…	偏移形状…
+Round Corners…	圆角…
+Trace Picture…	描摹图片…
+Trace Several Picture Files…	描摹多个图片文件…
+Cut the Picture to the Shape	按形状裁剪图片
+Turn Shapes into a Picture	将形状转为图片
+Background Photo (not burnt)…	背景照片（不加工）…
+Replace the Picture…	替换图片…
+Replace the Picture to Fit…	替换图片并适配…
+Weld (keep holes)	焊接（保留孔）
+Join Open Paths	连接开放路径
+Close Paths	闭合路径
+Close / Optimize Within…	闭合 / 优化…
+Extend Lines to the Next Shape	延伸线条到下一个形状
+Bridges…	桥接…
+Break Apart	打散
+Resize Slots…	调整插槽…
+Tangent Circle (to 3 circles)	相切圆（与 3 个圆）
+Path from the Cut	从切割路径生成
+Bend / Taper…	弯曲 / 锥形…
+Warp (4 corners)	变形（4 角）
+Deform (16 handles)	自由变形（16 控制点）
+Smooth into Curves	平滑为曲线
+Outline Around (hull)	外围轮廓（凸包）
+Outline Around (box)	外围轮廓（外框）
+Fine: within 0.02 mm	精细：误差 0.02 mm
+Medium: within 0.1 mm	中等：误差 0.1 mm
+Coarse: within 0.5 mm	粗略：误差 0.5 mm
+Delete Duplicates and Specks	删除重复和碎点
+Polygon / Star…	多边形 / 星形…
+Shapes Library…	形状库…
+Text…	文字…
+Edit Text…	编辑文字…
+Convert Text to Shapes	文字转为形状
+Bake the Variable Text	固化可变文字
+QR Code / Barcode…	二维码 / 条形码…
+Picture…	图片…
+Home	回原点
+Pause / Resume	暂停 / 继续
+Print & Cut…	打印与切割…
+Centre Finder…	圆心查找…
+Camera Overlay…	摄像头叠加…
+Save the Camera Capture…	保存摄像头画面…
+Galvo Lens Test Pattern	振镜镜头测试图案
+Run a G-code File…	运行 G-code 文件…
+Cut Settings Editor…	切割设置编辑器…
+Material Test…	材料测试…
+Scanning Offset Test	扫描偏移测试
+Focus Test…	焦距测试…
+Interval Test…	线间距测试…
+Material Library…	材料库…
+Import Material Library (.clb)…	导入材料库（.clb）…
+GRBL Settings ($$)…	GRBL 设置（$$）…
+Get Controller Info…	获取控制器信息…
+Controller Files…	控制器文件…
+Controller Settings…	控制器设置…
+Play / Pause the Simulation	播放 / 暂停模拟
+Fit the Design	适合设计
+Fit the Bed	适合工作台
+Clear the Guides	清除参考线
+Flash the Layer's Shapes	闪烁图层形状
+Zoom to Selection	缩放到所选
+Zoom In	放大
+Zoom Out	缩小
+Find a Command…	查找命令…
+Report a Bug…	报告错误…
+Request a Change…	请求修改…
+Documentation	文档
+GBurn Website	GBurn 网站
+♥ Donate to GBurn…	♥ 捐赠 GBurn…
+text	文字
+import	导入
+extents	范围
+mtest	测试
+Text (T)	文字（T）
+Import	导入
+Import SVG, DXF, LightBurn files or pictures (⌘I)	导入 SVG、DXF、LightBurn 文件或图片（⌘I）
+Fit	适合
+Fit the design in the view (F)	在视图中显示整个设计（F）
+Test grid	测试网格
+Material test: a grid of speeds and powers	材料测试：速度和功率的网格
+Disconnect	断开
+Start · rotary	开始 · 旋转轴
+Resume	继续
+Open from Computer…	从电脑打开…
+Open…	打开…
+Download (.gburn)	下载（.gburn）
+Account…	账户…
+Sign In…	登录…
+Back to Design	返回设计
+Preview the Job	预览任务
+Mouse Wheel Zooms	鼠标滚轮缩放
+Mouse Wheel Pans (trackpad)	鼠标滚轮平移（触控板）
+Hide the Grid	隐藏网格
+Show the Grid	显示网格
+Hide the Fills	隐藏填充
+Show the Fills	显示填充
+Shaded Fills	阴影填充
+Solid Fills	实心填充
+Show Millimetres	显示毫米
+Show Inches	显示英寸
+Show the Side Panel	显示侧边栏
+Hide the Side Panel	隐藏侧边栏
+Select	选择
+Click a shape; drag to move it; drag a corner to resize, the round dot to turn (⇧ 15° steps); drag on empty space to box-select	点击形状；拖动可移动；拖动角可调整大小，拖动圆点可旋转（⇧ 15° 步进）；在空白处拖动可框选
+Nodes	节点
+Click a shape, drag its points; double-click a segment to add a point; ⌫ removes the picked point	点击形状，拖动其节点；双击线段添加节点；⌫ 删除选中的节点
+Rectangle	矩形
+Drag a rectangle (⇧ square, ⌥ from the centre)	拖出矩形（⇧ 正方形，⌥ 从中心）
+Ellipse	椭圆
+Drag an ellipse (⇧ circle, ⌥ from the centre)	拖出椭圆（⇧ 圆形，⌥ 从中心）
+Polygon	多边形
+Drag from the centre out to a corner (⇧ 15° turns); sides and star in the Polygon box	从中心拖到一个角（⇧ 15° 旋转）；边数和星形在多边形框中设置
+Line	直线
+Click points (⇧ 15° steps); click the first point or press Enter to finish, Esc to drop it	点击各点（⇧ 15° 步进）；点击第一个点或按回车完成，Esc 放弃
+Measure	测量
+Drag between two points for the distance; point at a shape for its size, outline and area	在两点间拖动测距离；指向形状可看尺寸、轮廓长度和面积
+Trim	修剪
+Click a line between two crossings: that stretch is cut away (nothing crosses = the shape goes)	点击两个交点之间的线：该段被剪掉（没有交点则删除整个形状）
+Pan	平移
+Drag to move the view; the wheel zooms	拖动以移动视图；滚轮缩放
+Scale X / Y	缩放 X / Y
+Bulge X / Y	鼓形 X / Y
+Trapezoid X / Y	梯形 X / Y
+× size	× 尺寸
++ sides bow out	+ 边向外鼓
++ wider top / taller right	+ 顶部更宽 / 右侧更高
+Shade by power	按功率着色
+Legend	图例
+Keep ratio	保持比例
+shift ½	偏移 ½
+flip	翻转
+turned at random (¼ turns)	随机旋转（¼ 圈）
+Slot width (the sides move apart)	插槽宽度（两侧分开）
+Slot depth (the bottom moves)	插槽深度（底边移动）
+Tab height (the top moves)	榫头高度（顶边移动）
+move the ends together	端点移到一起
+straight lines only	仅直线
+Language	语言
+Reverse the wheel's zoom	反转滚轮缩放
+inches	英寸
+Shade the fills in the design	在设计中显示填充阴影
+Snap to points, middles and centres	吸附到节点、中点和中心
+follows the zoom	随缩放变化
+Join loose ends on import (within 0.05 mm)	导入时连接松散端点（0.05 mm 内）
+Beginner mode (only the basic cut settings)	新手模式（只显示基本切割设置）
+Automation: other programs may open files here (UDP 19840, this computer only)	自动化：允许其他程序在此打开文件（UDP 19840，仅限本机）
+Back to Select after drawing a shape	画完形状后回到选择工具
+Crosshair across the canvas at the pointer	画布上随指针显示十字线
+Cross at the bed's centre	工作台中心显示十字
+Show where the head last was after disconnecting	断开后显示激光头最后位置
+Group what's imported	导入的内容编组
+Put imports in the middle of the bed	导入内容放在工作台中间
+Keep a job log	保存任务日志
+Trackpad	触控板
+two fingers pan, pinch or ⌘ + scroll zooms, middle drag pans	双指平移，捏合或 ⌘ + 滚动缩放，中键拖动平移
+Mouse	鼠标
+the wheel zooms, ⇧ + wheel pans across, middle drag pans	滚轮缩放，⇧ + 滚轮横向平移，中键拖动平移
+CAD	CAD
+the wheel zooms, right or middle drag pans in every tool	滚轮缩放，任何工具下右键或中键拖动平移
+Export G-code	导出 G-code
+Sign in	登录
+Draw and set up the cuts	绘制并设置切割
+Preview	预览
+See the job and simulate it (P)	查看并模拟任务（P）
+Job	任务
+cut	切割
+travel	空移
+Where the job starts	任务起点
+Move the head	移动激光头
+Jog the head to where this point of the design should be, then Frame and Start.	将激光头移到设计中这个点应在的位置，然后走边框并开始。
+This point of the design goes to the saved user origin.	设计的这个点对准已保存的用户原点。
+bottom-left	左下
+bottom-centre	下中
+bottom-right	右下
+left	左
+right	右
+top-left	左上
+top-centre	上中
+top-right	右上
+No travel	不显示空移
+Recent travel	最近空移
+All travel	全部空移
+Head	激光头
+Maple	枫木
+Cherry	樱桃木
+Walnut	胡桃木
+Bamboo	竹子
+MDF	密度板
+Cork	软木
+Cardboard	纸板
+Leather	皮革
+Slate	石板
+Black anodised aluminium	黑色阳极氧化铝
+Black acrylic	黑色亚克力
+Clear acrylic	透明亚克力
+Stainless steel (fibre)	不锈钢（光纤）
+Brass (fibre)	黄铜（光纤）
+Black-painted metal (fibre)	黑漆金属（光纤）
+Layer	图层
+sub	子
+Waiting…	等待中…
+Snap	吸附
+Snap off	吸附关
+Page	页面
+Line (follow the outline)	线条（沿轮廓）
+Fill (scan the inside)	填充（扫描内部）
+Image (picture)	图像（图片）
+Fill + Line (scan, then outline)	填充 + 线条（扫描后切轮廓）
+Offset fill (concentric insets)	偏移填充（同心内缩）
+Dither (Floyd–Steinberg)	抖动（Floyd–Steinberg）
+Dither (Jarvis)	抖动（Jarvis）
+Dither (Stucki)	抖动（Stucki）
+Dither (Atkinson)	抖动（Atkinson）
+Sketch (edges)	素描（边缘）
+3D slices (a level per pass)	3D 分层（每遍一层）
+Ordered	有序抖动
+Newsprint	报纸网点
+Grayscale (power)	灰度（功率）
+Laser head	激光头
+Ruida heads	Ruida 激光头
+Two laser heads	双激光头
+Both	两者
+…and may start a job (START)	…并允许开始任务（START）
+Skip the tour	跳过导览
+Back	返回
+Show me around	带我看看
+Take the Tour	开始导览
+Done	完成
+Next	下一步
+Tools	工具
+Draw rectangles, ellipses, polygons, lines and text here. Select moves and sizes shapes; Nodes edits their points.	在这里绘制矩形、椭圆、多边形、直线和文字。选择工具移动和缩放形状；节点工具编辑其节点。
+The bed	工作台
+Your design sits on the laser's bed. Drag a shape to move it, a corner to resize it; pinch or scroll to zoom. Files and pictures can be dropped here.	你的设计放在激光的工作台上。拖动形状可移动，拖动角可调整大小；捏合或滚动缩放。文件和图片可以拖放到这里。
+Layers	图层
+Each colour is a layer with its own settings: Line cuts or scores the outline, Fill engraves the inside, Image burns pictures. Set the speed and power here.	每种颜色是一个有独立设置的图层：线条切割或划刻轮廓，填充雕刻内部，图像加工图片。在这里设置速度和功率。
+See the whole job in the order it runs, with the travel and the time. Press ▶ to play it.	按运行顺序查看整个任务，包括空移和时间。按 ▶ 播放。
+Your laser	你的激光
+Connect your laser here, or the simulated one to try things out. Move the head and choose where the job starts.	在这里连接你的激光，或用模拟激光试一试。移动激光头并选择任务的起点。
+Frame, Start, Stop	走边框、开始、停止
+Frame traces the job's edges with the beam off, so you can check where it lands. Start burns; nothing fires before it. Stop is always here.	走边框在激光关闭的状态下描出任务边缘，方便检查加工位置。开始即加工；在此之前不会出光。停止按钮始终在这里。
+Save As	另存为
+File name	文件名
+Download	下载
+Save (download .gburn)	保存（下载 .gburn）
+Draw	绘制
+Quit GBurn	退出 GBurn
+Exit	退出
+other	其他
+panel	面板
+Simulate	模拟
+kHz	kHz
+ns	ns
+Pause before	之前暂停
+Pause after	之后暂停
+mm / pass	mm / 遍
+per shape	每个形状
+Tab length	连接点长度
+Wobble size	摆动大小
+mm Ø	mm Ø
+Wobble step	摆动步距
+Dot time	打点时间
+Dot spacing	打点间距
+Perforate: cut	穿孔：切割
+Perforate: skip	穿孔：跳过
+Clean up every	清理间隔
+passes	遍
+Clean-up power	清理功率
+° / pass	° / 遍
+Open path	开放路径
+Close path	闭合路径
+Make corner	设为尖角
+Make smooth	设为平滑
+Click it…	点击它…
+On the camera	在摄像头上
+Bed (absolute)	工作台（绝对）
+the bed	工作台
+the head	激光头
+the user origin	用户原点
+from	从
+No laser connected	未连接激光
+Skew across	横向倾斜
+Skew up	纵向倾斜
+Line gap	行距
+× height	× 高度
+Anchor	锚点
+Slant	倾斜
+{n} = serial, {n:4} padded, {date}, {date:%d/%m/%Y}, {time}, {column} from a data file	{n} = 序号，{n:4} 补零，{date}，{date:%d/%m/%Y}，{time}，{column} 来自数据文件
+Next number	下一个编号
+Variable text	可变文字
+Report…	报告…
+Report a Problem…	报告问题…
+Save the Laser Log…	保存激光日志…
+Red pointer pin	红色指示光引脚
+Find…	查找…
+Find the Red Pointer Pin	查找红色指示光引脚
+Rotary	旋转轴
+These settings (not saved as a machine)	当前设置（未另存为机器）
+Your own step: the Laser tab	自定义步距：激光标签页
+Jogging	点动
+The jog pad is in the laser panel at the bottom, on every tab.	点动键盘在底部的激光面板中，每个标签页都有。
+Connect your laser here, or the simulated one to try things out. The Laser tab has the device, Go to, spots and the console.	在这里连接你的激光，或用模拟激光试一试。激光标签页有设备、前往、位置点和控制台。
+The laser panel	激光面板
+On every tab: the laser and where its head is, the jog pad, Frame (traces the job with the beam off), Start (nothing fires before it), Stop (always here) and where the job starts. The arrow folds it smaller.	每个标签页都有：激光及其激光头位置、点动键盘、走边框（激光关闭描出任务）、开始（在此之前不会出光）、停止（始终在这里）以及任务起点。点箭头可将其收起。
+Position	位置
+Speed and power now	当前速度和功率
+Ruida (USB) or GRBL over USB: Connect, then pick the laser's port in the browser's list (Chrome, Edge, Brave). Ruida over the network needs GBurn Link on this computer (gburn.app/download/). The simulated laser runs any job here.	Ruida（USB）或 GRBL over USB：点连接，然后在浏览器列表中选择激光的端口（Chrome、Edge、Brave）。通过网络连接 Ruida 需要在本机运行 GBurn Link（gburn.app/download/）。模拟激光可以运行任何任务。
+Ruida CO2 lasers (Thunder Nova, most CO2 cabinets): Ruida (USB) or Ruida (network). GRBL diode lasers: their serial port. Fibre galvos (EZCAD2): Galvo (EZCAD2 USB). Find looks for you. The simulated laser runs any job without a machine.	Ruida CO2 激光（Thunder Nova，大多数 CO2 机型）：Ruida（USB）或 Ruida（网络）。GRBL 半导体激光：其串口。光纤振镜（EZCAD2）：振镜（EZCAD2 USB）。查找会自动搜索。模拟激光无需机器即可运行任何任务。
+Export .rd	导出 .rd
+Choose your machine…	选择你的机器…
+Choose your machine	选择你的机器
+Search: brand, model, 60w, fiber…	搜索：品牌、型号、60w、光纤…
+machines	台机器
+not supported yet	暂不支持
+Choose Your Machine…	选择你的机器…
+From the makers' published specs: check the work area against your machine. Not listed? Set it up by hand below and Save as a new machine.	来自厂家公布的规格：请对照你的机器核对加工范围。没有列出？在下方手动设置，然后另存为新机器。
+Custom size	自定义尺寸
+Matches	匹配
+Tests	测试
+Camera and alignment	摄像头与对齐
+Nest	排版
+mm/s² cut / engrave	mm/s² 切割 / 雕刻
+mm/s each axis	mm/s 每轴
+% beam while framing	% 走边框时的出光功率
+Every layer that has shapes has Output off: nothing will burn	所有有形状的图层都关闭了输出：不会加工任何内容
+power is 0, the laser won't mark	功率为 0，激光不会打标
+speed is 0	速度为 0
+The job reaches	任务超出
+past the bed	到工作台外
+copy	副本
+Layer duplicated	图层已复制
+layer	图层
+Review the job	检查任务
+Starts from	起点
+Time	时间
+Start burning	开始加工
+Drop a file here	将文件拖放到这里
+or draw a shape, press T for text, or open File › Templates…	或绘制形状、按 T 输入文字，或打开 文件 › 模板…
+not connected	未连接
+mirror in	镜距 in
+in/turn, object Ø	in/圈，物体 Ø
+in Ø left / right: a tapered tumbler	in Ø 左 / 右：锥形杯
+Interface size	界面大小
+Review the job before it starts	开始前检查任务
+in (⇧ × 10)	in（⇧ × 10）
+Layers and settings	图层和设置
+Picture fade	图片淡化
+Trace over it by hand	手动描摹
+Check the size	检查尺寸
+drawn, came out	绘制尺寸，实测尺寸
+Correct	校正
+The controller's acceleration (cut / engrave) is	控制器的加速度（切割 / 雕刻）为
+top speed	最高速度
+UV	UV
+Invert power	反转功率
+UV laser: its light is invisible. Wear glasses rated for 355 nm (fibre or green glasses don't protect) and keep the lid shut	UV 激光：光不可见。请佩戴 355 nm 防护眼镜（光纤或绿光眼镜无法防护），并保持盖子关闭
+Stock thickness	材料厚度
+The xTool M1 burns where the design sits on the bed (Start from: Bed)	xTool M1 按设计在床面上的位置加工(起点:床面)
+No machine chosen	未选择机器
+Preview: play the job or drag the time; P goes back to Design	预览：播放任务或拖动时间；按 P 返回设计
+Draw on the canvas; the button at the top right opens the layers, cut settings and the laser.	在画布上绘制；右上角的按钮打开图层、切割设置和激光。
+Show all	全部显示
+0 = read $30 from the laser	0 = 从激光器读取 $30
+none	无
+loaded	已加载
+starts at the head	从激光头开始
+goes to the user origin	移到用户原点
+Fill	填充
+Image	图像
+Fill+Line	填充+线条
+Simulated laser	模拟激光器
+Ruida over USB (Thunder, most CO2)	USB 连接的 Ruida（Thunder，大多数 CO2）
+Ruida over the network	网络连接的 Ruida
+Fibre galvo over USB (EZCAD2: Thunder Aurora…)	USB 连接的光纤振镜（EZCAD2：Thunder Aurora…）
+Simulated fibre galvo	模拟光纤振镜
+K40 over USB (M2 / M3 Nano board)	USB 连接的 K40（M2 / M3 Nano 主板）
+Simulated K40	模拟 K40
+xTool M1 over USB network (older firmware)	USB 网络连接的 xTool M1（旧固件）
+GRBL over USB (diode lasers)	USB 连接的 GRBL（二极管激光器）
+GRBL over the network (FluidNC, grblHAL)	网络连接的 GRBL（FluidNC、grblHAL）
+rear left (Thunder, most CO2)	左后（Thunder，大多数 CO2）
+rear right	右后
+front left	左前
+front right	右前
+rear left	左后
+draw rectangles, ellipses and lines on the current layer	在当前图层上绘制矩形、椭圆和直线
+add text	添加文字
+preview the job: the order, the travel and the time	预览任务：顺序、空走和时间
+the simulated laser runs any job; your own laser runs the real thing	模拟激光器可运行任何任务；你的激光器运行真实任务
+More settings	更多设置
+lens	场镜
+General	常规
+Hide the donate button	隐藏捐助按钮
+Show the donate button (♥) in the top bar	在顶栏显示捐助按钮 (♥)
+Support GBurn: donate (opens gburn.app). Right-click to hide	支持 GBurn：捐赠（打开 gburn.app）。右键单击可隐藏
+Try it without a laser	不用激光器试一试
+Laser › Connect with “Simulated laser” picked: jog, frame and run the job against a built-in GRBL controller.	激光 › 选择“模拟激光器”后连接：可对内置的 GRBL 控制器进行点动、走边框和运行任务。
+Connect a laser	连接激光器
+Pick the USB port in the Laser panel and Connect (GRBL lasers: most diode lasers, 115200 baud). In the browser pick “GRBL over USB (this browser)”: Chrome and Edge show the port list (Safari can't). Alarm after power-up: Home, or Unlock.	在激光面板中选择 USB 端口并连接（GRBL 激光器：大多数半导体激光器，115200 波特）。在浏览器中选择“USB serial (this browser)”：Chrome 和 Edge 会显示端口列表（Safari 不支持）。开机后报警：回原点，或解锁。
+Keep designs in my account	把设计保存在账户中
+Sign in (the GCarve account works here): File › Save to Account keeps the design; Open from Account lists them. Saves again by itself 3 s after a change.	登录（GCarve 账户可直接使用）：文件 › 保存到账户 保存设计；从账户打开 列出它们。每次修改 3 秒后会自动再次保存。
+Get the design back after a crash	崩溃后找回设计
+A recovery copy is written 3 s after every change and offered back at the next start.	每次修改 3 秒后都会写入一份恢复副本，下次启动时提示恢复。
+Go back several steps	后退多步
+Edit › Undo History: every change by name (Move, Resize, Change layer…, the command's name). Click a step to go back to just before it; click a dim (undone) one to bring the steps back.	编辑 › 撤销历史：按名称列出每次修改（移动、调整大小、更改图层…、命令名称）。点击某一步即回到它之前；点击变暗（已撤销）的步骤可将其恢复。
+Work in inches	使用英寸
+The mm / in switch in the status bar, or View › Show Inches. Sizes are kept in mm underneath.	状态栏中的 mm / in 切换，或 视图 › 显示英寸。尺寸在内部仍以 mm 保存。
+Keep notes with a design	为设计添加备注
+File › Notes: saved inside the .gburn file.	文件 › 备注：保存在 .gburn 文件内。
+Move my settings to another computer	把设置转移到另一台电脑
+File › Export Settings… saves your machines, materials, templates, lens file, snap and units to one file. On the other computer (or in the browser): File › Import Settings….	文件 › 导出设置… 将你的机器、材料、模板、镜头文件、吸附和单位保存为一个文件。在另一台电脑（或浏览器）上：文件 › 导入设置…。
+Open a .plt (HPGL) file	打开 .plt（HPGL）文件
+File › Import takes .plt / .hpgl plot files from CorelDRAW, sign software and cutters: each pen becomes a layer.	文件 › 导入 可读取 CorelDRAW、标牌软件和刻字机的 .plt / .hpgl 绘图文件：每支笔成为一个图层。
+Draw a rectangle, circle or line	绘制矩形、圆或直线
+R, E and L pick the tools (or the tool bar); drag on the canvas. Hold ⇧ for a square, a circle, or 5 mm snapping. Enter finishes a line; clicking its first point closes it.	R、E 和 L 选择工具（或使用工具栏）；在画布上拖动。按住 ⇧ 绘制正方形、圆，或按 5 mm 吸附。Enter 结束直线；点击第一个点则闭合。
+Draw curves	绘制曲线
+Line tool (L): click = a corner, click and drag = a smooth point (the drag pulls out its curve). Click the first point to close; Enter or double-click ends an open line.	直线工具（L）：点击 = 尖角，点击并拖动 = 平滑点（拖动拉出曲线）。点击第一个点闭合；Enter 或双击结束开放线条。
+Set the exact size or position	设置精确尺寸或位置
+Select the shapes: the X / Y / W / H boxes in the panel take typed sizes (12, 1/2in, 30mm). Enter applies.	选择形状：面板中的 X / Y / W / H 框可输入尺寸（12、1/2in、30mm）。按 Enter 应用。
+See a shape's properties	查看形状属性
+Select one shape: the panel shows its kind, point count, length and area, a name, Close / Open path and Reverse (the cut direction), besides X / Y / W / H and Rotate.	选择一个形状：面板显示其类型、节点数、长度和面积、名称、闭合 / 开放路径和反向（切割方向），以及 X / Y / W / H 和旋转。
+Measure a distance	测量距离
+M (Measure): drag between two points; the distance, Δx, Δy and angle show in the status bar.	M（测量）：在两点间拖动；距离、Δx、Δy 和角度显示在状态栏中。
+Snap to a grid	吸附到网格
+The Snap menu in the status bar: off, 0.5 / 1 / 5 / 10 mm or 1/16 / 1/8 / 1/4 in. ⇧ while drawing always snaps to 5 mm.	状态栏中的吸附菜单：关闭、0.5 / 1 / 5 / 10 mm 或 1/16 / 1/8 / 1/4 in。绘制时按 ⇧ 总是按 5 mm 吸附。
+Edit the points of a shape	编辑形状的节点
+N (Nodes): click a shape, drag its points; double-click a segment to add a point; ⌫ removes the picked one. The picked point's X / Y are in the panel: type exact values and press Enter. Make corner / Make smooth, Next ▸ steps along the path.	N（节点）：点击形状，拖动其节点；双击线段添加节点；⌫ 删除选中的节点。选中节点的 X / Y 在面板中：输入精确值并按 Enter。设为尖角 / 设为平滑，下一个 ▸ 沿路径逐个前进。
+Node keys	节点快捷键
+In the Nodes tool, point at a point or a segment and press: D delete, I insert a point, M a point at the middle, C corner, S smooth (a segment: curve), L straight, B break, T trim, E extend an open end, A turn the shape so the segment is level / upright / 45°. ⇧-click or a box picks several points; the arrow keys move them; drop an open end on another to join.	在节点工具中，指向一个节点或线段后按：D 删除，I 插入节点，M 在中点加节点，C 尖角，S 平滑（线段：曲线），L 直线，B 断开，T 修剪，E 延长开放端，A 旋转形状使该线段水平 / 竖直 / 45°。⇧-点击或框选可选多个节点；方向键移动它们；把一个开放端拖到另一个上即可连接。
+Join or cut shapes together	合并或裁切形状
+Select two or more closed shapes: Shapes › Union, Subtract (the first minus the rest) or Intersect. Offset Shapes makes a parallel copy; Round Corners rounds a closed shape.	选择两个或更多闭合形状：形状 › 合并、相减（第一个减去其余）或相交。偏移形状 生成平行副本；圆角 将闭合形状的角变圆。
+Group shapes	编组形状
+Select them and press ⌘G: they select and move as one from then on; ⇧⌘G ungroups. Imported files and traced pictures come in grouped.	选中后按 ⌘G：之后它们作为一个整体被选择和移动；⇧⌘G 取消编组。导入的文件和描摹的图片导入时即已编组。
+Copy, paste, lock	复制、粘贴、锁定
+⌘C / ⌘X / ⌘V (⇧⌘V pastes at the right-click spot), ⌘L locks the selection so it can't be picked or moved (⇧⌘L unlocks everything). The right-click menu on the canvas has them all.	⌘C / ⌘X / ⌘V（⇧⌘V 粘贴到右键点击处），⌘L 锁定所选，使其无法被选中或移动（⇧⌘L 解锁全部）。画布右键菜单中都有这些命令。
+Add a ready-made shape	添加现成的形状
+Draw › Shapes Library: hearts, stars, arrows, plaques, keyhole hangers, joints and more. Type the width, click a tile: it lands in the middle of the view on the current layer, grouped.	绘制 › 形状库：心形、星形、箭头、铭牌、钥匙孔挂孔、榫卯等。输入宽度，点击图块：它会编组放在当前图层的视图中央。
+Keep my own art to reuse	保存自己的图案以便重复使用
+Select the shapes, Draw › Shapes Library… › My art, type a name, Save the selection. Click its tile in any design to add it at the typed width; right-click a tile to remove it. Export Settings carries it to another computer.	选择形状，绘制 › 形状库… › 我的图案，输入名称，保存所选。在任何设计中点击其图块即按输入的宽度添加；右键点击图块可删除。导出设置 可把它带到另一台电脑。
+Repeat a shape along a line	沿线条重复形状
+Select the shape and a line or curve, Arrange › Copy Along Path: how many copies, turned with the path or not. The longest selected outline is the path.	选择形状和一条直线或曲线，排列 › 沿路径复制：副本数量，以及是否随路径旋转。所选中最长的轮廓即为路径。
+Line up or repeat shapes	对齐或重复形状
+Arrange › Align (left, centre, right, top, middle, bottom) and Distribute lines the selection up; Grid Array repeats it in columns and rows with a gap.	排列 › 对齐（左、居中、右、上、中、下）和 分布 用于排齐所选；网格阵列 按行列加间距重复。
+Make live copies (virtual array)	创建联动副本（虚拟阵列）
+Select the shapes, Arrange › Virtual Array…: columns, rows and gaps. The copies follow the original as you change or move it and burn as real shapes. Open it again with a copy selected to Update, Make the copies real or Remove.	选择形状，排列 › 虚拟阵列…：列数、行数和间距。修改或移动原件时副本随之变化，并作为真实形状加工。选中一个副本再次打开，可更新、将副本转为实体或移除。
+Clean up an imported drawing	整理导入的图纸
+Shapes › Delete Duplicates and Specks (stacked copies would cut twice), Join Open Paths (ends within 0.05 mm), Close Paths, Simplify (fewer points, smoother motion), Weld.	形状 › 删除重复和碎点（叠在一起的副本会被切两次）、连接开放路径（端点相距 0.05 mm 以内）、闭合路径、简化（更少节点，运动更顺滑）、焊接。
+Pack parts onto the material	把零件排到材料上
+Arrange › Nest on the Bed packs the selection (or everything) by its boxes, groups kept together, turned 90° when it fits better.	排列 › 在工作台上排版 按外框排列所选（或全部），编组保持在一起，更合适时旋转 90°。
+Add text	添加文字
+T opens the Text box: words (several lines), height, font (any font on this computer, or Font file…), letter spacing, line gap, alignment. The letters land on the current layer, centred on the view, grouped; select them and Edit text… to change the words later.	T 打开文字框：文字（可多行）、高度、字体（本机任意字体，或 字体文件…）、字间距、行距、对齐。文字编组放在当前图层的视图中央；之后选中并 编辑文字… 可修改内容。
+Merge names from a spreadsheet (CSV)	从表格（CSV）合并姓名
+Text box › Data file (CSV)… (or drop a .csv on the canvas): the first row names the columns. Type {name} (any column) in a text; ◀ ▶ pick the row; every Start burns the current row and moves to the next.	文字框 › 数据文件（CSV）…（或把 .csv 拖到画布上）：第一行为列名。在文字中输入 {name}（任意列）；◀ ▶ 选择行；每次开始都会加工当前行并移到下一行。
+Text on a path, serial numbers, dates	路径文字、序列号、日期
+Select a line or closed shape, open the Text box (T) and tick “Along the selected shape”. Type {n} for a serial number ({n:4} zero-padded), {date} or {time}: every Start stamps the current number and counts up (the next number is in the Text box).	选择一条线或闭合形状，打开文字框（T）并勾选“沿所选形状”。输入 {n} 表示序列号（{n:4} 补零）、{date} 或 {time}：每次开始都会刻上当前编号并递增（下一个编号在文字框中）。
+Put text round a circle	让文字环绕圆形
+Select the circle (or any shape), open Text, tick Along the selected shape: the text centres on the top, outside. Tick inside for text along the bottom inside the circle; moved % slides it round.	选择圆（或任意形状），打开文字，勾选 沿所选形状：文字居中位于顶部外侧。勾选 内侧 则沿圆内底部排列；移动 % 让它绕圈滑动。
+Bend text into an arc	把文字弯成弧形
+Select the text or shapes, Shapes › Bend / Taper…: Bend is the arc in degrees (180 = a half circle, − bends the other way), Top width narrows or widens the top for a tapered cup. Number boxes take sums too: 100/3, 2in + 5mm.	选择文字或形状，形状 › 弯曲 / 锥形…：弯曲为弧的角度（180 = 半圆，− 向另一侧弯），顶部宽度 收窄或加宽顶部，用于锥形杯。数字框也可输入算式：100/3、2in + 5mm。
+Make a QR code or barcode	制作二维码或条形码
+Draw › QR Code / Barcode: QR, Data Matrix, Code 128, Code 39, Code 93, EAN-13, EAN-8, UPC-A, Codabar or Interleaved 2 of 5; the text and a size. It lands on the current layer as squares or bars (engrave with Fill). Test-scan a burnt one.	绘制 › 二维码 / 条形码：QR、Data Matrix、Code 128、Code 39、Code 93、EAN-13、EAN-8、UPC-A、Codabar 或 Interleaved 2 of 5；输入文字和尺寸。它以方块或条形放在当前图层上（用填充雕刻）。加工后请扫码测试。
+Engrave a picture	雕刻图片
+Draw › Picture (or drop a PNG / JPEG on the canvas): it lands on an Image layer. Set its size in the panel; on the layer pick the image mode (dither, ordered, greyscale), the line interval (DPI), negative and overscan.	绘制 › 图片（或把 PNG / JPEG 拖到画布上）：它会放在图像图层上。在面板中设置尺寸；在图层上选择图像模式（抖动、有序、灰度）、线间距（DPI）、反色和过扫描。
+Adjust a picture	调整图片
+Select the picture: Brightness, Contrast and Gamma sliders apply before the dither; Negative is on the layer.	选择图片：亮度、对比度和伽马滑块在抖动前生效；反色 在图层上。
+Turn a picture into vectors	把图片转为矢量
+Select a picture and use Draw › Trace Picture: the dark parts (or the light ones) become outlines on a Trace layer, ready to cut or fill.	选择图片并使用 绘制 › 描摹图片：深色部分（或浅色部分）成为描摹图层上的轮廓，可直接切割或填充。
+Trace line art as single lines	把线稿描摹为单线
+Select the picture, Draw › Trace Picture…, switch on Centerline: one line along each stroke instead of its outline (signatures, handwriting, line drawings for one pass or a pen).	选择图片，绘制 › 描摹图片…，打开 中心线：沿每一笔画得到一条线，而不是其轮廓（签名、手写、单遍加工或笔绘的线稿）。
+Cut a photo to a shape	把照片裁成形状
+Select the picture and a closed shape over it (a circle, a heart), Draw › Cut the Picture to the Shape: outside the shape goes white (not burnt).	选择图片和其上方的闭合形状（圆、心形），绘制 › 按形状裁剪图片：形状外部变为白色（不加工）。
+Engrave shapes as a picture	把形状作为图片雕刻
+Select closed shapes, Draw › Turn Shapes into a Picture: they become a picture on the Image layer at its line interval, so its dither applies.	选择闭合形状，绘制 › 将形状转为图片：按图像图层的线间距变成图片，从而应用其抖动。
+Engrave a relief (3D) on a fibre laser	用光纤激光雕刻浮雕（3D）
+Put a greyscale picture on an Image layer, Image mode › 3D slices, and Passes = the number of depth levels (10–30). Each pass burns everything darker than its level, so the darkest parts get every pass and go deepest.	把灰度图片放到图像图层上，图像模式 › 3D 分层，遍数 = 深度层数（10–30）。每一遍加工所有比该层更暗的部分，因此最暗的部分每遍都加工，刻得最深。
+Cut, score or engrave	切割、划线或雕刻
+Each layer has a mode: Line follows the outline (cut or score), Fill scans the inside (engrave). Click a layer to draw on it, or to move the selected shapes onto it.	每个图层都有模式：直线 沿轮廓走（切割或划线），填充 扫描内部（雕刻）。点击图层可在其上绘制，或把所选形状移到该图层。
+Set speed and power	设置速度和功率
+The Layer settings in the panel: speed in mm/s, power in % of the machine's maximum, passes, and for Fill the line interval (DPI) and scan angle. Changes apply at once; ⌘Z undoes them.	面板中的图层设置：速度单位 mm/s，功率为机器最大值的 %，遍数，填充还有线间距（DPI）和扫描角度。修改立即生效；⌘Z 可撤销。
+Show, hide or skip a layer	显示、隐藏或跳过图层
+On the layer's row: the eye shows or hides it in the design (hidden shapes can't be picked); the switch is Output: on = sent to the laser, off = designed only. Both are in the layer settings too.	在图层行上：眼睛图标在设计中显示或隐藏它（隐藏的形状无法选中）；开关是 输出：开 = 发送到激光器，关 = 仅设计。两者在图层设置中也有。
+Edit every layer setting in one window	在一个窗口中编辑所有图层设置
+Double-click a layer, or Laser › Cut Settings Editor.	双击图层，或 激光 › 切割设置编辑器。
+See the kerf	查看切缝
+A Line layer with a kerf shows the offset outline dashed on the canvas: what the beam's centre will follow.	设置了切缝的直线图层会在画布上用虚线显示偏移后的轮廓：即光束中心将走的路径。
+Kerf, tabs and cut order	切缝、连接点和切割顺序
+On a Line layer: Kerf offset grows (+) or shrinks (−) the cut by half the beam; Tabs leaves bridges so parts stay put; Inner first cuts holes before outlines.	在直线图层上：切缝补偿 让切割向外扩（+）或向内缩（−）半个光束；连接点 留下桥接使零件不脱落；先切内部 先切孔再切外轮廓。
+Change the cut order	更改切割顺序
+Layers cut in the order of the list, top first. The ▲ ▼ beside the layer name move it; × removes an empty layer. Inside a layer, Inner first cuts holes before outlines.	图层按列表顺序从上到下切割。图层名旁的 ▲ ▼ 移动它；× 删除空图层。在图层内，先切内部 先切孔再切外轮廓。
+Lead-ins, overcut, cut direction	引入线、过切、切割方向
+Line layer › Lead-in: closed shapes start this far off the line, in the waste (outside a part, inside a hole), so the pierce mark isn't on the piece. Overcut runs on past the start. Direction: clockwise or anticlockwise.	直线图层 › 引入线：闭合形状从离线这么远的废料侧开始（零件外侧、孔内侧），穿孔痕迹不会留在工件上。过切 越过起点继续切。方向：顺时针或逆时针。
+Choose where a cut starts	选择切割起点
+Select a closed shape, right-click its outline › Start the Cut Here (or Nodes tool › pick a point › Start here). A green dot marks it; the planner keeps it. Right-click › Clear the Start Point undoes it.	选择闭合形状，右键点击其轮廓 › 从这里开始切割（或 节点工具 › 选一个节点 › 从这里开始）。绿点作为标记；规划器会保留它。右键 › 清除起点 可撤销。
+Perforate (dashed cut)	穿孔（虚线切割）
+On a Line layer: Perforation cut / skip lengths, e.g. 3 mm cut, 1 mm skip, for fold lines or tear-offs.	在直线图层上：穿孔 的切 / 跳长度，例如切 3 mm、跳 1 mm，用于折线或撕线。
+Wobble and hatch families	摆动和每遍换角度
+Line layer › Wobble: diameter and spacing of small circles along the line (wider, smoother lines; deep galvo marking). Fill layer › Turn per pass: with Passes 2+ each pass hatches at a new angle.	直线图层 › 摆动：沿线小圆的直径和间距（更宽、更顺滑的线；振镜深打标）。填充图层 › 每遍旋转：遍数 2 以上时每遍以新角度填充。
+Dot mode and offset fill	打点模式和偏移填充
+Line layer › Dot mode fires N ms every D mm along the outline (acrylic dotting, perforating boards). Mode › Offset fill engraves in concentric insets, less travel on round shapes. Fill shapes one by one keeps each shape's lines together.	直线图层 › 打点模式 沿轮廓每 D mm 出光 N ms（亚克力打点、板材打孔）。模式 › 偏移填充 以同心内缩线雕刻，圆形形状空程更少。逐个填充形状 让每个形状的线集中在一起。
+Engrave and cut the same shapes	对同一形状先雕刻再切割
+Select the layer, press + Sub-layer: a second set of settings (mode, speed, power…) runs on the same shapes right after the first. Main / Sub 1 / Sub 2 pick which one the panel edits.	选择图层，按 + 子图层：第二组设置（模式、速度、功率…）在第一组之后紧接着作用于同一形状。主 / 子 1 / 子 2 选择面板编辑哪一组。
+Use my LightBurn material library	使用我的 LightBurn 材料库
+Laser › Import Material Library (.clb) (or drop the file on the canvas): every cut setting becomes a Material preset.	激光 › 导入材料库（.clb）（或把文件拖到画布上）：每个切割设置成为一个材料预设。
+Find the right speed and power	找到合适的速度和功率
+Laser › Material Test makes a grid: pick what changes down the side and across (speed, power, interval, passes, frequency or Z offset), a layer per cell with the current layer's other settings. Burn it and read the best cell's settings off its layer. Save settings you like as a material (the layer's Material › Save…).	激光 › 材料测试 生成网格：选择纵向和横向变化的项目（速度、功率、间距、遍数、频率或 Z 偏移），每个格子一个图层，其余设置沿用当前图层。加工后从最佳格子的图层读取设置。把满意的设置保存为材料（图层的 材料 › 保存…）。
+Put a tab exactly where I want it	把连接点放在想要的位置
+Select the shape, right-click its outline › Add a Tab Here (the layer's tab length, Line layers). Right-click › Clear the Tabs removes them. With no hand-placed tabs, the layer's Tabs count spaces them evenly.	选择形状，右键点击其轮廓 › 在此添加连接点（使用图层的连接点长度，直线图层）。右键 › 清除连接点 删除它们。没有手动放置的连接点时，按图层的连接点数量均匀分布。
+Cut shared edges once	共享边只切一次
+Machine Settings › Shared edges: cut once. Where two shapes on a Line layer share an edge (puzzles, grids, box joints), the second pass over it is left out: less charring, less time.	机器设置 › 共享边：只切一次。直线图层上两个形状共用一条边时（拼图、格栅、箱体榫接），省去第二次切割：焦痕更少，时间更短。
+Switch between my lasers	在我的多台激光器间切换
+Laser › Machine Settings: set one machine up, type its name and press Save as a new machine; set up the next one the same way. Pick a machine at the top of Machine Settings or in the Laser tab (disconnected). The machine in use keeps every change.	激光 › 机器设置：设置好一台机器，输入名称并按 另存为新机器；下一台同样设置。在机器设置顶部或激光标签页（未连接时）选择机器。正在使用的机器会保留每次修改。
+Change the bed (work area)	更改工作台（工作区域）
+Click empty canvas (nothing selected): the Bed card in the panel has the machine (Thunder Nova 63, galvo lenses…) or any size, where the design sits on it, Centre the design.	点击画布空白处（不选任何东西）：面板中的工作台卡片可设置机器（Thunder Nova 63、振镜镜头…）或任意尺寸、设计在台面上的位置、设计居中。
+Set the bed size and travel speed	设置工作台尺寸和空程速度
+Laser › Machine Settings: bed, travel speed and acceleration (the time estimate), full-power S ($30), baud rate, M4 / M3.	激光 › 机器设置：工作台、空程速度和加速度（用于时间估算）、满功率 S（$30）、波特率、M4 / M3。
+Run a fibre / galvo marker (EZCAD2)	运行光纤 / 振镜打标机（EZCAD2）
+Laser › Machine Settings: the lens field size and the EZCAD .cor correction file for your lens (ask the maker; it sets the field too), fibre or CO2 source. Pick “Galvo (EZCAD2 USB)” and Connect (Windows needs the WinUSB driver). Layers get a frequency (kHz) and MOPA pulse width. The design is centred on the field. Frame runs the red pointer; Start marks.	激光 › 机器设置：镜头场尺寸以及适合你镜头的 EZCAD .cor 校正文件（向厂家索取；它也会设置场尺寸），光纤或 CO2 光源。选择“振镜（EZCAD2 USB）”并连接（Windows 需要 WinUSB 驱动）。图层增加频率（kHz）和 MOPA 脉宽。设计居中于场内。走边框 使用红光指示，开始 进行打标。
+Run a Ruida / Thunder CO2 laser	运行 Ruida / Thunder CO2 激光器
+Laser › Machine Settings: the controller's network address and its home corner (Thunder: rear left), then pick “Ruida (network)” and Connect. Home, jog, Frame (beam off), Start, Pause, Stop work like GRBL. In the browser, start GBurn Link on this computer first (gburn.app/download/). No network? File › Export Ruida (.rd) and run the file from a USB stick.	激光 › 机器设置：控制器的网络地址和原点角（Thunder：左后），然后选择“Ruida（网络）”并连接。回原点、点动、走边框（不出光）、开始、暂停、停止 与 GRBL 用法相同。在浏览器中，请先在本机启动 GBurn Link（gburn.app/download/）。没有网络？文件 › 导出 Ruida（.rd），再从 U 盘运行该文件。
+Use the galvo on Windows	在 Windows 上使用振镜
+EZCAD2's driver and GBurn's can't both own the board. Close EZCAD2, run Zadig (zadig.akeo.ie), Options › List All Devices, pick USBLMCV2 (9588 9899), WinUSB, Replace Driver. Then Galvo (EZCAD2 USB) › Connect. To go back, uninstall the device with its driver in Device Manager and reinstall EZCAD2's. Linux: a udev rule for 9588:9899 (docs/galvo-usb-drivers.md).	EZCAD2 的驱动和 GBurn 的驱动不能同时占用板卡。关闭 EZCAD2，运行 Zadig（zadig.akeo.ie），Options › List All Devices，选择 USBLMCV2（9588 9899）、WinUSB，Replace Driver。然后 振镜（EZCAD2 USB）› 连接。要恢复，在设备管理器中连同驱动卸载该设备，再重新安装 EZCAD2 的驱动。Linux：为 9588:9899 添加 udev 规则（docs/galvo-usb-drivers.md）。
+Correct a galvo lens without a .cor file	没有 .cor 文件时校正振镜镜头
+Laser › Galvo Lens Test Pattern adds a square at 80 % of the field; mark it at low power and measure it. Too small: raise Scale. Sides bowed in: raise Bulge; out: lower it. Top wider than the bottom: lower Trapezoid X. Leaning: Skew. Machine Settings › Galvo; mark again until it measures right.	激光 › 振镜镜头测试图案 添加一个场尺寸 80 % 的正方形；用低功率打标并测量。偏小：调高 缩放。边向内凹：调高 鼓形；向外凸：调低。上边比下边宽：调低 梯形 X。歪斜：调整 倾斜。机器设置 › 振镜；反复打标直到尺寸正确。
+Connect a GRBL laser over Wi-Fi or Ethernet	通过 Wi-Fi 或以太网连接 GRBL 激光器
+FluidNC and grblHAL boards speak Telnet (port 23): Machine Settings › GRBL network address, then pick “GRBL (network…)” and Connect. In the browser, run GBurn Link on this computer first.	FluidNC 和 grblHAL 板卡使用 Telnet（端口 23）：机器设置 › GRBL 网络地址，然后选择“GRBL (network…)”并连接。在浏览器中，请先在本机运行 GBurn Link。
+Use a rotary	使用旋转轴
+Machine Settings › Rotary on Y: the Y travel per full turn (jog to check) and the object's diameter. Y is scaled so the design wraps the object; X stays as drawn.	机器设置 › 旋转轴接 Y：每转一圈的 Y 行程（点动检查）和物体直径。Y 会被缩放，使设计包住物体；X 保持原样。
+Find the focus (Z axis lasers)	寻找焦点（带 Z 轴的激光器）
+Material Test with Z offset down the side (for example −2 to 2 mm, 9 rows) and one power: the sharpest row's Z is the focus. Then set the layer's Z offset, or move the bed.	做材料测试，纵向为 Z 偏移（例如 −2 到 2 mm，9 行），功率固定：最清晰那一行的 Z 即为焦点。然后设置图层的 Z 偏移，或移动工作台。
+Frame with a red-dot pointer that sits beside the beam	用光束旁的红点指示器走边框
+Laser › Machine Settings › Red-dot pointer: how far the dot is from the beam, X and Y in mm (measure it: fire a dot, move the head until the pointer is on it, read the move). Frame then runs the dot round the design.	激光 › 机器设置 › 红点指示器：红点距光束多远，X 和 Y，单位 mm（测量方法：打一个点，移动激光头直到红点落在其上，读出移动量）。之后 走边框 会让红点沿设计绕一圈。
+Make the time estimate match my machine	让时间估算符合我的机器
+Laser › Machine Settings › Time estimate ×: if jobs take 20 % longer than the estimate, type 1.2.	激光 › 机器设置 › 时间估算 ×：如果任务比估算多用 20 %，输入 1.2。
+Add my own G-code buttons	添加自己的 G-code 按钮
+Laser › Machine Settings › Macros: + Macro, a name and the lines to send. The buttons appear under the Console in the Laser tab (GRBL, not mid-job). Start / End G-code there go round every job.	激光 › 机器设置 › 宏：+ 宏，输入名称和要发送的行。按钮显示在激光标签页的控制台下方（GRBL，任务进行中不可用）。那里的 开始 / 结束 G-code 会加在每个任务的前后。
+Find the spot (Fire)	找光斑（点射）
+Machine Settings › Fire button, then Fire in the Laser panel: a short low-power pulse (GRBL). Eye protection on. Ruida: the Pulse key on the machine.	机器设置 › 点射按钮，然后在激光面板中点射：一个短的低功率脉冲（GRBL）。请戴好护目镜。Ruida：机器上的 Pulse 键。
+Choose where the laser starts	选择激光的起始位置
+Laser panel › Start from: Bed (absolute) = the design burns where it sits on the bed; Current position = it starts where the head is now (LightBurn's Current Position) (pick the job origin on the 3 × 3 grid: which corner, edge or the centre); User origin = a saved spot (Set origin). An orange cross shows the job origin on the canvas.	激光面板 › 开始位置：工作台（绝对）= 设计按其在工作台上的位置加工；当前位置 = 从激光头当前位置开始（LightBurn 的 Current Position）（在 3 × 3 网格上选择任务原点：哪个角、边或中心）；用户原点 = 保存的位置（设置原点）。画布上的橙色十字表示任务原点。
+Set a user origin	设置用户原点
+Jog the head to the spot and press Set origin (Laser panel), or right-click the canvas › Set the user origin here. Machine Settings › Start from › User origin puts the job's origin point there.	把激光头点动到该位置并按 设置原点（激光面板），或右键点击画布 › 在此设置用户原点。机器设置 › 开始位置 › 用户原点 会把任务原点放在那里。
+Start the job where the head is	从激光头所在位置开始任务
+Laser › Machine Settings › Start from: Current position, with a job origin (bottom-left, centre…). Jog the head to that spot on the material and Start; the G-code sets it with G92.	激光 › 机器设置 › 开始位置：当前位置，并选择任务原点（左下、中心…）。把激光头点动到材料上的该位置再开始；G-code 用 G92 设定它。
+Frame the job	走边框
+Frame traces the outline of the design (or the selection) with the beam off, so you can place the material.	走边框 在不出光的情况下沿设计（或所选）轮廓移动，方便你摆放材料。
+Burn the design	加工设计
+Start sends the job. Pause / Resume (Space) and Stop are always in the panel; Stop resets the controller.	开始 发送任务。暂停 / 继续（Space）和 停止 始终在面板中；停止 会复位控制器。
+See the order and the time	查看顺序和时间
+P previews the job: strokes in their layer colours, travel dashed, a time estimate from your machine settings.	P 预览任务：线条用图层颜色显示，空程为虚线，并根据机器设置给出时间估算。
+Simulate the job	模拟任务
+In Preview, ▶ plays the job at 1×, 4× or 16× real time: the head moves along the strokes, travel dashed, the clock and the stroke count above. Drag the slider to any moment.	在预览中，▶ 以实时的 1×、4× 或 16× 播放任务：激光头沿线条移动，空程为虚线，上方显示时钟和线条计数。拖动滑块可跳到任意时刻。
+Watch the job (simulation)	观看任务（模拟）
+Preview (P, or the switch at the top) shows the job; the bar under the canvas plays it. Speed − / + steps from ¼× to 256× real time (the slider goes in between); drag the long slider to any moment.	预览（P，或顶部的切换）显示任务；画布下方的工具条播放它。速度 − / + 在实时的 ¼× 到 256× 之间逐级调整（滑块可取中间值）；拖动长滑块可跳到任意时刻。
+See how it might look on wood	看看在木材上可能的效果
+Preview › the bar's last list: Birch plywood, Maple, Cherry, Walnut, Bamboo, MDF, Cork, Cardboard, Leather, Slate, anodised aluminium, acrylic. Fills show as solid areas, darker where the power is high for the speed. A rough guide: run a Material Test on the real thing.	预览 › 工具条最后的列表：桦木胶合板、枫木、樱桃木、胡桃木、竹、MDF、软木、纸板、皮革、石板、阳极氧化铝、亚克力。填充显示为实心区域，相对速度而言功率越高颜色越深。仅供粗略参考：请在实物上做一次材料测试。
+Burn only part of the design	只加工设计的一部分
+Select the shapes and tick “Burn only the selected shapes” in the Laser panel; Frame follows the selection too. Machine Settings › Frame: the box or the outline (hull).	选择形状并在激光面板中勾选“只加工所选形状”；走边框 也跟随所选。机器设置 › 走边框：外框或轮廓（凸包）。
+Burn one part where the head is	在激光头所在位置加工一个零件
+Select the part, tick “Burn only the selected shapes”, Laser tab › Start from: Current position, and tick “of the selection” by the job origin: the job origin comes from that part's box.	选择零件，勾选“只加工所选形状”，激光标签页 › 开始位置：当前位置，并勾选任务原点旁的“选区的”：任务原点取自该零件的外框。
+Move the head to an exact spot	把激光头移到精确位置
+Laser tab › Go to X / Y: type X and Y, Go (beam off). Right-click › Move the laser here does the same for a spot on the canvas.	激光标签页 › 前往… X / Y：输入 X 和 Y，前往（不出光）。右键 › 把激光移到这里 对画布上的某点做同样的事。
+Save head positions I go back to	保存常用的激光头位置
+Laser tab › Spots › + Save here remembers where the head is; the numbered buttons go back there (beam off).	激光标签页 › 位置点 › + 保存此处 记住激光头位置；编号按钮可回到那里（不出光）。
+Change speed or power mid-job	任务中更改速度或功率
+GRBL lasers: the Speed and Power − / + under Start change the running job by 10 % at once (100 puts it back). Laser › GRBL Settings ($$) reads and writes the controller's settings.	GRBL 激光器：开始 下方的 速度 和 功率 − / + 立即以 10 % 为步长改变正在运行的任务（100 恢复原值）。激光 › GRBL 设置（$$）读写控制器的设置。
+Run a G-code file from another program	运行其他程序生成的 G-code 文件
+Connect a GRBL laser, then Laser › Run a G-code File…, pick the file and press Start in its box. It goes as it is.	连接 GRBL 激光器，然后 激光 › 运行 G-code 文件…，选择文件并在其对话框中按 开始。文件按原样发送。
+Export for another program	导出给其他程序
+File › Export G-code (GRBL, mm, M4) or Export SVG. LightBurn, SVG and DXF files import.	文件 › 导出 G-code（GRBL、mm、M4）或导出 SVG。可导入 LightBurn、SVG 和 DXF 文件。
+See the material on the bed (camera)	在工作台上看到材料（摄像头）
+Laser › Camera Overlay…: Take a photo (browser camera above the bed) or Load a photo (a phone shot from above). Click the bed corners, or four marks you burnt, in order and type where they are; Place on the bed. The photo lies under the design, never burnt; the marks are kept, so the next photo goes straight on.	激光 › 摄像头叠加…：拍照（工作台上方的浏览器摄像头）或 载入照片（从正上方拍的手机照片）。按顺序点击工作台四角或你烧出的四个标记，并输入它们的位置；放到工作台上。照片位于设计下方，永不加工；标记会保留，下一张照片可直接叠上。
+Line up on a photo of the bed	对齐工作台照片
+Draw › Background Photo: a picture on a layer that never burns. Size and place it to match the bed or the object, lock it (⌘L), design on top.	绘制 › 背景照片：放在永不加工的图层上的图片。调整大小和位置以匹配工作台或物体，锁定（⌘L），在上面设计。
+Cut round a printed sheet (Print & Cut)	沿打印纸切割（打印与切割）
+Laser › Print & Cut: put two marks in the design (small crosses or circles near opposite corners), print it, lay the sheet on the bed. Select mark 1, Use the selection; same for mark 2. Jog the laser onto the real mark 1, press Laser is on it; same for mark 2. Align turns and moves the whole design onto the sheet. Frame to check, then Start.	激光 › 打印与切割：在设计中放两个标记（靠近对角的小十字或圆），打印出来，把纸放在工作台上。选择标记 1，使用所选；标记 2 同样操作。把激光点动到实际的标记 1 上，按 激光已对准；标记 2 同样操作。对齐 会把整个设计旋转并移到纸上。先走边框检查，再开始。
+Find the centre of a round part	找到圆形零件的圆心
+Laser › Centre Finder…: jog the head to three points on the part's edge, pressing Here at each; it shows the centre and diameter. Move the head there, or set the user origin there and Start from the user origin.	激光 › 圆心查找…：把激光头点动到零件边缘的三个点，在每个点按 这里；它会显示圆心和直径。把激光头移到那里，或在那里设置用户原点并从用户原点开始。
+User Manual	用户手册
+Search: power, text, connect, frame…	搜索:功率、文字、连接、走边框…
+Work area	工作区域
+Motion	运动
+Framing and safety	走边框与安全
+Galvo	振镜
+Path	路径
+Lead-ins	引入
+Effects	效果
+Timing and Z	时间与 Z
+Lines	线条
+Privacy policy	隐私政策
+Usage and problem reports	使用情况和问题报告
+To make {app} better, it sends which features get used and a short report when something goes wrong: the error message, the app's version and your platform, and your account if you're signed in.	为了改进 {app},它会发送使用了哪些功能,以及出现问题时的简短报告:错误信息、应用版本和你的平台,登录时还包括你的账户。
+Never your designs, file names or paths. Problem reports are kept for 30 days.	绝不包含你的设计、文件名或路径。问题报告保存 30 天。
+Help improve {app}: send usage and problem reports	帮助改进 {app}:发送使用情况和问题报告
+Delete my data	删除我的数据

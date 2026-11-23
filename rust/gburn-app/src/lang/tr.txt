@@ -1,0 +1,1176 @@
+# GBurn interface: English	translation
+Before you start	Başlamadan önce
+Cancel	İptal
+Start	Başlat
+A job is running: closing stops the laser.	Bir iş çalışıyor: kapatmak lazeri durdurur.
+Don't save	Kaydetme
+Save	Kaydet
+Stop and close	Durdur ve kapat
+Designs in your account	Hesabınızdaki tasarımlar
+Delete	Sil
+Open	Aç
+Back to the start	Başa dön
+Speed	Hız
+Lines (by layer colour)	Çizgiler (katman rengine göre)
+Start here	Buradan başlat
+Save as a picture…	Resim olarak kaydet…
+Corner radius	Köşe yarıçapı
+File	Dosya
+Open Recent	Son açılanlar
+Export	Dışa aktar
+Edit	Düzen
+Select…	Seç…
+Arrange	Yerleştir
+Align	Hizala
+Move to the Bed's…	Tablada şuraya taşı…
+Shapes	Şekiller
+Simplify (fewer points)	Sadeleştir (daha az nokta)
+Draw a Shape	Şekil çiz
+Laser	Lazer
+View	Görünüm
+Help	Yardım
+GBurn	GBurn
+Save the job as G-code (File › Export has .rd, LightBurn, SVG, DXF)	İşi G-code olarak kaydet (Dosya › Dışa aktar: .rd, LightBurn, SVG, DXF)
+How Do I…?	Nasıl yaparım…?
+Support GBurn: donate (opens gburn.app)	GBurn'ü destekle: bağış (gburn.app açılır)
+Show the side panel	Yan paneli göster
+Properties	Özellikler
+Cuts	Kesimler
+Cuts / Layers	Kesimler / Katmanlar
+Add a layer	Katman ekle
+Text	Metin
+Height	Yükseklik
+Bold	Kalın
+Offset	Ofset
+Bed	Tabla
+Machine Settings: speeds, the controller, the rotary…	Makine ayarları: hızlar, kontrolcü, döner eksen…
+Machine	Makine
+Size	Boyut
+Design	Tasarım
+Part of the design is off the bed	Tasarımın bir kısmı tabla dışında
+Centre the design	Tasarımı ortala
+Fit the view	Görünüme sığdır
+0,0 is the bed's front-left corner. With Start from › Bed the design burns where it sits here; the grid follows the zoom.	0,0 tablanın ön sol köşesidir. Başlangıç › Tabla ile tasarım burada durduğu yerde yakılır; ızgara yakınlaştırmayı izler.
++ Sub-layer	+ Alt katman
+Remove	Kaldır
+Duplicate	Çoğalt
+Copy settings	Ayarları kopyala
+Paste	Yapıştır
+Make default	Varsayılan yap
+Reset	Sıfırla
+Mode	Mod
+Power	Güç
+Passes	Geçiş
+Frequency	Frekans
+kHz (galvo)	kHz (galvo)
+Pulse width	Darbe genişliği
+ns (MOPA)	ns (MOPA)
+Own timings	Kendi zamanlamaları
+Pause	Bekleme
+ms	ms
+Repeat all	Tümünü tekrarla
+× with sub-layers	× alt katmanlarla
+Z offset	Z ofseti
+mm Z, − down	mm Z, − aşağı
+Constant power	Sabit güç
+M3 (GRBL)	M3 (GRBL)
+Z per pass	Geçişte Z
+mm each pass	mm her geçişte
+Kerf offset	Kerf ofseti
+mm (+ out, − in)	mm (+ dış, − iç)
+Tabs	Tutucular
+mm	mm
+Tabs on holes	Deliklerde tutucu
+Inner first	Önce içtekiler
+Lead-in	Giriş
+arc	yay
+Lead angle	Giriş açısı
+° off square	° dik açıdan
+Overcut	Fazla kesim
+Lead-out	Çıkış
+Cut through	Delerek kes
+% while paused	% beklerken
+Direction	Yön
+Wobble	Salınım
+mm Ø, step	mm Ø, adım
+Dot mode	Nokta modu
+ms, mm	ms, mm
+Perforation	Perforasyon
+mm on, off	mm açık, kapalı
+Min power	Min. güç
+% in corners	% köşelerde
+Image mode	Resim modu
+Negative	Negatif
+Overscan	Taşma
+Auto	Otomatik
+mm each end	mm her uçta
+Dot width	Nokta genişliği
+mm correction	mm düzeltme
+One way	Tek yön
+one direction	tek yönde
+Pass-through	Doğrudan
+as is	olduğu gibi
+Clean up	Temizleme
+passes at	geçişte, güç
+Line interval	Satır aralığı
+Turn per pass	Geçişte dönüş
+° each pass	° her geçişte
+each job	her işte
+Fill shapes	Şekilleri doldur
+part by part	parça parça
+Flood fill	Bölge dolgu
+area by area	alan alan
+Even lines	Eşit çizgiler
+spread to fit	sığacak şekilde yay
+Edge loops	Kenar halkaları
+gap	boşluk
+Fill inset	Dolgu payı
+mm inside	mm içeride
+Cross-hatch	Çapraz tarama
+Ramp	Rampa
+mm fade-in	mm yumuşak giriş
+Scan angle	Tarama açısı
+Air assist	Hava üfleme
+Output	Çıktı
+Show	Göster
+Material	Malzeme
+Presets…	Hazır ayarlar…
+None saved yet	Henüz kayıt yok
+Save…	Kaydet…
+Unlink	Bağı kopar
+Scale	Ölçek
+% (Enter: about the anchor)	% (Enter: çapa etrafında)
+Rotate	Döndür
+° (Enter: about the anchor)	° (Enter: çapa etrafında)
+Skew	Eğ
+° across	° yatay
+° up (Enter)	° dikey (Enter)
+% of the layer's power	% katman gücünün
+Cut priority	Kesim önceliği
+lower burns first	düşük önce yanar
+Sides	Kenarlar
+Star	Yıldız
+Second star	İkinci yıldız
+Resample to the scan DPI	Tarama DPI'ına yeniden örnekle
+Brightness	Parlaklık
+Contrast	Kontrast
+Gamma	Gama
+Sharpen	Keskinleştir
+Denoise	Gürültü azalt
+Halftone	Yarım ton
+mm cell	mm hücre
+As it will burn	Yanacağı gibi
+Name	Ad
+optional	isteğe bağlı
+Edit text…	Metni düzenle…
+Reverse	Ters çevir
+Click a point of the selected shape to edit it	Düzenlemek için seçili şeklin bir noktasına tıklayın
+Same X	Aynı X
+Same Y	Aynı Y
+Delete points	Noktaları sil
+Delete point	Noktayı sil
+Break here	Buradan kır
+Straight	Düz
+Curve	Eğri
+Round corner	Köşeyi yuvarla
+Sharp corner	Keskin köşe
+Next ▸	Sonraki ▸
+machine	makine
+Find	Bul
+Unlock	Kilidi aç
+Use it	Kullan
+Door open: the laser won't run until it is closed	Kapak açık: kapanana kadar lazer çalışmaz
+Go to…	Git…
+Set origin	Orijini ayarla
+To origin	Orijine
+Clear origin	Orijini sil
+To selection	Seçime
+Fire	Ateşle
+Spots	Noktalar
++ Save here	+ Buraya kaydet
+Clear	Temizle
+Go to X	X'e git
+Y	Y
+Go	Git
+Burn only the selected shapes	Yalnızca seçili şekilleri yak
+Step	Adım
+Hold to move	Basılı tut
+Arrow keys	Ok tuşları
+Console	Konsol
+Start from	Başlangıç
+of the selection	seçimin
+Stop	Durdur
+Frame	Çerçeve
+No laser connected:	Bağlı lazer yok:
+Connect	Bağlan
+Laser tab	Lazer sekmesi
+Welcome to GBurn	GBurn'e hoş geldiniz
+Design on the left, cut settings on the right, and the laser at the bottom of the panel.	Solda tasarım, sağda kesim ayarları, panelin altında lazer.
+Nothing fires until you press Start. Frame traces the outline with the beam off.	Başlat'a basana kadar hiçbir şey ateşlenmez. Çerçeve, ışın kapalıyken dış hattı izler.
+Got it	Anladım
+Restore unsaved work?	Kaydedilmemiş çalışma geri yüklensin mi?
+Discard	At
+Restore	Geri yükle
+Words	Yazı
+Font	Yazı tipi
+Liberation Sans (built in)	Liberation Sans (yerleşik)
+Looking for this computer's fonts…	Bu bilgisayarın yazı tipleri aranıyor…
+Search fonts	Yazı tipi ara
+Font file…	Yazı tipi dosyası…
+Spacing	Aralık
+%  Line gap ×	%  Satır aralığı ×
+When the words change, keep the	Yazı değişince sabit tut:
+Width	Genişlik
+%  Slant	%  Eğim
+Fit to	Sığdır
+width	genişlik
+whole	tümü
+Along the selected shape	Seçili şekil boyunca
+moved	kaydırma
+inside	içeride
+bend letters	harfleri bük
+UPPER CASE	BÜYÜK HARF
+Right to left	Sağdan sola
+Weld the letters (one outline: script fonts, no double burns where letters overlap)	Harfleri birleştir (tek dış hat: el yazısı fontlar, harflerin çakıştığı yerde çift yakma olmaz)
+Variable text: {n} = serial, {n:4} padded, {date}, {date:%d/%m/%Y}, {time}. Next number	Değişken metin: {n} = seri no, {n:4} sıfır dolgulu, {date}, {date:%d/%m/%Y}, {time}. Sonraki sayı
+step	adım
+After	Sonra
+start again from	şuradan yeniden başla
+Data file (CSV)…	Veri dosyası (CSV)…
+Controller Settings	Kontrolcü ayarları
+The Ruida's own settings. Save a backup before changing anything: a wrong value can stop the machine moving properly. Each write is read back.	Ruida'nın kendi ayarları. Bir şeyi değiştirmeden önce yedek alın: yanlış bir değer makinenin düzgün hareket etmesini engelleyebilir. Her yazma geri okunur.
+Sure?	Emin misiniz?
+Write	Yaz
+Read again	Yeniden oku
+Save a backup	Yedek kaydet
+Controller Files	Kontrolcü dosyaları
+Jobs kept on the Ruida, to run from its panel or from here.	Ruida'da tutulan işler; panelinden veya buradan çalıştırılabilir.
+Reading…	Okunuyor…
+No files on the controller	Kontrolcüde dosya yok
+Send this design	Bu tasarımı gönder
+Refresh	Yenile
+Controller Info	Kontrolcü bilgisi
+GRBL Settings	GRBL ayarları
+Waiting for the controller's $$…	Kontrolcünün $$ yanıtı bekleniyor…
+Written straight to the controller. Note the old value first.	Doğrudan kontrolcüye yazılır. Önce eski değeri not edin.
+QR Code / Barcode	QR kod / Barkod
+text under	altında metin
+Narrowest bar	En ince çubuk
+Add	Ekle
+Undo History	Geri alma geçmişi
+Click a step to go back to just before it; undone steps (dim) come back the same way.	Bir adımın hemen öncesine dönmek için ona tıklayın; geri alınan adımlar (soluk) aynı şekilde geri gelir.
+● now	● şimdi
+Shapes Library	Şekil kitaplığı
+My art	Çizimlerim
+name	ad
+Save the selection	Seçimi kaydet
+Add files…	Dosya ekle…
+Nothing saved yet: select shapes, name them, Save the selection.	Henüz kayıt yok: şekilleri seçin, adlandırın, Seçimi kaydet.
+Notes	Notlar
+Saved with the design: the material, settings that worked, anything.	Tasarımla kaydedilir: malzeme, işe yarayan ayarlar, her şey.
+Templates	Şablonlar
+Start a new design from one: its layers, settings and shapes.	Birinden yeni tasarım başlatın: katmanları, ayarları ve şekilleriyle.
+The coaster (sample)	Bardak altlığı (örnek)
+Save this design	Bu tasarımı kaydet
+Run a G-code File	G-code dosyası çalıştır
+Sent as it is: GBurn's start position and Start / End G-code don't apply.	Olduğu gibi gönderilir: GBurn'ün başlangıç konumu ve Başlangıç / Bitiş G-code'u uygulanmaz.
+Connect a GRBL laser (Laser tab)	GRBL lazer bağlayın (Lazer sekmesi)
+Camera Overlay	Kamera katmanı
+Show the overlay	Katmanı göster
+Take a photo	Fotoğraf çek
+Load a photo…	Fotoğraf yükle…
+Click the four points below on the photo, in order (a fifth click starts again). Corners of the bed, or four marks you burnt.	Aşağıdaki dört noktaya fotoğrafta sırayla tıklayın (beşinci tıklama yeniden başlatır). Tablanın köşeleri ya da yaktığınız dört işaret.
+No photo yet.	Henüz fotoğraf yok.
+Lens bend	Mercek bükümü
+Place on the bed	Tablaya yerleştir
+Forget the marks	İşaretleri unut
+The marks are kept: with the camera in the same place, a new photo goes straight onto the bed.	İşaretler saklanır: kamera aynı yerdeyken yeni fotoğraf doğrudan tablaya oturur.
+Virtual Array	Sanal dizi
+Grid	Izgara
+Circle	Daire
+Copies	Kopya
+Round X, Y	Etrafında X, Y
+centre	merkez
+of it	ondan
+Live copies: change or move the original and they follow. They burn as real shapes.	Canlı kopyalar: orijinali değiştirin veya taşıyın, onlar da izler. Gerçek şekiller gibi yanarlar.
+Make the copies real	Kopyaları gerçek yap
+Bend / Taper	Bük / Daralt
+Bend	Bük
+° of arc, − sags	° yay, − sarkar
+Top width	Üst genişlik
+% of the bottom	% alt kenarın
+Apply to the selection	Seçime uygula
+Text in an arc, labels for tapered cups. Curves become fine lines.	Yay şeklinde metin, konik bardak etiketleri. Eğriler ince çizgilere dönüşür.
+Centre Finder	Merkez bulucu
+Jog the head (red dot) to three points on the edge of a round part, pressing Here at each.	Kafayı (kırmızı nokta) yuvarlak parçanın kenarındaki üç noktaya götürün, her birinde Burada'ya basın.
+Here	Burada
+Move the head there	Kafayı oraya götür
+Set the user origin there	Kullanıcı orijinini oraya ayarla
+The three points are in a line: pick points further apart round the edge	Üç nokta aynı doğru üzerinde: kenar boyunca daha uzak noktalar seçin
+Print & Cut	Yazdır ve kes
+Two marks printed with the design, near opposite corners, line the cut up with the sheet.	Tasarımla birlikte karşı köşelere yakın basılan iki işaret, kesimi sayfayla hizalar.
+Use the selection	Seçimi kullan
+Laser is on it	Lazer üzerinde
+Scale to the marks (printers stretch a little)	İşaretlere ölçekle (yazıcılar biraz uzatır)
+Align the design	Tasarımı hizala
+Polygon / Star	Çokgen / Yıldız
+Radius	Yarıçap
+Inner radius %	İç yarıçap %
+Second star %	İkinci yıldız %
+0 = none	0 = yok
+Both ways (out and in)	İki yönde (dışa ve içe)
+Round corners	Yuvarlak köşeler
+sharp	keskin
+bevel (cut across)	pah (kesik köşe)
+All together (overlaps join up)	Hepsi birlikte (çakışanlar birleşir)
+Delete the originals	Orijinalleri sil
+Apply	Uygula
+Grid Array	Izgara dizi
+Every other row	Her ikinci satır
+Every other column	Her ikinci sütun
+Each copy	Her kopya
+Variable text counts up	Değişken metin artarak sayar
+Make copies	Kopya oluştur
+Resize Slots	Yuvaları boyutlandır
+Slots and tabs sized for one material thickness, made right for another (straight, square corners)	Bir malzeme kalınlığına göre yapılmış yuva ve dişleri başka kalınlığa uyarlar (düz, dik köşeler)
+Resize	Boyutlandır
+Boolean Assistant	Boolean yardımcısı
+Each result for the selection (the first picked is “the first”). Click one to keep it.	Seçim için her sonuç (ilk seçilen “ilk” olandır). Tutmak için birine tıklayın.
+Nothing: select closed shapes that overlap	Sonuç yok: çakışan kapalı şekiller seçin
+Speed and power come from the current layer	Hız ve güç geçerli katmandan alınır
+Make the test	Testi oluştur
+Close and Optimize	Kapat ve iyileştir
+Close open paths whose ends are within	Uçları şu mesafe içindeki açık yolları kapat:
+Close	Kapat
+Optimize: fewer points, within	İyileştir: daha az nokta, tolerans
+Optimize	İyileştir
+Smooth wavy or jagged outlines (traced pictures) by	Dalgalı veya pürüzlü dış hatları (izlenmiş resimler) yumuşat:
+Smooth	Yumuşat
+Bridges	Köprüler
+Gaps across the selected shapes, so stencil islands stay attached	Seçili şekillerde boşluklar, şablon adacıkları bağlı kalsın diye
+Add bridges	Köprü ekle
+Circular Array	Dairesel dizi
+Copies go round a point that far below the selection's centre, each turned to face it.	Kopyalar seçimin merkezinin o kadar altındaki bir noktanın çevresinde dizilir, her biri ona döner.
+Copy Along Path	Yol boyunca kopyala
+Turn each copy with the path	Her kopyayı yolla birlikte döndür
+Select the object and the path: the shape with the longest outline is the path. Copies are spread end to end (evenly round a closed path).	Nesneyi ve yolu seçin: dış hattı en uzun şekil yoldur. Kopyalar baştan sona yayılır (kapalı yolda eşit aralıkla).
+Material Test	Malzeme testi
+to	ile
+Rows	Satır
+Columns	Sütun
+Cell size	Hücre boyutu
+Make the grid	Izgarayı oluştur
+Material Library	Malzeme kitaplığı
+Empty. Set a layer up, then Material › Save… in its settings, or import a LightBurn .clb.	Boş. Bir katman ayarlayın, ardından ayarlarında Malzeme › Kaydet…, ya da LightBurn .clb içe aktarın.
+Find a material, thickness or setting…	Malzeme, kalınlık veya ayar bul…
+Use	Kullan
+Save the current layer…	Geçerli katmanı kaydet…
+Import .clb…	.clb içe aktar…
+Export .clb…	.clb dışa aktar…
+Save to the Material Library	Malzeme kitaplığına kaydet
+Birch plywood	Huş kontrplak
+Thickness	Kalınlık
+mm (empty = any)	mm (boş = herhangi)
+Description	Açıklama
+through cut	tam kesim
+Trace Picture	Resmi izle
+Outlines of the dark parts of the selected picture, as shapes on a new Line layer.	Seçili resmin koyu kısımlarının dış hatları, yeni bir Çizgi katmanında şekiller olarak.
+Threshold	Eşik
+Automatic	Otomatik
+Trace the light parts	Açık kısımları izle
+Centerline	Orta çizgi
+single lines down the strokes	çizgilerin ortasından tek hat
+px (0.5 tight, 2 smooth)	px (0.5 sıkı, 2 yumuşak)
+Ignore specks under	Şundan küçük lekeleri yok say
+px²	px²
+Trace	İzle
+Machine Settings	Makine ayarları
+Nova 63, Aurora 8…	Nova 63, Aurora 8…
+Save as a new machine	Yeni makine olarak kaydet
+Bed width	Tabla genişliği
+Bed height	Tabla yüksekliği
+Travel speed	Boşta hız
+mm/s (beam off)	mm/s (ışın kapalı)
+Acceleration	İvme
+mm/s² cut / engrave (time estimate)	mm/s² kesim / gravür (süre tahmini)
+Top speed X / Y	Azami hız X / Y
+mm/s each axis, 0 = no limit (time estimate)	mm/s her eksen, 0 = sınırsız (süre tahmini)
+Corner slow-down	Köşe yavaşlaması
+mm, GRBL $11, 0 = off (time estimate)	mm, GRBL $11, 0 = kapalı (süre tahmini)
+Full power S	Tam güç S
+GRBL network address	GRBL ağ adresi
+e.g. 192.168.1.50 or fluidnc.local:23	örn. 192.168.1.50 veya fluidnc.local:23
+Ruida address	Ruida adresi
+Ruida home corner	Ruida sıfır köşesi
+Galvo lens field	Galvo lens alanı
+Fibre	Fiber
+CO2	CO2
+Galvo correction	Galvo düzeltmesi
+Pick .cor file…	.cor dosyası seç…
+Flip X	X'i çevir
+Flip Y	Y'yi çevir
+X per Y	Y başına X
+Cylinder	Silindir
+mirror mm	ayna mm
+curves across X	X boyunca eğrilir
+inside (concave)	içte (içbükey)
+Galvo speed	Galvo hızı
+mm/s jumps	mm/s atlamalar
+Galvo delays	Galvo gecikmeleri
+µs	µs
+Baud rate	Baud hızı
+Absolute coordinates	Mutlak koordinatlar
+Current position	Geçerli konum
+User origin	Kullanıcı orijini
+Job origin	İş orijini
+Fire button	Ateşle düğmesi
+% for ≈ 0.4 s	% ≈ 0.4 s için
+Rotary on Y	Y'de döner eksen
+A axis	A ekseni
+mm/turn, object Ø	mm/tur, nesne Ø
+Test	Test
+Taper warp	Konik düzeltme
+mm Ø left / right: a tapered tumbler	mm Ø sol / sağ: konik bardak
+Scanning offset	Tarama ofseti
+e.g. 100:0.05, 300:0.12	örn. 100:0.05, 300:0.12
+speed (mm/s) : mm the return lines land off, for GRBL fills and pictures. Engrave a few lines at each speed, measure the step, type it here.	hız (mm/s) : dönüş çizgilerinin kaydığı mm, GRBL dolgu ve resimleri için. Her hızda birkaç çizgi kazıyın, kaymayı ölçün, buraya yazın.
+Time estimate ×	Süre tahmini ×
+1.2 = jobs take 20 % longer than estimated	1.2 = işler tahminden %20 uzun sürer
+Cut order	Kesim sırası
+shortest travel (holes first)	en kısa boş yol (önce delikler)
+as drawn	çizildiği gibi
+finish each group (part) before the next	sonrakine geçmeden her grubu (parçayı) bitir
+start shapes at a corner (hides the start mark)	şekillere köşeden başla (başlangıç izini gizler)
+fewer direction changes	daha az yön değişimi
+hide backlash (every loop the same way round)	boşluğu gizle (her döngü aynı yönde)
+Shared edges	Ortak kenarlar
+cut once (remove overlapping lines)	bir kez kes (çakışan çizgileri kaldır)
+the box	kutu
+the outline (hull)	dış hat (zarf)
+keep framing until Stop	Durdur'a kadar çerçevelemeye devam et
+Job checklist	İş kontrol listesi
+one item a line, ticked before every Start (e.g. Air on, Lid closed)	satır başına bir madde, her Başlat'tan önce işaretlenir (örn. Hava açık, Kapak kapalı)
+% beam while framing (GRBL diodes without a pointer; 0 = off)	% çerçevelerken ışın (işaretçisiz GRBL diyotlar; 0 = kapalı)
+Red-dot pointer	Kırmızı nokta işaretçi
+X	X
+mm from the beam	mm ışından
+Connecting	Bağlanırken
+home the machine	makineyi ana konuma götür
+After the job	İşten sonra
+go to X	X'e git
+mm (GRBL)	mm (GRBL)
+Speed unit	Hız birimi
+mm/s	mm/s
+mm/min	mm/min
+Power mode	Güç modu
+M4 dynamic	M4 dinamik
+M3 constant	M3 sabit
+S on every move	Her harekette S
+Machine 0,0	Makine 0,0
+Swap X / Y	X / Y takas
+Blank moves as G0	Boş hareketler G0
+Progress (M73)	İlerleme (M73)
+M8	M8
+M7	M7
+Controller	Kontrolcü
+Transfer	Aktarım
+one line at a time (synchronous)	her seferde bir satır (senkron)
+Start G-code	Başlangıç G-code
+before every job, e.g. M7	her işten önce, örn. M7
+End G-code	Bitiş G-code
+after every job	her işten sonra
+Macros	Makrolar
+G-code	G-code
++ Macro	+ Makro
+M4 scales power with speed through corners (GRBL laser mode, $32=1). Pick M3 only if your controller has no laser mode.	M4 köşelerde gücü hızla ölçekler (GRBL lazer modu, $32=1). Yalnızca kontrolcünüzde lazer modu yoksa M3 seçin.
+Current position: jog the head to where the design's job origin should be, then Start. The job's G-code sets that point with G92 and clears it at the end.	Geçerli konum: kafayı tasarımın iş orijininin olması gereken yere götürün, sonra Başlat. İşin G-code'u o noktayı G92 ile ayarlar ve sonunda temizler.
+Settings	Ayarlar
+Mouse and trackpad	Fare ve izleme paneli
+Units	Birimler
+Guides: drag out of a ruler; drag one back onto the ruler to remove it. They snap.	Kılavuzlar: cetvelden sürükleyip çıkarın; kaldırmak için cetvele geri sürükleyin. Yapışırlar.
+Pick within	Seçme mesafesi
+px, snap within	px, yapışma
+px	px
+Save it…	Kaydet…
+Arrow keys move	Ok tuşları taşır
+mm (⇧ × 10)	mm (⇧ × 10)
+Machine Settings…	Makine ayarları…
+Keyboard Shortcuts…	Klavye kısayolları…
+Export / Import…	Dışa / İçe aktar…
+Keyboard Shortcuts	Klavye kısayolları
+Your shortcuts	Kısayollarınız
+Find a command…	Komut bul…
+Type to find a command, then Set and press its key.	Komutu bulmak için yazın, sonra Ayarla'ya basıp tuşuna basın.
+About GBurn	GBurn hakkında
+A sister app of GCarve (gcarve.app) and GSketch (gsketch.app).	GCarve (gcarve.app) ve GSketch'in (gsketch.app) kardeş uygulaması.
+New	Yeni
+Import (SVG, DXF, PDF, LightBurn, picture)…	İçe aktar (SVG, DXF, PDF, LightBurn, resim)…
+Save As…	Farklı kaydet…
+Notes…	Notlar…
+Print	Yazdır
+Print in Black	Siyah yazdır
+Export Settings…	Ayarları dışa aktar…
+Import Settings…	Ayarları içe aktar…
+Templates…	Şablonlar…
+Save to Account	Hesaba kaydet
+Open from Account…	Hesaptan aç…
+G-code (GRBL lasers)	G-code (GRBL lazerler)
+Ruida file (.rd, USB stick)	Ruida dosyası (.rd, USB bellek)
+K40 file (.egv)	K40 dosyası (.egv)
+LightBurn project (.lbrn2)	LightBurn projesi (.lbrn2)
+SVG (curves kept)	SVG (eğriler korunur)
+DXF (for CAD)	DXF (CAD için)
+PDF (print at 100 %)	PDF (%100 yazdır)
+Processed picture (PNG)	İşlenmiş resim (PNG)
+Undo History…	Geri alma geçmişi…
+Settings…	Ayarlar…
+Cut	Kes
+Copy	Kopyala
+Paste in Place	Yerinde yapıştır
+Select All	Tümünü seç
+Select All on This Layer	Bu katmandakilerin tümünü seç
+Select None	Seçimi kaldır
+Invert the Selection	Seçimi ters çevir
+Inside the Selection	Seçimin içindekiler
+Open Paths	Açık yollar
+Open Paths on Fill Layers	Dolgu katmanlarındaki açık yollar
+Smaller Than the Selection	Seçimden küçükler
+Circles (or the selected one's size)	Daireler (veya seçilinin boyutu)
+Pictures	Resimler
+Texts	Metinler
+Group	Grupla
+Ungroup	Grubu çöz
+Auto-Group	Otomatik grupla
+Lock	Kilitle
+Unlock All	Tümünün kilidini aç
+Move to the Current Layer	Geçerli katmana taşı
+Mirror Left–Right	Sol–sağ aynala
+Mirror Up–Down	Üst–alt aynala
+Mirror Across a Line	Bir çizgiye göre aynala
+Rotate 90° Left	90° sola döndür
+Two-Point Rotate / Scale	İki noktalı döndür / ölçekle
+Rotate 90° Right	90° sağa döndür
+Distribute Across	Yatay dağıt
+Distribute Centres Across	Merkezleri yatay dağıt
+Distribute Centres Up	Merkezleri dikey dağıt
+Distribute Down	Dikey dağıt
+Dock Together Across	Yatay yan yana diz
+Dock Together Down	Dikey üst üste diz
+Same Width	Aynı genişlik
+Same Size	Aynı boyut
+Same Height	Aynı yükseklik
+Centre on the Bed	Tablada ortala
+Fit to the Bed (scale)	Tablaya sığdır (ölçekle)
+Move to the Laser's Position	Lazerin konumuna taşı
+Nest on the Bed	Tablaya diz
+Nest by Shape	Şekle göre diz
+Nest by Shape over Pages	Şekle göre sayfalara diz
+Edit Cut Order (click shapes in turn)	Kesim sırasını düzenle (şekillere sırayla tıklayın)
+Cut First (in its layer)	İlk kes (kendi katmanında)
+Cut Last (in its layer)	Son kes (kendi katmanında)
+One Place Earlier	Bir sıra önce
+One Place Later	Bir sıra sonra
+Grid Array…	Izgara dizi…
+Virtual Array…	Sanal dizi…
+Circular Array…	Dairesel dizi…
+Copy Along Path…	Yol boyunca kopyala…
+Union	Birleştir
+Subtract (first minus the rest)	Çıkar (ilkinden diğerleri)
+Intersect	Kesiştir
+Exclude (all but the overlap)	Hariç tut (çakışma dışında hepsi)
+Boolean Assistant…	Boolean yardımcısı…
+Split with the First	İlkiyle böl
+Offset Shapes…	Şekilleri ofsetle…
+Round Corners…	Köşeleri yuvarla…
+Trace Picture…	Resmi izle…
+Trace Several Picture Files…	Birden çok resim dosyasını izle…
+Cut the Picture to the Shape	Resmi şekle göre kırp
+Turn Shapes into a Picture	Şekilleri resme dönüştür
+Background Photo (not burnt)…	Arka plan fotoğrafı (yakılmaz)…
+Replace the Picture…	Resmi değiştir…
+Replace the Picture to Fit…	Resmi sığdırarak değiştir…
+Weld (keep holes)	Kaynakla (delikleri koru)
+Join Open Paths	Açık yolları birleştir
+Close Paths	Yolları kapat
+Close / Optimize Within…	Kapat / iyileştir…
+Extend Lines to the Next Shape	Çizgileri sonraki şekle uzat
+Bridges…	Köprüler…
+Break Apart	Parçalara ayır
+Resize Slots…	Yuvaları boyutlandır…
+Tangent Circle (to 3 circles)	Teğet daire (3 daireye)
+Path from the Cut	Kesimden yol
+Bend / Taper…	Bük / Daralt…
+Warp (4 corners)	Çarpıt (4 köşe)
+Deform (16 handles)	Deforme et (16 tutamak)
+Smooth into Curves	Eğrilere yumuşat
+Outline Around (hull)	Etrafına dış hat (zarf)
+Outline Around (box)	Etrafına dış hat (kutu)
+Fine: within 0.02 mm	İnce: 0.02 mm içinde
+Medium: within 0.1 mm	Orta: 0.1 mm içinde
+Coarse: within 0.5 mm	Kaba: 0.5 mm içinde
+Delete Duplicates and Specks	Kopyaları ve lekeleri sil
+Polygon / Star…	Çokgen / Yıldız…
+Shapes Library…	Şekil kitaplığı…
+Text…	Metin…
+Edit Text…	Metni düzenle…
+Convert Text to Shapes	Metni şekillere dönüştür
+Bake the Variable Text	Değişken metni sabitle
+QR Code / Barcode…	QR kod / Barkod…
+Picture…	Resim…
+Home	Ana konum
+Pause / Resume	Duraklat / Devam
+Print & Cut…	Yazdır ve kes…
+Centre Finder…	Merkez bulucu…
+Camera Overlay…	Kamera katmanı…
+Save the Camera Capture…	Kamera görüntüsünü kaydet…
+Galvo Lens Test Pattern	Galvo lens test deseni
+Run a G-code File…	G-code dosyası çalıştır…
+Cut Settings Editor…	Kesim ayarları düzenleyici…
+Material Test…	Malzeme testi…
+Scanning Offset Test	Tarama ofseti testi
+Focus Test…	Odak testi…
+Interval Test…	Aralık testi…
+Material Library…	Malzeme kitaplığı…
+Import Material Library (.clb)…	Malzeme kitaplığını içe aktar (.clb)…
+GRBL Settings ($$)…	GRBL ayarları ($$)…
+Get Controller Info…	Kontrolcü bilgisini al…
+Controller Files…	Kontrolcü dosyaları…
+Controller Settings…	Kontrolcü ayarları…
+Play / Pause the Simulation	Simülasyonu oynat / duraklat
+Fit the Design	Tasarımı sığdır
+Fit the Bed	Tablayı sığdır
+Clear the Guides	Kılavuzları temizle
+Flash the Layer's Shapes	Katman şekillerini vurgula
+Zoom to Selection	Seçime yakınlaştır
+Zoom In	Yakınlaştır
+Zoom Out	Uzaklaştır
+Find a Command…	Komut bul…
+Report a Bug…	Hata bildir…
+Request a Change…	Değişiklik iste…
+Documentation	Belgeler
+GBurn Website	GBurn web sitesi
+♥ Donate to GBurn…	♥ GBurn'e bağış yap…
+text	metin
+import	içe aktar
+extents	sınırlar
+mtest	test
+Text (T)	Metin (T)
+Import	İçe aktar
+Import SVG, DXF, LightBurn files or pictures (⌘I)	SVG, DXF, LightBurn dosyaları veya resim içe aktar (⌘I)
+Fit	Sığdır
+Fit the design in the view (F)	Tasarımı görünüme sığdır (F)
+Test grid	Test ızgarası
+Material test: a grid of speeds and powers	Malzeme testi: hız ve güç ızgarası
+Disconnect	Bağlantıyı kes
+Start · rotary	Başlat · döner
+Resume	Devam
+Open from Computer…	Bilgisayardan aç…
+Open…	Aç…
+Download (.gburn)	İndir (.gburn)
+Account…	Hesap…
+Sign In…	Giriş yap…
+Back to Design	Tasarıma dön
+Preview the Job	İşi önizle
+Mouse Wheel Zooms	Fare tekerleği yakınlaştırır
+Mouse Wheel Pans (trackpad)	Fare tekerleği kaydırır (izleme paneli)
+Hide the Grid	Izgarayı gizle
+Show the Grid	Izgarayı göster
+Hide the Fills	Dolguları gizle
+Show the Fills	Dolguları göster
+Shaded Fills	Gölgeli dolgular
+Solid Fills	Tam dolgular
+Show Millimetres	Milimetre göster
+Show Inches	İnç göster
+Show the Side Panel	Yan paneli göster
+Hide the Side Panel	Yan paneli gizle
+Select	Seç
+Click a shape; drag to move it; drag a corner to resize, the round dot to turn (⇧ 15° steps); drag on empty space to box-select	Bir şekle tıklayın; taşımak için sürükleyin; boyutlandırmak için köşeyi, döndürmek için yuvarlak noktayı sürükleyin (⇧ 15° adım); kutu seçimi için boş alanda sürükleyin
+Nodes	Düğümler
+Click a shape, drag its points; double-click a segment to add a point; ⌫ removes the picked point	Bir şekle tıklayın, noktalarını sürükleyin; nokta eklemek için bir parçaya çift tıklayın; ⌫ seçili noktayı siler
+Rectangle	Dikdörtgen
+Drag a rectangle (⇧ square, ⌥ from the centre)	Dikdörtgen sürükleyin (⇧ kare, ⌥ merkezden)
+Ellipse	Elips
+Drag an ellipse (⇧ circle, ⌥ from the centre)	Elips sürükleyin (⇧ daire, ⌥ merkezden)
+Polygon	Çokgen
+Drag from the centre out to a corner (⇧ 15° turns); sides and star in the Polygon box	Merkezden bir köşeye sürükleyin (⇧ 15° dönüş); kenarlar ve yıldız Çokgen kutusunda
+Line	Çizgi
+Click points (⇧ 15° steps); click the first point or press Enter to finish, Esc to drop it	Noktalara tıklayın (⇧ 15° adım); bitirmek için ilk noktaya tıklayın veya Enter'a basın, bırakmak için Esc
+Measure	Ölç
+Drag between two points for the distance; point at a shape for its size, outline and area	Mesafe için iki nokta arasında sürükleyin; boyut, çevre ve alan için bir şeklin üzerine gelin
+Trim	Kırp
+Click a line between two crossings: that stretch is cut away (nothing crosses = the shape goes)	İki kesişim arasındaki bir çizgiye tıklayın: o kısım kesilir (kesişim yoksa şekil silinir)
+Pan	Kaydır
+Drag to move the view; the wheel zooms	Görünümü taşımak için sürükleyin; tekerlek yakınlaştırır
+Scale X / Y	Ölçek X / Y
+Bulge X / Y	Şişkinlik X / Y
+Trapezoid X / Y	Yamuk X / Y
+× size	× boyut
++ sides bow out	+ kenarlar dışa bombe
++ wider top / taller right	+ üst geniş / sağ uzun
+Shade by power	Güce göre gölgele
+Legend	Gösterge
+Keep ratio	Oranı koru
+shift ½	½ kaydır
+flip	çevir
+turned at random (¼ turns)	rastgele döndürülmüş (¼ tur)
+Slot width (the sides move apart)	Yuva genişliği (kenarlar ayrılır)
+Slot depth (the bottom moves)	Yuva derinliği (taban hareket eder)
+Tab height (the top moves)	Diş yüksekliği (üst hareket eder)
+move the ends together	uçları bir araya getir
+straight lines only	yalnızca düz çizgiler
+Language	Dil
+Reverse the wheel's zoom	Tekerlek yakınlaştırmasını ters çevir
+inches	inç
+Shade the fills in the design	Tasarımda dolguları gölgele
+Snap to points, middles and centres	Noktalara, ortalara ve merkezlere yapış
+follows the zoom	yakınlaştırmayı izler
+Join loose ends on import (within 0.05 mm)	İçe aktarırken açık uçları birleştir (0.05 mm içinde)
+Beginner mode (only the basic cut settings)	Başlangıç modu (yalnızca temel kesim ayarları)
+Automation: other programs may open files here (UDP 19840, this computer only)	Otomasyon: diğer programlar burada dosya açabilir (UDP 19840, yalnızca bu bilgisayar)
+Back to Select after drawing a shape	Şekil çizdikten sonra Seç'e dön
+Crosshair across the canvas at the pointer	İşaretçide tuval boyunca artı imleç
+Cross at the bed's centre	Tablanın merkezinde artı
+Show where the head last was after disconnecting	Bağlantı kesildikten sonra kafanın son konumunu göster
+Group what's imported	İçe aktarılanı grupla
+Put imports in the middle of the bed	İçe aktarılanları tablanın ortasına koy
+Keep a job log	İş kaydı tut
+Trackpad	İzleme paneli
+two fingers pan, pinch or ⌘ + scroll zooms, middle drag pans	iki parmak kaydırır, sıkıştırma veya ⌘ + kaydırma yakınlaştırır, orta tuşla sürükleme kaydırır
+Mouse	Fare
+the wheel zooms, ⇧ + wheel pans across, middle drag pans	tekerlek yakınlaştırır, ⇧ + tekerlek yatay kaydırır, orta tuşla sürükleme kaydırır
+CAD	CAD
+the wheel zooms, right or middle drag pans in every tool	tekerlek yakınlaştırır, sağ veya orta tuşla sürükleme her araçta kaydırır
+Export G-code	G-code dışa aktar
+Sign in	Giriş yap
+Draw and set up the cuts	Çizin ve kesimleri ayarlayın
+Preview	Önizleme
+See the job and simulate it (P)	İşi görün ve simüle edin (P)
+Job	İş
+cut	kesim
+travel	boş yol
+Where the job starts	İşin başladığı yer
+Move the head	Kafayı taşı
+Jog the head to where this point of the design should be, then Frame and Start.	Kafayı tasarımın bu noktasının gelmesi gereken yere götürün, sonra Çerçeve ve Başlat.
+This point of the design goes to the saved user origin.	Tasarımın bu noktası kayıtlı kullanıcı orijinine gider.
+bottom-left	sol alt
+bottom-centre	orta alt
+bottom-right	sağ alt
+left	sol
+right	sağ
+top-left	sol üst
+top-centre	orta üst
+top-right	sağ üst
+No travel	Boş yol yok
+Recent travel	Son boş yollar
+All travel	Tüm boş yollar
+Head	Kafa
+Maple	Akçaağaç
+Cherry	Kiraz
+Walnut	Ceviz
+Bamboo	Bambu
+MDF	MDF
+Cork	Mantar
+Cardboard	Karton
+Leather	Deri
+Slate	Arduvaz
+Black anodised aluminium	Siyah eloksal alüminyum
+Black acrylic	Siyah akrilik
+Clear acrylic	Şeffaf akrilik
+Stainless steel (fibre)	Paslanmaz çelik (fiber)
+Brass (fibre)	Pirinç (fiber)
+Black-painted metal (fibre)	Siyah boyalı metal (fiber)
+Layer	Katman
+sub	alt
+Waiting…	Bekleniyor…
+Snap	Yapış
+Snap off	Yapışma kapalı
+Page	Sayfa
+Line (follow the outline)	Çizgi (dış hattı izle)
+Fill (scan the inside)	Dolgu (içini tara)
+Image (picture)	Resim
+Fill + Line (scan, then outline)	Dolgu + Çizgi (tara, sonra dış hat)
+Offset fill (concentric insets)	Ofset dolgu (iç içe hatlar)
+Dither (Floyd–Steinberg)	Dither (Floyd–Steinberg)
+Dither (Jarvis)	Dither (Jarvis)
+Dither (Stucki)	Dither (Stucki)
+Dither (Atkinson)	Dither (Atkinson)
+Sketch (edges)	Eskiz (kenarlar)
+3D slices (a level per pass)	3B dilimler (geçiş başına bir seviye)
+Ordered	Düzenli
+Newsprint	Gazete
+Grayscale (power)	Gri tonlama (güç)
+Laser head	Lazer kafası
+Ruida heads	Ruida kafaları
+Two laser heads	İki lazer kafası
+Both	İkisi
+…and may start a job (START)	…ve iş başlatabilir (START)
+Skip the tour	Turu geç
+Back	Geri
+Show me around	Beni gezdir
+Take the Tour	Turu başlat
+Done	Bitti
+Next	İleri
+Tools	Araçlar
+Draw rectangles, ellipses, polygons, lines and text here. Select moves and sizes shapes; Nodes edits their points.	Dikdörtgen, elips, çokgen, çizgi ve metni burada çizin. Seç şekilleri taşır ve boyutlandırır; Düğümler noktalarını düzenler.
+The bed	Tabla
+Your design sits on the laser's bed. Drag a shape to move it, a corner to resize it; pinch or scroll to zoom. Files and pictures can be dropped here.	Tasarımınız lazerin tablasında durur. Taşımak için şekli, boyutlandırmak için köşeyi sürükleyin; yakınlaştırmak için sıkıştırın veya kaydırın. Dosya ve resimler buraya bırakılabilir.
+Layers	Katmanlar
+Each colour is a layer with its own settings: Line cuts or scores the outline, Fill engraves the inside, Image burns pictures. Set the speed and power here.	Her renk kendi ayarları olan bir katmandır: Çizgi dış hattı keser veya çizer, Dolgu içini kazır, Resim fotoğraf yakar. Hızı ve gücü burada ayarlayın.
+See the whole job in the order it runs, with the travel and the time. Press ▶ to play it.	Tüm işi çalışma sırasıyla, boş yollar ve süreyle görün. Oynatmak için ▶'e basın.
+Your laser	Lazeriniz
+Connect your laser here, or the simulated one to try things out. Move the head and choose where the job starts.	Lazerinizi burada bağlayın ya da denemek için simüle lazeri kullanın. Kafayı taşıyın ve işin nereden başlayacağını seçin.
+Frame, Start, Stop	Çerçeve, Başlat, Durdur
+Frame traces the job's edges with the beam off, so you can check where it lands. Start burns; nothing fires before it. Stop is always here.	Çerçeve, nereye düşeceğini kontrol edebilmeniz için işin kenarlarını ışın kapalıyken izler. Başlat yakar; ondan önce hiçbir şey ateşlenmez. Durdur hep buradadır.
+Save As	Farklı kaydet
+File name	Dosya adı
+Download	İndir
+Save (download .gburn)	Kaydet (.gburn indir)
+Draw	Çiz
+Quit GBurn	GBurn'den çık
+Exit	Çıkış
+other	diğer
+panel	panel
+Simulate	Simüle et
+kHz	kHz
+ns	ns
+Pause before	Önce bekle
+Pause after	Sonra bekle
+mm / pass	mm / geçiş
+per shape	şekil başına
+Tab length	Tutucu boyu
+Wobble size	Salınım boyutu
+mm Ø	mm Ø
+Wobble step	Salınım adımı
+Dot time	Nokta süresi
+Dot spacing	Nokta aralığı
+Perforate: cut	Delik: kes
+Perforate: skip	Delik: atla
+Clean up every	Temizleme sıklığı
+passes	geçiş
+Clean-up power	Temizleme gücü
+° / pass	° / geçiş
+Open path	Açık yol
+Close path	Kapalı yol
+Make corner	Köşe yap
+Make smooth	Yumuşak yap
+Click it…	Tıklayın…
+On the camera	Kamerada
+Bed (absolute)	Tabla (mutlak)
+the bed	tabla
+the head	kafa
+the user origin	kullanıcı orijini
+from	itibaren
+No laser connected	Bağlı lazer yok
+Skew across	Yatay eğ
+Skew up	Dikey eğ
+Line gap	Satır aralığı
+× height	× yükseklik
+Anchor	Çapa
+Slant	Eğim
+{n} = serial, {n:4} padded, {date}, {date:%d/%m/%Y}, {time}, {column} from a data file	{n} = seri no, {n:4} sıfır dolgulu, {date}, {date:%d/%m/%Y}, {time}, {column} veri dosyasından
+Next number	Sonraki sayı
+Variable text	Değişken metin
+Report…	Bildir…
+Report a Problem…	Sorun bildir…
+Save the Laser Log…	Lazer günlüğünü kaydet…
+Red pointer pin	Kırmızı işaretçi pini
+Find…	Bul…
+Find the Red Pointer Pin	Kırmızı işaretçi pinini bul
+Rotary	Döner eksen
+These settings (not saved as a machine)	Bu ayarlar (makine olarak kaydedilmedi)
+Your own step: the Laser tab	Kendi adımınız: Lazer sekmesi
+Jogging	Elle hareket
+The jog pad is in the laser panel at the bottom, on every tab.	Hareket tuş takımı alttaki lazer panelinde, her sekmede.
+Connect your laser here, or the simulated one to try things out. The Laser tab has the device, Go to, spots and the console.	Lazerinizi burada bağlayın ya da denemek için simüle lazeri kullanın. Lazer sekmesinde cihaz, Git, noktalar ve konsol var.
+The laser panel	Lazer paneli
+On every tab: the laser and where its head is, the jog pad, Frame (traces the job with the beam off), Start (nothing fires before it), Stop (always here) and where the job starts. The arrow folds it smaller.	Her sekmede: lazer ve kafasının konumu, hareket tuş takımı, Çerçeve (işi ışın kapalıyken izler), Başlat (ondan önce hiçbir şey ateşlenmez), Durdur (hep burada) ve işin başladığı yer. Ok onu küçültür.
+Position	Konum
+Speed and power now	Şu anki hız ve güç
+Ruida (USB) or GRBL over USB: Connect, then pick the laser's port in the browser's list (Chrome, Edge, Brave). Ruida over the network needs GBurn Link on this computer (gburn.app/download/). The simulated laser runs any job here.	Ruida (USB) veya USB üzerinden GRBL: Bağlan'a basın, sonra tarayıcının listesinden lazerin portunu seçin (Chrome, Edge, Brave). Ağ üzerinden Ruida için bu bilgisayarda GBurn Link gerekir (gburn.app/download/). Simüle lazer her işi burada çalıştırır.
+Ruida CO2 lasers (Thunder Nova, most CO2 cabinets): Ruida (USB) or Ruida (network). GRBL diode lasers: their serial port. Fibre galvos (EZCAD2): Galvo (EZCAD2 USB). Find looks for you. The simulated laser runs any job without a machine.	Ruida CO2 lazerler (Thunder Nova, çoğu CO2 kabin): Ruida (USB) veya Ruida (ağ). GRBL diyot lazerler: seri portları. Fiber galvolar (EZCAD2): Galvo (EZCAD2 USB). Bul sizin için arar. Simüle lazer her işi makine olmadan çalıştırır.
+Export .rd	.rd dışa aktar
+Choose your machine…	Makinenizi seçin…
+Choose your machine	Makinenizi seçin
+Search: brand, model, 60w, fiber…	Ara: marka, model, 60w, fiber…
+machines	makine
+not supported yet	henüz desteklenmiyor
+Choose Your Machine…	Makinenizi seçin…
+From the makers' published specs: check the work area against your machine. Not listed? Set it up by hand below and Save as a new machine.	Üreticilerin yayınladığı özelliklerden: çalışma alanını makinenizle karşılaştırın. Listede yok mu? Aşağıda elle ayarlayıp Yeni makine olarak kaydedin.
+Custom size	Özel boyut
+Matches	Eşleşen
+Tests	Testler
+Camera and alignment	Kamera ve hizalama
+Nest	Diz
+mm/s² cut / engrave	mm/s² kesim / gravür
+mm/s each axis	mm/s her eksen
+% beam while framing	% çerçevelerken ışın
+Every layer that has shapes has Output off: nothing will burn	Şekil içeren her katmanın Çıktısı kapalı: hiçbir şey yanmayacak
+power is 0, the laser won't mark	güç 0, lazer iz bırakmaz
+speed is 0	hız 0
+The job reaches	İş
+past the bed	tabla dışına çıkıyor
+copy	kopya
+Layer duplicated	Katman çoğaltıldı
+layer	katman
+Review the job	İşi gözden geçir
+Starts from	Başlangıç
+Time	Süre
+Start burning	Yakmaya başla
+Drop a file here	Buraya bir dosya bırakın
+or draw a shape, press T for text, or open File › Templates…	ya da bir şekil çizin, metin için T'ye basın veya Dosya › Şablonlar… açın
+not connected	bağlı değil
+mirror in	ayna in
+in/turn, object Ø	in/tur, nesne Ø
+in Ø left / right: a tapered tumbler	in Ø sol / sağ: konik bardak
+Interface size	Arayüz boyutu
+Review the job before it starts	Başlamadan önce işi gözden geçir
+in (⇧ × 10)	in (⇧ × 10)
+Layers and settings	Katmanlar ve ayarlar
+Picture fade	Resim soluklaştırma
+Trace over it by hand	Üzerinden elle izle
+Check the size	Boyutu kontrol et
+drawn, came out	çizilen, çıkan
+Correct	Düzelt
+The controller's acceleration (cut / engrave) is	Kontrolcünün ivmesi (kesim / gravür):
+top speed	azami hız
+UV	UV
+Invert power	Gücü ters çevir
+UV laser: its light is invisible. Wear glasses rated for 355 nm (fibre or green glasses don't protect) and keep the lid shut	UV lazer: ışığı görünmezdir. 355 nm için sertifikalı gözlük takın (fiber veya yeşil gözlükler korumaz) ve kapağı kapalı tutun
+Stock thickness	Malzeme kalınlığı
+The xTool M1 burns where the design sits on the bed (Start from: Bed)	xTool M1 tasarımın tablada durduğu yerde yakar (Başlangıç: Tabla)
+No machine chosen	Makine seçilmedi
+Preview: play the job or drag the time; P goes back to Design	Önizleme: işi oynatın veya zamanı sürükleyin; P Tasarım'a döner
+Draw on the canvas; the button at the top right opens the layers, cut settings and the laser.	Tuvale çizin; sağ üstteki düğme katmanları, kesim ayarlarını ve lazeri açar.
+Show all	Tümünü göster
+0 = read $30 from the laser	0 = $30'u lazerden oku
+none	yok
+loaded	yüklendi
+starts at the head	kafadan başlar
+goes to the user origin	kullanıcı orijinine gider
+Fill	Dolgu
+Image	Resim
+Fill+Line	Dolgu+Çizgi
+Simulated laser	Simüle lazer
+Ruida over USB (Thunder, most CO2)	USB üzerinden Ruida (Thunder, çoğu CO2)
+Ruida over the network	Ağ üzerinden Ruida
+Fibre galvo over USB (EZCAD2: Thunder Aurora…)	USB üzerinden fiber galvo (EZCAD2: Thunder Aurora…)
+Simulated fibre galvo	Simüle fiber galvo
+K40 over USB (M2 / M3 Nano board)	USB üzerinden K40 (M2 / M3 Nano kart)
+Simulated K40	Simüle K40
+xTool M1 over USB network (older firmware)	USB ağı üzerinden xTool M1 (eski yazılım)
+GRBL over USB (diode lasers)	USB üzerinden GRBL (diyot lazerler)
+GRBL over the network (FluidNC, grblHAL)	Ağ üzerinden GRBL (FluidNC, grblHAL)
+rear left (Thunder, most CO2)	arka sol (Thunder, çoğu CO2)
+rear right	arka sağ
+front left	ön sol
+front right	ön sağ
+rear left	arka sol
+draw rectangles, ellipses and lines on the current layer	geçerli katmanda dikdörtgen, elips ve çizgi çizin
+add text	metin ekleyin
+preview the job: the order, the travel and the time	işi önizleyin: sıra, boş yol ve süre
+the simulated laser runs any job; your own laser runs the real thing	simüle lazer her işi çalıştırır; kendi lazeriniz gerçeğini
+More settings	Daha fazla ayar
+lens	lens
+General	Genel
+Hide the donate button	Bağış düğmesini gizle
+Show the donate button (♥) in the top bar	Bağış düğmesini (♥) üst çubukta göster
+Support GBurn: donate (opens gburn.app). Right-click to hide	GBurn'ü destekle: bağış (gburn.app açılır). Gizlemek için sağ tıklayın
+Try it without a laser	Lazer olmadan deneyin
+Laser › Connect with “Simulated laser” picked: jog, frame and run the job against a built-in GRBL controller.	Lazer › Bağlan, “Simüle lazer” seçiliyken: yerleşik bir GRBL denetleyicisinde kafayı hareket ettirin, çerçeveleyin ve işi çalıştırın.
+Connect a laser	Lazer bağlayın
+Pick the USB port in the Laser panel and Connect (GRBL lasers: most diode lasers, 115200 baud). In the browser pick “GRBL over USB (this browser)”: Chrome and Edge show the port list (Safari can't). Alarm after power-up: Home, or Unlock.	Lazer panelinde USB portunu seçip Bağlan'a basın (GRBL lazerler: çoğu diyot lazer, 115200 baud). Tarayıcıda “USB üzerinden GRBL (bu tarayıcı)” seçin: Chrome ve Edge port listesini gösterir (Safari gösteremez). Açılışta alarm: Ana konum veya Kilidi aç.
+Keep designs in my account	Tasarımları hesabımda saklayın
+Sign in (the GCarve account works here): File › Save to Account keeps the design; Open from Account lists them. Saves again by itself 3 s after a change.	Giriş yapın (GCarve hesabı burada da geçer): Dosya › Hesaba kaydet tasarımı saklar; Hesaptan aç onları listeler. Her değişiklikten 3 sn sonra kendiliğinden yeniden kaydeder.
+Get the design back after a crash	Çökmeden sonra tasarımı geri alın
+A recovery copy is written 3 s after every change and offered back at the next start.	Her değişiklikten 3 sn sonra bir kurtarma kopyası yazılır ve bir sonraki açılışta geri sunulur.
+Go back several steps	Birkaç adım geri gidin
+Edit › Undo History: every change by name (Move, Resize, Change layer…, the command's name). Click a step to go back to just before it; click a dim (undone) one to bring the steps back.	Düzen › Geri alma geçmişi: her değişiklik adıyla (Taşı, Boyutlandır, Katmanı değiştir…, komutun adı). Bir adımın hemen öncesine dönmek için ona tıklayın; adımları geri getirmek için soluk (geri alınmış) olana tıklayın.
+Work in inches	İnç ile çalışın
+The mm / in switch in the status bar, or View › Show Inches. Sizes are kept in mm underneath.	Durum çubuğundaki mm / in anahtarı ya da Görünüm › İnç göster. Ölçüler arka planda mm olarak tutulur.
+Keep notes with a design	Tasarıma not ekleyin
+File › Notes: saved inside the .gburn file.	Dosya › Notlar: .gburn dosyasının içine kaydedilir.
+Move my settings to another computer	Ayarlarımı başka bir bilgisayara taşıyın
+File › Export Settings… saves your machines, materials, templates, lens file, snap and units to one file. On the other computer (or in the browser): File › Import Settings….	Dosya › Ayarları dışa aktar… makinelerinizi, malzemelerinizi, şablonlarınızı, lens dosyanızı, yapışma ve birim ayarlarını tek bir dosyaya kaydeder. Diğer bilgisayarda (veya tarayıcıda): Dosya › Ayarları içe aktar….
+Open a .plt (HPGL) file	.plt (HPGL) dosyası açın
+File › Import takes .plt / .hpgl plot files from CorelDRAW, sign software and cutters: each pen becomes a layer.	Dosya › İçe aktar, CorelDRAW, tabela yazılımları ve kesicilerden gelen .plt / .hpgl çizim dosyalarını alır: her kalem bir katman olur.
+Draw a rectangle, circle or line	Dikdörtgen, daire veya çizgi çizin
+R, E and L pick the tools (or the tool bar); drag on the canvas. Hold ⇧ for a square, a circle, or 5 mm snapping. Enter finishes a line; clicking its first point closes it.	R, E ve L araçları seçer (ya da araç çubuğu); tuvalde sürükleyin. Kare, daire veya 5 mm yapışma için ⇧ basılı tutun. Enter çizgiyi bitirir; ilk noktasına tıklamak onu kapatır.
+Draw curves	Eğri çizin
+Line tool (L): click = a corner, click and drag = a smooth point (the drag pulls out its curve). Click the first point to close; Enter or double-click ends an open line.	Çizgi aracı (L): tıklama = köşe, tıklayıp sürükleme = yumuşak nokta (sürükleme eğrisini çeker). Kapatmak için ilk noktaya tıklayın; Enter veya çift tıklama açık çizgiyi bitirir.
+Set the exact size or position	Tam boyutu veya konumu ayarlayın
+Select the shapes: the X / Y / W / H boxes in the panel take typed sizes (12, 1/2in, 30mm). Enter applies.	Şekilleri seçin: paneldeki X / Y / W / H kutuları yazılan ölçüleri alır (12, 1/2in, 30mm). Enter uygular.
+See a shape's properties	Bir şeklin özelliklerini görün
+Select one shape: the panel shows its kind, point count, length and area, a name, Close / Open path and Reverse (the cut direction), besides X / Y / W / H and Rotate.	Tek bir şekil seçin: panel X / Y / W / H ve Döndür'ün yanında türünü, nokta sayısını, uzunluğunu ve alanını, bir adı, Kapalı / Açık yol ve Ters çevir'i (kesim yönü) gösterir.
+Measure a distance	Mesafe ölçün
+M (Measure): drag between two points; the distance, Δx, Δy and angle show in the status bar.	M (Ölç): iki nokta arasında sürükleyin; mesafe, Δx, Δy ve açı durum çubuğunda görünür.
+Snap to a grid	Izgaraya yapıştırın
+The Snap menu in the status bar: off, 0.5 / 1 / 5 / 10 mm or 1/16 / 1/8 / 1/4 in. ⇧ while drawing always snaps to 5 mm.	Durum çubuğundaki Yapış menüsü: kapalı, 0.5 / 1 / 5 / 10 mm veya 1/16 / 1/8 / 1/4 in. Çizerken ⇧ her zaman 5 mm'ye yapıştırır.
+Edit the points of a shape	Bir şeklin noktalarını düzenleyin
+N (Nodes): click a shape, drag its points; double-click a segment to add a point; ⌫ removes the picked one. The picked point's X / Y are in the panel: type exact values and press Enter. Make corner / Make smooth, Next ▸ steps along the path.	N (Düğümler): bir şekle tıklayın, noktalarını sürükleyin; nokta eklemek için bir parçaya çift tıklayın; ⌫ seçili olanı siler. Seçili noktanın X / Y değerleri paneldedir: tam değerleri yazıp Enter'a basın. Köşe yap / Yumuşak yap, Sonraki ▸ yol boyunca ilerler.
+Node keys	Düğüm tuşları
+In the Nodes tool, point at a point or a segment and press: D delete, I insert a point, M a point at the middle, C corner, S smooth (a segment: curve), L straight, B break, T trim, E extend an open end, A turn the shape so the segment is level / upright / 45°. ⇧-click or a box picks several points; the arrow keys move them; drop an open end on another to join.	Düğümler aracında bir noktaya veya parçaya gelip basın: D sil, I nokta ekle, M ortaya nokta, C köşe, S yumuşak (parçada: eğri), L düz, B kır, T kırp, E açık ucu uzat, A şekli parça yatay / dikey / 45° olacak şekilde döndür. ⇧-tıklama veya kutu birden çok nokta seçer; ok tuşları onları taşır; birleştirmek için açık bir ucu diğerinin üzerine bırakın.
+Join or cut shapes together	Şekilleri birleştirin veya kesin
+Select two or more closed shapes: Shapes › Union, Subtract (the first minus the rest) or Intersect. Offset Shapes makes a parallel copy; Round Corners rounds a closed shape.	İki veya daha fazla kapalı şekil seçin: Şekiller › Birleştir, Çıkar (ilkinden diğerleri) veya Kesiştir. Şekilleri ofsetle paralel bir kopya yapar; Köşeleri yuvarla kapalı bir şeklin köşelerini yuvarlar.
+Group shapes	Şekilleri gruplayın
+Select them and press ⌘G: they select and move as one from then on; ⇧⌘G ungroups. Imported files and traced pictures come in grouped.	Seçip ⌘G'ye basın: bundan sonra birlikte seçilir ve taşınırlar; ⇧⌘G grubu çözer. İçe aktarılan dosyalar ve izlenen resimler gruplu gelir.
+Copy, paste, lock	Kopyala, yapıştır, kilitle
+⌘C / ⌘X / ⌘V (⇧⌘V pastes at the right-click spot), ⌘L locks the selection so it can't be picked or moved (⇧⌘L unlocks everything). The right-click menu on the canvas has them all.	⌘C / ⌘X / ⌘V (⇧⌘V sağ tıklanan yere yapıştırır), ⌘L seçimi kilitler, böylece seçilemez veya taşınamaz (⇧⌘L her şeyin kilidini açar). Tuvaldeki sağ tık menüsünde hepsi var.
+Add a ready-made shape	Hazır bir şekil ekleyin
+Draw › Shapes Library: hearts, stars, arrows, plaques, keyhole hangers, joints and more. Type the width, click a tile: it lands in the middle of the view on the current layer, grouped.	Çiz › Şekil kitaplığı: kalpler, yıldızlar, oklar, plaketler, anahtar deliği askılar, birleşimler ve daha fazlası. Genişliği yazın, bir kareye tıklayın: görünümün ortasına, geçerli katmana, gruplu olarak yerleşir.
+Keep my own art to reuse	Kendi çizimlerimi tekrar kullanmak için saklayın
+Select the shapes, Draw › Shapes Library… › My art, type a name, Save the selection. Click its tile in any design to add it at the typed width; right-click a tile to remove it. Export Settings carries it to another computer.	Şekilleri seçin, Çiz › Şekil kitaplığı… › Çizimlerim, bir ad yazın, Seçimi kaydet. Yazılan genişlikte eklemek için herhangi bir tasarımda karesine tıklayın; silmek için kareye sağ tıklayın. Ayarları dışa aktar onu başka bir bilgisayara taşır.
+Repeat a shape along a line	Bir şekli çizgi boyunca tekrarlayın
+Select the shape and a line or curve, Arrange › Copy Along Path: how many copies, turned with the path or not. The longest selected outline is the path.	Şekli ve bir çizgi veya eğriyi seçin, Yerleştir › Yol boyunca kopyala: kaç kopya, yolla birlikte dönsün mü. Seçili en uzun dış hat yoldur.
+Line up or repeat shapes	Şekilleri hizalayın veya tekrarlayın
+Arrange › Align (left, centre, right, top, middle, bottom) and Distribute lines the selection up; Grid Array repeats it in columns and rows with a gap.	Yerleştir › Hizala (sol, orta, sağ, üst, orta, alt) ve Dağıt seçimi sıraya dizer; Izgara dizi onu aralıklı sütun ve satırlarda tekrarlar.
+Make live copies (virtual array)	Canlı kopyalar yapın (sanal dizi)
+Select the shapes, Arrange › Virtual Array…: columns, rows and gaps. The copies follow the original as you change or move it and burn as real shapes. Open it again with a copy selected to Update, Make the copies real or Remove.	Şekilleri seçin, Yerleştir › Sanal dizi…: sütunlar, satırlar ve aralıklar. Kopyalar, orijinali değiştirdikçe veya taşıdıkça onu izler ve gerçek şekiller gibi yakılır. Güncelle, Kopyaları gerçek yap veya Kaldır için bir kopya seçiliyken yeniden açın.
+Clean up an imported drawing	İçe aktarılan bir çizimi temizleyin
+Shapes › Delete Duplicates and Specks (stacked copies would cut twice), Join Open Paths (ends within 0.05 mm), Close Paths, Simplify (fewer points, smoother motion), Weld.	Şekiller › Kopyaları ve lekeleri sil (üst üste kopyalar iki kez keserdi), Açık yolları birleştir (uçlar 0.05 mm içinde), Yolları kapat, Sadeleştir (daha az nokta, daha akıcı hareket), Kaynakla.
+Pack parts onto the material	Parçaları malzemeye dizin
+Arrange › Nest on the Bed packs the selection (or everything) by its boxes, groups kept together, turned 90° when it fits better.	Yerleştir › Tablaya diz seçimi (veya her şeyi) kutularına göre dizer, gruplar bir arada kalır, daha iyi sığarsa 90° döndürülür.
+Add text	Metin ekleyin
+T opens the Text box: words (several lines), height, font (any font on this computer, or Font file…), letter spacing, line gap, alignment. The letters land on the current layer, centred on the view, grouped; select them and Edit text… to change the words later.	T, Metin kutusunu açar: yazı (birkaç satır), yükseklik, yazı tipi (bu bilgisayardaki herhangi bir yazı tipi veya Yazı tipi dosyası…), harf aralığı, satır aralığı, hizalama. Harfler geçerli katmana, görünümün ortasına, gruplu yerleşir; yazıyı sonra değiştirmek için seçip Metni düzenle…'yi kullanın.
+Merge names from a spreadsheet (CSV)	Bir tablodan isimleri birleştirin (CSV)
+Text box › Data file (CSV)… (or drop a .csv on the canvas): the first row names the columns. Type {name} (any column) in a text; ◀ ▶ pick the row; every Start burns the current row and moves to the next.	Metin kutusu › Veri dosyası (CSV)… (veya tuvale bir .csv bırakın): ilk satır sütunları adlandırır. Metne {name} (herhangi bir sütun) yazın; ◀ ▶ satırı seçer; her Başlat geçerli satırı yakar ve bir sonrakine geçer.
+Text on a path, serial numbers, dates	Yol üzerinde metin, seri numaraları, tarihler
+Select a line or closed shape, open the Text box (T) and tick “Along the selected shape”. Type {n} for a serial number ({n:4} zero-padded), {date} or {time}: every Start stamps the current number and counts up (the next number is in the Text box).	Bir çizgi veya kapalı şekil seçin, Metin kutusunu (T) açın ve “Seçili şekil boyunca”yı işaretleyin. Seri numarası için {n} ({n:4} başı sıfırlı), {date} veya {time} yazın: her Başlat geçerli numarayı basar ve sayar (sonraki numara Metin kutusundadır).
+Put text round a circle	Metni bir dairenin çevresine yerleştirin
+Select the circle (or any shape), open Text, tick Along the selected shape: the text centres on the top, outside. Tick inside for text along the bottom inside the circle; moved % slides it round.	Daireyi (veya herhangi bir şekli) seçin, Metin'i açın, Seçili şekil boyunca'yı işaretleyin: metin üstte, dışarıda ortalanır. Dairenin içinde alt boyunca metin için içeride'yi işaretleyin; kaydırma % onu çevrede kaydırır.
+Bend text into an arc	Metni yay şeklinde bükün
+Select the text or shapes, Shapes › Bend / Taper…: Bend is the arc in degrees (180 = a half circle, − bends the other way), Top width narrows or widens the top for a tapered cup. Number boxes take sums too: 100/3, 2in + 5mm.	Metni veya şekilleri seçin, Şekiller › Bük / Daralt…: Bük, derece cinsinden yaydır (180 = yarım daire, − diğer yöne büker), Üst genişlik konik bir bardak için üstü daraltır veya genişletir. Sayı kutuları işlem de alır: 100/3, 2in + 5mm.
+Make a QR code or barcode	QR kod veya barkod yapın
+Draw › QR Code / Barcode: QR, Data Matrix, Code 128, Code 39, Code 93, EAN-13, EAN-8, UPC-A, Codabar or Interleaved 2 of 5; the text and a size. It lands on the current layer as squares or bars (engrave with Fill). Test-scan a burnt one.	Çiz › QR kod / Barkod: QR, Data Matrix, Code 128, Code 39, Code 93, EAN-13, EAN-8, UPC-A, Codabar veya Interleaved 2 of 5; metin ve boyut. Geçerli katmana kareler veya çubuklar olarak yerleşir (Dolgu ile kazıyın). Yakılmış birini test olarak tarayın.
+Engrave a picture	Bir resim kazıyın
+Draw › Picture (or drop a PNG / JPEG on the canvas): it lands on an Image layer. Set its size in the panel; on the layer pick the image mode (dither, ordered, greyscale), the line interval (DPI), negative and overscan.	Çiz › Resim (veya tuvale bir PNG / JPEG bırakın): bir Resim katmanına yerleşir. Boyutunu panelde ayarlayın; katmanda resim modunu (dither, sıralı, gri tonlama), satır aralığını (DPI), negatifi ve taşmayı seçin.
+Adjust a picture	Bir resmi ayarlayın
+Select the picture: Brightness, Contrast and Gamma sliders apply before the dither; Negative is on the layer.	Resmi seçin: Parlaklık, Kontrast ve Gama kaydırıcıları dither'dan önce uygulanır; Negatif katmandadır.
+Turn a picture into vectors	Bir resmi vektöre dönüştürün
+Select a picture and use Draw › Trace Picture: the dark parts (or the light ones) become outlines on a Trace layer, ready to cut or fill.	Bir resim seçip Çiz › Resmi izle'yi kullanın: koyu kısımlar (veya açık olanlar) bir Trace katmanında kesmeye veya doldurmaya hazır dış hatlar olur.
+Trace line art as single lines	Çizgi çizimleri tek çizgi olarak izleyin
+Select the picture, Draw › Trace Picture…, switch on Centerline: one line along each stroke instead of its outline (signatures, handwriting, line drawings for one pass or a pen).	Resmi seçin, Çiz › Resmi izle…, Orta çizgi'yi açın: her fırça darbesi için dış hattı yerine boyunca tek bir çizgi (imzalar, el yazısı, tek geçiş veya kalem için çizimler).
+Cut a photo to a shape	Bir fotoğrafı şekle göre kesin
+Select the picture and a closed shape over it (a circle, a heart), Draw › Cut the Picture to the Shape: outside the shape goes white (not burnt).	Resmi ve üzerindeki kapalı bir şekli (daire, kalp) seçin, Çiz › Resmi şekle göre kırp: şeklin dışı beyaz olur (yakılmaz).
+Engrave shapes as a picture	Şekilleri resim olarak kazıyın
+Select closed shapes, Draw › Turn Shapes into a Picture: they become a picture on the Image layer at its line interval, so its dither applies.	Kapalı şekilleri seçin, Çiz › Şekilleri resme dönüştür: satır aralığında Resim katmanında bir resim olurlar, böylece katmanın dither'ı uygulanır.
+Engrave a relief (3D) on a fibre laser	Fiber lazerle kabartma (3B) kazıyın
+Put a greyscale picture on an Image layer, Image mode › 3D slices, and Passes = the number of depth levels (10–30). Each pass burns everything darker than its level, so the darkest parts get every pass and go deepest.	Gri tonlamalı bir resmi Resim katmanına koyun, Resim modu › 3B dilimler, ve Geçiş = derinlik seviyesi sayısı (10–30). Her geçiş kendi seviyesinden koyu olan her şeyi yakar, böylece en koyu kısımlar her geçişi alır ve en derine iner.
+Cut, score or engrave	Kesin, çizik atın veya kazıyın
+Each layer has a mode: Line follows the outline (cut or score), Fill scans the inside (engrave). Click a layer to draw on it, or to move the selected shapes onto it.	Her katmanın bir modu vardır: Çizgi dış hattı izler (kesme veya çizik), Dolgu içini tarar (kazıma). Üzerine çizmek veya seçili şekilleri ona taşımak için bir katmana tıklayın.
+Set speed and power	Hız ve gücü ayarlayın
+The Layer settings in the panel: speed in mm/s, power in % of the machine's maximum, passes, and for Fill the line interval (DPI) and scan angle. Changes apply at once; ⌘Z undoes them.	Paneldeki katman ayarları: mm/s cinsinden hız, makinenin maksimumunun %'si olarak güç, geçişler ve Dolgu için satır aralığı (DPI) ve tarama açısı. Değişiklikler hemen uygulanır; ⌘Z onları geri alır.
+Show, hide or skip a layer	Bir katmanı gösterin, gizleyin veya atlayın
+On the layer's row: the eye shows or hides it in the design (hidden shapes can't be picked); the switch is Output: on = sent to the laser, off = designed only. Both are in the layer settings too.	Katmanın satırında: göz onu tasarımda gösterir veya gizler (gizli şekiller seçilemez); anahtar Çıktı'dır: açık = lazere gönderilir, kapalı = yalnızca tasarım. İkisi de katman ayarlarında da var.
+Edit every layer setting in one window	Tüm katman ayarlarını tek pencerede düzenleyin
+Double-click a layer, or Laser › Cut Settings Editor.	Bir katmana çift tıklayın veya Lazer › Kesim ayarları düzenleyici.
+See the kerf	Kerfi görün
+A Line layer with a kerf shows the offset outline dashed on the canvas: what the beam's centre will follow.	Kerfli bir Çizgi katmanı, ofsetli dış hattı tuvalde kesikli gösterir: ışın merkezinin izleyeceği yol.
+Kerf, tabs and cut order	Kerf, tutucular ve kesim sırası
+On a Line layer: Kerf offset grows (+) or shrinks (−) the cut by half the beam; Tabs leaves bridges so parts stay put; Inner first cuts holes before outlines.	Çizgi katmanında: Kerf ofseti kesimi yarım ışın kadar büyütür (+) veya küçültür (−); Tutucular parçalar yerinde kalsın diye köprüler bırakır; Önce içtekiler delikleri dış hatlardan önce keser.
+Change the cut order	Kesim sırasını değiştirin
+Layers cut in the order of the list, top first. The ▲ ▼ beside the layer name move it; × removes an empty layer. Inside a layer, Inner first cuts holes before outlines.	Katmanlar listedeki sırayla, üstten başlayarak kesilir. Katman adının yanındaki ▲ ▼ onu taşır; × boş bir katmanı kaldırır. Bir katmanın içinde Önce içtekiler delikleri dış hatlardan önce keser.
+Lead-ins, overcut, cut direction	Girişler, fazla kesim, kesim yönü
+Line layer › Lead-in: closed shapes start this far off the line, in the waste (outside a part, inside a hole), so the pierce mark isn't on the piece. Overcut runs on past the start. Direction: clockwise or anticlockwise.	Çizgi katmanı › Giriş: kapalı şekiller çizginin bu kadar dışında, atık tarafta (parçanın dışında, deliğin içinde) başlar, böylece delme izi parçaya düşmez. Fazla kesim başlangıcı geçip devam eder. Yön: saat yönünde veya saat yönünün tersine.
+Choose where a cut starts	Kesimin nereden başlayacağını seçin
+Select a closed shape, right-click its outline › Start the Cut Here (or Nodes tool › pick a point › Start here). A green dot marks it; the planner keeps it. Right-click › Clear the Start Point undoes it.	Kapalı bir şekil seçin, dış hattına sağ tıklayın › Kesime buradan başla (veya Düğümler aracı › bir nokta seçin › Buradan başlat). Yeşil bir nokta onu işaretler; planlayıcı onu korur. Sağ tık › Başlangıç noktasını temizle geri alır.
+Perforate (dashed cut)	Delikli kesim (kesikli kesim)
+On a Line layer: Perforation cut / skip lengths, e.g. 3 mm cut, 1 mm skip, for fold lines or tear-offs.	Çizgi katmanında: Delik kes / atla uzunlukları, ör. 3 mm kes, 1 mm atla; katlama çizgileri veya yırtma yerleri için.
+Wobble and hatch families	Salınım ve tarama aileleri
+Line layer › Wobble: diameter and spacing of small circles along the line (wider, smoother lines; deep galvo marking). Fill layer › Turn per pass: with Passes 2+ each pass hatches at a new angle.	Çizgi katmanı › Salınım: çizgi boyunca küçük dairelerin çapı ve aralığı (daha geniş, daha yumuşak çizgiler; derin galvo markalama). Dolgu katmanı › Geçişte dönüş: 2+ Geçişte her geçiş yeni bir açıyla tarar.
+Dot mode and offset fill	Nokta modu ve ofset dolgu
+Line layer › Dot mode fires N ms every D mm along the outline (acrylic dotting, perforating boards). Mode › Offset fill engraves in concentric insets, less travel on round shapes. Fill shapes one by one keeps each shape's lines together.	Çizgi katmanı › Nokta modu dış hat boyunca her D mm'de N ms ateşler (akrilik noktalama, karton delme). Mod › Ofset dolgu iç içe hatlarla kazır, yuvarlak şekillerde daha az boş hareket. Şekilleri tek tek doldur her şeklin çizgilerini bir arada tutar.
+Engrave and cut the same shapes	Aynı şekilleri kazıyın ve kesin
+Select the layer, press + Sub-layer: a second set of settings (mode, speed, power…) runs on the same shapes right after the first. Main / Sub 1 / Sub 2 pick which one the panel edits.	Katmanı seçin, + Alt katman'a basın: ikinci bir ayar seti (mod, hız, güç…) aynı şekillerde ilkinden hemen sonra çalışır. Ana / Alt 1 / Alt 2 panelin hangisini düzenleyeceğini seçer.
+Use my LightBurn material library	LightBurn malzeme kitaplığımı kullanın
+Laser › Import Material Library (.clb) (or drop the file on the canvas): every cut setting becomes a Material preset.	Lazer › Malzeme kitaplığını içe aktar (.clb) (veya dosyayı tuvale bırakın): her kesim ayarı bir Malzeme ön ayarı olur.
+Find the right speed and power	Doğru hız ve gücü bulun
+Laser › Material Test makes a grid: pick what changes down the side and across (speed, power, interval, passes, frequency or Z offset), a layer per cell with the current layer's other settings. Burn it and read the best cell's settings off its layer. Save settings you like as a material (the layer's Material › Save…).	Lazer › Malzeme testi bir ızgara yapar: dikeyde ve yatayda neyin değişeceğini seçin (hız, güç, aralık, geçiş, frekans veya Z ofseti), hücre başına bir katman, geçerli katmanın diğer ayarlarıyla. Yakın ve en iyi hücrenin ayarlarını kendi katmanından okuyun. Beğendiğiniz ayarları malzeme olarak kaydedin (katmanın Malzeme › Kaydet…).
+Put a tab exactly where I want it	Tutucuyu tam istediğim yere koyun
+Select the shape, right-click its outline › Add a Tab Here (the layer's tab length, Line layers). Right-click › Clear the Tabs removes them. With no hand-placed tabs, the layer's Tabs count spaces them evenly.	Şekli seçin, dış hattına sağ tıklayın › Buraya tutucu ekle (katmanın tutucu boyu, Çizgi katmanları). Sağ tık › Tutucuları temizle onları kaldırır. Elle konmuş tutucu yoksa katmanın Tutucular sayısı onları eşit aralıklarla yerleştirir.
+Cut shared edges once	Ortak kenarları bir kez kesin
+Machine Settings › Shared edges: cut once. Where two shapes on a Line layer share an edge (puzzles, grids, box joints), the second pass over it is left out: less charring, less time.	Makine ayarları › Ortak kenarlar: bir kez kes. Bir Çizgi katmanındaki iki şekil bir kenarı paylaştığında (yapbozlar, ızgaralar, kutu geçmeleri), onun üzerinden ikinci geçiş atlanır: daha az yanık, daha az süre.
+Switch between my lasers	Lazerlerim arasında geçiş yapın
+Laser › Machine Settings: set one machine up, type its name and press Save as a new machine; set up the next one the same way. Pick a machine at the top of Machine Settings or in the Laser tab (disconnected). The machine in use keeps every change.	Lazer › Makine ayarları: bir makineyi ayarlayın, adını yazın ve Yeni makine olarak kaydet'e basın; sonrakini de aynı şekilde ayarlayın. Makine ayarlarının üstünden veya Lazer sekmesinden (bağlı değilken) bir makine seçin. Kullanılan makine her değişikliği saklar.
+Change the bed (work area)	Tablayı (çalışma alanını) değiştirin
+Click empty canvas (nothing selected): the Bed card in the panel has the machine (Thunder Nova 63, galvo lenses…) or any size, where the design sits on it, Centre the design.	Boş tuvale tıklayın (hiçbir şey seçili değil): paneldeki Tabla kartında makine (Thunder Nova 63, galvo lensler…) veya herhangi bir boyut, tasarımın tabladaki yeri, Tasarımı ortala var.
+Set the bed size and travel speed	Tabla boyutunu ve hareket hızını ayarlayın
+Laser › Machine Settings: bed, travel speed and acceleration (the time estimate), full-power S ($30), baud rate, M4 / M3.	Lazer › Makine ayarları: tabla, hareket hızı ve ivme (süre tahmini), tam güç S ($30), baud hızı, M4 / M3.
+Run a fibre / galvo marker (EZCAD2)	Fiber / galvo markalayıcı çalıştırın (EZCAD2)
+Laser › Machine Settings: the lens field size and the EZCAD .cor correction file for your lens (ask the maker; it sets the field too), fibre or CO2 source. Pick “Galvo (EZCAD2 USB)” and Connect (Windows needs the WinUSB driver). Layers get a frequency (kHz) and MOPA pulse width. The design is centred on the field. Frame runs the red pointer; Start marks.	Lazer › Makine ayarları: lens alanı boyutu ve lensiniz için EZCAD .cor düzeltme dosyası (üreticiye sorun; alanı da ayarlar), fiber veya CO2 kaynak. “Galvo (EZCAD2 USB)” seçip Bağlan'a basın (Windows'ta WinUSB sürücüsü gerekir). Katmanlar bir frekans (kHz) ve MOPA darbe genişliği alır. Tasarım alanda ortalanır. Çerçeve kırmızı işaretçiyi çalıştırır; Başlat markalar.
+Run a Ruida / Thunder CO2 laser	Ruida / Thunder CO2 lazer çalıştırın
+Laser › Machine Settings: the controller's network address and its home corner (Thunder: rear left), then pick “Ruida (network)” and Connect. Home, jog, Frame (beam off), Start, Pause, Stop work like GRBL. In the browser, start GBurn Link on this computer first (gburn.app/download/). No network? File › Export Ruida (.rd) and run the file from a USB stick.	Lazer › Makine ayarları: denetleyicinin ağ adresi ve ana köşesi (Thunder: arka sol), sonra “Ruida (ağ)” seçip Bağlan'a basın. Ana konum, kafa hareketi, Çerçeve (ışın kapalı), Başlat, Bekleme, Durdur GRBL'deki gibi çalışır. Tarayıcıda önce bu bilgisayarda GBurn Link'i başlatın (gburn.app/download/). Ağ yok mu? Dosya › Ruida dışa aktar (.rd) ve dosyayı bir USB bellekten çalıştırın.
+Use the galvo on Windows	Galvoyu Windows'ta kullanın
+EZCAD2's driver and GBurn's can't both own the board. Close EZCAD2, run Zadig (zadig.akeo.ie), Options › List All Devices, pick USBLMCV2 (9588 9899), WinUSB, Replace Driver. Then Galvo (EZCAD2 USB) › Connect. To go back, uninstall the device with its driver in Device Manager and reinstall EZCAD2's. Linux: a udev rule for 9588:9899 (docs/galvo-usb-drivers.md).	EZCAD2'nin sürücüsü ile GBurn'ünki kartı aynı anda kullanamaz. EZCAD2'yi kapatın, Zadig'i (zadig.akeo.ie) çalıştırın, Options › List All Devices, USBLMCV2 (9588 9899) seçin, WinUSB, Replace Driver. Ardından Galvo (EZCAD2 USB) › Bağlan. Geri dönmek için Aygıt Yöneticisi'nde aygıtı sürücüsüyle kaldırın ve EZCAD2'ninkini yeniden kurun. Linux: 9588:9899 için bir udev kuralı (docs/galvo-usb-drivers.md).
+Correct a galvo lens without a .cor file	.cor dosyası olmadan galvo lensini düzeltin
+Laser › Galvo Lens Test Pattern adds a square at 80 % of the field; mark it at low power and measure it. Too small: raise Scale. Sides bowed in: raise Bulge; out: lower it. Top wider than the bottom: lower Trapezoid X. Leaning: Skew. Machine Settings › Galvo; mark again until it measures right.	Lazer › Galvo lens test deseni alanın 80 %'inde bir kare ekler; düşük güçte markalayıp ölçün. Çok küçük: Ölçek'i artırın. Kenarlar içe bükük: Şişkinlik'i artırın; dışa: azaltın. Üst alttan geniş: Yamuk X'i azaltın. Eğik: Eğ. Makine ayarları › Galvo; doğru ölçülene kadar yeniden markalayın.
+Connect a GRBL laser over Wi-Fi or Ethernet	GRBL lazeri Wi-Fi veya Ethernet üzerinden bağlayın
+FluidNC and grblHAL boards speak Telnet (port 23): Machine Settings › GRBL network address, then pick “GRBL (network…)” and Connect. In the browser, run GBurn Link on this computer first.	FluidNC ve grblHAL kartları Telnet konuşur (port 23): Makine ayarları › GRBL ağ adresi, sonra “GRBL (ağ…)” seçip Bağlan'a basın. Tarayıcıda önce bu bilgisayarda GBurn Link'i çalıştırın.
+Use a rotary	Döner eksen kullanın
+Machine Settings › Rotary on Y: the Y travel per full turn (jog to check) and the object's diameter. Y is scaled so the design wraps the object; X stays as drawn.	Makine ayarları › Y'de döner eksen: tam tur başına Y hareketi (kafayı hareket ettirerek kontrol edin) ve nesnenin çapı. Y, tasarım nesneyi saracak şekilde ölçeklenir; X çizildiği gibi kalır.
+Find the focus (Z axis lasers)	Odağı bulun (Z eksenli lazerler)
+Material Test with Z offset down the side (for example −2 to 2 mm, 9 rows) and one power: the sharpest row's Z is the focus. Then set the layer's Z offset, or move the bed.	Dikeyde Z ofseti olan (örneğin −2 ile 2 mm, 9 satır) ve tek güçlü Malzeme testi: en keskin satırın Z'si odaktır. Sonra katmanın Z ofsetini ayarlayın veya tablayı hareket ettirin.
+Frame with a red-dot pointer that sits beside the beam	Işının yanında duran kırmızı nokta işaretçiyle çerçeveleyin
+Laser › Machine Settings › Red-dot pointer: how far the dot is from the beam, X and Y in mm (measure it: fire a dot, move the head until the pointer is on it, read the move). Frame then runs the dot round the design.	Lazer › Makine ayarları › Kırmızı nokta işaretçi: noktanın ışından uzaklığı, mm cinsinden X ve Y (ölçün: bir nokta ateşleyin, işaretçi üzerine gelene kadar kafayı hareket ettirin, hareketi okuyun). Çerçeve sonra noktayı tasarımın çevresinde gezdirir.
+Make the time estimate match my machine	Süre tahminini makineme uydurun
+Laser › Machine Settings › Time estimate ×: if jobs take 20 % longer than the estimate, type 1.2.	Lazer › Makine ayarları › Süre tahmini ×: işler tahminden 20 % uzun sürüyorsa 1.2 yazın.
+Add my own G-code buttons	Kendi G-code düğmelerimi ekleyin
+Laser › Machine Settings › Macros: + Macro, a name and the lines to send. The buttons appear under the Console in the Laser tab (GRBL, not mid-job). Start / End G-code there go round every job.	Lazer › Makine ayarları › Makrolar: + Makro, bir ad ve gönderilecek satırlar. Düğmeler Lazer sekmesinde Konsol'un altında görünür (GRBL, iş sırasında değil). Oradaki Başlangıç G-code / Bitiş G-code her işin başına ve sonuna eklenir.
+Find the spot (Fire)	Noktayı bulun (Ateşle)
+Machine Settings › Fire button, then Fire in the Laser panel: a short low-power pulse (GRBL). Eye protection on. Ruida: the Pulse key on the machine.	Makine ayarları › Ateşle düğmesi, sonra Lazer panelinde Ateşle: kısa, düşük güçlü bir darbe (GRBL). Koruyucu gözlük takın. Ruida: makinedeki Pulse tuşu.
+Choose where the laser starts	Lazerin nereden başlayacağını seçin
+Laser panel › Start from: Bed (absolute) = the design burns where it sits on the bed; Current position = it starts where the head is now (LightBurn's Current Position) (pick the job origin on the 3 × 3 grid: which corner, edge or the centre); User origin = a saved spot (Set origin). An orange cross shows the job origin on the canvas.	Lazer paneli › Başlangıç: Tabla (mutlak) = tasarım tablada durduğu yerde yakılır; Geçerli konum = kafanın şu an olduğu yerden başlar (LightBurn'ün Current Position'ı) (iş orijinini 3 × 3 ızgarada seçin: hangi köşe, kenar veya merkez); Kullanıcı orijini = kaydedilmiş bir nokta (Orijini ayarla). Turuncu bir artı tuvalde iş orijinini gösterir.
+Set a user origin	Kullanıcı orijini ayarlayın
+Jog the head to the spot and press Set origin (Laser panel), or right-click the canvas › Set the user origin here. Machine Settings › Start from › User origin puts the job's origin point there.	Kafayı o noktaya götürüp Orijini ayarla'ya basın (Lazer paneli) veya tuvale sağ tıklayın › Kullanıcı orijinini buraya ayarla. Makine ayarları › Başlangıç › Kullanıcı orijini işin orijin noktasını oraya koyar.
+Start the job where the head is	İşi kafanın olduğu yerden başlatın
+Laser › Machine Settings › Start from: Current position, with a job origin (bottom-left, centre…). Jog the head to that spot on the material and Start; the G-code sets it with G92.	Lazer › Makine ayarları › Başlangıç: Geçerli konum, bir iş orijiniyle (sol alt, merkez…). Kafayı malzemede o noktaya götürün ve Başlat; G-code onu G92 ile ayarlar.
+Frame the job	İşi çerçeveleyin
+Frame traces the outline of the design (or the selection) with the beam off, so you can place the material.	Çerçeve, malzemeyi yerleştirebilmeniz için tasarımın (veya seçimin) dış hattını ışın kapalıyken izler.
+Burn the design	Tasarımı yakın
+Start sends the job. Pause / Resume (Space) and Stop are always in the panel; Stop resets the controller.	Başlat işi gönderir. Duraklat / Devam (Boşluk) ve Durdur her zaman paneldedir; Durdur denetleyiciyi sıfırlar.
+See the order and the time	Sırayı ve süreyi görün
+P previews the job: strokes in their layer colours, travel dashed, a time estimate from your machine settings.	P işi önizler: çizgiler katman renklerinde, boş hareketler kesikli, makine ayarlarınızdan bir süre tahmini.
+Simulate the job	İşi simüle edin
+In Preview, ▶ plays the job at 1×, 4× or 16× real time: the head moves along the strokes, travel dashed, the clock and the stroke count above. Drag the slider to any moment.	Önizleme'de ▶ işi gerçek zamanın 1×, 4× veya 16× hızında oynatır: kafa çizgiler boyunca ilerler, boş hareketler kesikli, üstte saat ve çizgi sayısı. Kaydırıcıyı istediğiniz ana sürükleyin.
+Watch the job (simulation)	İşi izleyin (simülasyon)
+Preview (P, or the switch at the top) shows the job; the bar under the canvas plays it. Speed − / + steps from ¼× to 256× real time (the slider goes in between); drag the long slider to any moment.	Önizleme (P veya üstteki anahtar) işi gösterir; tuvalin altındaki çubuk onu oynatır. Hız − / + gerçek zamanın ¼× ile 256× arasında adım atar (kaydırıcı aradaki değerleri verir); uzun kaydırıcıyı istediğiniz ana sürükleyin.
+See how it might look on wood	Ahşapta nasıl görünebileceğini görün
+Preview › the bar's last list: Birch plywood, Maple, Cherry, Walnut, Bamboo, MDF, Cork, Cardboard, Leather, Slate, anodised aluminium, acrylic. Fills show as solid areas, darker where the power is high for the speed. A rough guide: run a Material Test on the real thing.	Önizleme › çubuğun son listesi: Huş kontrplak, Akçaağaç, Kiraz, Ceviz, Bambu, MDF, Mantar, Karton, Deri, Arduvaz, eloksallı alüminyum, akrilik. Dolgular düz alanlar olarak görünür; gücün hıza göre yüksek olduğu yerlerde daha koyu. Kabaca bir fikir: gerçek malzemede bir Malzeme testi çalıştırın.
+Burn only part of the design	Tasarımın yalnızca bir kısmını yakın
+Select the shapes and tick “Burn only the selected shapes” in the Laser panel; Frame follows the selection too. Machine Settings › Frame: the box or the outline (hull).	Şekilleri seçin ve Lazer panelinde “Yalnızca seçili şekilleri yak”ı işaretleyin; Çerçeve de seçimi izler. Makine ayarları › Çerçeve: kutu veya dış hat (zarf).
+Burn one part where the head is	Bir parçayı kafanın olduğu yerde yakın
+Select the part, tick “Burn only the selected shapes”, Laser tab › Start from: Current position, and tick “of the selection” by the job origin: the job origin comes from that part's box.	Parçayı seçin, “Yalnızca seçili şekilleri yak”ı işaretleyin, Lazer sekmesi › Başlangıç: Geçerli konum, ve iş orijininin yanında “seçimin”i işaretleyin: iş orijini o parçanın kutusundan alınır.
+Move the head to an exact spot	Kafayı tam bir noktaya götürün
+Laser tab › Go to X / Y: type X and Y, Go (beam off). Right-click › Move the laser here does the same for a spot on the canvas.	Lazer sekmesi › X / Y'ye git: X ve Y yazın, Git (ışın kapalı). Sağ tık › Lazeri buraya götür tuvaldeki bir nokta için aynısını yapar.
+Save head positions I go back to	Geri döndüğüm kafa konumlarını kaydedin
+Laser tab › Spots › + Save here remembers where the head is; the numbered buttons go back there (beam off).	Lazer sekmesi › Noktalar › + Buraya kaydet kafanın yerini hatırlar; numaralı düğmeler oraya geri götürür (ışın kapalı).
+Change speed or power mid-job	İş sırasında hızı veya gücü değiştirin
+GRBL lasers: the Speed and Power − / + under Start change the running job by 10 % at once (100 puts it back). Laser › GRBL Settings ($$) reads and writes the controller's settings.	GRBL lazerler: Başlat'ın altındaki Hız ve Güç − / + çalışan işi anında 10 % değiştirir (100 eski haline getirir). Lazer › GRBL ayarları ($$) denetleyicinin ayarlarını okur ve yazar.
+Run a G-code file from another program	Başka bir programdan G-code dosyası çalıştırın
+Connect a GRBL laser, then Laser › Run a G-code File…, pick the file and press Start in its box. It goes as it is.	Bir GRBL lazer bağlayın, sonra Lazer › G-code dosyası çalıştır…, dosyayı seçin ve kutusundaki Başlat'a basın. Olduğu gibi gönderilir.
+Export for another program	Başka bir program için dışa aktarın
+File › Export G-code (GRBL, mm, M4) or Export SVG. LightBurn, SVG and DXF files import.	Dosya › G-code dışa aktar (GRBL, mm, M4) veya SVG dışa aktar. LightBurn, SVG ve DXF dosyaları içe aktarılabilir.
+See the material on the bed (camera)	Tabladaki malzemeyi görün (kamera)
+Laser › Camera Overlay…: Take a photo (browser camera above the bed) or Load a photo (a phone shot from above). Click the bed corners, or four marks you burnt, in order and type where they are; Place on the bed. The photo lies under the design, never burnt; the marks are kept, so the next photo goes straight on.	Lazer › Kamera katmanı…: Fotoğraf çek (tablanın üstündeki tarayıcı kamerası) veya Fotoğraf yükle (yukarıdan çekilmiş bir telefon fotoğrafı). Tabla köşelerine veya yaktığınız dört işarete sırayla tıklayın ve nerede olduklarını yazın; Tablaya yerleştir. Fotoğraf tasarımın altında durur, asla yakılmaz; işaretler saklanır, böylece sonraki fotoğraf doğrudan yerine oturur.
+Line up on a photo of the bed	Tablanın fotoğrafına göre hizalayın
+Draw › Background Photo: a picture on a layer that never burns. Size and place it to match the bed or the object, lock it (⌘L), design on top.	Çiz › Arka plan fotoğrafı: asla yakılmayan bir katmanda bir resim. Tablaya veya nesneye uyacak şekilde boyutlandırıp yerleştirin, kilitleyin (⌘L), üstünde tasarlayın.
+Cut round a printed sheet (Print & Cut)	Basılı bir sayfanın çevresini kesin (Yazdır ve kes)
+Laser › Print & Cut: put two marks in the design (small crosses or circles near opposite corners), print it, lay the sheet on the bed. Select mark 1, Use the selection; same for mark 2. Jog the laser onto the real mark 1, press Laser is on it; same for mark 2. Align turns and moves the whole design onto the sheet. Frame to check, then Start.	Lazer › Yazdır ve kes: tasarıma iki işaret koyun (karşı köşelere yakın küçük artılar veya daireler), yazdırın, sayfayı tablaya koyun. İşaret 1'i seçin, Seçimi kullan; işaret 2 için de aynısı. Lazeri gerçek işaret 1'in üzerine götürün, Lazer üzerinde'ye basın; işaret 2 için de aynısı. Hizala tüm tasarımı döndürüp sayfanın üzerine taşır. Kontrol için Çerçeve, sonra Başlat.
+Find the centre of a round part	Yuvarlak bir parçanın merkezini bulun
+Laser › Centre Finder…: jog the head to three points on the part's edge, pressing Here at each; it shows the centre and diameter. Move the head there, or set the user origin there and Start from the user origin.	Lazer › Merkez bulucu…: kafayı parçanın kenarındaki üç noktaya götürün, her birinde Burada'ya basın; merkezi ve çapı gösterir. Kafayı oraya götürün veya kullanıcı orijinini oraya ayarlayıp kullanıcı orijininden başlatın.
+User Manual	Kullanım kılavuzu
+Search: power, text, connect, frame…	Ara: güç, metin, bağlan, çerçeve…
+Work area	Çalışma alanı
+Motion	Hareket
+Framing and safety	Çerçeve ve güvenlik
+Galvo	Galvo
+Path	Yol
+Lead-ins	Girişler
+Effects	Efektler
+Timing and Z	Zamanlama ve Z
+Lines	Çizgiler
+Privacy policy	Gizlilik politikası
+Usage and problem reports	Kullanım ve sorun raporları
+To make {app} better, it sends which features get used and a short report when something goes wrong: the error message, the app's version and your platform, and your account if you're signed in.	{app}'i geliştirmek için hangi özelliklerin kullanıldığını ve bir şeyler ters gittiğinde kısa bir rapor gönderir: hata mesajı, uygulama sürümü ve platformunuz, oturum açtıysanız hesabınız.
+Never your designs, file names or paths. Problem reports are kept for 30 days.	Tasarımlarınız, dosya adlarınız veya yollarınız asla gönderilmez. Sorun raporları 30 gün saklanır.
+Help improve {app}: send usage and problem reports	{app}'i geliştirmeye yardım et: kullanım ve sorun raporları gönder
+Delete my data	Verilerimi sil

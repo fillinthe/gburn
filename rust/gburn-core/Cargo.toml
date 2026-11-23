@@ -1,0 +1,22 @@
+[package]
+name = "gburn-core"
+description = "GBurn document, cut planner and machine encoders (no UI, no I/O)"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+# Contour geometry, SVG / DXF / LBRN2 importers and the G-code reader (read-back checks)
+gcarve-core = { path = "../../../gcarve/rust/gcarve-core" }
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["float_roundtrip"] }
+# pictures for Image layers (pure Rust decoders, wasm-safe)
+image = { version = "0.25", default-features = false, features = ["png", "jpeg", "bmp", "gif", "webp"] }
+
+qrcode = { version = "0.14", default-features = false }   # QR codes as squares (pure Rust)
+datamatrix = "0.3"   # Data Matrix (ECC 200) modules (MIT / Apache)
+barcoders = { version = "2.0", default-features = false, features = ["std"] }   # Code 128 / EAN-13 / Code 39 bars (MIT)
+
+[dev-dependencies]
+png = "0.17"

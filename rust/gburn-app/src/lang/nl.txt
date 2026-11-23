@@ -1,0 +1,1176 @@
+# GBurn interface: English	translation
+Before you start	Voordat je begint
+Cancel	Annuleren
+Start	Start
+A job is running: closing stops the laser.	Er loopt een taak: sluiten stopt de laser.
+Don't save	Niet opslaan
+Save	Opslaan
+Stop and close	Stoppen en sluiten
+Designs in your account	Ontwerpen in je account
+Delete	Verwijderen
+Open	Openen
+Back to the start	Terug naar het begin
+Speed	Snelheid
+Lines (by layer colour)	Lijnen (op laagkleur)
+Start here	Hier starten
+Save as a picture…	Opslaan als afbeelding…
+Corner radius	Hoekradius
+File	Bestand
+Open Recent	Recent geopend
+Export	Exporteren
+Edit	Bewerken
+Select…	Selecteren…
+Arrange	Schikken
+Align	Uitlijnen
+Move to the Bed's…	Verplaatsen naar het bed…
+Shapes	Vormen
+Simplify (fewer points)	Vereenvoudigen (minder punten)
+Draw a Shape	Vorm tekenen
+Laser	Laser
+View	Beeld
+Help	Help
+GBurn	GBurn
+Save the job as G-code (File › Export has .rd, LightBurn, SVG, DXF)	Taak opslaan als G-code (Bestand › Exporteren heeft .rd, LightBurn, SVG, DXF)
+How Do I…?	Hoe doe ik…?
+Support GBurn: donate (opens gburn.app)	Steun GBurn: doneer (opent gburn.app)
+Show the side panel	Zijpaneel tonen
+Properties	Eigenschappen
+Cuts	Snedes
+Cuts / Layers	Snedes / lagen
+Add a layer	Laag toevoegen
+Text	Tekst
+Height	Hoogte
+Bold	Vet
+Offset	Offset
+Bed	Bed
+Machine Settings: speeds, the controller, the rotary…	Machine-instellingen: snelheden, controller, rotary…
+Machine	Machine
+Size	Grootte
+Design	Ontwerp
+Part of the design is off the bed	Een deel van het ontwerp ligt buiten het bed
+Centre the design	Ontwerp centreren
+Fit the view	Weergave passend
+0,0 is the bed's front-left corner. With Start from › Bed the design burns where it sits here; the grid follows the zoom.	0,0 is de linkervoorhoek van het bed. Met Starten vanaf › Bed wordt het ontwerp gebrand waar het hier staat; het raster volgt de zoom.
++ Sub-layer	+ Sublaag
+Remove	Verwijderen
+Duplicate	Dupliceren
+Copy settings	Instellingen kopiëren
+Paste	Plakken
+Make default	Als standaard
+Reset	Herstellen
+Mode	Modus
+Power	Vermogen
+Passes	Passes
+Frequency	Frequentie
+kHz (galvo)	kHz (galvo)
+Pulse width	Pulsbreedte
+ns (MOPA)	ns (MOPA)
+Own timings	Eigen timing
+Pause	Pauze
+ms	ms
+Repeat all	Alles herhalen
+× with sub-layers	× met sublagen
+Z offset	Z-offset
+mm Z, − down	mm Z, − omlaag
+Constant power	Constant vermogen
+M3 (GRBL)	M3 (GRBL)
+Z per pass	Z per pass
+mm each pass	mm per pass
+Kerf offset	Kerf
+mm (+ out, − in)	mm (+ uit, − in)
+Tabs	Bruggetjes
+mm	mm
+Tabs on holes	Bruggen in gaten
+Inner first	Binnen eerst
+Lead-in	Inloop
+arc	boog
+Lead angle	Inloophoek
+° off square	° t.o.v. haaks
+Overcut	Oversnijden
+Lead-out	Uitloop
+Cut through	Doorschieten
+% while paused	% tijdens pauze
+Direction	Richting
+Wobble	Wobble
+mm Ø, step	mm Ø, stap
+Dot mode	Puntmodus
+ms, mm	ms, mm
+Perforation	Perforatie
+mm on, off	mm aan, uit
+Min power	Min. vermogen
+% in corners	% in hoeken
+Image mode	Beeldmodus
+Negative	Negatief
+Overscan	Overscan
+Auto	Auto
+mm each end	mm per kant
+Dot width	Puntbreedte
+mm correction	mm correctie
+One way	Eén richting
+one direction	één richting
+Pass-through	Doorgeven
+as is	ongewijzigd
+Clean up	Nabranden
+passes at	passes op
+Line interval	Lijnafstand
+Turn per pass	Draai per pass
+° each pass	° per pass
+each job	per taak
+Fill shapes	Vormen vullen
+part by part	deel voor deel
+Flood fill	Vlakvulling
+area by area	vlak voor vlak
+Even lines	Gelijke lijnen
+spread to fit	passend verdeeld
+Edge loops	Randlussen
+gap	afstand
+Fill inset	Vul-inzet
+mm inside	mm naar binnen
+Cross-hatch	Kruisarcering
+Ramp	Helling
+mm fade-in	mm invloeien
+Scan angle	Scanhoek
+Air assist	Air assist
+Output	Uitvoer
+Show	Tonen
+Material	Materiaal
+Presets…	Voorinstellingen…
+None saved yet	Nog niets opgeslagen
+Save…	Opslaan…
+Unlink	Ontkoppelen
+Scale	Schalen
+% (Enter: about the anchor)	% (Enter: rond het anker)
+Rotate	Draaien
+° (Enter: about the anchor)	° (Enter: rond het anker)
+Skew	Scheeftrekken
+° across	° dwars
+° up (Enter)	° omhoog (Enter)
+% of the layer's power	% van het laagvermogen
+Cut priority	Prioriteit
+lower burns first	lager eerst
+Sides	Zijden
+Star	Ster
+Second star	Tweede ster
+Resample to the scan DPI	Herbemonsteren naar scan-DPI
+Brightness	Helderheid
+Contrast	Contrast
+Gamma	Gamma
+Sharpen	Verscherpen
+Denoise	Ruis weg
+Halftone	Halftoon
+mm cell	mm cel
+As it will burn	Zoals het brandt
+Name	Naam
+optional	optioneel
+Edit text…	Tekst bewerken…
+Reverse	Omkeren
+Click a point of the selected shape to edit it	Klik op een punt van de gekozen vorm om het te bewerken
+Same X	Zelfde X
+Same Y	Zelfde Y
+Delete points	Punten verwijderen
+Delete point	Punt verwijderen
+Break here	Hier breken
+Straight	Recht
+Curve	Curve
+Round corner	Hoek afronden
+Sharp corner	Scherpe hoek
+Next ▸	Volgende ▸
+machine	machine
+Find	Zoeken
+Unlock	Ontgrendelen
+Use it	Gebruiken
+Door open: the laser won't run until it is closed	Deur open: de laser werkt pas als die dicht is
+Go to…	Ga naar…
+Set origin	Oorsprong zetten
+To origin	Naar oorsprong
+Clear origin	Oorsprong wissen
+To selection	Naar selectie
+Fire	Vuren
+Spots	Posities
++ Save here	+ Hier opslaan
+Clear	Wissen
+Go to X	Ga naar X
+Y	Y
+Go	Ga
+Burn only the selected shapes	Alleen gekozen vormen branden
+Step	Stap
+Hold to move	Ingedrukt houden
+Arrow keys	Pijltoetsen
+Console	Console
+Start from	Starten vanaf
+of the selection	van de selectie
+Stop	Stop
+Frame	Kader
+No laser connected:	Geen laser verbonden:
+Connect	Verbinden
+Laser tab	Laser-tab
+Welcome to GBurn	Welkom bij GBurn
+Design on the left, cut settings on the right, and the laser at the bottom of the panel.	Links het ontwerp, rechts de snij-instellingen en onderaan het paneel de laser.
+Nothing fires until you press Start. Frame traces the outline with the beam off.	Er vuurt niets tot je op Start drukt. Kader volgt de omtrek met de straal uit.
+Got it	Begrepen
+Restore unsaved work?	Niet-opgeslagen werk herstellen?
+Discard	Weggooien
+Restore	Herstellen
+Words	Woorden
+Font	Lettertype
+Liberation Sans (built in)	Liberation Sans (ingebouwd)
+Looking for this computer's fonts…	Lettertypen van deze computer zoeken…
+Search fonts	Lettertypen zoeken
+Font file…	Lettertypebestand…
+Spacing	Spatiëring
+%  Line gap ×	%  Regelafstand ×
+When the words change, keep the	Als de tekst verandert, behoud de
+Width	Breedte
+%  Slant	%  Schuinte
+Fit to	Passend op
+width	breedte
+whole	geheel
+Along the selected shape	Langs de gekozen vorm
+moved	verschoven
+inside	binnen
+bend letters	letters buigen
+UPPER CASE	HOOFDLETTERS
+Right to left	Rechts naar links
+Weld the letters (one outline: script fonts, no double burns where letters overlap)	Letters samenvoegen (één omtrek: schrijfletters, geen dubbel branden waar letters overlappen)
+Variable text: {n} = serial, {n:4} padded, {date}, {date:%d/%m/%Y}, {time}. Next number	Variabele tekst: {n} = serienr., {n:4} aangevuld, {date}, {date:%d/%m/%Y}, {time}. Volgend nummer
+step	stap
+After	Na
+start again from	opnieuw vanaf
+Data file (CSV)…	Gegevensbestand (CSV)…
+Controller Settings	Controller-instellingen
+The Ruida's own settings. Save a backup before changing anything: a wrong value can stop the machine moving properly. Each write is read back.	De eigen instellingen van de Ruida. Maak eerst een back-up: een verkeerde waarde kan de beweging van de machine verstoren. Elke schrijfactie wordt teruggelezen.
+Sure?	Zeker?
+Write	Schrijven
+Read again	Opnieuw lezen
+Save a backup	Back-up opslaan
+Controller Files	Controller-bestanden
+Jobs kept on the Ruida, to run from its panel or from here.	Taken op de Ruida, te starten vanaf het paneel of hier.
+Reading…	Lezen…
+No files on the controller	Geen bestanden op de controller
+Send this design	Dit ontwerp versturen
+Refresh	Vernieuwen
+Controller Info	Controller-info
+GRBL Settings	GRBL-instellingen
+Waiting for the controller's $$…	Wachten op $$ van de controller…
+Written straight to the controller. Note the old value first.	Direct naar de controller geschreven. Noteer eerst de oude waarde.
+QR Code / Barcode	QR-code / barcode
+text under	tekst eronder
+Narrowest bar	Smalste streep
+Add	Toevoegen
+Undo History	Geschiedenis
+Click a step to go back to just before it; undone steps (dim) come back the same way.	Klik op een stap om terug te gaan tot vlak ervoor; ongedane stappen (vaag) komen zo ook terug.
+● now	● nu
+Shapes Library	Vormenbibliotheek
+My art	Mijn ontwerpen
+name	naam
+Save the selection	Selectie opslaan
+Add files…	Bestanden toevoegen…
+Nothing saved yet: select shapes, name them, Save the selection.	Nog niets opgeslagen: kies vormen, geef een naam, Selectie opslaan.
+Notes	Notities
+Saved with the design: the material, settings that worked, anything.	Opgeslagen bij het ontwerp: het materiaal, instellingen die werkten, van alles.
+Templates	Sjablonen
+Start a new design from one: its layers, settings and shapes.	Begin een nieuw ontwerp vanuit een sjabloon: lagen, instellingen en vormen.
+The coaster (sample)	De onderzetter (voorbeeld)
+Save this design	Dit ontwerp opslaan
+Run a G-code File	G-code-bestand uitvoeren
+Sent as it is: GBurn's start position and Start / End G-code don't apply.	Ongewijzigd verstuurd: de startpositie en start-/eind-G-code van GBurn gelden niet.
+Connect a GRBL laser (Laser tab)	Verbind een GRBL-laser (Laser-tab)
+Camera Overlay	Camera-overlay
+Show the overlay	Overlay tonen
+Take a photo	Foto maken
+Load a photo…	Foto laden…
+Click the four points below on the photo, in order (a fifth click starts again). Corners of the bed, or four marks you burnt.	Klik de vier punten hieronder op volgorde aan op de foto (een vijfde klik begint opnieuw). Hoeken van het bed, of vier gebrande merktekens.
+No photo yet.	Nog geen foto.
+Lens bend	Lensvervorming
+Place on the bed	Op het bed plaatsen
+Forget the marks	Merktekens vergeten
+The marks are kept: with the camera in the same place, a new photo goes straight onto the bed.	De merktekens blijven: met de camera op dezelfde plek gaat een nieuwe foto direct op het bed.
+Virtual Array	Virtuele array
+Grid	Raster
+Circle	Cirkel
+Copies	Kopieën
+Round X, Y	Rond X, Y
+centre	midden
+of it	ervan
+Live copies: change or move the original and they follow. They burn as real shapes.	Live kopieën: wijzig of verplaats het origineel en ze volgen. Ze branden als echte vormen.
+Make the copies real	Kopieën echt maken
+Bend / Taper	Buigen / taps
+Bend	Buigen
+° of arc, − sags	° boog, − hangt door
+Top width	Breedte boven
+% of the bottom	% van de onderkant
+Apply to the selection	Op selectie toepassen
+Text in an arc, labels for tapered cups. Curves become fine lines.	Tekst in een boog, labels voor taps toelopende bekers. Curven worden fijne lijnen.
+Centre Finder	Middelpuntzoeker
+Jog the head (red dot) to three points on the edge of a round part, pressing Here at each.	Beweeg de kop (rode stip) naar drie punten op de rand van een rond onderdeel en druk telkens op Hier.
+Here	Hier
+Move the head there	Kop daarheen bewegen
+Set the user origin there	Gebruikersoorsprong daar zetten
+The three points are in a line: pick points further apart round the edge	De drie punten liggen op een lijn: kies punten verder uit elkaar langs de rand
+Print & Cut	Printen & snijden
+Two marks printed with the design, near opposite corners, line the cut up with the sheet.	Twee merktekens, meegeprint bij tegenoverliggende hoeken, lijnen de snede uit met het vel.
+Use the selection	Selectie gebruiken
+Laser is on it	Laser staat erop
+Scale to the marks (printers stretch a little)	Schalen naar de merktekens (printers rekken iets op)
+Align the design	Ontwerp uitlijnen
+Polygon / Star	Veelhoek / ster
+Radius	Straal
+Inner radius %	Binnenstraal %
+Second star %	Tweede ster %
+0 = none	0 = geen
+Both ways (out and in)	Beide kanten (uit en in)
+Round corners	Ronde hoeken
+sharp	scherp
+bevel (cut across)	afgeschuind (schuin af)
+All together (overlaps join up)	Alles samen (overlappingen voegen samen)
+Delete the originals	Originelen verwijderen
+Apply	Toepassen
+Grid Array	Raster-array
+Every other row	Om de andere rij
+Every other column	Om de andere kolom
+Each copy	Elke kopie
+Variable text counts up	Variabele tekst telt op
+Make copies	Kopieën maken
+Resize Slots	Sleuven aanpassen
+Slots and tabs sized for one material thickness, made right for another (straight, square corners)	Sleuven en lippen gemaakt voor één materiaaldikte, passend gemaakt voor een andere (rechte, haakse hoeken)
+Resize	Aanpassen
+Boolean Assistant	Booleaanse assistent
+Each result for the selection (the first picked is “the first”). Click one to keep it.	Elk resultaat voor de selectie (de eerst gekozen is „de eerste”). Klik er een aan om te houden.
+Nothing: select closed shapes that overlap	Niets: kies gesloten vormen die overlappen
+Speed and power come from the current layer	Snelheid en vermogen komen van de huidige laag
+Make the test	Test maken
+Close and Optimize	Sluiten en optimaliseren
+Close open paths whose ends are within	Open paden sluiten met uiteinden binnen
+Close	Sluiten
+Optimize: fewer points, within	Optimaliseren: minder punten, binnen
+Optimize	Optimaliseren
+Smooth wavy or jagged outlines (traced pictures) by	Golvende of gekartelde omtrekken (overgetrokken afbeeldingen) gladmaken met
+Smooth	Gladmaken
+Bridges	Bruggen
+Gaps across the selected shapes, so stencil islands stay attached	Onderbrekingen door de gekozen vormen, zodat sjablooneilandjes vast blijven
+Add bridges	Bruggen toevoegen
+Circular Array	Cirkel-array
+Copies go round a point that far below the selection's centre, each turned to face it.	Kopieën draaien rond een punt zo ver onder het midden van de selectie, elk ernaartoe gedraaid.
+Copy Along Path	Kopiëren langs pad
+Turn each copy with the path	Elke kopie met het pad meedraaien
+Select the object and the path: the shape with the longest outline is the path. Copies are spread end to end (evenly round a closed path).	Kies het object en het pad: de vorm met de langste omtrek is het pad. Kopieën worden van begin tot eind verdeeld (gelijkmatig rond een gesloten pad).
+Material Test	Materiaaltest
+to	tot
+Rows	Rijen
+Columns	Kolommen
+Cell size	Celgrootte
+Make the grid	Raster maken
+Material Library	Materiaalbibliotheek
+Empty. Set a layer up, then Material › Save… in its settings, or import a LightBurn .clb.	Leeg. Stel een laag in en kies Materiaal › Opslaan… in de instellingen, of importeer een LightBurn-.clb.
+Find a material, thickness or setting…	Zoek een materiaal, dikte of instelling…
+Use	Gebruiken
+Save the current layer…	Huidige laag opslaan…
+Import .clb…	.clb importeren…
+Export .clb…	.clb exporteren…
+Save to the Material Library	Opslaan in de materiaalbibliotheek
+Birch plywood	Berkenmultiplex
+Thickness	Dikte
+mm (empty = any)	mm (leeg = elke)
+Description	Beschrijving
+through cut	doorsnijden
+Trace Picture	Afbeelding overtrekken
+Outlines of the dark parts of the selected picture, as shapes on a new Line layer.	Omtrekken van de donkere delen van de gekozen afbeelding, als vormen op een nieuwe lijnlaag.
+Threshold	Drempel
+Automatic	Automatisch
+Trace the light parts	Lichte delen overtrekken
+Centerline	Middellijn
+single lines down the strokes	enkele lijnen door de streken
+px (0.5 tight, 2 smooth)	px (0.5 strak, 2 glad)
+Ignore specks under	Spikkels negeren onder
+px²	px²
+Trace	Overtrekken
+Machine Settings	Machine-instellingen
+Nova 63, Aurora 8…	Nova 63, Aurora 8…
+Save as a new machine	Opslaan als nieuwe machine
+Bed width	Bedbreedte
+Bed height	Bedhoogte
+Travel speed	IJlgang
+mm/s (beam off)	mm/s (straal uit)
+Acceleration	Versnelling
+mm/s² cut / engrave (time estimate)	mm/s² snijden / graveren (tijdschatting)
+Top speed X / Y	Max. snelh. X / Y
+mm/s each axis, 0 = no limit (time estimate)	mm/s per as, 0 = geen limiet (tijdschatting)
+Corner slow-down	Hoekvertraging
+mm, GRBL $11, 0 = off (time estimate)	mm, GRBL $11, 0 = uit (tijdschatting)
+Full power S	Vol vermogen S
+GRBL network address	GRBL-netwerkadres
+e.g. 192.168.1.50 or fluidnc.local:23	bv. 192.168.1.50 of fluidnc.local:23
+Ruida address	Ruida-adres
+Ruida home corner	Ruida-thuishoek
+Galvo lens field	Galvo-lensveld
+Fibre	Fiber
+CO2	CO2
+Galvo correction	Galvo-correctie
+Pick .cor file…	.cor-bestand kiezen…
+Flip X	X spiegelen
+Flip Y	Y spiegelen
+X per Y	X per Y
+Cylinder	Cilinder
+mirror mm	spiegel mm
+curves across X	gebogen langs X
+inside (concave)	binnen (hol)
+Galvo speed	Galvo-snelheid
+mm/s jumps	mm/s sprongen
+Galvo delays	Galvo-vertragingen
+µs	µs
+Baud rate	Baudrate
+Absolute coordinates	Absolute coördinaten
+Current position	Huidige positie
+User origin	Gebruikersoorsprong
+Job origin	Taakoorsprong
+Fire button	Vuurknop
+% for ≈ 0.4 s	% voor ≈ 0.4 s
+Rotary on Y	Rotary op Y
+A axis	A-as
+mm/turn, object Ø	mm/omw., object-Ø
+Test	Testen
+Taper warp	Tapsvervorming
+mm Ø left / right: a tapered tumbler	mm Ø links / rechts: een taps toelopende beker
+Scanning offset	Scan-offset
+e.g. 100:0.05, 300:0.12	bv. 100:0.05, 300:0.12
+speed (mm/s) : mm the return lines land off, for GRBL fills and pictures. Engrave a few lines at each speed, measure the step, type it here.	snelheid (mm/s) : mm dat de teruglijnen verschoven liggen, voor GRBL-vullingen en afbeeldingen. Graveer een paar lijnen per snelheid, meet de verschuiving, typ die hier.
+Time estimate ×	Tijdschatting ×
+1.2 = jobs take 20 % longer than estimated	1.2 = taken duren 20 % langer dan geschat
+Cut order	Snijvolgorde
+shortest travel (holes first)	kortste weg (gaten eerst)
+as drawn	zoals getekend
+finish each group (part) before the next	elke groep (onderdeel) afmaken voor de volgende
+start shapes at a corner (hides the start mark)	vormen in een hoek starten (verbergt het startpunt)
+fewer direction changes	minder richtingwissels
+hide backlash (every loop the same way round)	speling verbergen (elke lus dezelfde kant op)
+Shared edges	Gedeelde randen
+cut once (remove overlapping lines)	één keer snijden (overlappende lijnen weg)
+the box	de rechthoek
+the outline (hull)	de omtrek (omhulling)
+keep framing until Stop	blijven kaderen tot Stop
+Job checklist	Taakchecklist
+one item a line, ticked before every Start (e.g. Air on, Lid closed)	één punt per regel, af te vinken voor elke start (bv. Lucht aan, Deksel dicht)
+% beam while framing (GRBL diodes without a pointer; 0 = off)	% straal tijdens kaderen (GRBL-diodes zonder pointer; 0 = uit)
+Red-dot pointer	Rode pointer
+X	X
+mm from the beam	mm van de straal
+Connecting	Bij verbinden
+home the machine	machine homen
+After the job	Na de taak
+go to X	ga naar X
+mm (GRBL)	mm (GRBL)
+Speed unit	Snelheidseenheid
+mm/s	mm/s
+mm/min	mm/min
+Power mode	Vermogensmodus
+M4 dynamic	M4 dynamisch
+M3 constant	M3 constant
+S on every move	S bij elke beweging
+Machine 0,0	Machine 0,0
+Swap X / Y	X / Y wisselen
+Blank moves as G0	Lege bewegingen als G0
+Progress (M73)	Voortgang (M73)
+M8	M8
+M7	M7
+Controller	Controller
+Transfer	Overdracht
+one line at a time (synchronous)	regel voor regel (synchroon)
+Start G-code	Start-G-code
+before every job, e.g. M7	voor elke taak, bv. M7
+End G-code	Eind-G-code
+after every job	na elke taak
+Macros	Macro's
+G-code	G-code
++ Macro	+ Macro
+M4 scales power with speed through corners (GRBL laser mode, $32=1). Pick M3 only if your controller has no laser mode.	M4 past het vermogen aan de snelheid in hoeken aan (GRBL-lasermodus, $32=1). Kies M3 alleen als je controller geen lasermodus heeft.
+Current position: jog the head to where the design's job origin should be, then Start. The job's G-code sets that point with G92 and clears it at the end.	Huidige positie: beweeg de kop naar waar de taakoorsprong moet komen, dan Start. De G-code van de taak zet dat punt met G92 en wist het aan het eind.
+Settings	Instellingen
+Mouse and trackpad	Muis en trackpad
+Units	Eenheden
+Guides: drag out of a ruler; drag one back onto the ruler to remove it. They snap.	Hulplijnen: sleep uit een liniaal; sleep er een terug op de liniaal om hem te verwijderen. Ze snappen.
+Pick within	Kiezen binnen
+px, snap within	px, snappen binnen
+px	px
+Save it…	Opslaan…
+Arrow keys move	Pijltoetsen verplaatsen
+mm (⇧ × 10)	mm (⇧ × 10)
+Machine Settings…	Machine-instellingen…
+Keyboard Shortcuts…	Sneltoetsen…
+Export / Import…	Exporteren / importeren…
+Keyboard Shortcuts	Sneltoetsen
+Your shortcuts	Je sneltoetsen
+Find a command…	Zoek een opdracht…
+Type to find a command, then Set and press its key.	Typ om een opdracht te vinden, dan Instellen en druk de toets.
+About GBurn	Over GBurn
+A sister app of GCarve (gcarve.app) and GSketch (gsketch.app).	Een zusterapp van GCarve (gcarve.app) en GSketch (gsketch.app).
+New	Nieuw
+Import (SVG, DXF, PDF, LightBurn, picture)…	Importeren (SVG, DXF, PDF, LightBurn, afbeelding)…
+Save As…	Opslaan als…
+Notes…	Notities…
+Print	Afdrukken
+Print in Black	Zwart afdrukken
+Export Settings…	Instellingen exporteren…
+Import Settings…	Instellingen importeren…
+Templates…	Sjablonen…
+Save to Account	Opslaan in account
+Open from Account…	Openen uit account…
+G-code (GRBL lasers)	G-code (GRBL-lasers)
+Ruida file (.rd, USB stick)	Ruida-bestand (.rd, USB-stick)
+K40 file (.egv)	K40-bestand (.egv)
+LightBurn project (.lbrn2)	LightBurn-project (.lbrn2)
+SVG (curves kept)	SVG (curven behouden)
+DXF (for CAD)	DXF (voor CAD)
+PDF (print at 100 %)	PDF (afdrukken op 100 %)
+Processed picture (PNG)	Bewerkte afbeelding (PNG)
+Undo History…	Geschiedenis…
+Settings…	Instellingen…
+Cut	Knippen
+Copy	Kopiëren
+Paste in Place	Op zijn plek plakken
+Select All	Alles selecteren
+Select All on This Layer	Alles op deze laag
+Select None	Niets selecteren
+Invert the Selection	Selectie omkeren
+Inside the Selection	Binnen de selectie
+Open Paths	Open paden
+Open Paths on Fill Layers	Open paden op vullagen
+Smaller Than the Selection	Kleiner dan de selectie
+Circles (or the selected one's size)	Cirkels (of de grootte van de gekozen)
+Pictures	Afbeeldingen
+Texts	Teksten
+Group	Groeperen
+Ungroup	Groep opheffen
+Auto-Group	Auto-groeperen
+Lock	Vergrendelen
+Unlock All	Alles ontgrendelen
+Move to the Current Layer	Naar huidige laag
+Mirror Left–Right	Spiegelen links–rechts
+Mirror Up–Down	Spiegelen boven–onder
+Mirror Across a Line	Spiegelen over een lijn
+Rotate 90° Left	90° naar links draaien
+Two-Point Rotate / Scale	Tweepunts draaien / schalen
+Rotate 90° Right	90° naar rechts draaien
+Distribute Across	Horizontaal verdelen
+Distribute Centres Across	Middens horizontaal verdelen
+Distribute Centres Up	Middens verticaal verdelen
+Distribute Down	Verticaal verdelen
+Dock Together Across	Horizontaal aansluiten
+Dock Together Down	Verticaal aansluiten
+Same Width	Zelfde breedte
+Same Size	Zelfde grootte
+Same Height	Zelfde hoogte
+Centre on the Bed	Centreren op het bed
+Fit to the Bed (scale)	Passend op het bed (schalen)
+Move to the Laser's Position	Naar de laserpositie
+Nest on the Bed	Nesten op het bed
+Nest by Shape	Nesten op vorm
+Nest by Shape over Pages	Nesten op vorm over pagina's
+Edit Cut Order (click shapes in turn)	Snijvolgorde bewerken (klik vormen op volgorde)
+Cut First (in its layer)	Eerst snijden (in zijn laag)
+Cut Last (in its layer)	Laatst snijden (in zijn laag)
+One Place Earlier	Eén plek eerder
+One Place Later	Eén plek later
+Grid Array…	Raster-array…
+Virtual Array…	Virtuele array…
+Circular Array…	Cirkel-array…
+Copy Along Path…	Kopiëren langs pad…
+Union	Samenvoegen
+Subtract (first minus the rest)	Aftrekken (eerste min de rest)
+Intersect	Doorsnede
+Exclude (all but the overlap)	Uitsluiten (alles behalve de overlap)
+Boolean Assistant…	Booleaanse assistent…
+Split with the First	Splitsen met de eerste
+Offset Shapes…	Vormen verschuiven…
+Round Corners…	Hoeken afronden…
+Trace Picture…	Afbeelding overtrekken…
+Trace Several Picture Files…	Meerdere afbeeldingen overtrekken…
+Cut the Picture to the Shape	Afbeelding bijsnijden op vorm
+Turn Shapes into a Picture	Vormen omzetten naar afbeelding
+Background Photo (not burnt)…	Achtergrondfoto (niet gebrand)…
+Replace the Picture…	Afbeelding vervangen…
+Replace the Picture to Fit…	Afbeelding vervangen (passend)…
+Weld (keep holes)	Lassen (gaten behouden)
+Join Open Paths	Open paden verbinden
+Close Paths	Paden sluiten
+Close / Optimize Within…	Sluiten / optimaliseren binnen…
+Extend Lines to the Next Shape	Lijnen verlengen tot volgende vorm
+Bridges…	Bruggen…
+Break Apart	Uit elkaar halen
+Resize Slots…	Sleuven aanpassen…
+Tangent Circle (to 3 circles)	Raakcirkel (aan 3 cirkels)
+Path from the Cut	Pad uit de snede
+Bend / Taper…	Buigen / taps…
+Warp (4 corners)	Vervormen (4 hoeken)
+Deform (16 handles)	Deformeren (16 grepen)
+Smooth into Curves	Gladmaken tot curven
+Outline Around (hull)	Omtrek eromheen (omhulling)
+Outline Around (box)	Omtrek eromheen (rechthoek)
+Fine: within 0.02 mm	Fijn: binnen 0.02 mm
+Medium: within 0.1 mm	Middel: binnen 0.1 mm
+Coarse: within 0.5 mm	Grof: binnen 0.5 mm
+Delete Duplicates and Specks	Duplicaten en spikkels verwijderen
+Polygon / Star…	Veelhoek / ster…
+Shapes Library…	Vormenbibliotheek…
+Text…	Tekst…
+Edit Text…	Tekst bewerken…
+Convert Text to Shapes	Tekst omzetten naar vormen
+Bake the Variable Text	Variabele tekst vastzetten
+QR Code / Barcode…	QR-code / barcode…
+Picture…	Afbeelding…
+Home	Home
+Pause / Resume	Pauze / hervatten
+Print & Cut…	Printen & snijden…
+Centre Finder…	Middelpuntzoeker…
+Camera Overlay…	Camera-overlay…
+Save the Camera Capture…	Camera-opname opslaan…
+Galvo Lens Test Pattern	Galvo-lenstestpatroon
+Run a G-code File…	G-code-bestand uitvoeren…
+Cut Settings Editor…	Snij-instellingen…
+Material Test…	Materiaaltest…
+Scanning Offset Test	Scan-offsettest
+Focus Test…	Focustest…
+Interval Test…	Lijnafstandtest…
+Material Library…	Materiaalbibliotheek…
+Import Material Library (.clb)…	Materiaalbibliotheek importeren (.clb)…
+GRBL Settings ($$)…	GRBL-instellingen ($$)…
+Get Controller Info…	Controller-info ophalen…
+Controller Files…	Controller-bestanden…
+Controller Settings…	Controller-instellingen…
+Play / Pause the Simulation	Simulatie afspelen / pauzeren
+Fit the Design	Ontwerp passend
+Fit the Bed	Bed passend
+Clear the Guides	Hulplijnen wissen
+Flash the Layer's Shapes	Vormen van de laag laten knipperen
+Zoom to Selection	Zoomen naar selectie
+Zoom In	Inzoomen
+Zoom Out	Uitzoomen
+Find a Command…	Opdracht zoeken…
+Report a Bug…	Fout melden…
+Request a Change…	Wijziging aanvragen…
+Documentation	Documentatie
+GBurn Website	GBurn-website
+♥ Donate to GBurn…	♥ Doneer aan GBurn…
+text	tekst
+import	import
+extents	afmetingen
+mtest	test
+Text (T)	Tekst (T)
+Import	Importeren
+Import SVG, DXF, LightBurn files or pictures (⌘I)	SVG, DXF, LightBurn-bestanden of afbeeldingen importeren (⌘I)
+Fit	Passend
+Fit the design in the view (F)	Ontwerp passend in beeld (F)
+Test grid	Testraster
+Material test: a grid of speeds and powers	Materiaaltest: een raster van snelheden en vermogens
+Disconnect	Verbreken
+Start · rotary	Start · rotary
+Resume	Hervatten
+Open from Computer…	Openen vanaf computer…
+Open…	Openen…
+Download (.gburn)	Downloaden (.gburn)
+Account…	Account…
+Sign In…	Inloggen…
+Back to Design	Terug naar ontwerp
+Preview the Job	Taak bekijken
+Mouse Wheel Zooms	Muiswiel zoomt
+Mouse Wheel Pans (trackpad)	Muiswiel schuift (trackpad)
+Hide the Grid	Raster verbergen
+Show the Grid	Raster tonen
+Hide the Fills	Vullingen verbergen
+Show the Fills	Vullingen tonen
+Shaded Fills	Gearceerde vullingen
+Solid Fills	Volle vullingen
+Show Millimetres	Millimeters tonen
+Show Inches	Inches tonen
+Show the Side Panel	Zijpaneel tonen
+Hide the Side Panel	Zijpaneel verbergen
+Select	Selecteren
+Click a shape; drag to move it; drag a corner to resize, the round dot to turn (⇧ 15° steps); drag on empty space to box-select	Klik een vorm; sleep om te verplaatsen; sleep een hoek om te schalen, de ronde stip om te draaien (⇧ stappen van 15°); sleep op een lege plek om met een kader te selecteren
+Nodes	Knooppunten
+Click a shape, drag its points; double-click a segment to add a point; ⌫ removes the picked point	Klik een vorm, sleep de punten; dubbelklik een segment om een punt toe te voegen; ⌫ verwijdert het gekozen punt
+Rectangle	Rechthoek
+Drag a rectangle (⇧ square, ⌥ from the centre)	Sleep een rechthoek (⇧ vierkant, ⌥ vanuit het midden)
+Ellipse	Ellips
+Drag an ellipse (⇧ circle, ⌥ from the centre)	Sleep een ellips (⇧ cirkel, ⌥ vanuit het midden)
+Polygon	Veelhoek
+Drag from the centre out to a corner (⇧ 15° turns); sides and star in the Polygon box	Sleep vanuit het midden naar een hoek (⇧ draaien per 15°); zijden en ster in het veelhoekvenster
+Line	Lijn
+Click points (⇧ 15° steps); click the first point or press Enter to finish, Esc to drop it	Klik punten (⇧ stappen van 15°); klik het eerste punt of druk Enter om te stoppen, Esc om te verwerpen
+Measure	Meten
+Drag between two points for the distance; point at a shape for its size, outline and area	Sleep tussen twee punten voor de afstand; wijs een vorm aan voor grootte, omtrek en oppervlak
+Trim	Trimmen
+Click a line between two crossings: that stretch is cut away (nothing crosses = the shape goes)	Klik een lijn tussen twee kruisingen: dat stuk wordt weggeknipt (niets kruist = de vorm verdwijnt)
+Pan	Schuiven
+Drag to move the view; the wheel zooms	Sleep om het beeld te verschuiven; het wiel zoomt
+Scale X / Y	Schaal X / Y
+Bulge X / Y	Bolling X / Y
+Trapezoid X / Y	Trapezium X / Y
+× size	× grootte
++ sides bow out	+ zijden bol naar buiten
++ wider top / taller right	+ breder boven / hoger rechts
+Shade by power	Kleuren op vermogen
+Legend	Legenda
+Keep ratio	Verhouding behouden
+shift ½	½ verschuiven
+flip	spiegelen
+turned at random (¼ turns)	willekeurig gedraaid (¼ slagen)
+Slot width (the sides move apart)	Sleufbreedte (zijden gaan uit elkaar)
+Slot depth (the bottom moves)	Sleufdiepte (bodem schuift)
+Tab height (the top moves)	Liphoogte (bovenkant schuift)
+move the ends together	uiteinden naar elkaar
+straight lines only	alleen rechte lijnen
+Language	Taal
+Reverse the wheel's zoom	Zoomrichting wiel omkeren
+inches	inch
+Shade the fills in the design	Vullingen in het ontwerp arceren
+Snap to points, middles and centres	Snappen aan punten, middens en centra
+follows the zoom	volgt de zoom
+Join loose ends on import (within 0.05 mm)	Losse uiteinden verbinden bij import (binnen 0.05 mm)
+Beginner mode (only the basic cut settings)	Beginnersmodus (alleen de basis-snij-instellingen)
+Automation: other programs may open files here (UDP 19840, this computer only)	Automatisering: andere programma's mogen hier bestanden openen (UDP 19840, alleen deze computer)
+Back to Select after drawing a shape	Terug naar Selecteren na tekenen van een vorm
+Crosshair across the canvas at the pointer	Dradenkruis over het canvas bij de aanwijzer
+Cross at the bed's centre	Kruis in het midden van het bed
+Show where the head last was after disconnecting	Laatste kop-positie tonen na verbreken
+Group what's imported	Geïmporteerde groeperen
+Put imports in the middle of the bed	Imports in het midden van het bed
+Keep a job log	Taaklogboek bijhouden
+Trackpad	Trackpad
+two fingers pan, pinch or ⌘ + scroll zooms, middle drag pans	twee vingers schuiven, knijpen of ⌘ + scrollen zoomt, middelste knop schuift
+Mouse	Muis
+the wheel zooms, ⇧ + wheel pans across, middle drag pans	het wiel zoomt, ⇧ + wiel schuift opzij, middelste knop schuift
+CAD	CAD
+the wheel zooms, right or middle drag pans in every tool	het wiel zoomt, rechter- of middelste knop schuift in elk gereedschap
+Export G-code	G-code exporteren
+Sign in	Inloggen
+Draw and set up the cuts	Tekenen en snedes instellen
+Preview	Voorbeeld
+See the job and simulate it (P)	Taak bekijken en simuleren (P)
+Job	Taak
+cut	snede
+travel	verplaatsing
+Where the job starts	Waar de taak begint
+Move the head	Kop bewegen
+Jog the head to where this point of the design should be, then Frame and Start.	Beweeg de kop naar waar dit punt van het ontwerp moet komen, dan Kader en Start.
+This point of the design goes to the saved user origin.	Dit punt van het ontwerp gaat naar de opgeslagen gebruikersoorsprong.
+bottom-left	linksonder
+bottom-centre	middenonder
+bottom-right	rechtsonder
+left	links
+right	rechts
+top-left	linksboven
+top-centre	middenboven
+top-right	rechtsboven
+No travel	Geen verplaatsingen
+Recent travel	Recente verplaatsingen
+All travel	Alle verplaatsingen
+Head	Kop
+Maple	Esdoorn
+Cherry	Kersen
+Walnut	Notenhout
+Bamboo	Bamboe
+MDF	MDF
+Cork	Kurk
+Cardboard	Karton
+Leather	Leer
+Slate	Leisteen
+Black anodised aluminium	Zwart geanodiseerd aluminium
+Black acrylic	Zwart acryl
+Clear acrylic	Helder acryl
+Stainless steel (fibre)	RVS (fiber)
+Brass (fibre)	Messing (fiber)
+Black-painted metal (fibre)	Zwart gelakt metaal (fiber)
+Layer	Laag
+sub	sub
+Waiting…	Wachten…
+Snap	Snappen
+Snap off	Snappen uit
+Page	Pagina
+Line (follow the outline)	Lijn (omtrek volgen)
+Fill (scan the inside)	Vullen (binnenkant scannen)
+Image (picture)	Beeld (afbeelding)
+Fill + Line (scan, then outline)	Vullen + lijn (scannen, dan omtrek)
+Offset fill (concentric insets)	Offset-vulling (concentrische lijnen)
+Dither (Floyd–Steinberg)	Dither (Floyd–Steinberg)
+Dither (Jarvis)	Dither (Jarvis)
+Dither (Stucki)	Dither (Stucki)
+Dither (Atkinson)	Dither (Atkinson)
+Sketch (edges)	Schets (randen)
+3D slices (a level per pass)	3D-lagen (een niveau per pass)
+Ordered	Geordend
+Newsprint	Krantenraster
+Grayscale (power)	Grijswaarden (vermogen)
+Laser head	Laserkop
+Ruida heads	Ruida-koppen
+Two laser heads	Twee laserkoppen
+Both	Beide
+…and may start a job (START)	…en mag een taak starten (START)
+Skip the tour	Rondleiding overslaan
+Back	Terug
+Show me around	Rondleiding
+Take the Tour	Rondleiding volgen
+Done	Klaar
+Next	Volgende
+Tools	Gereedschap
+Draw rectangles, ellipses, polygons, lines and text here. Select moves and sizes shapes; Nodes edits their points.	Teken hier rechthoeken, ellipsen, veelhoeken, lijnen en tekst. Selecteren verplaatst en schaalt vormen; Knooppunten bewerkt hun punten.
+The bed	Het bed
+Your design sits on the laser's bed. Drag a shape to move it, a corner to resize it; pinch or scroll to zoom. Files and pictures can be dropped here.	Je ontwerp ligt op het bed van de laser. Sleep een vorm om te verplaatsen, een hoek om te schalen; knijp of scrol om te zoomen. Bestanden en afbeeldingen kun je hier neerzetten.
+Layers	Lagen
+Each colour is a layer with its own settings: Line cuts or scores the outline, Fill engraves the inside, Image burns pictures. Set the speed and power here.	Elke kleur is een laag met eigen instellingen: Lijn snijdt of kerft de omtrek, Vullen graveert de binnenkant, Beeld brandt afbeeldingen. Stel hier snelheid en vermogen in.
+See the whole job in the order it runs, with the travel and the time. Press ▶ to play it.	Zie de hele taak in de volgorde waarin hij loopt, met verplaatsingen en tijd. Druk ▶ om af te spelen.
+Your laser	Je laser
+Connect your laser here, or the simulated one to try things out. Move the head and choose where the job starts.	Verbind hier je laser, of de gesimuleerde om dingen uit te proberen. Beweeg de kop en kies waar de taak begint.
+Frame, Start, Stop	Kader, Start, Stop
+Frame traces the job's edges with the beam off, so you can check where it lands. Start burns; nothing fires before it. Stop is always here.	Kader volgt de randen van de taak met de straal uit, zodat je ziet waar hij terechtkomt. Start brandt; daarvoor vuurt niets. Stop is er altijd.
+Save As	Opslaan als
+File name	Bestandsnaam
+Download	Downloaden
+Save (download .gburn)	Opslaan (.gburn downloaden)
+Draw	Tekenen
+Quit GBurn	GBurn afsluiten
+Exit	Afsluiten
+other	overig
+panel	paneel
+Simulate	Simuleren
+kHz	kHz
+ns	ns
+Pause before	Pauze voor
+Pause after	Pauze na
+mm / pass	mm / pass
+per shape	per vorm
+Tab length	Bruglengte
+Wobble size	Wobble-maat
+mm Ø	mm Ø
+Wobble step	Wobble-stap
+Dot time	Punttijd
+Dot spacing	Puntafstand
+Perforate: cut	Perforeren: snij
+Perforate: skip	Perforeren: sla over
+Clean up every	Nabranden elke
+passes	passes
+Clean-up power	Nabrandvermogen
+° / pass	° / pass
+Open path	Pad openen
+Close path	Pad sluiten
+Make corner	Hoek maken
+Make smooth	Glad maken
+Click it…	Klik erop…
+On the camera	Op de camera
+Bed (absolute)	Bed (absoluut)
+the bed	het bed
+the head	de kop
+the user origin	de gebruikersoorsprong
+from	vanaf
+No laser connected	Geen laser verbonden
+Skew across	Scheef dwars
+Skew up	Scheef omhoog
+Line gap	Regelafstand
+× height	× hoogte
+Anchor	Anker
+Slant	Schuinte
+{n} = serial, {n:4} padded, {date}, {date:%d/%m/%Y}, {time}, {column} from a data file	{n} = serienummer, {n:4} aangevuld, {date}, {date:%d/%m/%Y}, {time}, {column} uit een gegevensbestand
+Next number	Volgend nummer
+Variable text	Variabele tekst
+Report…	Melden…
+Report a Problem…	Probleem melden…
+Save the Laser Log…	Laserlogboek opslaan…
+Red pointer pin	Pin rode pointer
+Find…	Zoeken…
+Find the Red Pointer Pin	Pin rode pointer zoeken
+Rotary	Rotary
+These settings (not saved as a machine)	Deze instellingen (niet opgeslagen als machine)
+Your own step: the Laser tab	Eigen stap: de Laser-tab
+Jogging	Joggen
+The jog pad is in the laser panel at the bottom, on every tab.	Het jogpad zit in het laserpaneel onderaan, op elke tab.
+Connect your laser here, or the simulated one to try things out. The Laser tab has the device, Go to, spots and the console.	Verbind hier je laser, of de gesimuleerde om dingen uit te proberen. De Laser-tab heeft het apparaat, Ga naar, posities en de console.
+The laser panel	Het laserpaneel
+On every tab: the laser and where its head is, the jog pad, Frame (traces the job with the beam off), Start (nothing fires before it), Stop (always here) and where the job starts. The arrow folds it smaller.	Op elke tab: de laser en waar de kop is, het jogpad, Kader (volgt de taak met de straal uit), Start (daarvoor vuurt niets), Stop (altijd hier) en waar de taak begint. De pijl klapt het kleiner.
+Position	Positie
+Speed and power now	Snelheid en vermogen nu
+Ruida (USB) or GRBL over USB: Connect, then pick the laser's port in the browser's list (Chrome, Edge, Brave). Ruida over the network needs GBurn Link on this computer (gburn.app/download/). The simulated laser runs any job here.	Ruida (USB) of GRBL via USB: Verbinden, kies dan de poort van de laser in de lijst van de browser (Chrome, Edge, Brave). Ruida via het netwerk vraagt GBurn Link op deze computer (gburn.app/download/). De gesimuleerde laser voert hier elke taak uit.
+Ruida CO2 lasers (Thunder Nova, most CO2 cabinets): Ruida (USB) or Ruida (network). GRBL diode lasers: their serial port. Fibre galvos (EZCAD2): Galvo (EZCAD2 USB). Find looks for you. The simulated laser runs any job without a machine.	Ruida-CO2-lasers (Thunder Nova, de meeste CO2-kasten): Ruida (USB) of Ruida (netwerk). GRBL-diodelasers: hun seriële poort. Fiber-galvo's (EZCAD2): Galvo (EZCAD2 USB). Zoeken zoekt voor je. De gesimuleerde laser voert elke taak uit zonder machine.
+Export .rd	.rd exporteren
+Choose your machine…	Kies je machine…
+Choose your machine	Kies je machine
+Search: brand, model, 60w, fiber…	Zoek: merk, model, 60w, fiber…
+machines	machines
+not supported yet	nog niet ondersteund
+Choose Your Machine…	Kies je machine…
+From the makers' published specs: check the work area against your machine. Not listed? Set it up by hand below and Save as a new machine.	Uit de gepubliceerde specificaties van de makers: controleer het werkgebied op je machine. Staat hij er niet bij? Stel hem hieronder met de hand in en Opslaan als nieuwe machine.
+Custom size	Eigen maat
+Matches	Komt overeen met
+Tests	Tests
+Camera and alignment	Camera en uitlijning
+Nest	Nesten
+mm/s² cut / engrave	mm/s² snijden / graveren
+mm/s each axis	mm/s per as
+% beam while framing	% straal tijdens kaderen
+Every layer that has shapes has Output off: nothing will burn	Elke laag met vormen heeft Uitvoer uit: er wordt niets gebrand
+power is 0, the laser won't mark	vermogen is 0, de laser markeert niet
+speed is 0	snelheid is 0
+The job reaches	De taak reikt
+past the bed	voorbij het bed
+copy	kopie
+Layer duplicated	Laag gedupliceerd
+layer	laag
+Review the job	Taak controleren
+Starts from	Start vanaf
+Time	Tijd
+Start burning	Branden starten
+Drop a file here	Zet hier een bestand neer
+or draw a shape, press T for text, or open File › Templates…	of teken een vorm, druk T voor tekst, of open Bestand › Sjablonen…
+not connected	niet verbonden
+mirror in	spiegel in
+in/turn, object Ø	in/omw., object-Ø
+in Ø left / right: a tapered tumbler	in Ø links / rechts: een taps toelopende beker
+Interface size	Interfacegrootte
+Review the job before it starts	Taak controleren voor de start
+in (⇧ × 10)	in (⇧ × 10)
+Layers and settings	Lagen en instellingen
+Picture fade	Afbeelding vervagen
+Trace over it by hand	Met de hand overtrekken
+Check the size	Grootte controleren
+drawn, came out	getekend, uitgekomen
+Correct	Corrigeren
+The controller's acceleration (cut / engrave) is	De versnelling van de controller (snijden / graveren) is
+top speed	topsnelheid
+UV	UV
+Invert power	Vermogen omkeren
+UV laser: its light is invisible. Wear glasses rated for 355 nm (fibre or green glasses don't protect) and keep the lid shut	UV-laser: het licht is onzichtbaar. Draag een bril voor 355 nm (fiber- of groene brillen beschermen niet) en houd de deksel dicht
+Stock thickness	Materiaaldikte
+The xTool M1 burns where the design sits on the bed (Start from: Bed)	De xTool M1 brandt waar het ontwerp op het bed staat (Starten vanaf: Bed)
+No machine chosen	Geen machine gekozen
+Preview: play the job or drag the time; P goes back to Design	Voorbeeld: speel de taak af of sleep de tijd; P gaat terug naar Ontwerp
+Draw on the canvas; the button at the top right opens the layers, cut settings and the laser.	Teken op het canvas; de knop rechtsboven opent de lagen, snij-instellingen en de laser.
+Show all	Alles tonen
+0 = read $30 from the laser	0 = $30 van de laser lezen
+none	geen
+loaded	geladen
+starts at the head	begint bij de kop
+goes to the user origin	gaat naar de gebruikersoorsprong
+Fill	Vullen
+Image	Beeld
+Fill+Line	Vullen+lijn
+Simulated laser	Gesimuleerde laser
+Ruida over USB (Thunder, most CO2)	Ruida via USB (Thunder, de meeste CO2)
+Ruida over the network	Ruida via het netwerk
+Fibre galvo over USB (EZCAD2: Thunder Aurora…)	Fiber-galvo via USB (EZCAD2: Thunder Aurora…)
+Simulated fibre galvo	Gesimuleerde fiber-galvo
+K40 over USB (M2 / M3 Nano board)	K40 via USB (M2 / M3 Nano-bord)
+Simulated K40	Gesimuleerde K40
+xTool M1 over USB network (older firmware)	xTool M1 via USB-netwerk (oudere firmware)
+GRBL over USB (diode lasers)	GRBL via USB (diodelasers)
+GRBL over the network (FluidNC, grblHAL)	GRBL via het netwerk (FluidNC, grblHAL)
+rear left (Thunder, most CO2)	linksachter (Thunder, de meeste CO2)
+rear right	rechtsachter
+front left	linksvoor
+front right	rechtsvoor
+rear left	linksachter
+draw rectangles, ellipses and lines on the current layer	teken rechthoeken, ellipsen en lijnen op de huidige laag
+add text	tekst toevoegen
+preview the job: the order, the travel and the time	taak bekijken: de volgorde, de verplaatsingen en de tijd
+the simulated laser runs any job; your own laser runs the real thing	de gesimuleerde laser voert elke taak uit; je eigen laser doet het echte werk
+More settings	Meer instellingen
+lens	lens
+General	Algemeen
+Hide the donate button	Doneerknop verbergen
+Show the donate button (♥) in the top bar	Doneerknop (♥) in de bovenbalk tonen
+Support GBurn: donate (opens gburn.app). Right-click to hide	Steun GBurn: doneer (opent gburn.app). Rechtsklik om te verbergen
+Try it without a laser	Uitproberen zonder laser
+Laser › Connect with “Simulated laser” picked: jog, frame and run the job against a built-in GRBL controller.	Laser › Verbinden met „Gesimuleerde laser” gekozen: jog, kader en voer de taak uit op een ingebouwde GRBL-controller.
+Connect a laser	Een laser verbinden
+Pick the USB port in the Laser panel and Connect (GRBL lasers: most diode lasers, 115200 baud). In the browser pick “GRBL over USB (this browser)”: Chrome and Edge show the port list (Safari can't). Alarm after power-up: Home, or Unlock.	Kies de USB-poort in het laserpaneel en Verbinden (GRBL-lasers: de meeste diodelasers, 115200 baud). Kies in de browser „GRBL via USB (deze browser)”: Chrome en Edge tonen de poortlijst (Safari kan dat niet). Alarm na het aanzetten: Home, of Ontgrendelen.
+Keep designs in my account	Ontwerpen in mijn account bewaren
+Sign in (the GCarve account works here): File › Save to Account keeps the design; Open from Account lists them. Saves again by itself 3 s after a change.	Inloggen (het GCarve-account werkt hier): Bestand › Opslaan in account bewaart het ontwerp; Openen uit account toont ze. Slaat 3 s na een wijziging vanzelf opnieuw op.
+Get the design back after a crash	Het ontwerp terughalen na een crash
+A recovery copy is written 3 s after every change and offered back at the next start.	3 s na elke wijziging wordt een herstelkopie geschreven en bij de volgende start aangeboden.
+Go back several steps	Meerdere stappen teruggaan
+Edit › Undo History: every change by name (Move, Resize, Change layer…, the command's name). Click a step to go back to just before it; click a dim (undone) one to bring the steps back.	Bewerken › Geschiedenis: elke wijziging bij naam (Verplaatsen, Formaat wijzigen, Laag wijzigen…, de naam van de opdracht). Klik op een stap om terug te gaan tot vlak ervoor; klik op een vage (ongedane) stap om de stappen terug te halen.
+Work in inches	In inches werken
+The mm / in switch in the status bar, or View › Show Inches. Sizes are kept in mm underneath.	De mm / in-schakelaar in de statusbalk, of Beeld › Inches tonen. Maten blijven onderliggend in mm.
+Keep notes with a design	Notities bij een ontwerp bewaren
+File › Notes: saved inside the .gburn file.	Bestand › Notities: opgeslagen in het .gburn-bestand.
+Move my settings to another computer	Mijn instellingen naar een andere computer overzetten
+File › Export Settings… saves your machines, materials, templates, lens file, snap and units to one file. On the other computer (or in the browser): File › Import Settings….	Bestand › Instellingen exporteren… slaat je machines, materialen, sjablonen, lensbestand, snappen en eenheden op in één bestand. Op de andere computer (of in de browser): Bestand › Instellingen importeren….
+Open a .plt (HPGL) file	Een .plt-bestand (HPGL) openen
+File › Import takes .plt / .hpgl plot files from CorelDRAW, sign software and cutters: each pen becomes a layer.	Bestand › Importeren neemt .plt / .hpgl-plotbestanden uit CorelDRAW, signsoftware en snijplotters: elke pen wordt een laag.
+Draw a rectangle, circle or line	Een rechthoek, cirkel of lijn tekenen
+R, E and L pick the tools (or the tool bar); drag on the canvas. Hold ⇧ for a square, a circle, or 5 mm snapping. Enter finishes a line; clicking its first point closes it.	R, E en L kiezen de gereedschappen (of de gereedschapsbalk); sleep op het canvas. Houd ⇧ ingedrukt voor een vierkant, een cirkel of snappen op 5 mm. Enter beëindigt een lijn; klikken op het eerste punt sluit hem.
+Draw curves	Curven tekenen
+Line tool (L): click = a corner, click and drag = a smooth point (the drag pulls out its curve). Click the first point to close; Enter or double-click ends an open line.	Lijngereedschap (L): klik = een hoek, klikken en slepen = een glad punt (het slepen trekt de curve uit). Klik op het eerste punt om te sluiten; Enter of dubbelklikken beëindigt een open lijn.
+Set the exact size or position	De exacte maat of positie instellen
+Select the shapes: the X / Y / W / H boxes in the panel take typed sizes (12, 1/2in, 30mm). Enter applies.	Selecteer de vormen: de vakken X / Y / W / H in het paneel nemen getypte maten aan (12, 1/2in, 30mm). Enter past toe.
+See a shape's properties	De eigenschappen van een vorm bekijken
+Select one shape: the panel shows its kind, point count, length and area, a name, Close / Open path and Reverse (the cut direction), besides X / Y / W / H and Rotate.	Selecteer één vorm: het paneel toont het soort, aantal punten, lengte en oppervlakte, een naam, Sluiten / Pad openen en Omkeren (de snijrichting), naast X / Y / W / H en Draaien.
+Measure a distance	Een afstand meten
+M (Measure): drag between two points; the distance, Δx, Δy and angle show in the status bar.	M (Meten): sleep tussen twee punten; de afstand, Δx, Δy en hoek verschijnen in de statusbalk.
+Snap to a grid	Op een raster snappen
+The Snap menu in the status bar: off, 0.5 / 1 / 5 / 10 mm or 1/16 / 1/8 / 1/4 in. ⇧ while drawing always snaps to 5 mm.	Het Snappen-menu in de statusbalk: uit, 0,5 / 1 / 5 / 10 mm of 1/16 / 1/8 / 1/4 in. ⇧ tijdens het tekenen snapt altijd op 5 mm.
+Edit the points of a shape	De punten van een vorm bewerken
+N (Nodes): click a shape, drag its points; double-click a segment to add a point; ⌫ removes the picked one. The picked point's X / Y are in the panel: type exact values and press Enter. Make corner / Make smooth, Next ▸ steps along the path.	N (Knooppunten): klik op een vorm, sleep de punten; dubbelklik op een segment om een punt toe te voegen; ⌫ verwijdert het gekozen punt. X / Y van het gekozen punt staan in het paneel: typ exacte waarden en druk op Enter. Hoek maken / Glad maken, Volgende ▸ gaat langs het pad.
+Node keys	Knooppunttoetsen
+In the Nodes tool, point at a point or a segment and press: D delete, I insert a point, M a point at the middle, C corner, S smooth (a segment: curve), L straight, B break, T trim, E extend an open end, A turn the shape so the segment is level / upright / 45°. ⇧-click or a box picks several points; the arrow keys move them; drop an open end on another to join.	Wijs in het Knooppunten-gereedschap een punt of segment aan en druk: D verwijderen, I punt invoegen, M punt in het midden, C hoek, S glad (een segment: curve), L recht, B breken, T trimmen, E een open einde verlengen, A de vorm draaien zodat het segment waterpas / rechtop / 45° staat. ⇧-klik of een kader kiest meerdere punten; de pijltjestoetsen verplaatsen ze; laat een open einde op een ander vallen om ze te verbinden.
+Join or cut shapes together	Vormen samenvoegen of uitsnijden
+Select two or more closed shapes: Shapes › Union, Subtract (the first minus the rest) or Intersect. Offset Shapes makes a parallel copy; Round Corners rounds a closed shape.	Selecteer twee of meer gesloten vormen: Vormen › Samenvoegen, Aftrekken (de eerste min de rest) of Doorsnede. Vormen verschuiven maakt een parallelle kopie; Hoeken afronden rondt een gesloten vorm af.
+Group shapes	Vormen groeperen
+Select them and press ⌘G: they select and move as one from then on; ⇧⌘G ungroups. Imported files and traced pictures come in grouped.	Selecteer ze en druk op ⌘G: vanaf dan worden ze als één geselecteerd en verplaatst; ⇧⌘G heft de groep op. Geïmporteerde bestanden en overgetrokken afbeeldingen komen gegroepeerd binnen.
+Copy, paste, lock	Kopiëren, plakken, vergrendelen
+⌘C / ⌘X / ⌘V (⇧⌘V pastes at the right-click spot), ⌘L locks the selection so it can't be picked or moved (⇧⌘L unlocks everything). The right-click menu on the canvas has them all.	⌘C / ⌘X / ⌘V (⇧⌘V plakt op de plek van de rechtsklik), ⌘L vergrendelt de selectie zodat ze niet gekozen of verplaatst kan worden (⇧⌘L ontgrendelt alles). Het rechtsklikmenu op het canvas heeft ze allemaal.
+Add a ready-made shape	Een kant-en-klare vorm toevoegen
+Draw › Shapes Library: hearts, stars, arrows, plaques, keyhole hangers, joints and more. Type the width, click a tile: it lands in the middle of the view on the current layer, grouped.	Tekenen › Vormenbibliotheek: harten, sterren, pijlen, plaquettes, sleutelgatophangers, verbindingen en meer. Typ de breedte, klik op een tegel: hij komt gegroepeerd in het midden van de weergave op de huidige laag.
+Keep my own art to reuse	Mijn eigen ontwerpen bewaren om te hergebruiken
+Select the shapes, Draw › Shapes Library… › My art, type a name, Save the selection. Click its tile in any design to add it at the typed width; right-click a tile to remove it. Export Settings carries it to another computer.	Selecteer de vormen, Tekenen › Vormenbibliotheek… › Mijn ontwerpen, typ een naam, Selectie opslaan. Klik in elk ontwerp op de tegel om het op de getypte breedte toe te voegen; rechtsklik op een tegel om hem te verwijderen. Instellingen exporteren neemt het mee naar een andere computer.
+Repeat a shape along a line	Een vorm langs een lijn herhalen
+Select the shape and a line or curve, Arrange › Copy Along Path: how many copies, turned with the path or not. The longest selected outline is the path.	Selecteer de vorm en een lijn of curve, Schikken › Kopiëren langs pad: hoeveel kopieën, wel of niet meegedraaid met het pad. De langste geselecteerde omtrek is het pad.
+Line up or repeat shapes	Vormen uitlijnen of herhalen
+Arrange › Align (left, centre, right, top, middle, bottom) and Distribute lines the selection up; Grid Array repeats it in columns and rows with a gap.	Schikken › Uitlijnen (links, midden, rechts, boven, midden, onder) en Verdelen lijnen de selectie uit; Raster-array herhaalt haar in kolommen en rijen met een tussenruimte.
+Make live copies (virtual array)	Levende kopieën maken (virtuele array)
+Select the shapes, Arrange › Virtual Array…: columns, rows and gaps. The copies follow the original as you change or move it and burn as real shapes. Open it again with a copy selected to Update, Make the copies real or Remove.	Selecteer de vormen, Schikken › Virtuele array…: kolommen, rijen en tussenruimtes. De kopieën volgen het origineel als je het wijzigt of verplaatst en branden als echte vormen. Open het opnieuw met een kopie geselecteerd om bij te werken, Kopieën echt maken of Verwijderen.
+Clean up an imported drawing	Een geïmporteerde tekening opschonen
+Shapes › Delete Duplicates and Specks (stacked copies would cut twice), Join Open Paths (ends within 0.05 mm), Close Paths, Simplify (fewer points, smoother motion), Weld.	Vormen › Duplicaten en spikkels verwijderen (gestapelde kopieën zouden twee keer snijden), Open paden verbinden (uiteinden binnen 0,05 mm), Paden sluiten, Vereenvoudigen (minder punten, soepelere beweging), Lassen.
+Pack parts onto the material	Onderdelen op het materiaal schikken
+Arrange › Nest on the Bed packs the selection (or everything) by its boxes, groups kept together, turned 90° when it fits better.	Schikken › Nesten op het bed schikt de selectie (of alles) op hun kaders, groepen blijven bij elkaar, 90° gedraaid als het beter past.
+Add text	Tekst toevoegen
+T opens the Text box: words (several lines), height, font (any font on this computer, or Font file…), letter spacing, line gap, alignment. The letters land on the current layer, centred on the view, grouped; select them and Edit text… to change the words later.	T opent het tekstvak: woorden (meerdere regels), hoogte, lettertype (elk lettertype op deze computer, of Lettertypebestand…), letterafstand, regelafstand, uitlijning. De letters komen gegroepeerd op de huidige laag, gecentreerd in de weergave; selecteer ze en Tekst bewerken… om de woorden later te wijzigen.
+Merge names from a spreadsheet (CSV)	Namen uit een spreadsheet (CSV) samenvoegen
+Text box › Data file (CSV)… (or drop a .csv on the canvas): the first row names the columns. Type {name} (any column) in a text; ◀ ▶ pick the row; every Start burns the current row and moves to the next.	Tekstvak › Gegevensbestand (CSV)… (of sleep een .csv op het canvas): de eerste rij geeft de kolommen een naam. Typ {name} (elke kolom) in een tekst; ◀ ▶ kiezen de rij; elke Start brandt de huidige rij en gaat naar de volgende.
+Text on a path, serial numbers, dates	Tekst op een pad, serienummers, datums
+Select a line or closed shape, open the Text box (T) and tick “Along the selected shape”. Type {n} for a serial number ({n:4} zero-padded), {date} or {time}: every Start stamps the current number and counts up (the next number is in the Text box).	Selecteer een lijn of gesloten vorm, open het tekstvak (T) en vink „Langs de gekozen vorm” aan. Typ {n} voor een serienummer ({n:4} aangevuld met nullen), {date} of {time}: elke Start stempelt het huidige nummer en telt op (het volgende nummer staat in het tekstvak).
+Put text round a circle	Tekst rond een cirkel zetten
+Select the circle (or any shape), open Text, tick Along the selected shape: the text centres on the top, outside. Tick inside for text along the bottom inside the circle; moved % slides it round.	Selecteer de cirkel (of een andere vorm), open Tekst, vink Langs de gekozen vorm aan: de tekst centreert bovenaan, aan de buitenkant. Vink binnen aan voor tekst onderaan aan de binnenkant van de cirkel; verschoven % schuift hem rond.
+Bend text into an arc	Tekst in een boog buigen
+Select the text or shapes, Shapes › Bend / Taper…: Bend is the arc in degrees (180 = a half circle, − bends the other way), Top width narrows or widens the top for a tapered cup. Number boxes take sums too: 100/3, 2in + 5mm.	Selecteer de tekst of vormen, Vormen › Buigen / taps…: Buigen is de boog in graden (180 = een halve cirkel, − buigt de andere kant op), Breedte boven versmalt of verbreedt de bovenkant voor een taps toelopende beker. Getalvakken nemen ook sommen aan: 100/3, 2in + 5mm.
+Make a QR code or barcode	Een QR-code of barcode maken
+Draw › QR Code / Barcode: QR, Data Matrix, Code 128, Code 39, Code 93, EAN-13, EAN-8, UPC-A, Codabar or Interleaved 2 of 5; the text and a size. It lands on the current layer as squares or bars (engrave with Fill). Test-scan a burnt one.	Tekenen › QR-code / barcode: QR, Data Matrix, Code 128, Code 39, Code 93, EAN-13, EAN-8, UPC-A, Codabar of Interleaved 2 of 5; de tekst en een maat. Hij komt op de huidige laag als vierkantjes of streepjes (graveer met Vullen). Scan een gebrande ter controle.
+Engrave a picture	Een afbeelding graveren
+Draw › Picture (or drop a PNG / JPEG on the canvas): it lands on an Image layer. Set its size in the panel; on the layer pick the image mode (dither, ordered, greyscale), the line interval (DPI), negative and overscan.	Tekenen › Afbeelding (of sleep een PNG / JPEG op het canvas): hij komt op een Beeld-laag. Stel de maat in het paneel in; kies op de laag de beeldmodus (dither, geordend, grijstinten), de lijnafstand (DPI), negatief en overscan.
+Adjust a picture	Een afbeelding aanpassen
+Select the picture: Brightness, Contrast and Gamma sliders apply before the dither; Negative is on the layer.	Selecteer de afbeelding: de schuifjes Helderheid, Contrast en Gamma werken vóór het ditheren; Negatief staat op de laag.
+Turn a picture into vectors	Een afbeelding omzetten naar vectoren
+Select a picture and use Draw › Trace Picture: the dark parts (or the light ones) become outlines on a Trace layer, ready to cut or fill.	Selecteer een afbeelding en gebruik Tekenen › Afbeelding overtrekken: de donkere delen (of de lichte) worden omtrekken op een laag Trace, klaar om te snijden of te vullen.
+Trace line art as single lines	Lijntekeningen als enkele lijnen overtrekken
+Select the picture, Draw › Trace Picture…, switch on Centerline: one line along each stroke instead of its outline (signatures, handwriting, line drawings for one pass or a pen).	Selecteer de afbeelding, Tekenen › Afbeelding overtrekken…, zet Middellijn aan: één lijn langs elke streek in plaats van de omtrek (handtekeningen, handschrift, lijntekeningen voor één pass of een pen).
+Cut a photo to a shape	Een foto bijsnijden op een vorm
+Select the picture and a closed shape over it (a circle, a heart), Draw › Cut the Picture to the Shape: outside the shape goes white (not burnt).	Selecteer de afbeelding en een gesloten vorm erover (een cirkel, een hart), Tekenen › Afbeelding bijsnijden op vorm: buiten de vorm wordt wit (niet gebrand).
+Engrave shapes as a picture	Vormen als afbeelding graveren
+Select closed shapes, Draw › Turn Shapes into a Picture: they become a picture on the Image layer at its line interval, so its dither applies.	Selecteer gesloten vormen, Tekenen › Vormen omzetten naar afbeelding: ze worden een afbeelding op de Beeld-laag met haar lijnafstand, zodat haar dither geldt.
+Engrave a relief (3D) on a fibre laser	Een reliëf (3D) graveren met een fiberlaser
+Put a greyscale picture on an Image layer, Image mode › 3D slices, and Passes = the number of depth levels (10–30). Each pass burns everything darker than its level, so the darkest parts get every pass and go deepest.	Zet een grijstintenafbeelding op een Beeld-laag, Beeldmodus › 3D-lagen, en Passes = het aantal diepteniveaus (10–30). Elke pass brandt alles wat donkerder is dan zijn niveau, dus de donkerste delen krijgen elke pass en gaan het diepst.
+Cut, score or engrave	Snijden, rillen of graveren
+Each layer has a mode: Line follows the outline (cut or score), Fill scans the inside (engrave). Click a layer to draw on it, or to move the selected shapes onto it.	Elke laag heeft een modus: Lijn volgt de omtrek (snijden of rillen), Vullen scant de binnenkant (graveren). Klik op een laag om erop te tekenen, of om de geselecteerde vormen ernaartoe te verplaatsen.
+Set speed and power	Snelheid en vermogen instellen
+The Layer settings in the panel: speed in mm/s, power in % of the machine's maximum, passes, and for Fill the line interval (DPI) and scan angle. Changes apply at once; ⌘Z undoes them.	De laaginstellingen in het paneel: snelheid in mm/s, vermogen in % van het maximum van de machine, passes, en voor Vullen de lijnafstand (DPI) en scanhoek. Wijzigingen gelden meteen; ⌘Z maakt ze ongedaan.
+Show, hide or skip a layer	Een laag tonen, verbergen of overslaan
+On the layer's row: the eye shows or hides it in the design (hidden shapes can't be picked); the switch is Output: on = sent to the laser, off = designed only. Both are in the layer settings too.	Op de rij van de laag: het oog toont of verbergt haar in het ontwerp (verborgen vormen kunnen niet gekozen worden); de schakelaar is Uitvoer: aan = naar de laser gestuurd, uit = alleen ontworpen. Beide staan ook in de laaginstellingen.
+Edit every layer setting in one window	Alle laaginstellingen in één venster bewerken
+Double-click a layer, or Laser › Cut Settings Editor.	Dubbelklik op een laag, of Laser › Snij-instellingen.
+See the kerf	De kerf zien
+A Line layer with a kerf shows the offset outline dashed on the canvas: what the beam's centre will follow.	Een Lijn-laag met een kerf toont de verschoven omtrek gestippeld op het canvas: wat het midden van de straal zal volgen.
+Kerf, tabs and cut order	Kerf, bruggetjes en snijvolgorde
+On a Line layer: Kerf offset grows (+) or shrinks (−) the cut by half the beam; Tabs leaves bridges so parts stay put; Inner first cuts holes before outlines.	Op een Lijn-laag: Kerf vergroot (+) of verkleint (−) de snede met de halve straal; Bruggetjes laat bruggen staan zodat onderdelen op hun plek blijven; Binnen eerst snijdt gaten vóór de omtrekken.
+Change the cut order	De snijvolgorde wijzigen
+Layers cut in the order of the list, top first. The ▲ ▼ beside the layer name move it; × removes an empty layer. Inside a layer, Inner first cuts holes before outlines.	Lagen worden gesneden in de volgorde van de lijst, bovenste eerst. De ▲ ▼ naast de laagnaam verplaatsen haar; × verwijdert een lege laag. Binnen een laag snijdt Binnen eerst gaten vóór de omtrekken.
+Lead-ins, overcut, cut direction	Inlopen, oversnijden, snijrichting
+Line layer › Lead-in: closed shapes start this far off the line, in the waste (outside a part, inside a hole), so the pierce mark isn't on the piece. Overcut runs on past the start. Direction: clockwise or anticlockwise.	Lijn-laag › Inloop: gesloten vormen beginnen zo ver naast de lijn, in het afval (buiten een onderdeel, binnen een gat), zodat de insteekplek niet op het werkstuk zit. Oversnijden loopt door voorbij het startpunt. Richting: met of tegen de klok in.
+Choose where a cut starts	Kiezen waar een snede begint
+Select a closed shape, right-click its outline › Start the Cut Here (or Nodes tool › pick a point › Start here). A green dot marks it; the planner keeps it. Right-click › Clear the Start Point undoes it.	Selecteer een gesloten vorm, rechtsklik op de omtrek › Snede hier beginnen (of Knooppunten-gereedschap › kies een punt › Hier starten). Een groene stip markeert het; de planner houdt het aan. Rechtsklik › Startpunt wissen maakt het ongedaan.
+Perforate (dashed cut)	Perforeren (gestippelde snede)
+On a Line layer: Perforation cut / skip lengths, e.g. 3 mm cut, 1 mm skip, for fold lines or tear-offs.	Op een Lijn-laag: Perforatie snij- / overslaglengtes, bijv. 3 mm snijden, 1 mm overslaan, voor vouwlijnen of afscheurstroken.
+Wobble and hatch families	Wobble en arceringsrichtingen
+Line layer › Wobble: diameter and spacing of small circles along the line (wider, smoother lines; deep galvo marking). Fill layer › Turn per pass: with Passes 2+ each pass hatches at a new angle.	Lijn-laag › Wobble: diameter en afstand van kleine cirkels langs de lijn (bredere, gladdere lijnen; diepe galvo-markering). Vullen-laag › Draai per pass: met Passes 2+ arceert elke pass onder een nieuwe hoek.
+Dot mode and offset fill	Puntmodus en offset-vulling
+Line layer › Dot mode fires N ms every D mm along the outline (acrylic dotting, perforating boards). Mode › Offset fill engraves in concentric insets, less travel on round shapes. Fill shapes one by one keeps each shape's lines together.	Lijn-laag › Puntmodus vuurt N ms elke D mm langs de omtrek (acryl stippelen, platen perforeren). Modus › Offset-vulling graveert in concentrische lijnen, minder verplaatsing bij ronde vormen. Vormen één voor één vullen houdt de lijnen van elke vorm bij elkaar.
+Engrave and cut the same shapes	Dezelfde vormen graveren en snijden
+Select the layer, press + Sub-layer: a second set of settings (mode, speed, power…) runs on the same shapes right after the first. Main / Sub 1 / Sub 2 pick which one the panel edits.	Selecteer de laag, druk op + Sublaag: een tweede set instellingen (modus, snelheid, vermogen…) loopt op dezelfde vormen direct na de eerste. Hoofd / Sub 1 / Sub 2 kiezen welke het paneel bewerkt.
+Use my LightBurn material library	Mijn LightBurn-materiaalbibliotheek gebruiken
+Laser › Import Material Library (.clb) (or drop the file on the canvas): every cut setting becomes a Material preset.	Laser › Materiaalbibliotheek importeren (.clb) (of sleep het bestand op het canvas): elke snij-instelling wordt een Materiaal-voorinstelling.
+Find the right speed and power	De juiste snelheid en het juiste vermogen vinden
+Laser › Material Test makes a grid: pick what changes down the side and across (speed, power, interval, passes, frequency or Z offset), a layer per cell with the current layer's other settings. Burn it and read the best cell's settings off its layer. Save settings you like as a material (the layer's Material › Save…).	Laser › Materiaaltest maakt een raster: kies wat er omlaag en opzij verandert (snelheid, vermogen, lijnafstand, passes, frequentie of Z-offset), een laag per vak met de overige instellingen van de huidige laag. Brand het en lees de instellingen van het beste vak af van de laag ervan. Sla instellingen die je bevallen op als materiaal (Materiaal › Opslaan… van de laag).
+Put a tab exactly where I want it	Een bruggetje precies plaatsen waar ik wil
+Select the shape, right-click its outline › Add a Tab Here (the layer's tab length, Line layers). Right-click › Clear the Tabs removes them. With no hand-placed tabs, the layer's Tabs count spaces them evenly.	Selecteer de vorm, rechtsklik op de omtrek › Bruggetje hier toevoegen (de bruglengte van de laag, Lijn-lagen). Rechtsklik › Bruggetjes wissen verwijdert ze. Zonder met de hand geplaatste bruggetjes verdeelt het aantal Bruggetjes van de laag ze gelijkmatig.
+Cut shared edges once	Gedeelde randen één keer snijden
+Machine Settings › Shared edges: cut once. Where two shapes on a Line layer share an edge (puzzles, grids, box joints), the second pass over it is left out: less charring, less time.	Machine-instellingen › Gedeelde randen: één keer snijden. Waar twee vormen op een Lijn-laag een rand delen (puzzels, rasters, vingerverbindingen), wordt de tweede pass erover weggelaten: minder verkoling, minder tijd.
+Switch between my lasers	Wisselen tussen mijn lasers
+Laser › Machine Settings: set one machine up, type its name and press Save as a new machine; set up the next one the same way. Pick a machine at the top of Machine Settings or in the Laser tab (disconnected). The machine in use keeps every change.	Laser › Machine-instellingen: stel een machine in, typ de naam en druk op Opslaan als nieuwe machine; stel de volgende op dezelfde manier in. Kies een machine bovenaan de Machine-instellingen of in de Laser-tab (niet verbonden). De machine in gebruik bewaart elke wijziging.
+Change the bed (work area)	Het bed (werkgebied) wijzigen
+Click empty canvas (nothing selected): the Bed card in the panel has the machine (Thunder Nova 63, galvo lenses…) or any size, where the design sits on it, Centre the design.	Klik op leeg canvas (niets geselecteerd): de Bed-kaart in het paneel heeft de machine (Thunder Nova 63, galvo-lenzen…) of elke maat, waar het ontwerp erop ligt, Ontwerp centreren.
+Set the bed size and travel speed	Bedmaat en verplaatssnelheid instellen
+Laser › Machine Settings: bed, travel speed and acceleration (the time estimate), full-power S ($30), baud rate, M4 / M3.	Laser › Machine-instellingen: bed, verplaatssnelheid en versnelling (de tijdschatting), S voor vol vermogen ($30), baudrate, M4 / M3.
+Run a fibre / galvo marker (EZCAD2)	Een fiber- / galvo-markeerder gebruiken (EZCAD2)
+Laser › Machine Settings: the lens field size and the EZCAD .cor correction file for your lens (ask the maker; it sets the field too), fibre or CO2 source. Pick “Galvo (EZCAD2 USB)” and Connect (Windows needs the WinUSB driver). Layers get a frequency (kHz) and MOPA pulse width. The design is centred on the field. Frame runs the red pointer; Start marks.	Laser › Machine-instellingen: de maat van het lensveld en het EZCAD-correctiebestand .cor voor je lens (vraag het de fabrikant; het stelt ook het veld in), fiber- of CO2-bron. Kies „Fiber-galvo via USB (EZCAD2: Thunder Aurora…)” en Verbinden (Windows heeft de WinUSB-driver nodig). Lagen krijgen een frequentie (kHz) en MOPA-pulsbreedte. Het ontwerp wordt in het veld gecentreerd. Kader laat de rode pointer lopen; Start markeert.
+Run a Ruida / Thunder CO2 laser	Een Ruida- / Thunder-CO2-laser gebruiken
+Laser › Machine Settings: the controller's network address and its home corner (Thunder: rear left), then pick “Ruida (network)” and Connect. Home, jog, Frame (beam off), Start, Pause, Stop work like GRBL. In the browser, start GBurn Link on this computer first (gburn.app/download/). No network? File › Export Ruida (.rd) and run the file from a USB stick.	Laser › Machine-instellingen: het netwerkadres van de controller en de home-hoek (Thunder: linksachter), kies dan „Ruida via het netwerk” en Verbinden. Home, joggen, Kader (straal uit), Start, Pauze, Stop werken zoals bij GRBL. Start in de browser eerst GBurn Link op deze computer (gburn.app/download/). Geen netwerk? Bestand › Exporteren › Ruida (.rd) en voer het bestand uit vanaf een USB-stick.
+Use the galvo on Windows	De galvo onder Windows gebruiken
+EZCAD2's driver and GBurn's can't both own the board. Close EZCAD2, run Zadig (zadig.akeo.ie), Options › List All Devices, pick USBLMCV2 (9588 9899), WinUSB, Replace Driver. Then Galvo (EZCAD2 USB) › Connect. To go back, uninstall the device with its driver in Device Manager and reinstall EZCAD2's. Linux: a udev rule for 9588:9899 (docs/galvo-usb-drivers.md).	De driver van EZCAD2 en die van GBurn kunnen de kaart niet allebei bezitten. Sluit EZCAD2, start Zadig (zadig.akeo.ie), Options › List All Devices, kies USBLMCV2 (9588 9899), WinUSB, Replace Driver. Dan Fiber-galvo via USB › Verbinden. Terug: verwijder het apparaat met de driver in Apparaatbeheer en installeer die van EZCAD2 opnieuw. Linux: een udev-regel voor 9588:9899 (docs/galvo-usb-drivers.md).
+Correct a galvo lens without a .cor file	Een galvo-lens corrigeren zonder .cor-bestand
+Laser › Galvo Lens Test Pattern adds a square at 80 % of the field; mark it at low power and measure it. Too small: raise Scale. Sides bowed in: raise Bulge; out: lower it. Top wider than the bottom: lower Trapezoid X. Leaning: Skew. Machine Settings › Galvo; mark again until it measures right.	Laser › Galvo-lenstestpatroon voegt een vierkant toe op 80 % van het veld; markeer het op laag vermogen en meet het. Te klein: verhoog Schalen. Zijden naar binnen gebogen: verhoog Bolling; naar buiten: verlaag haar. Boven breder dan onder: verlaag Trapezium X. Scheef: Scheeftrekken. Machine-instellingen › Galvo; markeer opnieuw tot de maat klopt.
+Connect a GRBL laser over Wi-Fi or Ethernet	Een GRBL-laser verbinden via wifi of ethernet
+FluidNC and grblHAL boards speak Telnet (port 23): Machine Settings › GRBL network address, then pick “GRBL (network…)” and Connect. In the browser, run GBurn Link on this computer first.	FluidNC- en grblHAL-kaarten spreken Telnet (poort 23): Machine-instellingen › GRBL-netwerkadres, kies dan „GRBL via het netwerk (FluidNC, grblHAL)” en Verbinden. Start in de browser eerst GBurn Link op deze computer.
+Use a rotary	Een rotary gebruiken
+Machine Settings › Rotary on Y: the Y travel per full turn (jog to check) and the object's diameter. Y is scaled so the design wraps the object; X stays as drawn.	Machine-instellingen › Rotary op Y: de Y-verplaatsing per volle omwenteling (jog om te controleren) en de diameter van het object. Y wordt geschaald zodat het ontwerp om het object heen past; X blijft zoals getekend.
+Find the focus (Z axis lasers)	De focus vinden (lasers met Z-as)
+Material Test with Z offset down the side (for example −2 to 2 mm, 9 rows) and one power: the sharpest row's Z is the focus. Then set the layer's Z offset, or move the bed.	Materiaaltest met Z-offset omlaag (bijvoorbeeld −2 tot 2 mm, 9 rijen) en één vermogen: de Z van de scherpste rij is de focus. Stel daarna de Z-offset van de laag in, of verplaats het bed.
+Frame with a red-dot pointer that sits beside the beam	Kaderen met een rode-stippointer naast de straal
+Laser › Machine Settings › Red-dot pointer: how far the dot is from the beam, X and Y in mm (measure it: fire a dot, move the head until the pointer is on it, read the move). Frame then runs the dot round the design.	Laser › Machine-instellingen › Rode pointer: hoe ver de stip van de straal zit, X en Y in mm (meet het: vuur een stip, beweeg de kop tot de pointer erop staat, lees de verplaatsing af). Kader laat dan de stip rond het ontwerp lopen.
+Make the time estimate match my machine	De tijdschatting laten kloppen met mijn machine
+Laser › Machine Settings › Time estimate ×: if jobs take 20 % longer than the estimate, type 1.2.	Laser › Machine-instellingen › Tijdschatting ×: als taken 20 % langer duren dan geschat, typ 1.2.
+Add my own G-code buttons	Mijn eigen G-code-knoppen toevoegen
+Laser › Machine Settings › Macros: + Macro, a name and the lines to send. The buttons appear under the Console in the Laser tab (GRBL, not mid-job). Start / End G-code there go round every job.	Laser › Machine-instellingen › Macro's: + Macro, een naam en de te sturen regels. De knoppen verschijnen onder de Console in de Laser-tab (GRBL, niet tijdens een taak). Start- / Eind-G-code daar komen rond elke taak.
+Find the spot (Fire)	De plek vinden (Vuren)
+Machine Settings › Fire button, then Fire in the Laser panel: a short low-power pulse (GRBL). Eye protection on. Ruida: the Pulse key on the machine.	Machine-instellingen › Vuurknop, dan Vuren in het laserpaneel: een korte puls op laag vermogen (GRBL). Laserbril op. Ruida: de Pulse-toets op de machine.
+Choose where the laser starts	Kiezen waar de laser begint
+Laser panel › Start from: Bed (absolute) = the design burns where it sits on the bed; Current position = it starts where the head is now (LightBurn's Current Position) (pick the job origin on the 3 × 3 grid: which corner, edge or the centre); User origin = a saved spot (Set origin). An orange cross shows the job origin on the canvas.	Laserpaneel › Starten vanaf: Bed (absoluut) = het ontwerp brandt waar het op het bed ligt; Huidige positie = het begint waar de kop nu is (LightBurns Current Position) (kies de taakoorsprong in het 3 × 3-raster: welke hoek, rand of het midden); Gebruikersoorsprong = een opgeslagen plek (Oorsprong zetten). Een oranje kruis toont de taakoorsprong op het canvas.
+Set a user origin	Een gebruikersoorsprong zetten
+Jog the head to the spot and press Set origin (Laser panel), or right-click the canvas › Set the user origin here. Machine Settings › Start from › User origin puts the job's origin point there.	Jog de kop naar de plek en druk op Oorsprong zetten (laserpaneel), of rechtsklik op het canvas › Gebruikersoorsprong hier zetten. Machine-instellingen › Starten vanaf › Gebruikersoorsprong legt het oorsprongspunt van de taak daar.
+Start the job where the head is	De taak starten waar de kop is
+Laser › Machine Settings › Start from: Current position, with a job origin (bottom-left, centre…). Jog the head to that spot on the material and Start; the G-code sets it with G92.	Laser › Machine-instellingen › Starten vanaf: Huidige positie, met een taakoorsprong (linksonder, midden…). Jog de kop naar die plek op het materiaal en Start; de G-code zet hem met G92.
+Frame the job	De taak kaderen
+Frame traces the outline of the design (or the selection) with the beam off, so you can place the material.	Kader volgt de omtrek van het ontwerp (of de selectie) met de straal uit, zodat je het materiaal kunt plaatsen.
+Burn the design	Het ontwerp branden
+Start sends the job. Pause / Resume (Space) and Stop are always in the panel; Stop resets the controller.	Start verstuurt de taak. Pauze / hervatten (spatie) en Stop staan altijd in het paneel; Stop reset de controller.
+See the order and the time	De volgorde en de tijd bekijken
+P previews the job: strokes in their layer colours, travel dashed, a time estimate from your machine settings.	P toont een voorbeeld van de taak: banen in hun laagkleuren, verplaatsingen gestippeld, een tijdschatting uit je machine-instellingen.
+Simulate the job	De taak simuleren
+In Preview, ▶ plays the job at 1×, 4× or 16× real time: the head moves along the strokes, travel dashed, the clock and the stroke count above. Drag the slider to any moment.	In Voorbeeld speelt ▶ de taak af op 1×, 4× of 16× echte tijd: de kop beweegt langs de banen, verplaatsingen gestippeld, de klok en het aantal banen erboven. Sleep de schuif naar elk moment.
+Watch the job (simulation)	De taak bekijken (simulatie)
+Preview (P, or the switch at the top) shows the job; the bar under the canvas plays it. Speed − / + steps from ¼× to 256× real time (the slider goes in between); drag the long slider to any moment.	Voorbeeld (P, of de schakelaar bovenaan) toont de taak; de balk onder het canvas speelt hem af. Snelheid − / + stapt van ¼× tot 256× echte tijd (de schuif gaat ertussen); sleep de lange schuif naar elk moment.
+See how it might look on wood	Zien hoe het op hout zou kunnen ogen
+Preview › the bar's last list: Birch plywood, Maple, Cherry, Walnut, Bamboo, MDF, Cork, Cardboard, Leather, Slate, anodised aluminium, acrylic. Fills show as solid areas, darker where the power is high for the speed. A rough guide: run a Material Test on the real thing.	Voorbeeld › de laatste lijst van de balk: Berkenmultiplex, Esdoorn, Kersen, Notenhout, Bamboe, MDF, Kurk, Karton, Leer, Leisteen, geanodiseerd aluminium, acryl. Vullingen verschijnen als volle vlakken, donkerder waar het vermogen hoog is voor de snelheid. Een ruwe gids: doe een Materiaaltest op het echte materiaal.
+Burn only part of the design	Slechts een deel van het ontwerp branden
+Select the shapes and tick “Burn only the selected shapes” in the Laser panel; Frame follows the selection too. Machine Settings › Frame: the box or the outline (hull).	Selecteer de vormen en vink „Alleen gekozen vormen branden” aan in het laserpaneel; Kader volgt dan ook de selectie. Machine-instellingen › Kader: het kader of de omtrek (omhulling).
+Burn one part where the head is	Eén onderdeel branden waar de kop is
+Select the part, tick “Burn only the selected shapes”, Laser tab › Start from: Current position, and tick “of the selection” by the job origin: the job origin comes from that part's box.	Selecteer het onderdeel, vink „Alleen gekozen vormen branden” aan, Laser-tab › Starten vanaf: Huidige positie, en vink „van de selectie” aan bij de taakoorsprong: de taakoorsprong komt van het kader van dat onderdeel.
+Move the head to an exact spot	De kop naar een exacte plek bewegen
+Laser tab › Go to X / Y: type X and Y, Go (beam off). Right-click › Move the laser here does the same for a spot on the canvas.	Laser-tab › Ga naar X / Y: typ X en Y, Ga (straal uit). Rechtsklik › Laser hierheen bewegen doet hetzelfde voor een plek op het canvas.
+Save head positions I go back to	Kopposities opslaan om naar terug te gaan
+Laser tab › Spots › + Save here remembers where the head is; the numbered buttons go back there (beam off).	Laser-tab › Posities › + Hier opslaan onthoudt waar de kop is; de genummerde knoppen gaan er weer heen (straal uit).
+Change speed or power mid-job	Snelheid of vermogen tijdens de taak wijzigen
+GRBL lasers: the Speed and Power − / + under Start change the running job by 10 % at once (100 puts it back). Laser › GRBL Settings ($$) reads and writes the controller's settings.	GRBL-lasers: Snelheid en Vermogen − / + onder Start wijzigen de lopende taak meteen met 10 % (100 zet het terug). Laser › GRBL-instellingen ($$) leest en schrijft de instellingen van de controller.
+Run a G-code file from another program	Een G-code-bestand uit een ander programma uitvoeren
+Connect a GRBL laser, then Laser › Run a G-code File…, pick the file and press Start in its box. It goes as it is.	Verbind een GRBL-laser, dan Laser › G-code-bestand uitvoeren…, kies het bestand en druk op Start in het venster. Het gaat ongewijzigd.
+Export for another program	Exporteren voor een ander programma
+File › Export G-code (GRBL, mm, M4) or Export SVG. LightBurn, SVG and DXF files import.	Bestand › G-code exporteren (GRBL, mm, M4) of Exporteren › SVG. LightBurn-, SVG- en DXF-bestanden worden geïmporteerd.
+See the material on the bed (camera)	Het materiaal op het bed zien (camera)
+Laser › Camera Overlay…: Take a photo (browser camera above the bed) or Load a photo (a phone shot from above). Click the bed corners, or four marks you burnt, in order and type where they are; Place on the bed. The photo lies under the design, never burnt; the marks are kept, so the next photo goes straight on.	Laser › Camera-overlay…: Foto maken (browsercamera boven het bed) of Foto laden (een telefoonfoto van bovenaf). Klik de hoeken van het bed, of vier gebrande markeringen, op volgorde aan en typ waar ze liggen; Op het bed plaatsen. De foto ligt onder het ontwerp en wordt nooit gebrand; de markeringen blijven bewaard, dus de volgende foto past meteen.
+Line up on a photo of the bed	Uitlijnen op een foto van het bed
+Draw › Background Photo: a picture on a layer that never burns. Size and place it to match the bed or the object, lock it (⌘L), design on top.	Tekenen › Achtergrondfoto: een afbeelding op een laag die nooit brandt. Pas maat en plek aan het bed of het object aan, vergrendel hem (⌘L), ontwerp erbovenop.
+Cut round a printed sheet (Print & Cut)	Rond een geprint vel snijden (Printen & snijden)
+Laser › Print & Cut: put two marks in the design (small crosses or circles near opposite corners), print it, lay the sheet on the bed. Select mark 1, Use the selection; same for mark 2. Jog the laser onto the real mark 1, press Laser is on it; same for mark 2. Align turns and moves the whole design onto the sheet. Frame to check, then Start.	Laser › Printen & snijden: zet twee markeringen in het ontwerp (kleine kruisjes of cirkels bij tegenoverliggende hoeken), print het, leg het vel op het bed. Selecteer markering 1, Selectie gebruiken; hetzelfde voor markering 2. Jog de laser op de echte markering 1, druk op Laser staat erop; hetzelfde voor markering 2. Uitlijnen draait en verplaatst het hele ontwerp op het vel. Kader om te controleren, dan Start.
+Find the centre of a round part	Het midden van een rond onderdeel vinden
+Laser › Centre Finder…: jog the head to three points on the part's edge, pressing Here at each; it shows the centre and diameter. Move the head there, or set the user origin there and Start from the user origin.	Laser › Middelpuntzoeker…: jog de kop naar drie punten op de rand van het onderdeel en druk telkens op Hier; hij toont het midden en de diameter. Kop daarheen bewegen, of zet daar de gebruikersoorsprong en start vanaf de gebruikersoorsprong.
+User Manual	Gebruikershandleiding
+Search: power, text, connect, frame…	Zoeken: vermogen, tekst, verbinden, kader…
+Work area	Werkgebied
+Motion	Beweging
+Framing and safety	Kaderen en veiligheid
+Galvo	Galvo
+Path	Pad
+Lead-ins	Inlopen
+Effects	Effecten
+Timing and Z	Timing en Z
+Lines	Lijnen
+Privacy policy	Privacybeleid
+Usage and problem reports	Gebruik en probleemmeldingen
+To make {app} better, it sends which features get used and a short report when something goes wrong: the error message, the app's version and your platform, and your account if you're signed in.	Om {app} beter te maken, stuurt het welke functies gebruikt worden en een korte melding als er iets misgaat: de foutmelding, de app-versie en je platform, en je account als je bent ingelogd.
+Never your designs, file names or paths. Problem reports are kept for 30 days.	Nooit je ontwerpen, bestandsnamen of paden. Probleemmeldingen worden 30 dagen bewaard.
+Help improve {app}: send usage and problem reports	Help {app} verbeteren: gebruik en probleemmeldingen versturen
+Delete my data	Mijn gegevens verwijderen

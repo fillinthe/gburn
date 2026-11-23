@@ -1,0 +1,1176 @@
+# GBurn interface: English	translation
+Before you start	시작 전 확인
+Cancel	취소
+Start	시작
+A job is running: closing stops the laser.	작업 실행 중입니다: 닫으면 레이저가 멈춥니다.
+Don't save	저장 안 함
+Save	저장
+Stop and close	정지 후 닫기
+Designs in your account	계정의 디자인
+Delete	삭제
+Open	열기
+Back to the start	처음으로
+Speed	속도
+Lines (by layer colour)	선 (레이어 색상별)
+Start here	여기서 시작
+Save as a picture…	이미지로 저장…
+Corner radius	모서리 반경
+File	파일
+Open Recent	최근 파일
+Export	내보내기
+Edit	편집
+Select…	선택…
+Arrange	배치
+Align	정렬
+Move to the Bed's…	베드 위치로 이동…
+Shapes	도형
+Simplify (fewer points)	단순화 (점 줄이기)
+Draw a Shape	도형 그리기
+Laser	레이저
+View	보기
+Help	도움말
+GBurn	GBurn
+Save the job as G-code (File › Export has .rd, LightBurn, SVG, DXF)	작업을 G-code로 저장 (파일 › 내보내기에 .rd, LightBurn, SVG, DXF 있음)
+How Do I…?	사용 방법
+Support GBurn: donate (opens gburn.app)	GBurn 후원: 기부 (gburn.app 열기)
+Show the side panel	사이드 패널 표시
+Properties	속성
+Cuts	컷
+Cuts / Layers	컷 / 레이어
+Add a layer	레이어 추가
+Text	텍스트
+Height	높이
+Bold	굵게
+Offset	오프셋
+Bed	베드
+Machine Settings: speeds, the controller, the rotary…	장비 설정: 속도, 컨트롤러, 로터리…
+Machine	장비
+Size	크기
+Design	디자인
+Part of the design is off the bed	디자인 일부가 베드 밖에 있습니다
+Centre the design	디자인을 중앙으로
+Fit the view	화면에 맞추기
+0,0 is the bed's front-left corner. With Start from › Bed the design burns where it sits here; the grid follows the zoom.	0,0은 베드의 왼쪽 앞 모서리입니다. 시작 위치 › 베드이면 디자인이 여기 놓인 위치에 가공됩니다. 그리드는 확대/축소를 따릅니다.
++ Sub-layer	+ 하위 레이어
+Remove	제거
+Duplicate	복제
+Copy settings	설정 복사
+Paste	붙여넣기
+Make default	기본값으로
+Reset	초기화
+Mode	모드
+Power	출력
+Passes	패스 수
+Frequency	주파수
+kHz (galvo)	kHz (갈바노)
+Pulse width	펄스 폭
+ns (MOPA)	ns (MOPA)
+Own timings	개별 타이밍
+Pause	일시 정지
+ms	ms
+Repeat all	전체 반복
+× with sub-layers	× 하위 레이어 포함
+Z offset	Z 오프셋
+mm Z, − down	mm Z, − 아래로
+Constant power	일정 출력
+M3 (GRBL)	M3 (GRBL)
+Z per pass	패스당 Z
+mm each pass	mm 패스마다
+Kerf offset	커프 보정
+mm (+ out, − in)	mm (+ 바깥, − 안쪽)
+Tabs	탭
+mm	mm
+Tabs on holes	구멍에도 탭
+Inner first	안쪽 먼저
+Lead-in	리드인
+arc	원호
+Lead angle	리드 각도
+° off square	° 직각에서
+Overcut	오버컷
+Lead-out	리드아웃
+Cut through	관통
+% while paused	% 정지 중
+Direction	방향
+Wobble	워블
+mm Ø, step	mm Ø, 간격
+Dot mode	도트 모드
+ms, mm	ms, mm
+Perforation	타공
+mm on, off	mm 켬, 끔
+Min power	최소 출력
+% in corners	% 모서리에서
+Image mode	이미지 모드
+Negative	반전
+Overscan	오버스캔
+Auto	자동
+mm each end	mm 양 끝
+Dot width	도트 폭
+mm correction	mm 보정
+One way	단방향
+one direction	한 방향만
+Pass-through	그대로 통과
+as is	그대로
+Clean up	정리
+passes at	패스마다, 출력
+Line interval	라인 간격
+Turn per pass	패스마다 회전
+° each pass	° 패스마다
+each job	작업마다
+Fill shapes	채울 도형
+part by part	파트별
+Flood fill	영역 채우기
+area by area	영역별
+Even lines	균등 라인
+spread to fit	폭에 맞춤
+Edge loops	가장자리 루프
+gap	간격
+Fill inset	채우기 안쪽 여백
+mm inside	mm 안쪽
+Cross-hatch	크로스 해치
+Ramp	램프
+mm fade-in	mm 페이드인
+Scan angle	스캔 각도
+Air assist	에어 어시스트
+Output	가공 출력
+Show	표시
+Material	재료
+Presets…	프리셋…
+None saved yet	저장된 항목 없음
+Save…	저장…
+Unlink	연결 해제
+Scale	배율
+% (Enter: about the anchor)	% (Enter: 기준점 기준)
+Rotate	회전
+° (Enter: about the anchor)	° (Enter: 기준점 기준)
+Skew	기울이기
+° across	° 가로
+° up (Enter)	° 세로 (Enter)
+% of the layer's power	% 레이어 출력 대비
+Cut priority	컷 우선순위
+lower burns first	낮을수록 먼저 가공
+Sides	변 개수
+Star	별
+Second star	이중 별
+Resample to the scan DPI	스캔 DPI로 리샘플
+Brightness	밝기
+Contrast	대비
+Gamma	감마
+Sharpen	선명하게
+Denoise	노이즈 제거
+Halftone	하프톤
+mm cell	mm 셀
+As it will burn	가공 미리보기
+Name	이름
+optional	선택 사항
+Edit text…	텍스트 편집…
+Reverse	방향 반전
+Click a point of the selected shape to edit it	선택한 도형의 점을 클릭하여 편집합니다
+Same X	X 맞추기
+Same Y	Y 맞추기
+Delete points	점들 삭제
+Delete point	점 삭제
+Break here	여기서 끊기
+Straight	직선
+Curve	곡선
+Round corner	모서리 둥글게
+Sharp corner	모서리 뾰족하게
+Next ▸	다음 ▸
+machine	장비
+Find	찾기
+Unlock	잠금 해제
+Use it	사용
+Door open: the laser won't run until it is closed	문 열림: 닫을 때까지 레이저가 작동하지 않습니다
+Go to…	이동…
+Set origin	원점 설정
+To origin	원점으로
+Clear origin	원점 지우기
+To selection	선택 영역으로
+Fire	발사
+Spots	위치 메모
++ Save here	+ 여기 저장
+Clear	지우기
+Go to X	X로 이동
+Y	Y
+Go	이동
+Burn only the selected shapes	선택한 도형만 가공
+Step	스텝
+Hold to move	누르는 동안 이동
+Arrow keys	화살표 키
+Console	콘솔
+Start from	시작 위치
+of the selection	선택 영역의
+Stop	정지
+Frame	프레임
+No laser connected:	레이저 연결 안 됨:
+Connect	연결
+Laser tab	레이저 탭
+Welcome to GBurn	GBurn에 오신 것을 환영합니다
+Design on the left, cut settings on the right, and the laser at the bottom of the panel.	왼쪽은 디자인, 오른쪽은 컷 설정, 패널 아래쪽은 레이저입니다.
+Nothing fires until you press Start. Frame traces the outline with the beam off.	시작을 누르기 전에는 발사하지 않습니다. 프레임은 빔을 끈 채 외곽을 따라갑니다.
+Got it	확인
+Restore unsaved work?	저장하지 않은 작업을 복원할까요?
+Discard	버리기
+Restore	복원
+Words	문구
+Font	글꼴
+Liberation Sans (built in)	Liberation Sans (내장)
+Looking for this computer's fonts…	이 컴퓨터의 글꼴을 찾는 중…
+Search fonts	글꼴 검색
+Font file…	글꼴 파일…
+Spacing	자간
+%  Line gap ×	%  행간 ×
+When the words change, keep the	문구가 바뀌면 고정할 위치
+Width	너비
+%  Slant	%  기울기
+Fit to	맞출 폭
+width	너비만
+whole	전체
+Along the selected shape	선택한 도형을 따라
+moved	이동
+inside	안쪽
+bend letters	글자 구부리기
+UPPER CASE	대문자
+Right to left	오른쪽에서 왼쪽
+Weld the letters (one outline: script fonts, no double burns where letters overlap)	글자 용접 (하나의 외곽선: 필기체 글꼴, 글자가 겹쳐도 두 번 태우지 않음)
+Variable text: {n} = serial, {n:4} padded, {date}, {date:%d/%m/%Y}, {time}. Next number	가변 텍스트: {n} = 일련번호, {n:4} 0 채움, {date}, {date:%d/%m/%Y}, {time}. 다음 번호
+step	증가
+After	최대
+start again from	초과 시 다시 시작할 값
+Data file (CSV)…	데이터 파일 (CSV)…
+Controller Settings	컨트롤러 설정
+The Ruida's own settings. Save a backup before changing anything: a wrong value can stop the machine moving properly. Each write is read back.	Ruida 자체 설정입니다. 변경 전에 백업을 저장하세요. 잘못된 값은 장비가 제대로 움직이지 않게 할 수 있습니다. 쓸 때마다 다시 읽어 확인합니다.
+Sure?	확실합니까?
+Write	쓰기
+Read again	다시 읽기
+Save a backup	백업 저장
+Controller Files	컨트롤러 파일
+Jobs kept on the Ruida, to run from its panel or from here.	Ruida에 저장된 작업. 본체 패널이나 여기서 실행합니다.
+Reading…	읽는 중…
+No files on the controller	컨트롤러에 파일 없음
+Send this design	이 디자인 보내기
+Refresh	새로 고침
+Controller Info	컨트롤러 정보
+GRBL Settings	GRBL 설정
+Waiting for the controller's $$…	컨트롤러의 $$ 기다리는 중…
+Written straight to the controller. Note the old value first.	컨트롤러에 바로 씁니다. 먼저 기존 값을 적어 두세요.
+QR Code / Barcode	QR 코드 / 바코드
+text under	아래에 문자
+Narrowest bar	최소 바 폭
+Add	추가
+Undo History	실행 취소 기록
+Click a step to go back to just before it; undone steps (dim) come back the same way.	단계를 클릭하면 그 직전으로 돌아갑니다. 취소한 단계(흐리게)도 같은 방법으로 되돌립니다.
+● now	● 현재
+Shapes Library	도형 라이브러리
+My art	내 아트
+name	이름
+Save the selection	선택 영역 저장
+Add files…	파일 추가…
+Nothing saved yet: select shapes, name them, Save the selection.	저장된 항목 없음: 도형을 선택하고 이름을 붙인 뒤 선택 영역을 저장하세요.
+Notes	메모
+Saved with the design: the material, settings that worked, anything.	디자인과 함께 저장: 재료, 잘 된 설정 등 무엇이든.
+Templates	템플릿
+Start a new design from one: its layers, settings and shapes.	템플릿으로 새 디자인 시작: 레이어, 설정, 도형 포함.
+The coaster (sample)	코스터 (샘플)
+Save this design	이 디자인 저장
+Run a G-code File	G-code 파일 실행
+Sent as it is: GBurn's start position and Start / End G-code don't apply.	그대로 전송: GBurn의 시작 위치와 시작 / 종료 G-code는 적용되지 않습니다.
+Connect a GRBL laser (Laser tab)	GRBL 레이저 연결 (레이저 탭)
+Camera Overlay	카메라 오버레이
+Show the overlay	오버레이 표시
+Take a photo	사진 찍기
+Load a photo…	사진 불러오기…
+Click the four points below on the photo, in order (a fifth click starts again). Corners of the bed, or four marks you burnt.	사진에서 아래 네 점을 순서대로 클릭합니다(다섯 번째 클릭은 다시 시작). 베드 모서리 또는 태워 둔 네 표시.
+No photo yet.	아직 사진 없음.
+Lens bend	렌즈 왜곡
+Place on the bed	베드에 배치
+Forget the marks	표시 지우기
+The marks are kept: with the camera in the same place, a new photo goes straight onto the bed.	표시는 유지됩니다: 카메라가 같은 위치면 새 사진이 바로 베드에 놓입니다.
+Virtual Array	가상 배열
+Grid	그리드
+Circle	원형
+Copies	복사본 수
+Round X, Y	중심 X, Y
+centre	중심
+of it	기준
+Live copies: change or move the original and they follow. They burn as real shapes.	실시간 복사본: 원본을 바꾸거나 옮기면 따라갑니다. 실제 도형으로 가공됩니다.
+Make the copies real	복사본을 실제로 만들기
+Bend / Taper	구부리기 / 테이퍼
+Bend	구부리기
+° of arc, − sags	° 호, − 아래로 처짐
+Top width	위쪽 너비
+% of the bottom	% 아래쪽 대비
+Apply to the selection	선택 영역에 적용
+Text in an arc, labels for tapered cups. Curves become fine lines.	호를 따라 쓴 글자, 테이퍼 컵 라벨용. 곡선은 잘게 나눈 선이 됩니다.
+Centre Finder	중심 찾기
+Jog the head (red dot) to three points on the edge of a round part, pressing Here at each.	헤드(빨간 점)를 원형 부품 가장자리의 세 점으로 옮기고 각각 여기를 누르세요.
+Here	여기
+Move the head there	헤드를 그곳으로 이동
+Set the user origin there	그곳을 사용자 원점으로 설정
+The three points are in a line: pick points further apart round the edge	세 점이 일직선입니다: 가장자리를 따라 더 떨어진 점을 고르세요
+Print & Cut	인쇄 후 컷
+Two marks printed with the design, near opposite corners, line the cut up with the sheet.	디자인과 함께 반대쪽 모서리 근처에 인쇄한 두 표시로 컷을 용지에 맞춥니다.
+Use the selection	선택 영역 사용
+Laser is on it	레이저가 위치함
+Scale to the marks (printers stretch a little)	표시에 맞춰 배율 조정 (프린터는 약간 늘어남)
+Align the design	디자인 맞추기
+Polygon / Star	다각형 / 별
+Radius	반지름
+Inner radius %	안쪽 반지름 %
+Second star %	이중 별 %
+0 = none	0 = 없음
+Both ways (out and in)	양방향 (바깥과 안쪽)
+Round corners	모서리 둥글게
+sharp	뾰족하게
+bevel (cut across)	모따기 (비스듬히)
+All together (overlaps join up)	모두 함께 (겹침은 합침)
+Delete the originals	원본 삭제
+Apply	적용
+Grid Array	그리드 배열
+Every other row	한 행 걸러
+Every other column	한 열 걸러
+Each copy	각 복사본
+Variable text counts up	가변 텍스트 번호 증가
+Make copies	복사본 만들기
+Resize Slots	슬롯 크기 변경
+Slots and tabs sized for one material thickness, made right for another (straight, square corners)	한 재료 두께용 슬롯과 탭을 다른 두께에 맞게 조정 (직선, 직각 모서리)
+Resize	크기 변경
+Boolean Assistant	불리언 도우미
+Each result for the selection (the first picked is “the first”). Click one to keep it.	선택 영역의 각 결과(처음 고른 것이 “첫 번째”). 남길 것을 클릭하세요.
+Nothing: select closed shapes that overlap	없음: 겹치는 닫힌 도형을 선택하세요
+Speed and power come from the current layer	속도와 출력은 현재 레이어에서 가져옵니다
+Make the test	테스트 만들기
+Close and Optimize	닫기 및 최적화
+Close open paths whose ends are within	끝점이 이 거리 안인 열린 경로 닫기
+Close	닫기
+Optimize: fewer points, within	최적화: 점 줄이기, 허용 오차
+Optimize	최적화
+Smooth wavy or jagged outlines (traced pictures) by	물결치거나 들쭉날쭉한 외곽선(트레이스한 이미지)을 부드럽게:
+Smooth	부드럽게
+Bridges	브리지
+Gaps across the selected shapes, so stencil islands stay attached	선택한 도형을 가로지르는 틈. 스텐실 섬이 떨어지지 않습니다
+Add bridges	브리지 추가
+Circular Array	원형 배열
+Copies go round a point that far below the selection's centre, each turned to face it.	선택 영역 중심에서 그만큼 아래의 점을 중심으로 복사본을 돌려 놓고, 각각 중심을 향하게 합니다.
+Copy Along Path	경로 따라 복사
+Turn each copy with the path	각 복사본을 경로에 맞춰 회전
+Select the object and the path: the shape with the longest outline is the path. Copies are spread end to end (evenly round a closed path).	개체와 경로를 선택하세요: 외곽선이 가장 긴 도형이 경로입니다. 복사본은 끝에서 끝까지 배치됩니다(닫힌 경로는 균등하게 한 바퀴).
+Material Test	재료 테스트
+to	~
+Rows	행
+Columns	열
+Cell size	셀 크기
+Make the grid	그리드 만들기
+Material Library	재료 라이브러리
+Empty. Set a layer up, then Material › Save… in its settings, or import a LightBurn .clb.	비어 있음. 레이어를 설정한 뒤 설정의 재료 › 저장…을 쓰거나 LightBurn .clb를 가져오세요.
+Find a material, thickness or setting…	재료, 두께, 설정 찾기…
+Use	사용
+Save the current layer…	현재 레이어 저장…
+Import .clb…	.clb 가져오기…
+Export .clb…	.clb 내보내기…
+Save to the Material Library	재료 라이브러리에 저장
+Birch plywood	자작 합판
+Thickness	두께
+mm (empty = any)	mm (비우면 = 모두)
+Description	설명
+through cut	절단
+Trace Picture	이미지 트레이스
+Outlines of the dark parts of the selected picture, as shapes on a new Line layer.	선택한 이미지의 어두운 부분 외곽선을 새 라인 레이어의 도형으로 만듭니다.
+Threshold	임계값
+Automatic	자동
+Trace the light parts	밝은 부분 트레이스
+Centerline	중심선
+single lines down the strokes	획 가운데 한 줄
+px (0.5 tight, 2 smooth)	px (0.5 정밀, 2 부드럽게)
+Ignore specks under	무시할 작은 점: 미만
+px²	px²
+Trace	트레이스
+Machine Settings	장비 설정
+Nova 63, Aurora 8…	Nova 63, Aurora 8…
+Save as a new machine	새 장비로 저장
+Bed width	베드 너비
+Bed height	베드 깊이
+Travel speed	이동 속도
+mm/s (beam off)	mm/s (빔 끔)
+Acceleration	가속도
+mm/s² cut / engrave (time estimate)	mm/s² 절단 / 각인 (시간 예측)
+Top speed X / Y	최고 속도 X / Y
+mm/s each axis, 0 = no limit (time estimate)	mm/s 축별, 0 = 제한 없음 (시간 예측)
+Corner slow-down	코너 감속
+mm, GRBL $11, 0 = off (time estimate)	mm, GRBL $11, 0 = 끔 (시간 예측)
+Full power S	최대 출력 S
+GRBL network address	GRBL 네트워크 주소
+e.g. 192.168.1.50 or fluidnc.local:23	예: 192.168.1.50 또는 fluidnc.local:23
+Ruida address	Ruida 주소
+Ruida home corner	Ruida 원점 모서리
+Galvo lens field	갈바노 렌즈 범위
+Fibre	파이버
+CO2	CO2
+Galvo correction	갈바노 보정
+Pick .cor file…	.cor 파일 선택…
+Flip X	X 반전
+Flip Y	Y 반전
+X per Y	Y당 X
+Cylinder	원통
+mirror mm	미러 mm
+curves across X	X 방향 곡면
+inside (concave)	안쪽 (오목)
+Galvo speed	갈바노 속도
+mm/s jumps	mm/s 점프
+Galvo delays	갈바노 지연
+µs	µs
+Baud rate	보드 레이트
+Absolute coordinates	절대 좌표
+Current position	현재 위치
+User origin	사용자 원점
+Job origin	작업 원점
+Fire button	발사 버튼
+% for ≈ 0.4 s	% 약 0.4초간
+Rotary on Y	Y축 로터리
+A axis	A축
+mm/turn, object Ø	mm/회전, 대상 Ø
+Test	테스트
+Taper warp	테이퍼 보정
+mm Ø left / right: a tapered tumbler	mm Ø 왼쪽 / 오른쪽: 테이퍼 텀블러
+Scanning offset	스캔 오프셋
+e.g. 100:0.05, 300:0.12	예: 100:0.05, 300:0.12
+speed (mm/s) : mm the return lines land off, for GRBL fills and pictures. Engrave a few lines at each speed, measure the step, type it here.	속도 (mm/s) : 돌아오는 선이 어긋나는 mm. GRBL 채우기와 이미지용. 속도마다 선 몇 개를 새기고 어긋남을 재서 여기 입력하세요.
+Time estimate ×	시간 예측 ×
+1.2 = jobs take 20 % longer than estimated	1.2 = 작업이 예측보다 20 % 더 걸림
+Cut order	컷 순서
+shortest travel (holes first)	최단 이동 (구멍 먼저)
+as drawn	그린 순서
+finish each group (part) before the next	그룹(파트)별로 마친 뒤 다음으로
+start shapes at a corner (hides the start mark)	도형을 모서리에서 시작 (시작 자국 숨김)
+fewer direction changes	방향 전환 줄이기
+hide backlash (every loop the same way round)	백래시 숨기기 (모든 루프를 같은 방향으로)
+Shared edges	공유 모서리
+cut once (remove overlapping lines)	한 번만 절단 (겹친 선 제거)
+the box	외접 사각형
+the outline (hull)	외곽 (볼록 껍질)
+keep framing until Stop	정지할 때까지 프레임 반복
+Job checklist	작업 체크리스트
+one item a line, ticked before every Start (e.g. Air on, Lid closed)	한 줄에 한 항목, 시작할 때마다 체크 (예: 에어 켬, 덮개 닫음)
+% beam while framing (GRBL diodes without a pointer; 0 = off)	% 프레임 중 빔 (포인터 없는 GRBL 다이오드용, 0 = 끔)
+Red-dot pointer	빨간 점 포인터
+X	X
+mm from the beam	mm 빔에서
+Connecting	연결 시
+home the machine	장비 원점 복귀
+After the job	작업 후
+go to X	X로 이동
+mm (GRBL)	mm (GRBL)
+Speed unit	속도 단위
+mm/s	mm/s
+mm/min	mm/min
+Power mode	출력 모드
+M4 dynamic	M4 다이내믹
+M3 constant	M3 일정
+S on every move	매 이동마다 S
+Machine 0,0	장비 0,0
+Swap X / Y	X / Y 바꾸기
+Blank moves as G0	빈 이동을 G0로
+Progress (M73)	진행률 (M73)
+M8	M8
+M7	M7
+Controller	컨트롤러
+Transfer	전송
+one line at a time (synchronous)	한 줄씩 (동기)
+Start G-code	시작 G-code
+before every job, e.g. M7	매 작업 전, 예: M7
+End G-code	종료 G-code
+after every job	매 작업 후
+Macros	매크로
+G-code	G-code
++ Macro	+ 매크로
+M4 scales power with speed through corners (GRBL laser mode, $32=1). Pick M3 only if your controller has no laser mode.	M4는 코너에서 속도에 맞춰 출력을 조절합니다(GRBL 레이저 모드, $32=1). 컨트롤러에 레이저 모드가 없을 때만 M3를 고르세요.
+Current position: jog the head to where the design's job origin should be, then Start. The job's G-code sets that point with G92 and clears it at the end.	현재 위치: 디자인의 작업 원점이 될 곳으로 헤드를 옮긴 뒤 시작하세요. 작업 G-code가 G92로 그 점을 설정하고 끝에서 해제합니다.
+Settings	설정
+Mouse and trackpad	마우스와 트랙패드
+Units	단위
+Guides: drag out of a ruler; drag one back onto the ruler to remove it. They snap.	가이드: 눈금자에서 끌어내고, 눈금자로 다시 끌면 삭제. 스냅됩니다.
+Pick within	선택 범위
+px, snap within	px, 스냅 범위
+px	px
+Save it…	저장…
+Arrow keys move	화살표 키 이동량
+mm (⇧ × 10)	mm (⇧ × 10)
+Machine Settings…	장비 설정…
+Keyboard Shortcuts…	단축키…
+Export / Import…	내보내기 / 가져오기…
+Keyboard Shortcuts	단축키
+Your shortcuts	내 단축키
+Find a command…	명령 찾기…
+Type to find a command, then Set and press its key.	입력해 명령을 찾은 뒤 설정을 누르고 키를 누르세요.
+About GBurn	GBurn 정보
+A sister app of GCarve (gcarve.app) and GSketch (gsketch.app).	GCarve(gcarve.app)와 GSketch(gsketch.app)의 자매 앱입니다.
+New	새로 만들기
+Import (SVG, DXF, PDF, LightBurn, picture)…	가져오기 (SVG, DXF, PDF, LightBurn, 이미지)…
+Save As…	다른 이름으로 저장…
+Notes…	메모…
+Print	인쇄
+Print in Black	흑백 인쇄
+Export Settings…	설정 내보내기…
+Import Settings…	설정 가져오기…
+Templates…	템플릿…
+Save to Account	계정에 저장
+Open from Account…	계정에서 열기…
+G-code (GRBL lasers)	G-code (GRBL 레이저)
+Ruida file (.rd, USB stick)	Ruida 파일 (.rd, USB 메모리)
+K40 file (.egv)	K40 파일 (.egv)
+LightBurn project (.lbrn2)	LightBurn 프로젝트 (.lbrn2)
+SVG (curves kept)	SVG (곡선 유지)
+DXF (for CAD)	DXF (CAD용)
+PDF (print at 100 %)	PDF (100 %로 인쇄)
+Processed picture (PNG)	처리된 이미지 (PNG)
+Undo History…	실행 취소 기록…
+Settings…	설정…
+Cut	잘라내기
+Copy	복사
+Paste in Place	제자리에 붙여넣기
+Select All	모두 선택
+Select All on This Layer	이 레이어 모두 선택
+Select None	선택 해제
+Invert the Selection	선택 반전
+Inside the Selection	선택 영역 안쪽
+Open Paths	열린 경로
+Open Paths on Fill Layers	채우기 레이어의 열린 경로
+Smaller Than the Selection	선택보다 작은 것
+Circles (or the selected one's size)	원 (또는 선택한 원과 같은 크기)
+Pictures	이미지
+Texts	텍스트
+Group	그룹
+Ungroup	그룹 해제
+Auto-Group	자동 그룹
+Lock	잠금
+Unlock All	모두 잠금 해제
+Move to the Current Layer	현재 레이어로 이동
+Mirror Left–Right	좌우 반전
+Mirror Up–Down	상하 반전
+Mirror Across a Line	선을 기준으로 반전
+Rotate 90° Left	왼쪽으로 90° 회전
+Two-Point Rotate / Scale	두 점 회전 / 배율
+Rotate 90° Right	오른쪽으로 90° 회전
+Distribute Across	가로 균등 배치
+Distribute Centres Across	가로 중심 균등 배치
+Distribute Centres Up	세로 중심 균등 배치
+Distribute Down	세로 균등 배치
+Dock Together Across	가로로 붙이기
+Dock Together Down	세로로 붙이기
+Same Width	같은 너비
+Same Size	같은 크기
+Same Height	같은 높이
+Centre on the Bed	베드 중앙에
+Fit to the Bed (scale)	베드에 맞추기 (배율)
+Move to the Laser's Position	레이저 위치로 이동
+Nest on the Bed	베드에 네스팅
+Nest by Shape	형상 네스팅
+Nest by Shape over Pages	여러 페이지에 형상 네스팅
+Edit Cut Order (click shapes in turn)	컷 순서 편집 (도형을 차례로 클릭)
+Cut First (in its layer)	먼저 절단 (레이어 안에서)
+Cut Last (in its layer)	나중에 절단 (레이어 안에서)
+One Place Earlier	한 단계 앞으로
+One Place Later	한 단계 뒤로
+Grid Array…	그리드 배열…
+Virtual Array…	가상 배열…
+Circular Array…	원형 배열…
+Copy Along Path…	경로 따라 복사…
+Union	합치기
+Subtract (first minus the rest)	빼기 (첫 도형에서 나머지 빼기)
+Intersect	교차
+Exclude (all but the overlap)	제외 (겹친 부분 외)
+Boolean Assistant…	불리언 도우미…
+Split with the First	첫 도형으로 분할
+Offset Shapes…	도형 오프셋…
+Round Corners…	모서리 둥글게…
+Trace Picture…	이미지 트레이스…
+Trace Several Picture Files…	여러 이미지 파일 트레이스…
+Cut the Picture to the Shape	이미지를 도형으로 자르기
+Turn Shapes into a Picture	도형을 이미지로 변환
+Background Photo (not burnt)…	배경 사진 (가공 안 함)…
+Replace the Picture…	이미지 교체…
+Replace the Picture to Fit…	이미지 교체 (맞추기)…
+Weld (keep holes)	용접 (구멍 유지)
+Join Open Paths	열린 경로 연결
+Close Paths	경로 닫기
+Close / Optimize Within…	범위 내 닫기 / 최적화…
+Extend Lines to the Next Shape	선을 다음 도형까지 연장
+Bridges…	브리지…
+Break Apart	분해
+Resize Slots…	슬롯 크기 변경…
+Tangent Circle (to 3 circles)	접원 (원 3개에)
+Path from the Cut	컷에서 경로 만들기
+Bend / Taper…	구부리기 / 테이퍼…
+Warp (4 corners)	왜곡 (모서리 4개)
+Deform (16 handles)	변형 (핸들 16개)
+Smooth into Curves	부드러운 곡선으로
+Outline Around (hull)	외곽선 두르기 (볼록 껍질)
+Outline Around (box)	외곽선 두르기 (사각형)
+Fine: within 0.02 mm	정밀: 0.02 mm 이내
+Medium: within 0.1 mm	보통: 0.1 mm 이내
+Coarse: within 0.5 mm	거칠게: 0.5 mm 이내
+Delete Duplicates and Specks	중복과 작은 점 삭제
+Polygon / Star…	다각형 / 별…
+Shapes Library…	도형 라이브러리…
+Text…	텍스트…
+Edit Text…	텍스트 편집…
+Convert Text to Shapes	텍스트를 도형으로 변환
+Bake the Variable Text	가변 텍스트 확정
+QR Code / Barcode…	QR 코드 / 바코드…
+Picture…	이미지…
+Home	원점 복귀
+Pause / Resume	일시 정지 / 재개
+Print & Cut…	인쇄 후 컷…
+Centre Finder…	중심 찾기…
+Camera Overlay…	카메라 오버레이…
+Save the Camera Capture…	카메라 캡처 저장…
+Galvo Lens Test Pattern	갈바노 렌즈 테스트 패턴
+Run a G-code File…	G-code 파일 실행…
+Cut Settings Editor…	컷 설정 편집기…
+Material Test…	재료 테스트…
+Scanning Offset Test	스캔 오프셋 테스트
+Focus Test…	초점 테스트…
+Interval Test…	간격 테스트…
+Material Library…	재료 라이브러리…
+Import Material Library (.clb)…	재료 라이브러리 가져오기 (.clb)…
+GRBL Settings ($$)…	GRBL 설정 ($$)…
+Get Controller Info…	컨트롤러 정보 가져오기…
+Controller Files…	컨트롤러 파일…
+Controller Settings…	컨트롤러 설정…
+Play / Pause the Simulation	시뮬레이션 재생 / 일시 정지
+Fit the Design	디자인에 맞추기
+Fit the Bed	베드에 맞추기
+Clear the Guides	가이드 지우기
+Flash the Layer's Shapes	레이어 도형 깜박이기
+Zoom to Selection	선택 영역 확대
+Zoom In	확대
+Zoom Out	축소
+Find a Command…	명령 찾기…
+Report a Bug…	버그 신고…
+Request a Change…	변경 요청…
+Documentation	문서
+GBurn Website	GBurn 웹사이트
+♥ Donate to GBurn…	♥ GBurn에 기부…
+text	텍스트
+import	가져오기
+extents	범위
+mtest	재료 테스트
+Text (T)	텍스트 (T)
+Import	가져오기
+Import SVG, DXF, LightBurn files or pictures (⌘I)	SVG, DXF, LightBurn 파일 또는 이미지 가져오기 (⌘I)
+Fit	맞춤
+Fit the design in the view (F)	디자인을 화면에 맞추기 (F)
+Test grid	테스트 격자
+Material test: a grid of speeds and powers	재료 테스트: 속도와 출력 그리드
+Disconnect	연결 끊기
+Start · rotary	시작 · 로터리
+Resume	재개
+Open from Computer…	컴퓨터에서 열기…
+Open…	열기…
+Download (.gburn)	다운로드 (.gburn)
+Account…	계정…
+Sign In…	로그인…
+Back to Design	디자인으로 돌아가기
+Preview the Job	작업 미리보기
+Mouse Wheel Zooms	마우스 휠로 확대/축소
+Mouse Wheel Pans (trackpad)	마우스 휠로 이동 (트랙패드)
+Hide the Grid	그리드 숨기기
+Show the Grid	그리드 표시
+Hide the Fills	채우기 숨기기
+Show the Fills	채우기 표시
+Shaded Fills	채우기 음영
+Solid Fills	채우기 단색
+Show Millimetres	밀리미터 표시
+Show Inches	인치 표시
+Show the Side Panel	사이드 패널 표시
+Hide the Side Panel	사이드 패널 숨기기
+Select	선택
+Click a shape; drag to move it; drag a corner to resize, the round dot to turn (⇧ 15° steps); drag on empty space to box-select	도형 클릭, 끌어서 이동, 모서리를 끌어 크기 변경, 둥근 점으로 회전(⇧ 15° 단위), 빈 곳을 끌어 영역 선택
+Nodes	노드
+Click a shape, drag its points; double-click a segment to add a point; ⌫ removes the picked point	도형을 클릭하고 점을 끌기, 선분을 더블클릭해 점 추가, ⌫로 선택한 점 삭제
+Rectangle	사각형
+Drag a rectangle (⇧ square, ⌥ from the centre)	사각형 끌기 (⇧ 정사각형, ⌥ 중심에서)
+Ellipse	타원
+Drag an ellipse (⇧ circle, ⌥ from the centre)	타원 끌기 (⇧ 원, ⌥ 중심에서)
+Polygon	다각형
+Drag from the centre out to a corner (⇧ 15° turns); sides and star in the Polygon box	중심에서 모서리로 끌기(⇧ 15° 단위), 변 개수와 별은 다각형 상자에서
+Line	선
+Click points (⇧ 15° steps); click the first point or press Enter to finish, Esc to drop it	점 클릭(⇧ 15° 단위), 첫 점 클릭 또는 Enter로 완료, Esc로 취소
+Measure	측정
+Drag between two points for the distance; point at a shape for its size, outline and area	두 점 사이를 끌면 거리, 도형을 가리키면 크기, 외곽 길이, 면적
+Trim	자르기
+Click a line between two crossings: that stretch is cut away (nothing crosses = the shape goes)	두 교차점 사이의 선 클릭: 그 구간이 잘려 나감 (교차 없음 = 도형 삭제)
+Pan	이동
+Drag to move the view; the wheel zooms	끌어서 화면 이동, 휠로 확대/축소
+Scale X / Y	배율 X / Y
+Bulge X / Y	볼록 X / Y
+Trapezoid X / Y	사다리꼴 X / Y
+× size	× 크기
++ sides bow out	+ 변이 바깥으로 휨
++ wider top / taller right	+ 위가 넓게 / 오른쪽이 높게
+Shade by power	출력별 음영
+Legend	범례
+Keep ratio	비율 유지
+shift ½	½ 밀기
+flip	뒤집기
+turned at random (¼ turns)	무작위 회전 (¼ 회전)
+Slot width (the sides move apart)	슬롯 폭 (옆면이 벌어짐)
+Slot depth (the bottom moves)	슬롯 깊이 (바닥이 이동)
+Tab height (the top moves)	탭 높이 (위가 이동)
+move the ends together	끝점 모으기
+straight lines only	직선만
+Language	언어
+Reverse the wheel's zoom	휠 확대/축소 방향 반전
+inches	인치
+Shade the fills in the design	디자인에서 채우기 음영 표시
+Snap to points, middles and centres	점, 중점, 중심에 스냅
+follows the zoom	확대/축소를 따름
+Join loose ends on import (within 0.05 mm)	가져올 때 떨어진 끝점 연결 (0.05 mm 이내)
+Beginner mode (only the basic cut settings)	초보자 모드 (기본 컷 설정만)
+Automation: other programs may open files here (UDP 19840, this computer only)	자동화: 다른 프로그램이 여기서 파일을 열 수 있음 (UDP 19840, 이 컴퓨터만)
+Back to Select after drawing a shape	도형을 그린 뒤 선택 도구로 돌아가기
+Crosshair across the canvas at the pointer	포인터 위치에 십자선 표시
+Cross at the bed's centre	베드 중앙에 십자 표시
+Show where the head last was after disconnecting	연결 끊은 뒤 마지막 헤드 위치 표시
+Group what's imported	가져온 것을 그룹으로
+Put imports in the middle of the bed	가져온 것을 베드 중앙에 배치
+Keep a job log	작업 기록 남기기
+Trackpad	트랙패드
+two fingers pan, pinch or ⌘ + scroll zooms, middle drag pans	두 손가락으로 이동, 핀치 또는 ⌘ + 스크롤로 확대/축소, 가운데 버튼 끌기로 이동
+Mouse	마우스
+the wheel zooms, ⇧ + wheel pans across, middle drag pans	휠로 확대/축소, ⇧ + 휠로 가로 이동, 가운데 버튼 끌기로 이동
+CAD	CAD
+the wheel zooms, right or middle drag pans in every tool	휠로 확대/축소, 모든 도구에서 오른쪽 또는 가운데 버튼 끌기로 이동
+Export G-code	G-code 내보내기
+Sign in	로그인
+Draw and set up the cuts	그리기와 컷 설정
+Preview	미리보기
+See the job and simulate it (P)	작업을 보고 시뮬레이션 (P)
+Job	작업
+cut	절단
+travel	이동
+Where the job starts	작업 시작 위치
+Move the head	헤드 이동
+Jog the head to where this point of the design should be, then Frame and Start.	디자인의 이 점이 올 곳으로 헤드를 옮긴 뒤 프레임과 시작을 누르세요.
+This point of the design goes to the saved user origin.	디자인의 이 점이 저장된 사용자 원점에 옵니다.
+bottom-left	왼쪽 아래
+bottom-centre	가운데 아래
+bottom-right	오른쪽 아래
+left	왼쪽
+right	오른쪽
+top-left	왼쪽 위
+top-centre	가운데 위
+top-right	오른쪽 위
+No travel	이동 안 보기
+Recent travel	최근 이동
+All travel	모든 이동
+Head	헤드
+Maple	단풍나무
+Cherry	체리
+Walnut	월넛
+Bamboo	대나무
+MDF	MDF
+Cork	코르크
+Cardboard	골판지
+Leather	가죽
+Slate	슬레이트
+Black anodised aluminium	흑색 아노다이징 알루미늄
+Black acrylic	검정 아크릴
+Clear acrylic	투명 아크릴
+Stainless steel (fibre)	스테인리스강 (파이버)
+Brass (fibre)	황동 (파이버)
+Black-painted metal (fibre)	검정 도장 금속 (파이버)
+Layer	레이어
+sub	하위
+Waiting…	대기 중…
+Snap	스냅
+Snap off	스냅 끔
+Page	페이지
+Line (follow the outline)	선 (외곽을 따라)
+Fill (scan the inside)	채우기 (안쪽 스캔)
+Image (picture)	이미지 (사진)
+Fill + Line (scan, then outline)	채우기 + 선 (스캔 후 외곽)
+Offset fill (concentric insets)	오프셋 채우기 (동심 안쪽 선)
+Dither (Floyd–Steinberg)	디더 (Floyd–Steinberg)
+Dither (Jarvis)	디더 (Jarvis)
+Dither (Stucki)	디더 (Stucki)
+Dither (Atkinson)	디더 (Atkinson)
+Sketch (edges)	스케치 (가장자리)
+3D slices (a level per pass)	3D 슬라이스 (패스마다 한 단)
+Ordered	규칙 디더
+Newsprint	신문 망점
+Grayscale (power)	그레이스케일 (출력)
+Laser head	레이저 헤드
+Ruida heads	Ruida 헤드
+Two laser heads	레이저 헤드 2개
+Both	둘 다
+…and may start a job (START)	…작업 시작도 허용 (START)
+Skip the tour	둘러보기 건너뛰기
+Back	뒤로
+Show me around	둘러보기
+Take the Tour	둘러보기 시작
+Done	완료
+Next	다음
+Tools	도구
+Draw rectangles, ellipses, polygons, lines and text here. Select moves and sizes shapes; Nodes edits their points.	여기서 사각형, 타원, 다각형, 선, 텍스트를 그립니다. 선택은 도형을 옮기고 크기를 바꾸며, 노드는 점을 편집합니다.
+The bed	베드
+Your design sits on the laser's bed. Drag a shape to move it, a corner to resize it; pinch or scroll to zoom. Files and pictures can be dropped here.	디자인은 레이저 베드 위에 있습니다. 도형을 끌어 옮기고 모서리로 크기를 바꾸며, 핀치나 스크롤로 확대/축소합니다. 파일과 이미지를 여기에 끌어다 놓을 수 있습니다.
+Layers	레이어
+Each colour is a layer with its own settings: Line cuts or scores the outline, Fill engraves the inside, Image burns pictures. Set the speed and power here.	색상마다 고유 설정을 가진 레이어입니다: 선은 외곽을 자르거나 긋고, 채우기는 안쪽을 각인하며, 이미지는 사진을 태웁니다. 속도와 출력은 여기서 설정합니다.
+See the whole job in the order it runs, with the travel and the time. Press ▶ to play it.	작업 전체를 실행 순서대로 이동과 시간까지 확인합니다. ▶를 눌러 재생하세요.
+Your laser	내 레이저
+Connect your laser here, or the simulated one to try things out. Move the head and choose where the job starts.	여기서 레이저를 연결하거나, 시뮬레이션 레이저로 시험해 보세요. 헤드를 움직이고 작업 시작 위치를 고릅니다.
+Frame, Start, Stop	프레임, 시작, 정지
+Frame traces the job's edges with the beam off, so you can check where it lands. Start burns; nothing fires before it. Stop is always here.	프레임은 빔을 끈 채 작업 외곽을 따라가 위치를 확인하게 합니다. 시작하면 가공하며, 그 전에는 발사하지 않습니다. 정지는 항상 여기 있습니다.
+Save As	다른 이름으로 저장
+File name	파일 이름
+Download	다운로드
+Save (download .gburn)	저장 (.gburn 다운로드)
+Draw	그리기
+Quit GBurn	GBurn 종료
+Exit	종료
+other	기타
+panel	패널
+Simulate	시뮬레이션
+kHz	kHz
+ns	ns
+Pause before	전 일시 정지
+Pause after	후 일시 정지
+mm / pass	mm / 패스
+per shape	도형별
+Tab length	탭 길이
+Wobble size	워블 크기
+mm Ø	mm Ø
+Wobble step	워블 간격
+Dot time	도트 시간
+Dot spacing	도트 간격
+Perforate: cut	타공: 절단
+Perforate: skip	타공: 건너뜀
+Clean up every	정리 주기
+passes	패스
+Clean-up power	정리 출력
+° / pass	° / 패스
+Open path	열린 경로
+Close path	닫힌 경로
+Make corner	모서리로
+Make smooth	부드럽게
+Click it…	클릭…
+On the camera	카메라에서
+Bed (absolute)	베드 (절대)
+the bed	베드
+the head	헤드
+the user origin	사용자 원점
+from	기준
+No laser connected	레이저 연결 안 됨
+Skew across	가로 기울이기
+Skew up	세로 기울이기
+Line gap	행간
+× height	× 높이
+Anchor	기준점
+Slant	기울기
+{n} = serial, {n:4} padded, {date}, {date:%d/%m/%Y}, {time}, {column} from a data file	{n} = 일련번호, {n:4} 0 채움, {date}, {date:%d/%m/%Y}, {time}, 데이터 파일의 {column}
+Next number	다음 번호
+Variable text	가변 텍스트
+Report…	신고…
+Report a Problem…	문제 신고…
+Save the Laser Log…	레이저 로그 저장…
+Red pointer pin	빨간 포인터 핀
+Find…	찾기…
+Find the Red Pointer Pin	빨간 포인터 핀 찾기
+Rotary	로터리
+These settings (not saved as a machine)	이 설정 (장비로 저장 안 됨)
+Your own step: the Laser tab	사용자 스텝: 레이저 탭
+Jogging	조그
+The jog pad is in the laser panel at the bottom, on every tab.	조그 패드는 아래쪽 레이저 패널에 있으며 모든 탭에서 쓸 수 있습니다.
+Connect your laser here, or the simulated one to try things out. The Laser tab has the device, Go to, spots and the console.	여기서 레이저를 연결하거나, 시뮬레이션 레이저로 시험해 보세요. 레이저 탭에 장치, 이동, 위치 메모, 콘솔이 있습니다.
+The laser panel	레이저 패널
+On every tab: the laser and where its head is, the jog pad, Frame (traces the job with the beam off), Start (nothing fires before it), Stop (always here) and where the job starts. The arrow folds it smaller.	모든 탭에서: 레이저와 헤드 위치, 조그 패드, 프레임(빔을 끈 채 작업을 따라감), 시작(그 전에는 발사 안 함), 정지(항상 여기), 작업 시작 위치. 화살표로 작게 접습니다.
+Position	위치
+Speed and power now	현재 속도와 출력
+Ruida (USB) or GRBL over USB: Connect, then pick the laser's port in the browser's list (Chrome, Edge, Brave). Ruida over the network needs GBurn Link on this computer (gburn.app/download/). The simulated laser runs any job here.	Ruida (USB) 또는 GRBL over USB: 연결을 누르고 브라우저 목록에서 레이저 포트를 고르세요(Chrome, Edge, Brave). 네트워크로 Ruida를 쓰려면 이 컴퓨터에 GBurn Link가 필요합니다(gburn.app/download/). 시뮬레이션 레이저는 어떤 작업이든 여기서 실행합니다.
+Ruida CO2 lasers (Thunder Nova, most CO2 cabinets): Ruida (USB) or Ruida (network). GRBL diode lasers: their serial port. Fibre galvos (EZCAD2): Galvo (EZCAD2 USB). Find looks for you. The simulated laser runs any job without a machine.	Ruida CO2 레이저(Thunder Nova, 대부분의 CO2 캐비닛형): Ruida (USB) 또는 Ruida (network). GRBL 다이오드 레이저: 해당 시리얼 포트. 파이버 갈바노(EZCAD2): Galvo (EZCAD2 USB). 찾기가 자동으로 찾아 줍니다. 시뮬레이션 레이저는 장비 없이 어떤 작업이든 실행합니다.
+Export .rd	.rd 내보내기
+Choose your machine…	장비 선택…
+Choose your machine	장비 선택
+Search: brand, model, 60w, fiber…	검색: 제조사, 모델, 60w, fiber…
+machines	대
+not supported yet	아직 지원 안 함
+Choose Your Machine…	장비 선택…
+From the makers' published specs: check the work area against your machine. Not listed? Set it up by hand below and Save as a new machine.	제조사 공개 사양 기준: 작업 영역을 실제 장비와 비교하세요. 목록에 없나요? 아래에서 직접 설정하고 새 장비로 저장하세요.
+Custom size	사용자 크기
+Matches	일치
+Tests	테스트
+Camera and alignment	카메라와 정렬
+Nest	네스팅
+mm/s² cut / engrave	mm/s² 절단 / 각인
+mm/s each axis	mm/s 축별
+% beam while framing	% 프레임 중 빔
+Every layer that has shapes has Output off: nothing will burn	도형이 있는 모든 레이어의 가공 출력이 꺼져 있습니다: 아무것도 가공되지 않습니다
+power is 0, the laser won't mark	출력이 0이라 레이저가 표시하지 않습니다
+speed is 0	속도가 0입니다
+The job reaches	작업이 다음만큼
+past the bed	베드 밖으로 나갑니다
+copy	복사본
+Layer duplicated	레이어 복제됨
+layer	레이어
+Review the job	작업 확인
+Starts from	시작 위치
+Time	시간
+Start burning	가공 시작
+Drop a file here	여기에 파일을 끌어다 놓기
+or draw a shape, press T for text, or open File › Templates…	또는 도형을 그리거나, T로 텍스트, 또는 파일 › 템플릿… 열기
+not connected	연결 안 됨
+mirror in	미러 in
+in/turn, object Ø	in/회전, 대상 Ø
+in Ø left / right: a tapered tumbler	in Ø 왼쪽 / 오른쪽: 테이퍼 텀블러
+Interface size	인터페이스 크기
+Review the job before it starts	시작 전에 작업 확인
+in (⇧ × 10)	in (⇧ × 10)
+Layers and settings	레이어와 설정
+Picture fade	이미지 흐리기
+Trace over it by hand	손으로 따라 그리기
+Check the size	크기 확인
+drawn, came out	그린 크기, 실제 크기
+Correct	보정
+The controller's acceleration (cut / engrave) is	컨트롤러의 가속도 (절단 / 각인):
+top speed	최고 속도
+UV	UV
+Invert power	출력 반전
+UV laser: its light is invisible. Wear glasses rated for 355 nm (fibre or green glasses don't protect) and keep the lid shut	UV 레이저: 빛이 보이지 않습니다. 355 nm 대응 보안경을 쓰고(파이버용이나 녹색 보안경으로는 보호되지 않음) 덮개를 닫아 두세요
+Stock thickness	재료 두께
+The xTool M1 burns where the design sits on the bed (Start from: Bed)	xTool M1은 베드 위 디자인 위치에 가공합니다 (시작 위치: 베드)
+No machine chosen	장비 선택 안 됨
+Preview: play the job or drag the time; P goes back to Design	미리보기: 작업을 재생하거나 시간을 끌기, P로 디자인으로 돌아감
+Draw on the canvas; the button at the top right opens the layers, cut settings and the laser.	캔버스에 그리세요. 오른쪽 위 버튼으로 레이어, 컷 설정, 레이저를 엽니다.
+Show all	모두 표시
+0 = read $30 from the laser	0 = 레이저에서 $30 읽기
+none	없음
+loaded	불러옴
+starts at the head	헤드에서 시작
+goes to the user origin	사용자 원점으로 이동
+Fill	채우기
+Image	이미지
+Fill+Line	채우기+선
+Simulated laser	시뮬레이션 레이저
+Ruida over USB (Thunder, most CO2)	USB 연결 Ruida (Thunder, 대부분의 CO2)
+Ruida over the network	네트워크 연결 Ruida
+Fibre galvo over USB (EZCAD2: Thunder Aurora…)	USB 연결 파이버 갈바노 (EZCAD2: Thunder Aurora…)
+Simulated fibre galvo	시뮬레이션 파이버 갈바노
+K40 over USB (M2 / M3 Nano board)	USB 연결 K40 (M2 / M3 Nano 보드)
+Simulated K40	시뮬레이션 K40
+xTool M1 over USB network (older firmware)	USB 네트워크 연결 xTool M1 (구형 펌웨어)
+GRBL over USB (diode lasers)	USB 연결 GRBL (다이오드 레이저)
+GRBL over the network (FluidNC, grblHAL)	네트워크 연결 GRBL (FluidNC, grblHAL)
+rear left (Thunder, most CO2)	왼쪽 뒤 (Thunder, 대부분의 CO2)
+rear right	오른쪽 뒤
+front left	왼쪽 앞
+front right	오른쪽 앞
+rear left	왼쪽 뒤
+draw rectangles, ellipses and lines on the current layer	현재 레이어에 사각형, 타원, 선 그리기
+add text	텍스트 추가
+preview the job: the order, the travel and the time	작업 미리보기: 순서, 이동, 시간
+the simulated laser runs any job; your own laser runs the real thing	시뮬레이션 레이저는 어떤 작업이든 실행하고, 실제 레이저는 실제로 가공합니다
+More settings	추가 설정
+lens	렌즈
+General	일반
+Hide the donate button	기부 버튼 숨기기
+Show the donate button (♥) in the top bar	상단 바에 기부 버튼(♥) 표시
+Support GBurn: donate (opens gburn.app). Right-click to hide	GBurn 후원: 기부 (gburn.app 열기). 오른쪽 클릭으로 숨기기
+Try it without a laser	레이저 없이 써 보기
+Laser › Connect with “Simulated laser” picked: jog, frame and run the job against a built-in GRBL controller.	레이저 › “시뮬레이션 레이저”를 고른 뒤 연결: 내장 GRBL 컨트롤러로 조그, 프레임, 작업 실행을 해 볼 수 있습니다.
+Connect a laser	레이저 연결하기
+Pick the USB port in the Laser panel and Connect (GRBL lasers: most diode lasers, 115200 baud). In the browser pick “GRBL over USB (this browser)”: Chrome and Edge show the port list (Safari can't). Alarm after power-up: Home, or Unlock.	레이저 패널에서 USB 포트를 고르고 연결합니다(GRBL 레이저: 대부분의 다이오드 레이저, 115200 baud). 브라우저에서는 “USB serial (this browser)”를 고릅니다: Chrome과 Edge는 포트 목록을 보여 줍니다(Safari는 불가). 전원을 켠 뒤 알람이 뜨면: 원점 복귀 또는 잠금 해제.
+Keep designs in my account	디자인을 계정에 보관하기
+Sign in (the GCarve account works here): File › Save to Account keeps the design; Open from Account lists them. Saves again by itself 3 s after a change.	로그인합니다(GCarve 계정을 그대로 사용): 파일 › 계정에 저장으로 디자인을 보관하고, 계정에서 열기로 목록을 봅니다. 변경 후 3초가 지나면 자동으로 다시 저장합니다.
+Get the design back after a crash	충돌 후 디자인 되찾기
+A recovery copy is written 3 s after every change and offered back at the next start.	변경할 때마다 3초 뒤 복구용 사본이 저장되고, 다음 실행 때 복구를 제안합니다.
+Go back several steps	여러 단계 되돌리기
+Edit › Undo History: every change by name (Move, Resize, Change layer…, the command's name). Click a step to go back to just before it; click a dim (undone) one to bring the steps back.	편집 › 실행 취소 기록: 모든 변경이 이름과 함께 표시됩니다(이동, 크기 조정, 레이어 변경…, 명령 이름). 단계를 클릭하면 그 직전으로 돌아가고, 흐린(취소된) 단계를 클릭하면 다시 되살립니다.
+Work in inches	인치로 작업하기
+The mm / in switch in the status bar, or View › Show Inches. Sizes are kept in mm underneath.	상태 표시줄의 mm / in 전환, 또는 보기 › 인치 표시. 크기는 내부적으로 mm로 저장됩니다.
+Keep notes with a design	디자인에 메모 남기기
+File › Notes: saved inside the .gburn file.	파일 › 메모: .gburn 파일 안에 저장됩니다.
+Move my settings to another computer	설정을 다른 컴퓨터로 옮기기
+File › Export Settings… saves your machines, materials, templates, lens file, snap and units to one file. On the other computer (or in the browser): File › Import Settings….	파일 › 설정 내보내기…는 장비, 재료, 템플릿, 렌즈 파일, 스냅, 단위를 한 파일에 저장합니다. 다른 컴퓨터(또는 브라우저)에서: 파일 › 설정 가져오기….
+Open a .plt (HPGL) file	.plt (HPGL) 파일 열기
+File › Import takes .plt / .hpgl plot files from CorelDRAW, sign software and cutters: each pen becomes a layer.	파일 › 가져오기는 CorelDRAW, 간판 소프트웨어, 커팅 플로터의 .plt / .hpgl 파일을 읽습니다: 펜마다 레이어가 하나씩 생깁니다.
+Draw a rectangle, circle or line	사각형, 원, 선 그리기
+R, E and L pick the tools (or the tool bar); drag on the canvas. Hold ⇧ for a square, a circle, or 5 mm snapping. Enter finishes a line; clicking its first point closes it.	R, E, L로 도구를 고르고(또는 도구 모음) 캔버스에서 드래그합니다. ⇧를 누르면 정사각형, 원, 또는 5 mm 스냅. Enter로 선을 끝내고, 첫 점을 클릭하면 닫힙니다.
+Draw curves	곡선 그리기
+Line tool (L): click = a corner, click and drag = a smooth point (the drag pulls out its curve). Click the first point to close; Enter or double-click ends an open line.	선 도구 (L): 클릭 = 모서리, 클릭 후 드래그 = 부드러운 점(드래그로 곡선을 끌어냄). 첫 점을 클릭하면 닫히고, Enter나 더블클릭으로 열린 선을 끝냅니다.
+Set the exact size or position	정확한 크기나 위치 지정하기
+Select the shapes: the X / Y / W / H boxes in the panel take typed sizes (12, 1/2in, 30mm). Enter applies.	도형을 선택: 패널의 X / Y / W / H 칸에 크기를 입력합니다(12, 1/2in, 30mm). Enter로 적용.
+See a shape's properties	도형 속성 보기
+Select one shape: the panel shows its kind, point count, length and area, a name, Close / Open path and Reverse (the cut direction), besides X / Y / W / H and Rotate.	도형 하나를 선택: 패널에 종류, 점 개수, 길이와 면적, 이름, 닫힌 경로 / 열린 경로, 방향 반전(컷 방향)이 X / Y / W / H, 회전과 함께 표시됩니다.
+Measure a distance	거리 재기
+M (Measure): drag between two points; the distance, Δx, Δy and angle show in the status bar.	M (측정): 두 점 사이를 드래그하면 거리, Δx, Δy, 각도가 상태 표시줄에 나옵니다.
+Snap to a grid	그리드에 스냅하기
+The Snap menu in the status bar: off, 0.5 / 1 / 5 / 10 mm or 1/16 / 1/8 / 1/4 in. ⇧ while drawing always snaps to 5 mm.	상태 표시줄의 스냅 메뉴: 끄기, 0.5 / 1 / 5 / 10 mm 또는 1/16 / 1/8 / 1/4 in. 그리는 중 ⇧는 항상 5 mm로 스냅합니다.
+Edit the points of a shape	도형의 점 편집하기
+N (Nodes): click a shape, drag its points; double-click a segment to add a point; ⌫ removes the picked one. The picked point's X / Y are in the panel: type exact values and press Enter. Make corner / Make smooth, Next ▸ steps along the path.	N (노드): 도형을 클릭하고 점을 드래그합니다. 선분을 더블클릭하면 점이 추가되고, ⌫는 고른 점을 지웁니다. 고른 점의 X / Y는 패널에 있습니다: 정확한 값을 입력하고 Enter. 모서리로 / 부드럽게, 다음 ▸로 경로를 따라 이동합니다.
+Node keys	노드 단축키
+In the Nodes tool, point at a point or a segment and press: D delete, I insert a point, M a point at the middle, C corner, S smooth (a segment: curve), L straight, B break, T trim, E extend an open end, A turn the shape so the segment is level / upright / 45°. ⇧-click or a box picks several points; the arrow keys move them; drop an open end on another to join.	노드 도구에서 점이나 선분을 가리키고 누릅니다: D 삭제, I 점 삽입, M 가운데에 점, C 모서리, S 부드럽게(선분: 곡선), L 직선, B 끊기, T 자르기, E 열린 끝 연장, A 선분이 수평 / 수직 / 45°가 되도록 도형 회전. ⇧-클릭이나 박스로 여러 점을 고르고, 방향키로 움직입니다. 열린 끝을 다른 끝에 놓으면 연결됩니다.
+Join or cut shapes together	도형 합치거나 잘라내기
+Select two or more closed shapes: Shapes › Union, Subtract (the first minus the rest) or Intersect. Offset Shapes makes a parallel copy; Round Corners rounds a closed shape.	닫힌 도형을 두 개 이상 선택: 도형 › 합치기, 빼기(첫 도형에서 나머지 빼기), 교차. 도형 오프셋은 평행한 사본을 만들고, 모서리 둥글게는 닫힌 도형의 모서리를 둥글게 합니다.
+Group shapes	도형 그룹으로 묶기
+Select them and press ⌘G: they select and move as one from then on; ⇧⌘G ungroups. Imported files and traced pictures come in grouped.	선택하고 ⌘G: 이후 하나로 선택되고 움직입니다. ⇧⌘G로 그룹 해제. 가져온 파일과 트레이스한 이미지는 그룹으로 들어옵니다.
+Copy, paste, lock	복사, 붙여넣기, 잠금
+⌘C / ⌘X / ⌘V (⇧⌘V pastes at the right-click spot), ⌘L locks the selection so it can't be picked or moved (⇧⌘L unlocks everything). The right-click menu on the canvas has them all.	⌘C / ⌘X / ⌘V(⇧⌘V는 오른쪽 클릭한 위치에 붙여넣기), ⌘L은 선택 영역을 잠가 고르거나 움직일 수 없게 합니다(⇧⌘L은 모두 잠금 해제). 캔버스의 오른쪽 클릭 메뉴에 모두 있습니다.
+Add a ready-made shape	기성 도형 추가하기
+Draw › Shapes Library: hearts, stars, arrows, plaques, keyhole hangers, joints and more. Type the width, click a tile: it lands in the middle of the view on the current layer, grouped.	그리기 › 도형 라이브러리: 하트, 별, 화살표, 명판, 열쇠구멍 걸이, 짜맞춤 등. 너비를 입력하고 타일을 클릭하면 현재 레이어의 화면 중앙에 그룹으로 놓입니다.
+Keep my own art to reuse	내 아트를 저장해 다시 쓰기
+Select the shapes, Draw › Shapes Library… › My art, type a name, Save the selection. Click its tile in any design to add it at the typed width; right-click a tile to remove it. Export Settings carries it to another computer.	도형을 선택하고 그리기 › 도형 라이브러리… › 내 아트에서 이름을 입력하고 선택 영역 저장. 어느 디자인에서든 타일을 클릭하면 입력한 너비로 추가되고, 타일을 오른쪽 클릭하면 삭제됩니다. 설정 내보내기로 다른 컴퓨터에 옮길 수 있습니다.
+Repeat a shape along a line	선을 따라 도형 반복하기
+Select the shape and a line or curve, Arrange › Copy Along Path: how many copies, turned with the path or not. The longest selected outline is the path.	도형과 선 또는 곡선을 선택하고 배치 › 경로 따라 복사: 사본 개수와 경로에 맞춰 회전할지 여부. 선택한 것 중 가장 긴 윤곽이 경로가 됩니다.
+Line up or repeat shapes	도형 정렬하거나 반복하기
+Arrange › Align (left, centre, right, top, middle, bottom) and Distribute lines the selection up; Grid Array repeats it in columns and rows with a gap.	배치 › 정렬(왼쪽, 가운데, 오른쪽, 위, 중간, 아래)과 균등 배치로 선택 영역을 맞춥니다. 그리드 배열은 간격을 두고 열과 행으로 반복합니다.
+Make live copies (virtual array)	연동 사본 만들기 (가상 배열)
+Select the shapes, Arrange › Virtual Array…: columns, rows and gaps. The copies follow the original as you change or move it and burn as real shapes. Open it again with a copy selected to Update, Make the copies real or Remove.	도형을 선택하고 배치 › 가상 배열…: 열, 행, 간격. 원본을 바꾸거나 옮기면 사본이 따라가며, 실제 도형으로 가공됩니다. 사본을 선택하고 다시 열면 업데이트, 복사본을 실제로 만들기, 제거를 할 수 있습니다.
+Clean up an imported drawing	가져온 도면 정리하기
+Shapes › Delete Duplicates and Specks (stacked copies would cut twice), Join Open Paths (ends within 0.05 mm), Close Paths, Simplify (fewer points, smoother motion), Weld.	도형 › 중복과 작은 점 삭제(겹친 사본은 두 번 잘림), 열린 경로 연결(0.05 mm 이내의 끝), 경로 닫기, 단순화(점을 줄여 더 부드러운 움직임), 용접.
+Pack parts onto the material	재료에 부품 배치하기
+Arrange › Nest on the Bed packs the selection (or everything) by its boxes, groups kept together, turned 90° when it fits better.	배치 › 베드에 네스팅은 선택 영역(또는 전체)을 외곽 박스 기준으로 채워 넣습니다. 그룹은 함께 유지되고, 더 잘 맞으면 90° 회전합니다.
+Add text	텍스트 추가하기
+T opens the Text box: words (several lines), height, font (any font on this computer, or Font file…), letter spacing, line gap, alignment. The letters land on the current layer, centred on the view, grouped; select them and Edit text… to change the words later.	T로 텍스트 상자를 엽니다: 문구(여러 줄), 높이, 글꼴(이 컴퓨터의 모든 글꼴 또는 글꼴 파일…), 자간, 줄 간격, 정렬. 글자는 현재 레이어의 화면 중앙에 그룹으로 놓입니다. 나중에 문구를 바꾸려면 선택하고 텍스트 편집….
+Merge names from a spreadsheet (CSV)	스프레드시트(CSV)에서 이름 병합하기
+Text box › Data file (CSV)… (or drop a .csv on the canvas): the first row names the columns. Type {name} (any column) in a text; ◀ ▶ pick the row; every Start burns the current row and moves to the next.	텍스트 상자 › 데이터 파일 (CSV)…(또는 .csv를 캔버스에 놓기): 첫 행이 열 이름입니다. 텍스트에 {name}(아무 열)을 입력하고 ◀ ▶로 행을 고릅니다. 시작할 때마다 현재 행을 가공하고 다음 행으로 넘어갑니다.
+Text on a path, serial numbers, dates	경로 위 텍스트, 일련번호, 날짜
+Select a line or closed shape, open the Text box (T) and tick “Along the selected shape”. Type {n} for a serial number ({n:4} zero-padded), {date} or {time}: every Start stamps the current number and counts up (the next number is in the Text box).	선이나 닫힌 도형을 선택하고 텍스트 상자 (T)를 열어 “선택한 도형을 따라”에 체크합니다. 일련번호는 {n}({n:4}는 0으로 채움), 또는 {date}나 {time}을 입력: 시작할 때마다 현재 번호를 새기고 하나씩 올립니다(다음 번호는 텍스트 상자에 있음).
+Put text round a circle	원을 따라 텍스트 두르기
+Select the circle (or any shape), open Text, tick Along the selected shape: the text centres on the top, outside. Tick inside for text along the bottom inside the circle; moved % slides it round.	원(또는 아무 도형)을 선택하고 텍스트를 열어 선택한 도형을 따라에 체크: 텍스트가 위쪽 바깥에 가운데 맞춰 놓입니다. 안쪽에 체크하면 원 안쪽 아래를 따라가고, 이동 %로 둘레를 따라 밀어 옮깁니다.
+Bend text into an arc	텍스트를 호 모양으로 구부리기
+Select the text or shapes, Shapes › Bend / Taper…: Bend is the arc in degrees (180 = a half circle, − bends the other way), Top width narrows or widens the top for a tapered cup. Number boxes take sums too: 100/3, 2in + 5mm.	텍스트나 도형을 선택하고 도형 › 구부리기 / 테이퍼…: 구부리기는 호의 각도(180 = 반원, −는 반대로 구부림), 위쪽 너비는 테이퍼형 컵에 맞게 위쪽을 좁히거나 넓힙니다. 숫자 칸에는 계산식도 됩니다: 100/3, 2in + 5mm.
+Make a QR code or barcode	QR 코드나 바코드 만들기
+Draw › QR Code / Barcode: QR, Data Matrix, Code 128, Code 39, Code 93, EAN-13, EAN-8, UPC-A, Codabar or Interleaved 2 of 5; the text and a size. It lands on the current layer as squares or bars (engrave with Fill). Test-scan a burnt one.	그리기 › QR 코드 / 바코드: QR, Data Matrix, Code 128, Code 39, Code 93, EAN-13, EAN-8, UPC-A, Codabar, Interleaved 2 of 5. 텍스트와 크기를 정합니다. 현재 레이어에 정사각형이나 막대로 놓입니다(채우기로 각인). 가공한 것은 스캔해서 확인하세요.
+Engrave a picture	이미지 각인하기
+Draw › Picture (or drop a PNG / JPEG on the canvas): it lands on an Image layer. Set its size in the panel; on the layer pick the image mode (dither, ordered, greyscale), the line interval (DPI), negative and overscan.	그리기 › 이미지(또는 PNG / JPEG를 캔버스에 놓기): 이미지 레이어에 놓입니다. 크기는 패널에서 정하고, 레이어에서 이미지 모드(디더, 오더드, 그레이스케일), 라인 간격 (DPI), 반전, 오버스캔을 고릅니다.
+Adjust a picture	이미지 조정하기
+Select the picture: Brightness, Contrast and Gamma sliders apply before the dither; Negative is on the layer.	이미지를 선택: 밝기, 대비, 감마 슬라이더는 디더 전에 적용됩니다. 반전은 레이어에 있습니다.
+Turn a picture into vectors	이미지를 벡터로 바꾸기
+Select a picture and use Draw › Trace Picture: the dark parts (or the light ones) become outlines on a Trace layer, ready to cut or fill.	이미지를 선택하고 그리기 › 이미지 트레이스: 어두운 부분(또는 밝은 부분)이 트레이스 레이어의 윤곽선이 되어 바로 자르거나 채울 수 있습니다.
+Trace line art as single lines	선화를 한 줄로 트레이스하기
+Select the picture, Draw › Trace Picture…, switch on Centerline: one line along each stroke instead of its outline (signatures, handwriting, line drawings for one pass or a pen).	이미지를 선택하고 그리기 › 이미지 트레이스…에서 중심선을 켭니다: 윤곽 대신 각 획을 따라 선 하나(서명, 손글씨, 한 번에 가공하거나 펜으로 그릴 선화).
+Cut a photo to a shape	사진을 도형 모양으로 자르기
+Select the picture and a closed shape over it (a circle, a heart), Draw › Cut the Picture to the Shape: outside the shape goes white (not burnt).	이미지와 그 위의 닫힌 도형(원, 하트)을 선택하고 그리기 › 이미지를 도형으로 자르기: 도형 바깥은 흰색(가공 안 함)이 됩니다.
+Engrave shapes as a picture	도형을 이미지로 각인하기
+Select closed shapes, Draw › Turn Shapes into a Picture: they become a picture on the Image layer at its line interval, so its dither applies.	닫힌 도형을 선택하고 그리기 › 도형을 이미지로 변환: 이미지 레이어의 라인 간격으로 이미지가 되어 그 디더가 적용됩니다.
+Engrave a relief (3D) on a fibre laser	파이버 레이저로 부조(3D) 각인하기
+Put a greyscale picture on an Image layer, Image mode › 3D slices, and Passes = the number of depth levels (10–30). Each pass burns everything darker than its level, so the darkest parts get every pass and go deepest.	그레이스케일 이미지를 이미지 레이어에 놓고 이미지 모드 › 3D 슬라이스, 패스 수 = 깊이 단계 수(10–30). 각 패스는 그 단계보다 어두운 부분을 모두 가공하므로 가장 어두운 부분이 모든 패스를 받아 가장 깊어집니다.
+Cut, score or engrave	자르기, 스코어링, 각인
+Each layer has a mode: Line follows the outline (cut or score), Fill scans the inside (engrave). Click a layer to draw on it, or to move the selected shapes onto it.	레이어마다 모드가 있습니다: 선은 윤곽을 따라가고(자르기 또는 스코어링), 채우기는 안쪽을 스캔합니다(각인). 레이어를 클릭하면 그 레이어에 그리거나, 선택한 도형을 그 레이어로 옮깁니다.
+Set speed and power	속도와 출력 설정하기
+The Layer settings in the panel: speed in mm/s, power in % of the machine's maximum, passes, and for Fill the line interval (DPI) and scan angle. Changes apply at once; ⌘Z undoes them.	패널의 레이어 설정: 속도(mm/s), 출력(장비 최대의 %), 패스 수, 채우기는 라인 간격 (DPI)과 스캔 각도. 변경은 바로 적용되고 ⌘Z로 되돌릴 수 있습니다.
+Show, hide or skip a layer	레이어 보이기, 숨기기, 건너뛰기
+On the layer's row: the eye shows or hides it in the design (hidden shapes can't be picked); the switch is Output: on = sent to the laser, off = designed only. Both are in the layer settings too.	레이어 행에서: 눈 아이콘은 디자인에서 보이거나 숨깁니다(숨긴 도형은 고를 수 없음). 스위치는 가공 출력: 켜기 = 레이저로 보냄, 끄기 = 디자인만. 둘 다 레이어 설정에도 있습니다.
+Edit every layer setting in one window	모든 레이어 설정을 한 창에서 편집하기
+Double-click a layer, or Laser › Cut Settings Editor.	레이어를 더블클릭하거나 레이저 › 컷 설정 편집기.
+See the kerf	커프 보기
+A Line layer with a kerf shows the offset outline dashed on the canvas: what the beam's centre will follow.	커프가 설정된 선 레이어는 오프셋된 윤곽을 캔버스에 점선으로 보여 줍니다: 빔 중심이 따라갈 경로입니다.
+Kerf, tabs and cut order	커프, 탭, 컷 순서
+On a Line layer: Kerf offset grows (+) or shrinks (−) the cut by half the beam; Tabs leaves bridges so parts stay put; Inner first cuts holes before outlines.	선 레이어에서: 커프 보정은 빔의 절반만큼 컷을 키우거나(+) 줄입니다(−). 탭은 부품이 떨어지지 않게 브리지를 남기고, 안쪽 먼저는 윤곽보다 구멍을 먼저 자릅니다.
+Change the cut order	컷 순서 바꾸기
+Layers cut in the order of the list, top first. The ▲ ▼ beside the layer name move it; × removes an empty layer. Inside a layer, Inner first cuts holes before outlines.	레이어는 목록 순서대로 위에서부터 잘립니다. 레이어 이름 옆의 ▲ ▼로 옮기고, ×로 빈 레이어를 지웁니다. 레이어 안에서는 안쪽 먼저가 윤곽보다 구멍을 먼저 자릅니다.
+Lead-ins, overcut, cut direction	리드인, 오버컷, 컷 방향
+Line layer › Lead-in: closed shapes start this far off the line, in the waste (outside a part, inside a hole), so the pierce mark isn't on the piece. Overcut runs on past the start. Direction: clockwise or anticlockwise.	선 레이어 › 리드인: 닫힌 도형은 선에서 이만큼 떨어진 버리는 쪽(부품 바깥, 구멍 안쪽)에서 시작하므로 관통 자국이 제품에 남지 않습니다. 오버컷은 시작점을 지나 더 자릅니다. 방향: 시계 방향 또는 반시계 방향.
+Choose where a cut starts	컷 시작 위치 정하기
+Select a closed shape, right-click its outline › Start the Cut Here (or Nodes tool › pick a point › Start here). A green dot marks it; the planner keeps it. Right-click › Clear the Start Point undoes it.	닫힌 도형을 선택하고 윤곽을 오른쪽 클릭 › 여기서 컷 시작(또는 노드 도구 › 점 선택 › 여기서 시작). 초록 점이 표시되고 플래너가 이를 지킵니다. 오른쪽 클릭 › 시작점 지우기로 취소합니다.
+Perforate (dashed cut)	타공 (점선 컷)
+On a Line layer: Perforation cut / skip lengths, e.g. 3 mm cut, 1 mm skip, for fold lines or tear-offs.	선 레이어에서: 타공 컷 / 건너뛰기 길이, 예: 3 mm 컷, 1 mm 건너뛰기. 접는 선이나 절취선에 씁니다.
+Wobble and hatch families	워블과 해치 방향 바꾸기
+Line layer › Wobble: diameter and spacing of small circles along the line (wider, smoother lines; deep galvo marking). Fill layer › Turn per pass: with Passes 2+ each pass hatches at a new angle.	선 레이어 › 워블: 선을 따라 그리는 작은 원의 지름과 간격(더 넓고 부드러운 선, 깊은 갈바노 마킹). 채우기 레이어 › 패스마다 회전: 패스 수가 2 이상이면 패스마다 새 각도로 해치합니다.
+Dot mode and offset fill	도트 모드와 오프셋 채우기
+Line layer › Dot mode fires N ms every D mm along the outline (acrylic dotting, perforating boards). Mode › Offset fill engraves in concentric insets, less travel on round shapes. Fill shapes one by one keeps each shape's lines together.	선 레이어 › 도트 모드는 윤곽을 따라 D mm마다 N ms씩 발사합니다(아크릴 도트, 보드 타공). 모드 › 오프셋 채우기는 동심 안쪽 선으로 각인해 둥근 도형에서 이동이 줄어듭니다. 도형별로 채우기를 켜면 각 도형의 선이 한데 모입니다.
+Engrave and cut the same shapes	같은 도형을 각인하고 자르기
+Select the layer, press + Sub-layer: a second set of settings (mode, speed, power…) runs on the same shapes right after the first. Main / Sub 1 / Sub 2 pick which one the panel edits.	레이어를 고르고 + 하위 레이어를 누릅니다: 두 번째 설정 묶음(모드, 속도, 출력…)이 첫 번째 바로 다음에 같은 도형에 실행됩니다. 메인 / 하위 1 / 하위 2로 패널이 편집할 쪽을 고릅니다.
+Use my LightBurn material library	LightBurn 재료 라이브러리 쓰기
+Laser › Import Material Library (.clb) (or drop the file on the canvas): every cut setting becomes a Material preset.	레이저 › 재료 라이브러리 가져오기 (.clb)(또는 파일을 캔버스에 놓기): 모든 컷 설정이 재료 프리셋이 됩니다.
+Find the right speed and power	알맞은 속도와 출력 찾기
+Laser › Material Test makes a grid: pick what changes down the side and across (speed, power, interval, passes, frequency or Z offset), a layer per cell with the current layer's other settings. Burn it and read the best cell's settings off its layer. Save settings you like as a material (the layer's Material › Save…).	레이저 › 재료 테스트가 그리드를 만듭니다: 세로와 가로로 바꿀 항목(속도, 출력, 간격, 패스 수, 주파수, Z 오프셋)을 고르면 칸마다 현재 레이어의 나머지 설정을 가진 레이어가 생깁니다. 가공한 뒤 가장 좋은 칸의 레이어에서 설정을 읽습니다. 마음에 드는 설정은 재료로 저장하세요(레이어의 재료 › 저장…).
+Put a tab exactly where I want it	원하는 위치에 탭 넣기
+Select the shape, right-click its outline › Add a Tab Here (the layer's tab length, Line layers). Right-click › Clear the Tabs removes them. With no hand-placed tabs, the layer's Tabs count spaces them evenly.	도형을 선택하고 윤곽을 오른쪽 클릭 › 여기에 탭 추가(레이어의 탭 길이, 선 레이어). 오른쪽 클릭 › 탭 지우기로 없앱니다. 직접 놓은 탭이 없으면 레이어의 탭 개수만큼 고르게 배치됩니다.
+Cut shared edges once	공유 모서리는 한 번만 자르기
+Machine Settings › Shared edges: cut once. Where two shapes on a Line layer share an edge (puzzles, grids, box joints), the second pass over it is left out: less charring, less time.	장비 설정 › 공유 모서리: 한 번만 컷. 선 레이어의 두 도형이 모서리를 공유하면(퍼즐, 격자, 상자 짜맞춤) 두 번째 통과를 생략합니다: 그을음도 시간도 줄어듭니다.
+Switch between my lasers	여러 레이저 사이 전환하기
+Laser › Machine Settings: set one machine up, type its name and press Save as a new machine; set up the next one the same way. Pick a machine at the top of Machine Settings or in the Laser tab (disconnected). The machine in use keeps every change.	레이저 › 장비 설정: 장비 하나를 설정하고 이름을 입력한 뒤 새 장비로 저장을 누릅니다. 다음 장비도 같은 방법으로 설정합니다. 장비 설정 맨 위나 레이저 탭(연결 해제 상태)에서 장비를 고릅니다. 사용 중인 장비는 모든 변경을 유지합니다.
+Change the bed (work area)	베드(작업 영역) 바꾸기
+Click empty canvas (nothing selected): the Bed card in the panel has the machine (Thunder Nova 63, galvo lenses…) or any size, where the design sits on it, Centre the design.	캔버스의 빈 곳을 클릭(아무것도 선택 안 함): 패널의 베드 카드에서 장비(Thunder Nova 63, 갈바노 렌즈…)나 원하는 크기, 베드 위 디자인의 위치, 디자인을 중앙으로를 정합니다.
+Set the bed size and travel speed	베드 크기와 이동 속도 설정하기
+Laser › Machine Settings: bed, travel speed and acceleration (the time estimate), full-power S ($30), baud rate, M4 / M3.	레이저 › 장비 설정: 베드, 이동 속도와 가속도(시간 예측용), 최대 출력 S ($30), 보드레이트, M4 / M3.
+Run a fibre / galvo marker (EZCAD2)	파이버 / 갈바노 마커 (EZCAD2) 쓰기
+Laser › Machine Settings: the lens field size and the EZCAD .cor correction file for your lens (ask the maker; it sets the field too), fibre or CO2 source. Pick “Galvo (EZCAD2 USB)” and Connect (Windows needs the WinUSB driver). Layers get a frequency (kHz) and MOPA pulse width. The design is centred on the field. Frame runs the red pointer; Start marks.	레이저 › 장비 설정: 렌즈 필드 크기와 렌즈용 EZCAD .cor 보정 파일(제조사에 문의, 필드도 함께 설정됨), 파이버 또는 CO2 소스. “Galvo (EZCAD2 USB)”를 고르고 연결합니다(Windows는 WinUSB 드라이버 필요). 레이어에 주파수 (kHz)와 MOPA 펄스 폭이 생깁니다. 디자인은 필드 중앙에 놓입니다. 프레임은 빨간 포인터로, 시작은 마킹을 합니다.
+Run a Ruida / Thunder CO2 laser	Ruida / Thunder CO2 레이저 쓰기
+Laser › Machine Settings: the controller's network address and its home corner (Thunder: rear left), then pick “Ruida (network)” and Connect. Home, jog, Frame (beam off), Start, Pause, Stop work like GRBL. In the browser, start GBurn Link on this computer first (gburn.app/download/). No network? File › Export Ruida (.rd) and run the file from a USB stick.	레이저 › 장비 설정: 컨트롤러의 네트워크 주소와 원점 모서리(Thunder: 뒤쪽 왼쪽)를 정한 뒤 “Ruida (network)”를 고르고 연결합니다. 원점 복귀, 조그, 프레임(빔 꺼짐), 시작, 일시 정지, 정지는 GRBL과 같습니다. 브라우저에서는 먼저 이 컴퓨터에서 GBurn Link를 실행하세요(gburn.app/download/). 네트워크가 없나요? 파일 › Ruida 내보내기 (.rd) 후 USB 메모리에서 파일을 실행합니다.
+Use the galvo on Windows	Windows에서 갈바노 쓰기
+EZCAD2's driver and GBurn's can't both own the board. Close EZCAD2, run Zadig (zadig.akeo.ie), Options › List All Devices, pick USBLMCV2 (9588 9899), WinUSB, Replace Driver. Then Galvo (EZCAD2 USB) › Connect. To go back, uninstall the device with its driver in Device Manager and reinstall EZCAD2's. Linux: a udev rule for 9588:9899 (docs/galvo-usb-drivers.md).	EZCAD2의 드라이버와 GBurn의 드라이버는 보드를 동시에 쓸 수 없습니다. EZCAD2를 닫고 Zadig (zadig.akeo.ie)을 실행, Options › List All Devices, USBLMCV2 (9588 9899), WinUSB를 고르고 Replace Driver. 그다음 Galvo (EZCAD2 USB) › 연결. 되돌리려면 장치 관리자에서 드라이버와 함께 장치를 제거하고 EZCAD2 드라이버를 다시 설치합니다. Linux: 9588:9899용 udev 규칙 (docs/galvo-usb-drivers.md).
+Correct a galvo lens without a .cor file	.cor 파일 없이 갈바노 렌즈 보정하기
+Laser › Galvo Lens Test Pattern adds a square at 80 % of the field; mark it at low power and measure it. Too small: raise Scale. Sides bowed in: raise Bulge; out: lower it. Top wider than the bottom: lower Trapezoid X. Leaning: Skew. Machine Settings › Galvo; mark again until it measures right.	레이저 › 갈바노 렌즈 테스트 패턴은 필드의 80 % 크기 정사각형을 추가합니다. 낮은 출력으로 마킹하고 재 보세요. 너무 작으면: 배율을 올립니다. 변이 안쪽으로 휘면: 볼록을 올리고, 바깥으로 휘면 내립니다. 위가 아래보다 넓으면: 사다리꼴 X를 내립니다. 기울었으면: 기울이기. 장비 설정 › 갈바노. 치수가 맞을 때까지 다시 마킹합니다.
+Connect a GRBL laser over Wi-Fi or Ethernet	Wi-Fi나 이더넷으로 GRBL 레이저 연결하기
+FluidNC and grblHAL boards speak Telnet (port 23): Machine Settings › GRBL network address, then pick “GRBL (network…)” and Connect. In the browser, run GBurn Link on this computer first.	FluidNC와 grblHAL 보드는 Telnet(포트 23)을 씁니다: 장비 설정 › GRBL 네트워크 주소를 입력한 뒤 “GRBL (network…)”를 고르고 연결합니다. 브라우저에서는 먼저 이 컴퓨터에서 GBurn Link를 실행하세요.
+Use a rotary	로터리 쓰기
+Machine Settings › Rotary on Y: the Y travel per full turn (jog to check) and the object's diameter. Y is scaled so the design wraps the object; X stays as drawn.	장비 설정 › Y축 로터리: 한 바퀴당 Y 이동량(조그로 확인)과 물체의 지름. 디자인이 물체를 감싸도록 Y가 배율 조정되고, X는 그린 그대로입니다.
+Find the focus (Z axis lasers)	초점 찾기 (Z축 레이저)
+Material Test with Z offset down the side (for example −2 to 2 mm, 9 rows) and one power: the sharpest row's Z is the focus. Then set the layer's Z offset, or move the bed.	세로를 Z 오프셋(예: −2 ~ 2 mm, 9행)으로, 출력은 하나로 재료 테스트: 가장 선명한 행의 Z가 초점입니다. 그다음 레이어의 Z 오프셋을 정하거나 베드를 움직입니다.
+Frame with a red-dot pointer that sits beside the beam	빔 옆에 있는 빨간 점 포인터로 프레임하기
+Laser › Machine Settings › Red-dot pointer: how far the dot is from the beam, X and Y in mm (measure it: fire a dot, move the head until the pointer is on it, read the move). Frame then runs the dot round the design.	레이저 › 장비 설정 › 빨간 점 포인터: 점이 빔에서 얼마나 떨어져 있는지 X와 Y를 mm로(재는 법: 점 하나를 발사하고 포인터가 그 위에 올 때까지 헤드를 움직인 뒤 이동량을 읽음). 그러면 프레임이 디자인 둘레로 점을 움직입니다.
+Make the time estimate match my machine	시간 예측을 내 장비에 맞추기
+Laser › Machine Settings › Time estimate ×: if jobs take 20 % longer than the estimate, type 1.2.	레이저 › 장비 설정 › 시간 예측 ×: 작업이 예측보다 20 % 오래 걸리면 1.2를 입력합니다.
+Add my own G-code buttons	나만의 G-code 버튼 추가하기
+Laser › Machine Settings › Macros: + Macro, a name and the lines to send. The buttons appear under the Console in the Laser tab (GRBL, not mid-job). Start / End G-code there go round every job.	레이저 › 장비 설정 › 매크로: + 매크로, 이름과 보낼 줄. 버튼은 레이저 탭의 콘솔 아래에 나타납니다(GRBL, 작업 중에는 불가). 그곳의 시작 / 종료 G-code는 모든 작업의 앞뒤에 붙습니다.
+Find the spot (Fire)	빔 위치 찾기 (발사)
+Machine Settings › Fire button, then Fire in the Laser panel: a short low-power pulse (GRBL). Eye protection on. Ruida: the Pulse key on the machine.	장비 설정 › 발사 버튼을 켠 뒤 레이저 패널의 발사: 짧은 저출력 펄스(GRBL). 보안경을 쓰세요. Ruida: 장비의 Pulse 키.
+Choose where the laser starts	레이저 시작 위치 정하기
+Laser panel › Start from: Bed (absolute) = the design burns where it sits on the bed; Current position = it starts where the head is now (LightBurn's Current Position) (pick the job origin on the 3 × 3 grid: which corner, edge or the centre); User origin = a saved spot (Set origin). An orange cross shows the job origin on the canvas.	레이저 패널 › 시작 위치: 베드 (절대) = 디자인이 베드 위 놓인 자리에서 가공됩니다. 현재 위치 = 헤드가 지금 있는 곳에서 시작합니다(LightBurn의 Current Position)(3 × 3 그리드에서 작업 원점 선택: 어느 모서리, 변, 또는 가운데). 사용자 원점 = 저장한 위치(원점 설정). 캔버스의 주황색 십자가 작업 원점을 표시합니다.
+Set a user origin	사용자 원점 설정하기
+Jog the head to the spot and press Set origin (Laser panel), or right-click the canvas › Set the user origin here. Machine Settings › Start from › User origin puts the job's origin point there.	헤드를 그 위치로 조그하고 원점 설정(레이저 패널)을 누르거나, 캔버스를 오른쪽 클릭 › 여기를 사용자 원점으로 설정. 장비 설정 › 시작 위치 › 사용자 원점으로 작업 원점이 그곳이 됩니다.
+Start the job where the head is	헤드 위치에서 작업 시작하기
+Laser › Machine Settings › Start from: Current position, with a job origin (bottom-left, centre…). Jog the head to that spot on the material and Start; the G-code sets it with G92.	레이저 › 장비 설정 › 시작 위치: 현재 위치와 작업 원점(왼쪽 아래, 가운데…). 헤드를 재료 위 그 지점으로 조그하고 시작. G-code가 G92로 그 위치를 설정합니다.
+Frame the job	작업 프레임하기
+Frame traces the outline of the design (or the selection) with the beam off, so you can place the material.	프레임은 빔을 끈 채 디자인(또는 선택 영역)의 윤곽을 따라가므로 재료를 놓을 자리를 맞출 수 있습니다.
+Burn the design	디자인 가공하기
+Start sends the job. Pause / Resume (Space) and Stop are always in the panel; Stop resets the controller.	시작이 작업을 보냅니다. 일시 정지 / 재개(Space)와 정지는 항상 패널에 있습니다. 정지는 컨트롤러를 리셋합니다.
+See the order and the time	순서와 시간 보기
+P previews the job: strokes in their layer colours, travel dashed, a time estimate from your machine settings.	P로 작업을 미리봅니다: 선은 레이어 색으로, 이동은 점선으로 표시되고 장비 설정에 따른 시간 예측이 나옵니다.
+Simulate the job	작업 시뮬레이션하기
+In Preview, ▶ plays the job at 1×, 4× or 16× real time: the head moves along the strokes, travel dashed, the clock and the stroke count above. Drag the slider to any moment.	미리보기에서 ▶는 실제 시간의 1×, 4×, 16×로 작업을 재생합니다: 헤드가 선을 따라 움직이고, 이동은 점선, 위에 시계와 선 개수가 나옵니다. 슬라이더를 드래그해 원하는 순간으로 갑니다.
+Watch the job (simulation)	작업 지켜보기 (시뮬레이션)
+Preview (P, or the switch at the top) shows the job; the bar under the canvas plays it. Speed − / + steps from ¼× to 256× real time (the slider goes in between); drag the long slider to any moment.	미리보기(P 또는 맨 위의 전환)가 작업을 보여 주고, 캔버스 아래 막대가 재생합니다. 속도 − / +는 실제 시간의 ¼×부터 256×까지 단계별로 바뀌고(슬라이더로 중간값도), 긴 슬라이더를 드래그하면 원하는 순간으로 갑니다.
+See how it might look on wood	나무에서 어떻게 보일지 미리 보기
+Preview › the bar's last list: Birch plywood, Maple, Cherry, Walnut, Bamboo, MDF, Cork, Cardboard, Leather, Slate, anodised aluminium, acrylic. Fills show as solid areas, darker where the power is high for the speed. A rough guide: run a Material Test on the real thing.	미리보기 › 막대의 마지막 목록: 자작나무 합판, 메이플, 체리, 월넛, 대나무, MDF, 코르크, 골판지, 가죽, 슬레이트, 아노다이징 알루미늄, 아크릴. 채우기는 면으로 보이며, 속도에 비해 출력이 높을수록 진해집니다. 대략적인 안내일 뿐이니 실제 재료로 재료 테스트를 해 보세요.
+Burn only part of the design	디자인 일부만 가공하기
+Select the shapes and tick “Burn only the selected shapes” in the Laser panel; Frame follows the selection too. Machine Settings › Frame: the box or the outline (hull).	도형을 선택하고 레이저 패널에서 “선택한 도형만 가공”에 체크합니다. 프레임도 선택 영역을 따릅니다. 장비 설정 › 프레임: 박스 또는 윤곽(볼록 껍질).
+Burn one part where the head is	헤드 위치에서 부품 하나 가공하기
+Select the part, tick “Burn only the selected shapes”, Laser tab › Start from: Current position, and tick “of the selection” by the job origin: the job origin comes from that part's box.	부품을 선택하고 “선택한 도형만 가공”에 체크, 레이저 탭 › 시작 위치: 현재 위치, 작업 원점 옆의 “선택 영역의”에 체크: 작업 원점이 그 부품의 박스에서 정해집니다.
+Move the head to an exact spot	헤드를 정확한 위치로 옮기기
+Laser tab › Go to X / Y: type X and Y, Go (beam off). Right-click › Move the laser here does the same for a spot on the canvas.	레이저 탭 › 이동… X / Y: X와 Y를 입력하고 이동(빔 꺼짐). 오른쪽 클릭 › 레이저를 여기로 이동은 캔버스의 한 지점에 대해 같은 일을 합니다.
+Save head positions I go back to	자주 가는 헤드 위치 저장하기
+Laser tab › Spots › + Save here remembers where the head is; the numbered buttons go back there (beam off).	레이저 탭 › 위치 메모 › + 여기 저장은 헤드 위치를 기억하고, 번호 버튼으로 그곳에 돌아갑니다(빔 꺼짐).
+Change speed or power mid-job	작업 중 속도나 출력 바꾸기
+GRBL lasers: the Speed and Power − / + under Start change the running job by 10 % at once (100 puts it back). Laser › GRBL Settings ($$) reads and writes the controller's settings.	GRBL 레이저: 시작 아래의 속도와 출력 − / +는 실행 중인 작업을 즉시 10 %씩 바꿉니다(100은 원래대로). 레이저 › GRBL 설정 ($$)은 컨트롤러의 설정을 읽고 씁니다.
+Run a G-code file from another program	다른 프로그램의 G-code 파일 실행하기
+Connect a GRBL laser, then Laser › Run a G-code File…, pick the file and press Start in its box. It goes as it is.	GRBL 레이저를 연결한 뒤 레이저 › G-code 파일 실행…에서 파일을 고르고 그 창의 시작을 누릅니다. 파일은 그대로 전송됩니다.
+Export for another program	다른 프로그램용으로 내보내기
+File › Export G-code (GRBL, mm, M4) or Export SVG. LightBurn, SVG and DXF files import.	파일 › G-code 내보내기(GRBL, mm, M4) 또는 SVG 내보내기. LightBurn, SVG, DXF 파일은 가져올 수 있습니다.
+See the material on the bed (camera)	베드 위 재료 보기 (카메라)
+Laser › Camera Overlay…: Take a photo (browser camera above the bed) or Load a photo (a phone shot from above). Click the bed corners, or four marks you burnt, in order and type where they are; Place on the bed. The photo lies under the design, never burnt; the marks are kept, so the next photo goes straight on.	레이저 › 카메라 오버레이…: 사진 찍기(베드 위 브라우저 카메라) 또는 사진 불러오기(위에서 찍은 휴대폰 사진). 베드 모서리나 직접 새긴 네 개의 표시를 순서대로 클릭하고 위치를 입력한 뒤 베드에 배치. 사진은 디자인 아래에 놓이며 가공되지 않습니다. 표시는 유지되므로 다음 사진은 바로 맞춰집니다.
+Line up on a photo of the bed	베드 사진에 맞추기
+Draw › Background Photo: a picture on a layer that never burns. Size and place it to match the bed or the object, lock it (⌘L), design on top.	그리기 › 배경 사진: 가공되지 않는 레이어의 이미지. 베드나 물체에 맞게 크기와 위치를 정하고 잠근 뒤(⌘L) 그 위에 디자인합니다.
+Cut round a printed sheet (Print & Cut)	인쇄한 시트 둘레 자르기 (인쇄 후 컷)
+Laser › Print & Cut: put two marks in the design (small crosses or circles near opposite corners), print it, lay the sheet on the bed. Select mark 1, Use the selection; same for mark 2. Jog the laser onto the real mark 1, press Laser is on it; same for mark 2. Align turns and moves the whole design onto the sheet. Frame to check, then Start.	레이저 › 인쇄 후 컷: 디자인에 표시 두 개(대각 근처의 작은 십자나 원)를 넣고 인쇄한 뒤 시트를 베드에 놓습니다. 표시 1을 선택하고 선택 영역 사용, 표시 2도 같게 합니다. 레이저를 실제 표시 1로 조그하고 레이저가 위치함을 누르고, 표시 2도 같게 합니다. 정렬이 디자인 전체를 돌리고 옮겨 시트에 맞춥니다. 프레임으로 확인한 뒤 시작.
+Find the centre of a round part	둥근 부품의 중심 찾기
+Laser › Centre Finder…: jog the head to three points on the part's edge, pressing Here at each; it shows the centre and diameter. Move the head there, or set the user origin there and Start from the user origin.	레이저 › 중심 찾기…: 헤드를 부품 가장자리의 세 점으로 조그하며 각각에서 여기를 누르면 중심과 지름이 나옵니다. 헤드를 그곳으로 옮기거나, 그곳을 사용자 원점으로 정하고 사용자 원점에서 시작합니다.
+User Manual	사용자 설명서
+Search: power, text, connect, frame…	검색: 출력, 텍스트, 연결, 프레임…
+Work area	작업 영역
+Motion	동작
+Framing and safety	프레임과 안전
+Galvo	갈바노
+Path	경로
+Lead-ins	진입
+Effects	효과
+Timing and Z	타이밍과 Z
+Lines	라인
+Privacy policy	개인정보 처리방침
+Usage and problem reports	사용 정보와 문제 보고
+To make {app} better, it sends which features get used and a short report when something goes wrong: the error message, the app's version and your platform, and your account if you're signed in.	{app}을(를) 개선하기 위해 어떤 기능이 쓰였는지와 문제가 생겼을 때의 짧은 보고를 보냅니다: 오류 메시지, 앱 버전과 사용 환경, 로그인한 경우 계정.
+Never your designs, file names or paths. Problem reports are kept for 30 days.	디자인, 파일 이름, 경로는 절대 보내지 않습니다. 문제 보고는 30일간 보관됩니다.
+Help improve {app}: send usage and problem reports	{app} 개선 돕기: 사용 정보와 문제 보고 보내기
+Delete my data	내 데이터 삭제

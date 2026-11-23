@@ -1,0 +1,15 @@
+[package]
+name = "gburn-link"
+description = "GBurn Link: a small helper on the LAN computer that lets gburn.app in the browser reach a Ruida laser (UDP)"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[[bin]]
+name = "gburn-link"
+path = "src/main.rs"
+
+[dependencies]
+# WebSocket server (handshake + frames) over std TcpListener; one thread per connection
+tungstenite = { version = "0.26", default-features = false, features = ["handshake"] }
