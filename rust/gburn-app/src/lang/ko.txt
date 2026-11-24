@@ -1180,3 +1180,5 @@ Name a size, then type the name in any size box (X, Y, W, H, text height…). Su
 not a size	치수가 아닙니다
 Add a variable	변수 추가
 Favourites	즐겨찾기
+Download a Copy (.gburn)…	사본 다운로드 (.gburn)…
+Remove the layer	레이어 제거

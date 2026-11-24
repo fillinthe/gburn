@@ -1180,3 +1180,5 @@ Name a size, then type the name in any size box (X, Y, W, H, text height…). Su
 not a size	寸法ではありません
 Add a variable	変数を追加
 Favourites	お気に入り
+Download a Copy (.gburn)…	コピーをダウンロード (.gburn)…
+Remove the layer	レイヤーを削除

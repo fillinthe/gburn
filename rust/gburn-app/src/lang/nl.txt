@@ -1180,3 +1180,5 @@ Name a size, then type the name in any size box (X, Y, W, H, text height…). Su
 not a size	geen maat
 Add a variable	Variabele toevoegen
 Favourites	Favorieten
+Download a Copy (.gburn)…	Een kopie downloaden (.gburn)…
+Remove the layer	De laag verwijderen

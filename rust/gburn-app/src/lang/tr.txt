@@ -1180,3 +1180,5 @@ Name a size, then type the name in any size box (X, Y, W, H, text height…). Su
 not a size	bir ölçü değil
 Add a variable	Değişken ekle
 Favourites	Favoriler
+Download a Copy (.gburn)…	Bir kopya indir (.gburn)…
+Remove the layer	Katmanı kaldır

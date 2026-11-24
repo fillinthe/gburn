@@ -1496,7 +1496,7 @@ dependencies = [
 
 [[package]]
 name = "gburn-app"
-version = "0.4.11"
+version = "0.4.12"
 dependencies = [
  "chrono",
  "eframe",
@@ -1522,7 +1522,7 @@ dependencies = [
 
 [[package]]
 name = "gburn-core"
-version = "0.4.11"
+version = "0.4.12"
 dependencies = [
  "barcoders",
  "datamatrix",
@@ -1536,7 +1536,7 @@ dependencies = [
 
 [[package]]
 name = "gburn-link"
-version = "0.4.11"
+version = "0.4.12"
 dependencies = [
  "tungstenite",
 ]
@@ -1560,6 +1560,7 @@ dependencies = [
  "eframe",
  "egui_extras",
  "ehttp",
+ "flate2",
  "gcarve-core",
  "js-sys",
  "png 0.17.16",

@@ -1180,3 +1180,5 @@ Name a size, then type the name in any size box (X, Y, W, H, text height…). Su
 not a size	keine Größe
 Add a variable	Variable hinzufügen
 Favourites	Favoriten
+Download a Copy (.gburn)…	Kopie herunterladen (.gburn)…
+Remove the layer	Ebene entfernen

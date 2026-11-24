@@ -2418,6 +2418,7 @@ impl App {
                     self.laser.stop();
                 }
                 self.quitting = true;
+                gcarve_ui::help::relaunch(); // after an update: the new version starts as this one goes
                 ctx.send_viewport_cmd(egui::ViewportCommand::Close);
             }
             c if c.starts_with("template:") => {
@@ -2433,7 +2434,9 @@ impl App {
                 }
             }
             c if c.starts_with("designopen:") => self.cloud.open_project(ctx, &c[11..]),
-            "save" if !self.cloud_id.is_empty() => self.cloud_save(ctx),
+            // the browser keeps designs in the account (File › Download a Copy puts one on the computer); the desktop
+            // saves a file unless the design came from the account (owner 2026-11-24)
+            "save" if !self.cloud_id.is_empty() || cfg!(target_arch = "wasm32") => self.cloud_save(ctx),
             "save" => self.save(false),
             // the browser has no save box: ask for the name, then download under it
             "saveas" if cfg!(target_arch = "wasm32") => self.save_as = Some(self.name.clone()),
@@ -2673,11 +2676,24 @@ impl App {
             }
             "layer-del" => {
                 let i = self.layer;
-                if !self.edit(|d, _| d.remove_layer(i)) {
+                // the layer goes with its shapes, on every page (one undo step; owner 2026-11-24: "how can I delete layers?")
+                let name = self.doc.layers.get(i).map(|l| l.name.clone()).unwrap_or_default();
+                let n = self.doc.shapes.iter().chain(self.doc.pages.iter().flat_map(|p| p.shapes.iter())).filter(|s| s.layer == i).count();
+                let ok = self.edit(|d, _| {
+                    let ids: Vec<i32> = d.shapes.iter().filter(|s| s.layer == i).map(|s| s.id).collect();
+                    d.remove(&ids);
+                    for p in &mut d.pages {
+                        p.shapes.retain(|s| s.layer != i);
+                    }
+                    d.remove_layer(i)
+                });
+                if !ok {
                     self.revert_edit();
-                    self.status = "Only an empty layer can be removed (move or delete its shapes first)".into();
+                    self.status = "The last layer stays: a design needs one".into();
                 } else {
-                    self.layer = i.saturating_sub(1);
+                    self.layer = i.saturating_sub(1).min(self.doc.layers.len() - 1);
+                    self.sel.retain(|id| self.doc.find(*id).is_some());
+                    self.status = if n > 0 { format!("Removed the layer {name} and its {n} shapes (Undo brings them back)") } else { format!("Removed the layer {name}") };
                 }
             }
             "multitrace" => {
@@ -6709,8 +6725,8 @@ impl App {
                 self.confirmed = true;
                 self.run(ctx, &cmd);
             }
-            (Some(_), _) if !self.cloud_id.is_empty() => {
-                // a design from the account: saved there, then the command goes on when the save comes back
+            (Some(_), _) if !self.cloud_id.is_empty() || cfg!(target_arch = "wasm32") => {
+                // a design from the account (or any design in the browser): saved there, then the command goes on when the save comes back
                 self.cloud_save(ctx);
                 self.confirm = None;
                 self.after_cloud_save = Some(cmd);
@@ -7049,6 +7065,15 @@ impl App {
         }
         self.account.show(ctx, &mut self.cloud);
         let quiet = self.shot || self.cloud.local();
+        // an update was put in place: quit (asking about unsaved work as usual) so the new version starts. Never
+        // mid-job: then it starts whenever GBurn is next quit.
+        if gcarve_ui::help::restart_wanted() {
+            if self.job_running() {
+                self.status = "The update is installed: it starts when you quit GBurn".into();
+            } else {
+                self.pending_cmd = Some("quit".into());
+            }
+        }
         if let Some(m) = self.help.ui(ctx, &mut self.cloud, quiet) {
             self.status = m;
         }
@@ -9510,8 +9535,8 @@ impl App {
             });
             m.item("Import (SVG, DXF, PDF, LightBurn, picture)…", "⌘I", true, "import");
             m.sep();
-            m.item(if web { "Save (download .gburn)" } else { "Save" }, "⌘S", true, "save");
-            m.item("Save As…", "⇧⌘S", true, "saveas");
+            m.item(if web { "Save to Account" } else { "Save" }, "⌘S", true, "save");
+            m.item(if web { "Download a Copy (.gburn)…" } else { "Save As…" }, "⇧⌘S", true, "saveas");
             m.item("Notes…", "", true, "notes");
             m.item("Print", "⌘P", !empty, "print");
             m.item("Print in Black", "⇧⌘P", !empty, "printbw");
@@ -9519,7 +9544,9 @@ impl App {
             m.item("Export Settings…", "", true, "settings-export");
             m.item("Import Settings…", "", true, "settings-import");
             m.item("Templates…", "", true, "templates");
-            m.item("Save to Account", "", true, "cloudsave");
+            if !web {
+                m.item("Save to Account", "", true, "cloudsave");
+            }
             m.item("Open from Account…", "", true, "cloudopen");
             m.sep();
             m.enabled(!empty, |m| {
@@ -10148,7 +10175,7 @@ impl App {
                 go(ui, "Make default", "layerdefsave");
                 go(ui, "Cut earlier", "layer-up");
                 go(ui, "Cut later", "layer-down");
-                go(ui, "Remove (when empty)", "layer-del");
+                go(ui, "Remove the layer", "layer-del");
             });
             pick.on_hover_text(if self.sel.is_empty() {
                 "Click: draw on this layer · ⇧-click: select its shapes"
@@ -11917,17 +11944,24 @@ impl App {
             // the name and state on the left (room kept for Connect and the chevron on the right)
             let room = ui.available_width() - if connected { 30.0 } else { 120.0 };
             let r = ui
-                .allocate_ui_with_layout(vec2(room.max(60.0), if !connected && !named { 28.0 } else { 20.0 }), egui::Layout::left_to_right(egui::Align::Center), |ui| {
-                    if !connected && !named {
-                        // nothing picked yet: a real button, like Connect beside it (owner 2026-11-24)
-                        ui.add(widgets::Button::new(text))
+                .allocate_ui_with_layout(vec2(room.max(60.0), if !connected { 28.0 } else { 20.0 }), egui::Layout::left_to_right(egui::Align::Center), |ui| {
+                    if !connected {
+                        // not connected: a real button naming the machine (or Choose your machine…); a click opens the
+                        // list to pick or change it (owner 2026-11-24: "I do not see a change button for the device")
+                        ui.add(widgets::Button::new(if named { title.clone() } else { text }).icon("chevron-down", true))
                     } else {
                         ui.add(egui::Label::new(RichText::new(text).font(widgets::bold(12.0))).truncate().sense(Sense::click()))
                     }
                 })
                 .inner
-                .on_hover_text(if connected || named { "The Laser tab: the device, Go to, spots, console" } else { "Pick your laser from the list: work area, controller and lens are filled in" });
-            if r.clicked() && !connected && !named {
+                .on_hover_text(if connected {
+                    "The Laser tab: the device, Go to, spots, console"
+                } else if named {
+                    "Change the machine: pick another laser from the list"
+                } else {
+                    "Pick your laser from the list: work area, controller and lens are filled in"
+                });
+            if r.clicked() && !connected {
                 *cmd = Some("machinedb".into());
             } else if r.clicked() {
                 self.side_tab = 2;
@@ -14976,7 +15010,7 @@ impl App {
             ("Trace Several Picture Files…", "multitrace"),
             ("Layer: Cut Earlier (move up)", "layer-up"),
             ("Layer: Cut Later (move down)", "layer-down"),
-            ("Layer: Remove (when empty)", "layer-del"),
+            ("Layer: Remove", "layer-del"),
             ("Union", "union"),
             ("Subtract", "subtract"),
             ("Intersect", "intersect"),
@@ -16274,6 +16308,18 @@ impl App {
         self.doc.notes = "birch 3 mm".into();
         if !Document::from_json(&self.doc.to_json()).is_ok_and(|d| d.notes == "birch 3 mm") {
             return Err("notes".into());
+        }
+        // a layer goes with its shapes in one undo step; the last layer stays
+        let (layers0, shapes0) = (self.doc.layers.len(), self.doc.shapes.len());
+        let on_last = self.doc.shapes.iter().filter(|s| s.layer == layers0 - 1).count();
+        self.layer = layers0 - 1;
+        self.run(&ctx, "layer-del");
+        if self.doc.layers.len() != layers0 - 1 || self.doc.shapes.len() != shapes0 - on_last {
+            return Err(format!("layer delete: {} layers, {} shapes", self.doc.layers.len(), self.doc.shapes.len()));
+        }
+        self.run(&ctx, "undo");
+        if self.doc.layers.len() != layers0 || self.doc.shapes.len() != shapes0 {
+            return Err("layer delete didn't undo".into());
         }
         // variables: a name in a size box, one variable built on another, and a loop that ends
         self.doc.vars = vec![("gap".into(), "3mm".into()), ("Wide".into(), "gap * 2 + 1in".into()), ("a".into(), "b".into()), ("b".into(), "a".into())];

@@ -1180,3 +1180,5 @@ Name a size, then type the name in any size box (X, Y, W, H, text height…). Su
 not a size	pas une dimension
 Add a variable	Ajouter une variable
 Favourites	Favoris
+Download a Copy (.gburn)…	Télécharger une copie (.gburn)…
+Remove the layer	Supprimer le calque

@@ -2,6 +2,13 @@
 
 Every GBurn release, newest first. Downloads are on the [releases page](https://github.com/fillinthe/gburn/releases).
 
+## 0.4.12
+
+- **Updates install themselves.** Update now downloads the new version, checks it, puts it in place and restarts GBurn (it used to open the download for you to install by hand). It never restarts while a job is running. If anything fails it falls back to the old way.
+- The laser panel's machine button names your machine and opens the list to **change it**.
+- **Removing a layer** takes its shapes with it (one Undo brings both back); before, only an empty layer could be removed.
+- In the browser, **Save** keeps the design in your account; File › Download a Copy puts one on the computer.
+
 ## 0.4.11
 
 - **Dragging a shape moves it.** A quick drag that started just inside a shape's edge drew a selection box instead of moving the shape, and one that started near a corner resized it. The press now counts where the button went down.

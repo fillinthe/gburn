@@ -6,7 +6,7 @@ members = ["gburn-core", "gburn-app", "gburn-link"]
 
 [workspace.package]
 edition = "2021"
-version = "0.4.11"
+version = "0.4.12"
 license = "LicenseRef-Proprietary"
 rust-version = "1.89"
 

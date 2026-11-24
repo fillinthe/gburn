@@ -1180,3 +1180,5 @@ Name a size, then type the name in any size box (X, Y, W, H, text height…). Su
 not a size	non è una misura
 Add a variable	Aggiungi una variabile
 Favourites	Preferiti
+Download a Copy (.gburn)…	Scarica una copia (.gburn)…
+Remove the layer	Rimuovi il livello

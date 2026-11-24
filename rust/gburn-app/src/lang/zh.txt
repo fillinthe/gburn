@@ -1180,3 +1180,5 @@ Name a size, then type the name in any size box (X, Y, W, H, text height…). Su
 not a size	不是尺寸
 Add a variable	添加变量
 Favourites	收藏
+Download a Copy (.gburn)…	下载副本 (.gburn)…
+Remove the layer	删除图层

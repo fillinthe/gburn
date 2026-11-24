@@ -23,6 +23,7 @@ mod webcam;
 fn main() -> eframe::Result {
     gcarve_ui::store::set_app("GBurn");
     gcarve_ui::help::init("fillinthe/gburn", env!("CARGO_PKG_VERSION")); // before anything can report, so errors carry GBurn's version
+    gcarve_ui::help::set_self_install(true); // Update now installs the new version and restarts
     #[cfg(target_os = "macos")]
     native::catch_launch_files();
     std::panic::set_hook(Box::new(|info| {
