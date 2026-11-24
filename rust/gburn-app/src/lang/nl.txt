@@ -1174,3 +1174,9 @@ To make {app} better, it sends which features get used and a short report when s
 Never your designs, file names or paths. Problem reports are kept for 30 days.	Nooit je ontwerpen, bestandsnamen of paden. Probleemmeldingen worden 30 dagen bewaard.
 Help improve {app}: send usage and problem reports	Help {app} verbeteren: gebruik en probleemmeldingen versturen
 Delete my data	Mijn gegevens verwijderen
+Variables	Variabelen
+Variables…	Variabelen…
+Name a size, then type the name in any size box (X, Y, W, H, text height…). Sums and units work: gap * 2 + 1in. Saved with the design.	Geef een maat een naam en typ die naam in elk maatveld (X, Y, B, H, teksthoogte…). Sommen en eenheden werken: gap * 2 + 1in. Wordt met het ontwerp opgeslagen.
+not a size	geen maat
+Add a variable	Variabele toevoegen
+Favourites	Favorieten

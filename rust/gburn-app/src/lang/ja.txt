@@ -1174,3 +1174,9 @@ To make {app} better, it sends which features get used and a short report when s
 Never your designs, file names or paths. Problem reports are kept for 30 days.	デザイン、ファイル名、パスは送りません。問題レポートは30日間保存されます。
 Help improve {app}: send usage and problem reports	{app} の改善に協力:利用状況と問題レポートを送信
 Delete my data	自分のデータを削除
+Variables	変数
+Variables…	変数…
+Name a size, then type the name in any size box (X, Y, W, H, text height…). Sums and units work: gap * 2 + 1in. Saved with the design.	寸法に名前を付けて、その名前をサイズ欄(X、Y、W、H、文字の高さなど)に入力します。計算式と単位も使えます:gap * 2 + 1in。デザインと一緒に保存されます。
+not a size	寸法ではありません
+Add a variable	変数を追加
+Favourites	お気に入り

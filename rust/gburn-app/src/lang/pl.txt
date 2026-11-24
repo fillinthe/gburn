@@ -1174,3 +1174,9 @@ To make {app} better, it sends which features get used and a short report when s
 Never your designs, file names or paths. Problem reports are kept for 30 days.	Nigdy Twoje projekty, nazwy plików ani ścieżki. Zgłoszenia problemów są przechowywane 30 dni.
 Help improve {app}: send usage and problem reports	Pomóż ulepszyć {app}: wysyłaj dane o użyciu i zgłoszenia problemów
 Delete my data	Usuń moje dane
+Variables	Zmienne
+Variables…	Zmienne…
+Name a size, then type the name in any size box (X, Y, W, H, text height…). Sums and units work: gap * 2 + 1in. Saved with the design.	Nazwij wymiar, a potem wpisz tę nazwę w dowolnym polu rozmiaru (X, Y, S, W, wysokość tekstu…). Działają sumy i jednostki: gap * 2 + 1in. Zapisywane z projektem.
+not a size	to nie wymiar
+Add a variable	Dodaj zmienną
+Favourites	Ulubione

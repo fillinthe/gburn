@@ -822,6 +822,12 @@ pub struct App {
     /// Choose your machine…: open, and the search words
     show_mdb: bool,
     mdb_search: String,
+    /// the last pointer position of the drag in progress (screen)
+    last_drag: Pos2,
+    /// starred machines ("brand|model", store key `machinefavs`): listed first in Choose your machine
+    mdb_favs: Vec<String>,
+    /// Edit › Variables… is open
+    show_vars: bool,
     preset_name: String,
     /// typed rotation for the selection (degrees)
     angle: String,
@@ -1056,6 +1062,7 @@ pub const ICONS: &[(&str, &str)] = icon_set![
     "preview",
     "pen",
     "heart",
+    "star",
     "laser",
     "sidebar",
     "tape",
@@ -1536,6 +1543,9 @@ impl App {
             show_matlib: false,
             show_mdb: false,
             mdb_search: String::new(),
+            last_drag: Pos2::ZERO,
+            mdb_favs: get("machinefavs").and_then(|s| serde_json::from_str(&s).ok()).unwrap_or_default(),
+            show_vars: false,
             preset_name: String::new(),
             angle: "0".into(),
             textures: HashMap::new(),
@@ -2169,8 +2179,14 @@ impl App {
         match v {
             Some(v) => v.is_finite().then_some(v * k),
             // sums: "100/3", "2in + 5mm", "(40 - 3) * 2"
-            None => gcarve_core::expr::eval_expr(&t, if self.doc.inches { 1.0 } else { 1.0 / MM_PER_IN }, &|_| None).ok().map(|v| v * MM_PER_IN),
+            None => self.eval_mm(&t, 0),
         }
+    }
+    /// a sum, with the design's variables by name (Edit › Variables…): "gap * 2 + 1in"
+    fn eval_mm(&self, text: &str, depth: u8) -> Option<f64> {
+        // ponytail: depth 8 ends loops of variables naming each other
+        let lookup = |name: &str| (depth < 8).then(|| self.doc.vars.iter().find(|v| v.0.trim().eq_ignore_ascii_case(name))).flatten().and_then(|v| self.eval_mm(&v.1.to_lowercase(), depth + 1)).map(|mm| mm / MM_PER_IN);
+        gcarve_core::expr::eval_expr(text, if self.doc.inches { 1.0 } else { 1.0 / MM_PER_IN }, &lookup).ok().map(|v| v * MM_PER_IN)
     }
 
     // ---- commands -------------------------------------------------------------------------------------------------
@@ -3266,6 +3282,7 @@ impl App {
                 }
             }
             "notes" => self.show_notes = true,
+            "vars" => self.show_vars = true,
             "templates" => self.show_tpl = true,
             "replacepic" | "replacepicfit" => {
                 let Some(id) = self.sel.iter().copied().find(|id| self.doc.find(*id).is_some_and(|s| s.raster.is_some())) else {
@@ -6849,6 +6866,7 @@ impl App {
         (self.keymap, self.nudge_mm, self.import_join, self.layer_defaults, self.prefs) = (fresh.keymap, fresh.nudge_mm, fresh.import_join, fresh.layer_defaults, fresh.prefs);
         self.presets = fresh.presets;
         self.font_lists = fresh.font_lists;
+        self.mdb_favs = fresh.mdb_favs;
         self.plan_gen_key += 1;
         self.status = format!("Settings imported: {} machines, {} materials", self.profiles.len().max(1), self.presets.len());
     }
@@ -7191,6 +7209,15 @@ impl App {
         Some([self.to_screen(pt(b.x0, b.y0)), self.to_screen(pt(b.x1, b.y0)), self.to_screen(pt(b.x1, b.y1)), self.to_screen(pt(b.x0, b.y1))])
     }
 
+    /// the corner handle under screen point `s`. The reach shrinks with the box (a quarter of its short side, at most
+    /// 8 px), so the middle of a small shape always moves it (owner 2026-11-24: "went to drag a square and it resized")
+    fn handle_hit(&self, s: Pos2) -> Option<usize> {
+        let hs = self.handles()?;
+        let short = (hs[1].x - hs[0].x).abs().min((hs[3].y - hs[0].y).abs());
+        let reach = (short / 4.0).clamp(3.0, 8.0);
+        hs.iter().position(|h| h.distance(s) < reach)
+    }
+
     /// the rotate handle: a dot above the middle of the selection's box (screen)
     fn rotate_handle(&self) -> Option<Pos2> {
         let b = self.doc.bounds_of(&self.sel);
@@ -7211,7 +7238,7 @@ impl App {
                 let layer = self.layer;
                 let id = self.edit(|d, _| d.add(c, layer));
                 self.sel = vec![id];
-                if self.prefs.after_draw {
+                if !self.prefs.keep_tool {
                     self.tool = Tool::Select;
                 }
             }
@@ -7414,6 +7441,25 @@ impl App {
                             ui.add(widgets::field(&mut self.poly.2).desired_width(50.0));
                         }
                         ui.separator();
+                    }
+                    // a selection: its place and size right here, as in GCarve (the Properties tab has the rest)
+                    Tool::Select if !self.sel.is_empty() && ui.available_width() > 470.0 => {
+                        let b = self.doc.bounds_of(&self.sel);
+                        if !b.is_empty() {
+                            self.sync_size(ui, b);
+                            let mut apply = false;
+                            for (k, label) in ["X", "Y", "W", "H"].iter().enumerate() {
+                                ui.label(RichText::new(*label).color(theme::TEXT_DIM));
+                                let r = ui.add_sized([64.0, 26.0], widgets::field(&mut self.size[k])).on_hover_text("Enter applies. Sums, units and your variables work: 1/2in, gap * 2");
+                                apply |= r.lost_focus() && ui.input(|i| i.key_pressed(Key::Enter));
+                            }
+                            ui.label(RichText::new(if self.doc.inches { "in" } else { "mm" }).color(theme::TEXT_DIM));
+                            widgets::checkbox(ui, &mut self.size_lock, tr("Keep ratio"));
+                            if apply {
+                                self.apply_size();
+                            }
+                            ui.separator();
+                        }
                     }
                     _ => {}
                 }
@@ -8012,14 +8058,12 @@ impl App {
                     self.stage = Stage::Rotate { centre, a0: (w.y - centre.y).atan2(w.x - centre.x), done: 0.0 };
                     return;
                 }
-                if let Some(hs) = self.handles() {
-                    if let Some(k) = hs.iter().position(|h| h.distance(s) < 8.0) {
-                        let b = self.doc.bounds_of(&self.sel);
-                        let anchor = [pt(b.x1, b.y1), pt(b.x0, b.y1), pt(b.x0, b.y0), pt(b.x1, b.y0)][k];
-                        self.snap_as("Resize");
-                        self.stage = Stage::Scale { anchor, from: w };
-                        return;
-                    }
+                if let Some(k) = self.handle_hit(s) {
+                    let b = self.doc.bounds_of(&self.sel);
+                    let anchor = [pt(b.x1, b.y1), pt(b.x0, b.y1), pt(b.x0, b.y0), pt(b.x1, b.y0)][k];
+                    self.snap_as("Resize");
+                    self.stage = Stage::Scale { anchor, from: w };
+                    return;
                 }
                 match self.pick(s) {
                     Some(id) => {
@@ -8326,7 +8370,7 @@ impl App {
             Stage::Line { pts, handles, .. } => self.stage = Stage::Line { pts, handles, dragging: false }, // the release ends a handle drag
             _ => {}
         }
-        if after_draw && self.prefs.after_draw {
+        if after_draw && !self.prefs.keep_tool {
             self.set_tool(Tool::Select);
         }
     }
@@ -8378,6 +8422,7 @@ impl App {
             &mut self.show_matlib,
             &mut self.show_mtest,
             &mut self.show_notes,
+            &mut self.show_vars,
             &mut self.show_offset,
             &mut self.show_pc,
             &mut self.show_poly,
@@ -8723,7 +8768,10 @@ impl App {
         }
         let space = ui.input(|i| i.key_down(Key::Space));
         if resp.drag_started() {
-            let pos = resp.interact_pointer_pos().unwrap_or_default();
+            // where the button went down, not where the pointer is once egui calls it a drag (a few px on, more with a
+            // fast mouse): a press just inside a shape's edge used to land outside it (a selection box, the shape
+            // didn't move), and one near a corner could land on its handle (a resize). Owner 2026-11-24.
+            let pos = ui.input(|i| i.pointer.press_origin()).or(resp.interact_pointer_pos()).unwrap_or_default();
             let b = if resp.drag_started_by(PointerButton::Middle) {
                 PointerButton::Middle
             } else if resp.drag_started_by(PointerButton::Secondary) {
@@ -8753,11 +8801,13 @@ impl App {
         }
         if resp.dragged() {
             if let Some(pos) = resp.interact_pointer_pos() {
+                self.last_drag = pos;
                 self.drag(pos, shift);
             }
         }
         if resp.drag_stopped() {
-            let pos = resp.interact_pointer_pos().unwrap_or_default();
+            // the release is where the drag last was when the frame has no pointer position (it fell back to 0, 0)
+            let pos = resp.interact_pointer_pos().unwrap_or(self.last_drag);
             self.release(pos, shift);
         }
         if resp.double_clicked() && self.tool == Tool::Line {
@@ -8852,7 +8902,17 @@ impl App {
         if resp.hovered() {
             ui.ctx().set_cursor_icon(match self.tool {
                 Tool::Pan => egui::CursorIcon::Grab,
-                Tool::Select => egui::CursorIcon::Default,
+                // the pointer says what a drag here will do: resize on a corner, turn on the dot, move on a shape
+                Tool::Select => match (ui.ctx().pointer_hover_pos(), matches!(self.stage, Stage::Idle)) {
+                    (Some(p), true) => match self.handle_hit(p) {
+                        Some(0 | 2) => egui::CursorIcon::ResizeNeSw,
+                        Some(_) => egui::CursorIcon::ResizeNwSe,
+                        None if self.rotate_handle().is_some_and(|h| h.distance(p) < 9.0) => egui::CursorIcon::Alias,
+                        None if self.pick(p).is_some() => egui::CursorIcon::Move,
+                        None => egui::CursorIcon::Default,
+                    },
+                    _ => egui::CursorIcon::Default,
+                },
                 _ => egui::CursorIcon::Crosshair,
             });
         }
@@ -9490,6 +9550,7 @@ impl App {
             m.item(&redo_name, "⇧⌘Z", can_redo, "redo");
             m.item("Undo History…", "", can_undo || can_redo, "history");
             m.item("Settings…", "⌘,", true, "prefs");
+            m.item("Variables…", "", true, "vars");
             m.sep();
             m.item("Cut", "⌘X", sel > 0, "cut");
             m.item("Copy", "⌘C", sel > 0, "copy");
@@ -10975,11 +11036,8 @@ impl App {
         }
     }
 
-    fn shape_box(&mut self, ui: &mut egui::Ui) {
-        let b = self.doc.bounds_of(&self.sel);
-        if b.is_empty() {
-            return;
-        }
+    /// the X / Y / W / H boxes follow the selection unless one is being typed in
+    fn sync_size(&mut self, ui: &egui::Ui, b: gburn_core::Rect) {
         if self.size_for != self.sel || !ui.memory(|m| m.focused().is_some()) {
             let f = |mm: f64| {
                 if self.doc.inches {
@@ -10996,6 +11054,14 @@ impl App {
                 self.size_for = self.sel.clone();
             }
         }
+    }
+
+    fn shape_box(&mut self, ui: &mut egui::Ui) {
+        let b = self.doc.bounds_of(&self.sel);
+        if b.is_empty() {
+            return;
+        }
+        self.sync_size(ui, b);
         ui.label(RichText::new(format!("{} selected", self.sel.len())).font(widgets::bold(13.0)));
         // one shape: its properties
         if self.sel.len() == 1 {
@@ -11851,8 +11917,13 @@ impl App {
             // the name and state on the left (room kept for Connect and the chevron on the right)
             let room = ui.available_width() - if connected { 30.0 } else { 120.0 };
             let r = ui
-                .allocate_ui_with_layout(vec2(room.max(60.0), 20.0), egui::Layout::left_to_right(egui::Align::Center), |ui| {
-                    ui.add(egui::Label::new(RichText::new(text).font(widgets::bold(12.0))).truncate().sense(Sense::click()))
+                .allocate_ui_with_layout(vec2(room.max(60.0), if !connected && !named { 28.0 } else { 20.0 }), egui::Layout::left_to_right(egui::Align::Center), |ui| {
+                    if !connected && !named {
+                        // nothing picked yet: a real button, like Connect beside it (owner 2026-11-24)
+                        ui.add(widgets::Button::new(text))
+                    } else {
+                        ui.add(egui::Label::new(RichText::new(text).font(widgets::bold(12.0))).truncate().sense(Sense::click()))
+                    }
                 })
                 .inner
                 .on_hover_text(if connected || named { "The Laser tab: the device, Go to, spots, console" } else { "Pick your laser from the list: work area, controller and lens are filled in" });
@@ -12935,6 +13006,40 @@ impl App {
             }
             self.show_notes = open;
         }
+        if self.show_vars {
+            let mut open = true;
+            let mut vars = self.doc.vars.clone();
+            widgets::Dialog::new(tr("Variables")).open(&mut open).modeless(self.dialog_at(), egui::Align2::RIGHT_TOP).width(380.0).show(ctx, |ui| {
+                ui.label(RichText::new(tr("Name a size, then type the name in any size box (X, Y, W, H, text height…). Sums and units work: gap * 2 + 1in. Saved with the design.")).color(theme::TEXT_DIM).size(11.0));
+                let mut gone = None;
+                egui::Grid::new("vars").num_columns(5).spacing([6.0, 6.0]).show(ui, |ui| {
+                    for (i, v) in vars.iter_mut().enumerate() {
+                        ui.add(widgets::field(&mut v.0).hint_text(tr("name")).desired_width(110.0));
+                        ui.label(RichText::new("=").color(theme::TEXT_DIM));
+                        ui.add(widgets::field(&mut v.1).hint_text("3mm").desired_width(110.0));
+                        match self.eval_mm(&v.1.to_lowercase(), 0) {
+                            Some(mm) => ui.label(RichText::new(format!("{} {}", self.fmt(mm), if self.doc.inches { "in" } else { "mm" })).color(theme::TEXT_DIM)),
+                            None => ui.label(RichText::new(tr("not a size")).color(theme::ORANGE)),
+                        };
+                        if IconButton::new("x").tip("Remove this variable").size(14.0).show(ui).clicked() {
+                            gone = Some(i);
+                        }
+                        ui.end_row();
+                    }
+                });
+                if let Some(i) = gone {
+                    vars.remove(i);
+                }
+                if ui.add(widgets::Button::new(tr("Add a variable"))).clicked() {
+                    vars.push((String::new(), String::new()));
+                }
+            });
+            if vars != self.doc.vars {
+                self.doc.vars = vars;
+                self.changed();
+            }
+            self.show_vars = open;
+        }
         if self.show_tpl {
             let mut open = true;
             let mut list = templates();
@@ -13658,12 +13763,19 @@ impl App {
                 egui::ScrollArea::vertical().max_height(widgets::list_height(ui, 120.0).min(460.0)).show(ui, |ui| {
                     ui.spacing_mut().item_spacing.y = 0.0; // rows sit together, each lit on hover
                     let mut last = "";
-                    for m in found {
-                        if m.brand != last {
+                    let fav_key = |m: &crate::machines::Machine| format!("{}|{}", m.brand, m.model);
+                    // your starred machines first (they stay under their brand too)
+                    let favs: Vec<_> = found.iter().copied().filter(|m| self.mdb_favs.contains(&fav_key(m))).collect();
+                    let nf = favs.len();
+                    let fav_title = tr("Favourites");
+                    for (k, m) in favs.into_iter().chain(found).enumerate() {
+                        let group = if k < nf { fav_title } else { m.brand.as_str() };
+                        if group != last || k == nf {
                             ui.add_space(4.0);
-                            ui.label(RichText::new(&m.brand).font(widgets::bold(13.0)));
-                            last = &m.brand;
+                            ui.label(RichText::new(group).font(widgets::bold(13.0)));
+                            last = group;
                         }
+                        let is_fav = self.mdb_favs.contains(&fav_key(m));
                         let i = crate::machines::all().iter().position(|x| std::ptr::eq(x, m)).unwrap_or(0);
                         let what = match m.kind.as_str() {
                             "ruida" => "Ruida".to_string(),
@@ -13700,7 +13812,14 @@ impl App {
                         };
                         // a list row: model, then size and watts in columns of their own
                         let dim = |t: RichText| if m.supported() { t } else { t.color(theme::TEXT_DIM) };
-                        let r = widgets::list_row(ui, false, |ui| {
+                        let (star, r) = ui
+                            .horizontal(|ui| {
+                                ui.spacing_mut().item_spacing.x = 0.0;
+                                let row_h = ui.text_style_height(&egui::TextStyle::Body) + 20.0; // the row's height (the cell is laid out before the row, so it must match it to sit on its middle)
+                                let (cell, star) = ui.allocate_exact_size(vec2(24.0, row_h), Sense::click());
+                                gcarve_ui::icons::paint(ui, "star", egui::Rect::from_center_size(cell.center(), vec2(14.0, 14.0)), 14.0, if is_fav { theme::ORANGE } else if star.hovered() { theme::TEXT_DIM } else { theme::BORDER_STRONG });
+                                let star = star.on_hover_text(if is_fav { "Not a favourite any more" } else { "Favourite: keeps this machine at the top of the list" });
+                                (star, widgets::list_row(ui, false, |ui| {
                             ui.horizontal(|ui| {
                                 let h = ui.text_style_height(&egui::TextStyle::Body);
                                 let model_w = (ui.available_width() - MDB_SIZE_W - MDB_WATTS_W - 2.0 * ui.spacing().item_spacing.x).max(60.0);
@@ -13712,7 +13831,17 @@ impl App {
                                     });
                                 }
                             });
-                        });
+                        }))
+                            })
+                            .inner;
+                        if star.clicked() {
+                            let key = fav_key(m);
+                            match self.mdb_favs.iter().position(|f| *f == key) {
+                                Some(at) => drop(self.mdb_favs.remove(at)),
+                                None => self.mdb_favs.push(key),
+                            }
+                            store::save("machinefavs", &serde_json::to_string(&self.mdb_favs).unwrap_or_default());
+                        }
                         let tip = format!("{what}\n{}{}", m.notes, if m.url.is_empty() { String::new() } else { format!("\n{}", m.url) });
                         if r.on_hover_text(tip).clicked() {
                             pick = Some(i);
@@ -14612,7 +14741,9 @@ impl App {
                 }
                 widgets::checkbox(ui, &mut p.import_group, tr("Group what's imported"));
                 widgets::checkbox(ui, &mut p.import_centre, tr("Put imports in the middle of the bed"));
-                widgets::checkbox(ui, &mut p.after_draw, tr("Back to Select after drawing a shape"));
+                let mut back = !p.keep_tool;
+                widgets::checkbox(ui, &mut back, tr("Back to Select after drawing a shape")).on_hover_text("Off: the drawing tool stays on, to draw several shapes in a row");
+                p.keep_tool = !back;
                 widgets::checkbox(ui, &mut p.crosshair, tr("Crosshair across the canvas at the pointer"));
                 widgets::checkbox(ui, &mut p.centre_cross, tr("Cross at the bed's centre"));
                     }
@@ -14772,6 +14903,7 @@ impl App {
         add("Draw", "Replace the Picture to Fit…", "", "replacepicfit");
         add("Shapes", "Close / Optimize Within…", "", "tidy");
         add("File", "Notes…", "", "notes");
+        add("Edit", "Variables…", "", "vars");
         add("File", "Templates (new from / save as)…", "", "templates");
         add("Arrange", "Cut Last", "", "cutlast");
         for (name, id) in BED_SPOTS {
@@ -16143,6 +16275,13 @@ impl App {
         if !Document::from_json(&self.doc.to_json()).is_ok_and(|d| d.notes == "birch 3 mm") {
             return Err("notes".into());
         }
+        // variables: a name in a size box, one variable built on another, and a loop that ends
+        self.doc.vars = vec![("gap".into(), "3mm".into()), ("Wide".into(), "gap * 2 + 1in".into()), ("a".into(), "b".into()), ("b".into(), "a".into())];
+        let wide = self.parse_mm("wide + 1mm");
+        if wide.is_none_or(|v| (v - 32.4).abs() > 1e-6) || self.parse_mm("a").is_some() || !Document::from_json(&self.doc.to_json()).is_ok_and(|d| d.vars.len() == 4) {
+            return Err(format!("variables: {wide:?}"));
+        }
+        self.doc.vars.clear();
         // outline round two squares: the hull is one closed shape spanning both; a power scale burns on a scaled copy of the layer
         let a = self.doc.add(geom::make_rect(700.0, 700.0, 710.0, 710.0), 0);
         let b = self.doc.add(geom::make_rect(720.0, 700.0, 730.0, 710.0), 0);
@@ -16199,6 +16338,38 @@ impl App {
         let mut gone = self.sel.clone();
         gone.extend([c1, c2]);
         self.doc.remove(&gone);
+        // a small square (12 px on screen): a press 3 px in from its corner moves it, it doesn't resize
+        let px = 1.0 / self.scale as f64;
+        let small = self.doc.add(geom::make_rect(640.0, 40.0, 640.0 + 12.0 * px, 40.0 + 12.0 * px), 0);
+        self.sel = vec![small];
+        self.set_tool(Tool::Select);
+        let at = self.to_screen(pt(640.0 + 3.0 * px, 40.0 + 3.0 * px));
+        self.press(at, PointerButton::Primary, false);
+        self.drag(at + vec2(30.0, 0.0), false);
+        self.release(at + vec2(30.0, 0.0), false);
+        let b = self.doc.bounds_of(&[small]);
+        if (b.w() - 12.0 * px).abs() > 1e-6 || (b.x0 - 640.0 - 30.0 * px).abs() > px {
+            return Err(format!("a small square resized instead of moving: {b:?}"));
+        }
+        self.doc.remove(&[small]);
+        // draw a square with the Rectangle tool, then drag its middle: it moves (the tool went back to Select), no second shape
+        let n0 = self.doc.shapes.len();
+        self.set_tool(Tool::Rect);
+        let (p0, p1) = (self.to_screen(pt(660.0, 60.0)), self.to_screen(pt(660.0, 60.0)) + vec2(60.0, -60.0));
+        self.press(p0, PointerButton::Primary, false);
+        self.drag(p1, false);
+        self.release(p1, false);
+        let drawn = *self.sel.first().ok_or("the drawn square isn't selected")?;
+        let was = self.doc.bounds_of(&[drawn]);
+        let mid = p0 + vec2(30.0, -30.0);
+        self.press(mid, PointerButton::Primary, false);
+        self.drag(mid + vec2(40.0, 0.0), false);
+        self.release(mid + vec2(40.0, 0.0), false);
+        let b = self.doc.bounds_of(&[drawn]);
+        if self.tool != Tool::Select || self.doc.shapes.len() != n0 + 1 || (b.w() - was.w()).abs() > 1e-6 || (b.x0 - was.x0 - 40.0 * px).abs() > 2.0 * px {
+            return Err(format!("a drawn square didn't move by a drag: tool {:?}, {} shapes, {was:?} -> {b:?}", self.tool, self.doc.shapes.len() - n0));
+        }
+        self.doc.remove(&[drawn]);
         // the rotate handle: a quarter turn (⇧ snaps to 15° steps) makes a 20 × 10 box 10 × 20
         let rb = self.doc.add(geom::make_rect(600.0, 0.0, 620.0, 10.0), 0);
         self.sel = vec![rb];
@@ -17879,7 +18050,8 @@ impl App {
 }
 
 /// store keys that File › Export Settings carries (machines, materials, templates, the galvo lens file, snap, units)
-const SETTINGS_KEYS: [&str; 24] = [
+const SETTINGS_KEYS: [&str; 25] = [
+    "machinefavs",
     "lang",
     "machine",
     "units",
@@ -17913,8 +18085,9 @@ type BoolPreview = (&'static str, &'static str, Vec<Contour>);
 #[derive(Clone, Copy, Debug, Default, PartialEq, serde::Serialize, serde::Deserialize)]
 #[serde(default)]
 struct Prefs {
-    /// back to the Select tool after drawing a shape
-    after_draw: bool,
+    /// stay on the drawing tool after a shape (off = back to Select, so the next drag moves what was just drawn;
+    /// owner 2026-11-24: "made a square and it would not move by me clicking and dragging")
+    keep_tool: bool,
     /// lines across the whole canvas through the pointer
     crosshair: bool,
     /// a cross at the bed's centre
@@ -18195,6 +18368,48 @@ mod tests {
         }
         assert!(seen.iter().all(|s| s.0 > 0.0 && s.2 > 0.0), "rects not captured: {seen:?}");
         assert!(seen.iter().all(|s| (s.0 - seen[0].0).abs() < 0.5 && (s.1 - seen[0].1).abs() < 0.5 && (s.2 - seen[0].2).abs() < 0.5), "the side panel's pinned parts move between tabs: {seen:?}");
+    }
+
+    #[test]
+    fn a_fast_drag_moves_the_shape_from_where_the_button_went_down() {
+        // real pointer events through the canvas (not press() / drag() directly): egui only calls it a drag once the
+        // pointer has moved, and a fast mouse is then well away from the press. The press must still count where the
+        // button went down: just inside an edge it moves the shape (not a selection box), near a corner it moves it
+        // (not a resize).
+        gcarve_ui::store::freeze();
+        let mut a = App::headless();
+        let ctx = egui::Context::default();
+        gcarve_ui::fonts::install(&ctx);
+        gcarve_ui::icons::install(&ctx, ICONS);
+        theme::apply(&ctx);
+        a.welcome = false;
+        a.osnap = false;
+        a.doc.shapes.clear();
+        let id = a.doc.add(geom::make_rect(100.0, 100.0, 140.0, 140.0), 0);
+        a.set_tool(Tool::Select);
+        let frame = |a: &mut App, events: Vec<egui::Event>| {
+            let raw = egui::RawInput { screen_rect: Some(egui::Rect::from_min_size(egui::Pos2::ZERO, vec2(1200.0, 800.0))), events, ..Default::default() };
+            ctx.run_ui(raw, |ui| a.canvas(ui)).textures_delta.clear();
+        };
+        let button = |pos, pressed| egui::Event::PointerButton { pos, button: PointerButton::Primary, pressed, modifiers: Default::default() };
+        frame(&mut a, vec![]);
+        frame(&mut a, vec![]);
+        let px = 1.0 / a.scale as f64;
+        for (name, from, by) in [("inside the left edge, dragged left", vec2(2.0, -20.0), vec2(-60.0, 0.0)), ("near the corner, dragged past it", vec2(12.0, -12.0), vec2(-50.0, 50.0))] {
+            a.sel = vec![id];
+            let was = a.doc.bounds_of(&[id]);
+            let p = a.to_screen(pt(was.x0, was.y0)) + from; // from the bottom-left corner (screen Y runs down)
+            frame(&mut a, vec![egui::Event::PointerMoved(p)]);
+            frame(&mut a, vec![button(p, true)]);
+            frame(&mut a, vec![egui::Event::PointerMoved(p + by * 0.5)]); // one big jump, as a fast mouse makes
+            frame(&mut a, vec![egui::Event::PointerMoved(p + by)]);
+            frame(&mut a, vec![button(p + by, false)]);
+            let b = a.doc.bounds_of(&[id]);
+            assert!((b.w() - was.w()).abs() < 1e-6 && (b.h() - was.h()).abs() < 1e-6, "{name}: the square changed size: {was:?} -> {b:?}");
+            assert!(a.sel == vec![id], "{name}: the square lost its selection");
+            let (dx, dy) = ((b.x0 - was.x0) / px, (b.y0 - was.y0) / px);
+            assert!((dx - by.x as f64).abs() < 1.5 && (dy + by.y as f64).abs() < 1.5, "{name}: moved by {dx:.1}, {dy:.1} px, not {by:?}");
+        }
     }
 
     #[test]

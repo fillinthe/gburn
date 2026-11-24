@@ -1174,3 +1174,9 @@ To make {app} better, it sends which features get used and a short report when s
 Never your designs, file names or paths. Problem reports are kept for 30 days.	디자인, 파일 이름, 경로는 절대 보내지 않습니다. 문제 보고는 30일간 보관됩니다.
 Help improve {app}: send usage and problem reports	{app} 개선 돕기: 사용 정보와 문제 보고 보내기
 Delete my data	내 데이터 삭제
+Variables	변수
+Variables…	변수…
+Name a size, then type the name in any size box (X, Y, W, H, text height…). Sums and units work: gap * 2 + 1in. Saved with the design.	치수에 이름을 붙이고 크기 입력란(X, Y, W, H, 글자 높이 등)에 그 이름을 입력하세요. 계산식과 단위도 됩니다: gap * 2 + 1in. 디자인과 함께 저장됩니다.
+not a size	치수가 아닙니다
+Add a variable	변수 추가
+Favourites	즐겨찾기

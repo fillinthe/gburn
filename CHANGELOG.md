@@ -2,6 +2,16 @@
 
 Every GBurn release, newest first. Downloads are on the [releases page](https://github.com/fillinthe/gburn/releases).
 
+## 0.4.11
+
+- **Dragging a shape moves it.** A quick drag that started just inside a shape's edge drew a selection box instead of moving the shape, and one that started near a corner resized it. The press now counts where the button went down.
+- Corner handles reach less on small shapes, and the pointer shows whether a drag will move, resize or turn.
+- After you draw a shape the tool goes back to Select, so the next drag moves it (Settings can keep the drawing tool on).
+- With the Select tool, the top bar shows the selection's **X, Y, W and H** to type into.
+- **Variables** (Edit › Variables): name a size and type the name in the size boxes; sums and units work (`gap * 2 + 1in`). Saved with the design.
+- **Favourite machines**: a star on each row of Choose your machine keeps yours at the top.
+- LightBurn files keep their dither setting, in and out.
+
 ## 0.4.10
 
 - **Tidier settings.** Machine Settings is now eight short pages down the left (Work area, Motion, Framing and safety, Controller, G-code, Galvo, Rotary, Cut order), showing only the ones your laser uses; no page scrolls.

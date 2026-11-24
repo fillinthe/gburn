@@ -1174,3 +1174,9 @@ To make {app} better, it sends which features get used and a short report when s
 Never your designs, file names or paths. Problem reports are kept for 30 days.	绝不包含你的设计、文件名或路径。问题报告保存 30 天。
 Help improve {app}: send usage and problem reports	帮助改进 {app}:发送使用情况和问题报告
 Delete my data	删除我的数据
+Variables	变量
+Variables…	变量…
+Name a size, then type the name in any size box (X, Y, W, H, text height…). Sums and units work: gap * 2 + 1in. Saved with the design.	给尺寸起个名字,然后在任意尺寸框(X、Y、宽、高、文字高度等)中输入该名字。支持算式和单位:gap * 2 + 1in。随设计一起保存。
+not a size	不是尺寸
+Add a variable	添加变量
+Favourites	收藏

@@ -1174,3 +1174,9 @@ To make {app} better, it sends which features get used and a short report when s
 Never your designs, file names or paths. Problem reports are kept for 30 days.	Tasarımlarınız, dosya adlarınız veya yollarınız asla gönderilmez. Sorun raporları 30 gün saklanır.
 Help improve {app}: send usage and problem reports	{app}'i geliştirmeye yardım et: kullanım ve sorun raporları gönder
 Delete my data	Verilerimi sil
+Variables	Değişkenler
+Variables…	Değişkenler…
+Name a size, then type the name in any size box (X, Y, W, H, text height…). Sums and units work: gap * 2 + 1in. Saved with the design.	Bir ölçüye ad verin, sonra bu adı herhangi bir boyut kutusuna yazın (X, Y, G, Y, metin yüksekliği…). Toplamlar ve birimler çalışır: gap * 2 + 1in. Tasarımla birlikte kaydedilir.
+not a size	bir ölçü değil
+Add a variable	Değişken ekle
+Favourites	Favoriler

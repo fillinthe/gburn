@@ -708,6 +708,9 @@ pub struct Document {
     /// File › Notes: settings that worked, the material, anything (saved with the design)
     #[serde(default, skip_serializing_if = "String::is_empty")]
     pub notes: String,
+    /// named sizes (name, what was typed: "3mm", "gap * 2"), usable by name in the app's size boxes
+    #[serde(default, skip_serializing_if = "Vec::is_empty")]
+    pub vars: Vec<(String, String)>,
     /// the laser this design is for (a saved machine's name, or one picked from the machine list)
     #[serde(default, skip_serializing_if = "String::is_empty")]
     pub laser: String,
@@ -772,6 +775,7 @@ impl Default for Document {
             bed: [600.0, 400.0],
             inches: false,
             notes: String::new(),
+            vars: Vec::new(),
             laser: String::new(),
             arrays: Vec::new(),
             pages: Vec::new(),
@@ -1071,7 +1075,7 @@ impl Document {
             let name = l.name.replace('&', "&amp;").replace('"', "&quot;").replace('<', "&lt;");
             let _ = writeln!(
                 out,
-                "<CutSetting type=\"{kind}\"><index Value=\"{i}\"/><name Value=\"{name}\"/><minPower Value=\"{}\"/><maxPower Value=\"{}\"/><speed Value=\"{}\"/><numPasses Value=\"{}\"/><interval Value=\"{}\"/><angle Value=\"{}\"/><priority Value=\"{i}\"/><doOutput Value=\"{}\"/><hide Value=\"{}\"/><runBlower Value=\"{}\"/><crossHatch Value=\"{}\"/></CutSetting>",
+                "<CutSetting type=\"{kind}\"><index Value=\"{i}\"/><name Value=\"{name}\"/><minPower Value=\"{}\"/><maxPower Value=\"{}\"/><speed Value=\"{}\"/><numPasses Value=\"{}\"/><interval Value=\"{}\"/><angle Value=\"{}\"/><priority Value=\"{i}\"/><doOutput Value=\"{}\"/><hide Value=\"{}\"/><runBlower Value=\"{}\"/><crossHatch Value=\"{}\"/><ditherMode Value=\"{}\"/></CutSetting>",
                 f(l.power_min.min(l.power)),
                 f(l.power),
                 f(l.speed),
@@ -1081,7 +1085,8 @@ impl Document {
                 l.output as u8,
                 !l.visible as u8,
                 l.air as u8,
-                l.cross as u8
+                l.cross as u8,
+                LB_DITHER.iter().find(|d| d.1 == l.dither).map_or("dither", |d| d.0)
             );
         }
         for s in self.shapes.iter().filter(|s| s.raster.is_none() && s.contour.nodes.len() >= 2) {
@@ -1597,6 +1602,7 @@ impl Document {
             l.visible = v("hide") != Some("1");
             l.air = v("runBlower").map_or(l.air, |b| b != "0");
             l.cross = v("crossHatch") == Some("1");
+            l.dither = v("ditherMode").and_then(|m| LB_DITHER.iter().find(|d| d.0 == m)).map_or(l.dither, |d| d.1);
             prio.push((li, f("priority").unwrap_or(ix as f64)));
         }
         // cut order = priority: bubble the new layers into place (move_layer keeps the shapes with their layer)
@@ -1611,6 +1617,21 @@ impl Document {
         }
     }
 }
+
+/// LightBurn's `ditherMode` names (checked against a LightBurn 2.x photo file: "stucki")
+const LB_DITHER: [(&str, raster::Dither); 11] = [
+    ("dither", raster::Dither::FloydSteinberg),
+    ("threshold", raster::Dither::Threshold),
+    ("jarvis", raster::Dither::Jarvis),
+    ("stucki", raster::Dither::Stucki),
+    ("atkinson", raster::Dither::Atkinson),
+    ("ordered", raster::Dither::Ordered),
+    ("grayscale", raster::Dither::Grayscale),
+    ("halftone", raster::Dither::Halftone),
+    ("newsprint", raster::Dither::Newsprint),
+    ("sketch", raster::Dither::Sketch),
+    ("3dslice", raster::Dither::Slices),
+];
 
 /// A Contour in the file: one row per node `[x, y, in_x, in_y, out_x, out_y, flags]` (flags 1 = has_in, 2 = has_out),
 /// plus `closed`. gcarve-core's Contour has no serde of its own.
@@ -1993,10 +2014,11 @@ mod tests {
         d.layers[2].power_min = 12.0;
         d.layers[2].air = true;
         d.layers[0].cross = true;
+        d.layers[2].dither = raster::Dither::Stucki;
         let mut e = Document { layers: Vec::new(), shapes: Vec::new(), ..Default::default() };
         e.import("lbrn2", &d.export_lbrn2()).unwrap();
         for (a, b) in d.layers.iter().zip(&e.layers) {
-            assert_eq!((&a.name, a.mode, a.speed, a.power, a.passes, a.output, a.visible, a.air, a.cross), (&b.name, b.mode, b.speed, b.power, b.passes, b.output, b.visible, b.air, b.cross));
+            assert_eq!((&a.name, a.mode, a.speed, a.power, a.passes, a.output, a.visible, a.air, a.cross, a.dither), (&b.name, b.mode, b.speed, b.power, b.passes, b.output, b.visible, b.air, b.cross, b.dither));
             assert!((a.interval - b.interval).abs() < 1e-6 && (a.power_min - b.power_min).abs() < 1e-6);
         }
         // a project whose priorities run the other way round comes in in that order, shapes with their layers

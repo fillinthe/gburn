@@ -33,7 +33,7 @@ trademark of LightBurn Software; GBurn reads its .lbrn2 files and is not affilia
 
 ## Icons
 
-The arrow, chevron, house and x icons in `rust/gburn-app/icons/` are from **Lucide** (lucide.dev), ISC licence:
+The arrow, chevron, house, star and x icons in `rust/gburn-app/icons/` are from **Lucide** (lucide.dev), ISC licence:
 Copyright (c) for portions of Lucide are held by Cole Bemis 2013-2022 as part of Feather (MIT). All other copyright
 (c) for Lucide are held by Lucide Contributors 2022. Permission to use, copy, modify, and/or distribute this software
 for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission

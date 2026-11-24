@@ -1174,3 +1174,9 @@ To make {app} better, it sends which features get used and a short report when s
 Never your designs, file names or paths. Problem reports are kept for 30 days.	Niemals deine Entwürfe, Dateinamen oder Pfade. Problemberichte werden 30 Tage aufbewahrt.
 Help improve {app}: send usage and problem reports	{app} verbessern helfen: Nutzung und Problemberichte senden
 Delete my data	Meine Daten löschen
+Variables	Variablen
+Variables…	Variablen…
+Name a size, then type the name in any size box (X, Y, W, H, text height…). Sums and units work: gap * 2 + 1in. Saved with the design.	Gib einer Größe einen Namen und tippe ihn in jedes Größenfeld (X, Y, B, H, Texthöhe…). Summen und Einheiten gehen: gap * 2 + 1in. Wird mit dem Entwurf gespeichert.
+not a size	keine Größe
+Add a variable	Variable hinzufügen
+Favourites	Favoriten
