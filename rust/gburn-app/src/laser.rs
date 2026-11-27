@@ -1355,8 +1355,16 @@ impl Laser {
                     self.web_opening = true;
                     return;
                 }
-                self.note(&format!("Lost the port: {e}"));
-                self.alert = Some(format!("Lost the port: {e}"));
+                // say which kind of loss it was: the advice differs, and a problem report can then be told apart
+                let why = if self.web_retried && !self.status.valid {
+                    " It went away again after reopening: the board keeps restarting. Try another cable or USB socket, or the desktop app"
+                } else if !self.status.valid {
+                    " The laser never answered: check it is switched on, that this is its port, and the baud rate in Machine Settings"
+                } else {
+                    ""
+                };
+                self.note(&format!("Lost the port after {:.0} s: {e}", self.web_age));
+                self.alert = Some(format!("Lost the port: {}.{why}", e.trim_end_matches('.')));
                 self.disconnect();
                 return;
             }

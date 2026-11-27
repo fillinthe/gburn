@@ -486,6 +486,29 @@ fn apply_preset(l: &mut gburn_core::Layer, p: &Preset) {
     l.link = p.label();
 }
 
+/// (LightBurn's name, GBurn's name, command): extra ⌘K entries for people moving from LightBurn
+const LIGHTBURN_NAMES: &[(&str, &str, &str)] = &[
+    ("Device Settings", "Machine Settings", "machine"),
+    ("Devices", "Choose Your Machine", "machinedb"),
+    ("Save GCode", "Export G-code", "gcode"),
+    ("Save RD File", "Export .rd", "rd"),
+    ("Optimization Settings", "Edit Cut Order", "cutorder"),
+    ("Cuts / Layers", "Cut Settings Editor", "cuts"),
+    ("Library", "Material Library", "matlib"),
+    ("Art Library", "Shapes Library", "library"),
+    ("Trace Image", "Trace Picture", "trace"),
+    ("Convert to Bitmap", "Turn Shapes into a Picture", "tobitmap"),
+    ("Convert to Path", "Convert Text to Shapes", "textpath"),
+    ("Weld", "Weld (keep holes)", "weld"),
+    ("Boolean Union", "Union", "union"),
+    ("Create Array", "Grid Array", "array"),
+    ("Edit Nodes", "Nodes tool", "tool:Nodes"),
+    ("Print and Cut", "Print & Cut", "printcut"),
+    ("Camera Control", "Camera Overlay", "camera"),
+    ("Center Finder", "Centre Finder", "centrefinder"),
+    ("Run GCode", "Run a G-code File", "rungcode"),
+];
+
 pub const CONTROLLERS: [&str; 9] = [
     "GRBL, grblHAL or FluidNC",
     "Smoothieware",
@@ -2445,7 +2468,12 @@ impl App {
                 // a saved machine file is a burn too: variable text stamps and moves on, as at Start
                 self.refresh_variable_text();
                 let g = self.job_gcode();
-                self.write_out(&format!("{}.gcode", self.name), g.as_bytes(), "G-code");
+                let style = CONTROLLERS[(self.machine.controller as usize).min(CONTROLLERS.len() - 1)];
+                self.write_out(&format!("{}.gcode", self.name), g.as_bytes(), &format!("G-code for {style}"));
+                // no machine picked: the style is only the default, so say how to change it
+                if self.machine_title().is_empty() && self.status.starts_with("Export") {
+                    self.status.push_str(". Not your controller? Laser › Choose Your Machine");
+                }
             }
             "rd" => {
                 self.refresh_variable_text();
@@ -7373,7 +7401,7 @@ impl App {
                             self.sim_travel = (self.sim_travel + 1) % 3;
                             store::save("simtravel", &self.sim_travel.to_string());
                         }
-                        if ui.selectable_label(self.sim_order, tr("1 2 3")).on_hover_text("Number the cuts in the order they run (fills and pictures aren't numbered)").clicked() {
+                        if ui.selectable_label(self.sim_order, tr("Cut order")).on_hover_text("Number the cuts in the order they run (fills and pictures aren't numbered)").clicked() {
                             self.sim_order = !self.sim_order;
                             store::save("simorder", if self.sim_order { "1" } else { "0" });
                         }
@@ -9551,7 +9579,7 @@ impl App {
             m.sep();
             m.enabled(!empty, |m| {
                 m.sub("Export", |m| {
-                    m.item("G-code (GRBL lasers)", "", true, "gcode");
+                    m.item(&format!("G-code · {}", CONTROLLERS[(self.machine.controller as usize).min(CONTROLLERS.len() - 1)]), "", true, "gcode");
                     m.item("Ruida file (.rd, USB stick)", "", true, "rd");
                     m.item("K40 file (.egv)", "", true, "egv");
                     m.item("LightBurn project (.lbrn2)", "", true, "lbrn2");
@@ -9916,27 +9944,24 @@ impl App {
                     } else if self.is_galvo_device() {
                         ("Save", "Save the design (a galvo runs from GBurn; there is no job file to export)", "save")
                     } else {
-                        ("Export G-code", "Save the job as G-code (File › Export has .rd, LightBurn, SVG, DXF)", "gcode")
+                        ("Export G-code", "", "gcode")
                     };
-                    if ui.add_enabled_ui(!empty, |ui| IconButton::new("export").text(if phone { "" } else { tr(label) }).tip(tr(tip)).primary(true).show(ui)).inner.clicked() {
+                    let tip = if tip.is_empty() {
+                        format!(
+                            "Save the job as G-code for {} (Machine Settings › Controller changes it). File › Export has .rd, LightBurn, SVG, DXF",
+                            CONTROLLERS[(self.machine.controller as usize).min(CONTROLLERS.len() - 1)]
+                        )
+                    } else {
+                        tip.to_string()
+                    };
+                    if ui.add_enabled_ui(!empty, |ui| IconButton::new("export").text(if phone { "" } else { tr(label) }).tip(tr(&tip)).primary(true).show(ui)).inner.clicked() {
                         cmd = Some(id.into());
                     }
                     ui.add_space(6.0);
                     if !phone && IconButton::new("help").tip(tr("User Manual")).show(ui).clicked() {
                         cmd = Some("docs".into());
                     }
-                    if !phone && !self.prefs.hide_donate {
-                        let r = IconButton::new("heart").tint(theme::ORANGE).tip(tr("Support GBurn: donate (opens gburn.app). Right-click to hide")).show(ui);
-                        if r.clicked() {
-                            cmd = Some("donate".into());
-                        }
-                        r.context_menu(|ui| {
-                            if ui.button(tr("Hide the donate button")).on_hover_text("Settings › General brings it back").clicked() {
-                                cmd = Some("hidedonate".into());
-                                ui.close();
-                            }
-                        });
-                    }
+                    // ponytail: no donate heart here (it drew the eye beside Export, GCarve's review 2026-11-27): Help › Donate
                     // the account: the web page's strip above has it; the desktop app shows it here
                     if !phone && !cfg!(target_arch = "wasm32") {
                         let who = self.cloud.user.as_ref().map(|u| u.email.split('@').next().unwrap_or("").to_string());
@@ -10198,7 +10223,7 @@ impl App {
                     .truncate(),
                 )
             });
-            child.label(RichText::new(format!("{}", count)).color(if selected { Color32::WHITE } else { theme::TEXT_DIM }).size(11.0));
+            child.label(RichText::new(format!("{}", count)).color(if selected { Color32::WHITE } else { theme::TEXT_DIM }).size(11.0)).on_hover_text(format!("{count} shape(s) on this layer"));
             child.with_layout(egui::Layout::right_to_left(egui::Align::Center), |ui| {
                 let mut on = output;
                 if widgets::switch(ui, &mut on, tr(""))
@@ -10244,7 +10269,8 @@ impl App {
                     ))
                     .color(if selected { Color32::WHITE } else { theme::TEXT_DIM })
                     .size(11.0),
-                );
+                )
+                .on_hover_text(format!("Mode · speed ({}) · power", self.speed_unit().1));
             });
         }
         if touched {
@@ -10611,7 +10637,7 @@ impl App {
             row_label(ui, tr("Material"));
             ui.horizontal_wrapped(|ui| {
                 let mut pick: Option<String> = None;
-                widgets::combo_box("preset").selected_text(tr("Presets…")).width(84.0).show_ui(ui, |ui| {
+                widgets::combo_box("preset").selected_text(tr("Presets…")).width(110.0).show_ui(ui, |ui| {
                     for (k, p) in self.presets.iter().enumerate() {
                         if ui.selectable_label(false, format!("{} ({} · {} · {}%)", p.label(), mode_name(p.mode).split(' ').next().unwrap_or(""), trim(p.speed, 0), trim(p.power, 0))).clicked() {
                             pick = Some(format!("preset:{k}"));
@@ -14691,9 +14717,6 @@ impl App {
                     ui.label(RichText::new(if self.doc.inches { tr("in (⇧ × 10)") } else { tr("mm (⇧ × 10)") }).color(theme::TEXT_DIM));
                 });
                 widgets::checkbox(ui, &mut p.beginner, tr("Beginner mode (only the basic cut settings)"));
-                let mut heart = !p.hide_donate;
-                widgets::checkbox(ui, &mut heart, tr("Show the donate button (♥) in the top bar"));
-                p.hide_donate = !heart;
                 let mut send = !p.no_reports;
                 widgets::checkbox(ui, &mut send, tr("Help improve {app}: send usage and problem reports").replace("{app}", "GBurn"));
                 p.no_reports = !send;
@@ -15159,6 +15182,10 @@ impl App {
             if let Some((kc, _)) = self.keymap.iter().find(|(_, id)| *id == c.id) {
                 c.key = kc.clone();
             }
+        }
+        // LightBurn's names, so a mover finds the GBurn command by the word they know (GCarve does the same for VCarve's)
+        for (lb, ours, id) in LIGHTBURN_NAMES {
+            v.push(Command { cat: "LightBurn name", text: format!("{lb} → {ours}"), key: String::new(), id: (*id).into() });
         }
         v
     }
@@ -18580,6 +18607,17 @@ mod tests {
         assert_eq!(app.doc.layers.len(), n + 1);
         assert_eq!(app.doc.layers[n].speed, 123.0);
         assert!(app.doc.layers[n].name.ends_with("copy"), "{}", app.doc.layers[n].name);
+    }
+
+    #[test]
+    fn every_lightburn_name_leads_to_a_real_command() {
+        gcarve_ui::store::freeze();
+        let app = App::headless();
+        let cmds = app.commands();
+        for (lb, _, id) in LIGHTBURN_NAMES {
+            assert!(cmds.iter().any(|c| c.id == *id && c.cat != "LightBurn name"), "{lb} → {id} is not a command");
+        }
+        assert!(cmds.iter().any(|c| c.text.starts_with("Device Settings")));
     }
 
     #[test]

@@ -2,6 +2,13 @@
 
 Every GBurn release, newest first. Downloads are on the [releases page](https://github.com/fillinthe/gburn/releases).
 
+## 0.4.13
+
+- **Export says which G-code it writes.** The Export button and File › Export name your controller (for example GRBL, grblHAL or FluidNC); if no machine is chosen, the saved message tells you where to pick one.
+- **LightBurn's names work in the command search (⌘K):** type "Device Settings", "Save GCode", "Trace Image" and 16 more to find GBurn's command.
+- The donate heart moved from beside Export to Help › Donate.
+- Preview's "1 2 3" button now reads **Cut order**; "Presets…" is no longer cut short; the layer row's count and summary explain themselves on hover.
+
 ## 0.4.12
 
 - **Updates install themselves.** Update now downloads the new version, checks it, puts it in place and restarts GBurn (it used to open the download for you to install by hand). It never restarts while a job is running. If anything fails it falls back to the old way.
